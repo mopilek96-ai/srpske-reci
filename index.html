@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сербские карточки</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one column app, tabs on top, the card is the single focal object. */
+:root{
+  --bg:#f3f4f8; --surface:#ffffff; --ink:#1d2550; --muted:#666c86; --line:#dfe2ec;
+  --accent:#c4313b; --accent-soft:#f8e4e5;
+  --good:#2f7d4f; --warn:#b7791f; --bad:#c4313b; --new:#3b5bb5;
+  --display:"Literata", Georgia, "Times New Roman", serif;
+  --body:"Golos Text", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11131b; --surface:#1a1d29; --ink:#e7e9f3; --muted:#9ba0b8; --line:#2c3042;
+    --accent:#ff6a73; --accent-soft:#3a1f25;
+    --good:#5cc489; --warn:#e3a94b; --bad:#ff6a73; --new:#8aa4ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11131b; --surface:#1a1d29; --ink:#e7e9f3; --muted:#9ba0b8; --line:#2c3042;
+  --accent:#ff6a73; --accent-soft:#3a1f25;
+  --good:#5cc489; --warn:#e3a94b; --bad:#ff6a73; --new:#8aa4ff;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
+.wrap{max-width:640px;margin:0 auto;padding:20px 16px 48px;display:flex;flex-direction:column;gap:18px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--display);font-weight:700;font-size:26px;margin:0;text-wrap:balance}
+h1 small{display:block;font-family:var(--body);font-weight:400;font-size:14px;color:var(--muted);margin-top:2px}
+h2{font-family:var(--display);font-size:20px;margin:0 0 4px;text-wrap:balance}
+.status{font-size:13px;color:var(--muted)}
+nav{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px}
+nav button{flex:1;border:0;background:transparent;color:var(--muted);font:600 15px var(--body);padding:9px 6px;border-radius:9px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--ink);color:var(--surface)}
+button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+select,input,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 10px}
+select{flex:1;min-width:140px}
+.meter{display:flex;gap:14px;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meter b{color:var(--ink)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;min-height:300px;padding:28px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;cursor:pointer;position:relative;box-shadow:0 6px 24px -14px rgba(20,25,60,.35)}
+.card .lesson{position:absolute;top:12px;left:14px;font-size:12px;color:var(--muted)}
+.card .dirtag{position:absolute;top:12px;right:14px;font-size:12px;color:var(--muted)}
+.word{font-family:var(--display);font-size:38px;font-weight:700;line-height:1.15;word-break:break-word}
+.cyr{font-size:20px;color:var(--muted)}
+.trans{font-size:24px;font-weight:600}
+.note{font-size:14px;color:var(--muted)}
+.ex{margin-top:8px;padding-top:12px;border-top:1px dashed var(--line);width:100%;font-size:15px;display:flex;flex-direction:column;gap:2px}
+.ex .ex-sr{font-weight:500}
+.ex .ex-cyr,.ex .ex-ru{color:var(--muted);font-size:14px}
+.hint{font-size:13px;color:var(--muted)}
+.speak{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 14px;font:500 14px var(--body);cursor:pointer}
+.speak[data-on="1"]{border-color:var(--accent);color:var(--accent)}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.grades button{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:10px 4px;font:600 15px var(--body);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+.grades button span{font:400 12px var(--body);color:var(--muted)}
+.grades .g0{border-bottom:3px solid var(--bad)}
+.grades .g1{border-bottom:3px solid var(--warn)}
+.grades .g2{border-bottom:3px solid var(--good)}
+.grades .g3{border-bottom:3px solid var(--new)}
+.grades button:disabled{opacity:.4;cursor:default}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;padding:28px 20px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center}
+.btn{border:0;background:var(--ink);color:var(--surface);font:600 15px var(--body);padding:10px 16px;border-radius:10px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn.danger{background:transparent;color:var(--bad);border:1px solid var(--line);font-size:13px;padding:6px 10px}
+.list{display:flex;flex-direction:column;gap:14px}
+.lessonblock{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.lessonhead{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 14px;background:var(--bg);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.lessonhead b{font-family:var(--display)}
+.wordrow{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line);align-items:center}
+.wordrow:last-child{border-bottom:0}
+.wordrow .sr{font-weight:600}
+.wordrow .sr small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+.chip{font-size:12px;padding:2px 8px;border-radius:999px;white-space:nowrap;border:1px solid currentColor}
+.chip.new{color:var(--new)} .chip.learn{color:var(--warn)} .chip.known{color:var(--good)} .chip.due{color:var(--bad)}
+.addform{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.addform label{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.addform .full{grid-column:1/-1}
+.people{display:flex;flex-direction:column;gap:12px}
+.person{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.person .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.person .name{font-family:var(--display);font-size:19px;font-weight:700}
+.bar{display:flex;height:12px;border-radius:999px;overflow:hidden;background:var(--bg);border:1px solid var(--line)}
+.bar i{display:block;height:100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.legend span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;background:var(--c)}
+.days{display:flex;gap:3px}
+.days i{flex:1;height:22px;border-radius:4px;background:var(--bg);border:1px solid var(--line)}
+.days i.on{background:var(--good);border-color:var(--good)}
+.days i.some{background:color-mix(in srgb,var(--good) 45%,var(--surface));border-color:var(--good)}
+.banner{font-size:14px;padding:10px 12px;border-radius:10px;background:var(--accent-soft);color:var(--ink)}
+.slots,.pool{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;min-height:46px}
+.pool{padding-top:14px;border-top:1px dashed var(--line);width:100%}
+.tile{min-width:42px;height:44px;padding:0 8px;border:1.5px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink);font:500 21px var(--body);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.slots .tile{border-color:var(--new)}
+.slots .tile.ok{border-color:var(--good);color:var(--good)}
+.slots .tile.bad{border-color:var(--bad);color:var(--bad);background:var(--accent-soft)}
+.slot{min-width:42px;height:44px;border:1.5px dashed var(--line);border-radius:9px}
+.pool .tile{box-shadow:0 2px 0 var(--line)}
+.buildmsg{font-size:14px;min-height:20px}
+.buildmsg.ok{color:var(--good)} .buildmsg.bad{color:var(--bad)}
+.who{max-width:420px;margin:12vh auto 0;padding:0 16px;display:flex;flex-direction:column;gap:14px;text-align:center}
+.who .row{justify-content:center}
+.me{font-size:13px;color:var(--muted)}
+.me button{border:0;background:none;color:var(--accent);font:inherit;cursor:pointer;padding:0;text-decoration:underline}
+.btn:disabled{opacity:.4;cursor:default}
+[hidden]{display:none!important}
+@media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:active{transform:scale(.99)}}
+</style>
+
+</head>
+<body>
+<div class="who" id="who" hidden>
+  <h1>Srpske reči · Српске речи</h1>
+  <p class="hint">Кто учит на этом устройстве? Прогресс сохранится под этим именем.</p>
+  <div class="row" id="who-list"></div>
+</div>
+<div class="wrap" id="app">
+  <header>
+    <h1>Srpske reči · Српске речи<small>Слова с наших уроков сербского</small></h1>
+    <div class="status"><span id="status">Загружаю слова…</span><div class="me">Учит: <b id="me-name"></b> · <button id="switch-me" type="button">сменить</button></div><div class="me" id="sync"></div></div>
+  </header>
+  <nav role="tablist">
+    <button role="tab" type="button" aria-selected="true" data-view="learn">Учить</button>
+    <button role="tab" type="button" aria-selected="false" data-view="words">Все слова</button>
+    <button role="tab" type="button" aria-selected="false" data-view="progress">Прогресс</button>
+  </nav>
+  <section id="view-learn" class="list">
+    <div class="row">
+      <select id="f-mode" aria-label="Режим">
+        <option value="cards">Карточки</option>
+        <option value="build">Собери слово</option>
+      </select>
+      <select id="f-script" aria-label="Буквы" hidden>
+        <option value="cyr">Буквами: кириллица</option>
+        <option value="lat">Буквами: латиница</option>
+      </select>
+    </div>
+    <div class="row">
+      <select id="f-lesson" aria-label="Урок"></select>
+      <select id="f-dir" aria-label="Направление">
+        <option value="sr">Сербский → русский</option>
+        <option value="ru">Русский → сербский</option>
+        <option value="mix">Вперемешку</option>
+      </select>
+    </div>
+    <div class="meter" id="meter"></div>
+    <div id="learn-area"></div>
+  </section>
+  <section id="view-words" class="list" hidden>
+    <input id="search" type="search" placeholder="Поиск по слову или переводу" aria-label="Поиск">
+    <div id="words-area" class="list"></div>
+  </section>
+  <section id="view-progress" class="people" hidden>
+    <h2>Как у нас дела</h2>
+    <p class="hint" id="progress-note"></p>
+    <div id="progress-area" class="people"></div>
+  </section>
+</div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

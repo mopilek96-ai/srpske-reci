@@ -1,0 +1,1412 @@
+[
+ {
+  "id": "l01-rec",
+  "sr": "reč",
+  "ru": "слово",
+  "ex_sr": "Šta znači ova reč?",
+  "ex_ru": "Что значит это слово?",
+  "note": "ж. р. (в русском ср.)",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100001
+ },
+ {
+  "id": "l01-jazavac",
+  "sr": "jazavac",
+  "ru": "барсук",
+  "ex_sr": "Jazavac živi u šumi.",
+  "ex_ru": "Барсук живёт в лесу.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100002
+ },
+ {
+  "id": "l01-kornjaca",
+  "sr": "kornjača",
+  "ru": "черепаха",
+  "ex_sr": "Kornjača ide polako.",
+  "ex_ru": "Черепаха идёт медленно.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100003
+ },
+ {
+  "id": "l01-ljiljan",
+  "sr": "ljiljan",
+  "ru": "лилия",
+  "ex_sr": "Ljiljan je beo cvet.",
+  "ex_ru": "Лилия — белый цветок.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100004
+ },
+ {
+  "id": "l01-dzak",
+  "sr": "džak",
+  "ru": "мешок",
+  "ex_sr": "Džak krompira je težak.",
+  "ex_ru": "Мешок картошки тяжёлый.",
+  "note": "м. р.; џ — твёрдое «дж»",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100005
+ },
+ {
+  "id": "l01-djak",
+  "sr": "đak",
+  "ru": "школьник, ученик",
+  "ex_sr": "Đak ide u školu.",
+  "ex_ru": "Ученик идёт в школу.",
+  "note": "м. р.; ђ — мягкое «дьж»",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100006
+ },
+ {
+  "id": "l01-ljubav",
+  "sr": "ljubav",
+  "ru": "любовь",
+  "ex_sr": "Ljubav nema granica.",
+  "ex_ru": "У любви нет границ.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100007
+ },
+ {
+  "id": "l01-sumnja",
+  "sr": "sumnja",
+  "ru": "сомнение",
+  "ex_sr": "Bez sumnje!",
+  "ex_ru": "Без сомнения!",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100008
+ },
+ {
+  "id": "l01-zelja",
+  "sr": "želja",
+  "ru": "желание",
+  "ex_sr": "Imaš li neku želju?",
+  "ex_ru": "У тебя есть какое-нибудь желание?",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100009
+ },
+ {
+  "id": "l01-cadj",
+  "sr": "čađ",
+  "ru": "сажа, копоть",
+  "ex_sr": "Dimnjak je pun čađi.",
+  "ex_ru": "Дымоход полон сажи.",
+  "note": "ж. р.; ч — твёрдое, ђ — мягкое",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100010
+ },
+ {
+  "id": "l01-dzordz",
+  "sr": "Džordž",
+  "ru": "Джордж (имя)",
+  "ex_sr": "Džordž je iz Londona.",
+  "ex_ru": "Джордж из Лондона.",
+  "note": "иностранное имя, пишется как слышится",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100011
+ },
+ {
+  "id": "l01-vece",
+  "sr": "veče",
+  "ru": "вечер",
+  "ex_sr": "Dobro veče!",
+  "ex_ru": "Добрый вечер!",
+  "note": "ср. р. (в разговоре бывает и ж.)",
+  "lesson": "Урок 1 · Мой список",
+  "added": 1794427100012
+ },
+ {
+  "id": "l01-majka",
+  "sr": "majka",
+  "ru": "мать, мама",
+  "ex_sr": "Moja majka kuva ručak.",
+  "ex_ru": "Моя мама готовит обед.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100101
+ },
+ {
+  "id": "l01-otac",
+  "sr": "otac",
+  "ru": "отец",
+  "ex_sr": "Otac radi u gradu.",
+  "ex_ru": "Отец работает в городе.",
+  "note": "м. р.; род. п. — oca",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100102
+ },
+ {
+  "id": "l01-sin",
+  "sr": "sin",
+  "ru": "сын",
+  "ex_sr": "Imaju jednog sina.",
+  "ex_ru": "У них один сын.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100103
+ },
+ {
+  "id": "l01-avion",
+  "sr": "avion",
+  "ru": "самолёт",
+  "ex_sr": "Avion leti iznad grada.",
+  "ex_ru": "Самолёт летит над городом.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100104
+ },
+ {
+  "id": "l01-grad",
+  "sr": "grad",
+  "ru": "город",
+  "ex_sr": "Beograd je veliki grad.",
+  "ex_ru": "Белград — большой город.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100105
+ },
+ {
+  "id": "l01-jagoda",
+  "sr": "jagoda",
+  "ru": "клубника",
+  "ex_sr": "Jagode su slatke.",
+  "ex_ru": "Клубника сладкая.",
+  "note": "ж. р.; ложный друг: не «ягода»",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100106
+ },
+ {
+  "id": "l01-zaba",
+  "sr": "žaba",
+  "ru": "лягушка",
+  "ex_sr": "Žaba skače u vodu.",
+  "ex_ru": "Лягушка прыгает в воду.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100107
+ },
+ {
+  "id": "l01-telefon",
+  "sr": "telefon",
+  "ru": "телефон",
+  "ex_sr": "Zvoni ti telefon.",
+  "ex_ru": "У тебя звонит телефон.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100108
+ },
+ {
+  "id": "l01-selo",
+  "sr": "selo",
+  "ru": "деревня, село",
+  "ex_sr": "Baka živi na selu.",
+  "ex_ru": "Бабушка живёт в деревне.",
+  "note": "ср. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100109
+ },
+ {
+  "id": "l01-laptop",
+  "sr": "laptop",
+  "ru": "ноутбук",
+  "ex_sr": "Radim na laptopu.",
+  "ex_ru": "Я работаю на ноутбуке.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100110
+ },
+ {
+  "id": "l01-caj",
+  "sr": "čaj",
+  "ru": "чай",
+  "ex_sr": "Hoćeš li čaj?",
+  "ex_ru": "Хочешь чаю?",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100111
+ },
+ {
+  "id": "l01-krava",
+  "sr": "krava",
+  "ru": "корова",
+  "ex_sr": "Krava daje mleko.",
+  "ex_ru": "Корова даёт молоко.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100112
+ },
+ {
+  "id": "l01-svinja",
+  "sr": "svinja",
+  "ru": "свинья",
+  "ex_sr": "Svinja je u dvorištu.",
+  "ex_ru": "Свинья во дворе.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100113
+ },
+ {
+  "id": "l01-ovca",
+  "sr": "ovca",
+  "ru": "овца",
+  "ex_sr": "Ovca daje vunu.",
+  "ex_ru": "Овца даёт шерсть.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Собери слово",
+  "added": 1794427100114
+ },
+ {
+  "id": "az-buba",
+  "sr": "buba",
+  "ru": "жук, букашка",
+  "ex_sr": "Na listu je mala buba.",
+  "ex_ru": "На листе маленький жучок.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100201
+ },
+ {
+  "id": "az-voz",
+  "sr": "voz",
+  "ru": "поезд",
+  "ex_sr": "Voz kasni deset minuta.",
+  "ex_ru": "Поезд опаздывает на десять минут.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100202
+ },
+ {
+  "id": "az-gitara",
+  "sr": "gitara",
+  "ru": "гитара",
+  "ex_sr": "On svira gitaru.",
+  "ex_ru": "Он играет на гитаре.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100203
+ },
+ {
+  "id": "az-drvo",
+  "sr": "drvo",
+  "ru": "дерево",
+  "ex_sr": "Ispred kuće je veliko drvo.",
+  "ex_ru": "Перед домом большое дерево.",
+  "note": "ср. р.; слог без гласной: r звучит как гласная",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100204
+ },
+ {
+  "id": "az-ekser",
+  "sr": "ekser",
+  "ru": "гвоздь",
+  "ex_sr": "Treba mi čekić i ekser.",
+  "ex_ru": "Мне нужны молоток и гвоздь.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100205
+ },
+ {
+  "id": "az-zmaj",
+  "sr": "zmaj",
+  "ru": "воздушный змей; дракон",
+  "ex_sr": "Deca puštaju zmaja.",
+  "ex_ru": "Дети запускают воздушного змея.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100206
+ },
+ {
+  "id": "az-igla",
+  "sr": "igla",
+  "ru": "иголка",
+  "ex_sr": "Treba mi igla i konac.",
+  "ex_ru": "Мне нужны иголка и нитка.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100207
+ },
+ {
+  "id": "az-lubenica",
+  "sr": "lubenica",
+  "ru": "арбуз",
+  "ex_sr": "Leti jedemo lubenicu.",
+  "ex_ru": "Летом мы едим арбуз.",
+  "note": "ж. р. (в русском м.)",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100208
+ },
+ {
+  "id": "az-mis",
+  "sr": "miš",
+  "ru": "мышь",
+  "ex_sr": "Miš jede sir.",
+  "ex_ru": "Мышь ест сыр.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100209
+ },
+ {
+  "id": "az-naocare",
+  "sr": "naočare",
+  "ru": "очки",
+  "ex_sr": "Gde su moje naočare?",
+  "ex_ru": "Где мои очки?",
+  "note": "только мн. ч.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100210
+ },
+ {
+  "id": "az-njuska",
+  "sr": "njuška",
+  "ru": "морда, мордочка",
+  "ex_sr": "Pas ima mokru njušku.",
+  "ex_ru": "У собаки мокрый нос.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100211
+ },
+ {
+  "id": "az-olovka",
+  "sr": "olovka",
+  "ru": "карандаш",
+  "ex_sr": "Imaš li olovku?",
+  "ex_ru": "У тебя есть карандаш?",
+  "note": "ж. р.; ручка — hemijska olovka",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100212
+ },
+ {
+  "id": "az-paprika",
+  "sr": "paprika",
+  "ru": "перец (овощ), паприка",
+  "ex_sr": "Kupi crvenu papriku.",
+  "ex_ru": "Купи красный перец.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100213
+ },
+ {
+  "id": "az-rak",
+  "sr": "rak",
+  "ru": "рак",
+  "ex_sr": "Rak živi u reci.",
+  "ex_ru": "Рак живёт в реке.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100214
+ },
+ {
+  "id": "az-sat",
+  "sr": "sat",
+  "ru": "часы; час",
+  "ex_sr": "Koliko je sati?",
+  "ex_ru": "Который час?",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100215
+ },
+ {
+  "id": "az-tobogan",
+  "sr": "tobogan",
+  "ru": "горка (детская)",
+  "ex_sr": "Deca se spuštaju niz tobogan.",
+  "ex_ru": "Дети катаются с горки.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100216
+ },
+ {
+  "id": "az-curan",
+  "sr": "ćuran",
+  "ru": "индюк",
+  "ex_sr": "Ćuran je velika ptica.",
+  "ex_ru": "Индюк — большая птица.",
+  "note": "м. р.; ћ — мягкое «чь»",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100217
+ },
+ {
+  "id": "az-udica",
+  "sr": "udica",
+  "ru": "рыболовный крючок",
+  "ex_sr": "Riba je na udici.",
+  "ex_ru": "Рыба на крючке.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100218
+ },
+ {
+  "id": "az-foka",
+  "sr": "foka",
+  "ru": "тюлень",
+  "ex_sr": "Foka pliva u moru.",
+  "ex_ru": "Тюлень плавает в море.",
+  "note": "ж. р. (в русском м.)",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100219
+ },
+ {
+  "id": "az-hleb",
+  "sr": "hleb",
+  "ru": "хлеб",
+  "ex_sr": "Jedan hleb, molim.",
+  "ex_ru": "Один хлеб, пожалуйста.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100220
+ },
+ {
+  "id": "az-cipele",
+  "sr": "cipele",
+  "ru": "туфли, обувь",
+  "ex_sr": "Ove cipele su mi male.",
+  "ex_ru": "Эти туфли мне малы.",
+  "note": "мн. ч.; ед. — cipela",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100221
+ },
+ {
+  "id": "az-camac",
+  "sr": "čamac",
+  "ru": "лодка",
+  "ex_sr": "Čamac je na obali.",
+  "ex_ru": "Лодка на берегу.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100222
+ },
+ {
+  "id": "az-sesir",
+  "sr": "šešir",
+  "ru": "шляпа",
+  "ex_sr": "Nosi crni šešir.",
+  "ex_ru": "Он носит чёрную шляпу.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Азбука (кириллица)",
+  "added": 1794427100223
+ },
+ {
+  "id": "al-autobus",
+  "sr": "autobus",
+  "ru": "автобус",
+  "ex_sr": "Čekam autobus.",
+  "ex_ru": "Я жду автобус.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100301
+ },
+ {
+  "id": "al-bicikl",
+  "sr": "bicikl",
+  "ru": "велосипед",
+  "ex_sr": "Vozim bicikl.",
+  "ex_ru": "Я катаюсь на велосипеде.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100302
+ },
+ {
+  "id": "al-cvet",
+  "sr": "cvet",
+  "ru": "цветок",
+  "ex_sr": "Ovaj cvet lepo miriše.",
+  "ex_ru": "Этот цветок приятно пахнет.",
+  "note": "м. р.; цветы — cveće",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100303
+ },
+ {
+  "id": "al-cizma",
+  "sr": "čizma",
+  "ru": "сапог",
+  "ex_sr": "Kupila sam nove čizme.",
+  "ex_ru": "Я купила новые сапоги.",
+  "note": "ж. р. (в русском м.)",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100304
+ },
+ {
+  "id": "al-dzep",
+  "sr": "džep",
+  "ru": "карман",
+  "ex_sr": "Ključ je u džepu.",
+  "ex_ru": "Ключ в кармане.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100305
+ },
+ {
+  "id": "al-djevrek",
+  "sr": "đevrek",
+  "ru": "бублик с кунжутом",
+  "ex_sr": "Za doručak jedem đevrek.",
+  "ex_ru": "На завтрак я ем бублик.",
+  "note": "м. р.; продают в каждой пекаре",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100306
+ },
+ {
+  "id": "al-flauta",
+  "sr": "flauta",
+  "ru": "флейта",
+  "ex_sr": "Ona svira flautu.",
+  "ex_ru": "Она играет на флейте.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100307
+ },
+ {
+  "id": "al-grozdje",
+  "sr": "grožđe",
+  "ru": "виноград",
+  "ex_sr": "Grožđe je zrelo.",
+  "ex_ru": "Виноград спелый.",
+  "note": "ср. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100308
+ },
+ {
+  "id": "al-harmonika",
+  "sr": "harmonika",
+  "ru": "аккордеон, гармонь",
+  "ex_sr": "Deda svira harmoniku.",
+  "ex_ru": "Дедушка играет на аккордеоне.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100309
+ },
+ {
+  "id": "al-indijanac",
+  "sr": "Indijanac",
+  "ru": "индеец",
+  "ex_sr": "Na slici je Indijanac.",
+  "ex_ru": "На картинке индеец.",
+  "note": "м. р.; пишется с большой буквы",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100310
+ },
+ {
+  "id": "al-jez",
+  "sr": "jež",
+  "ru": "ёж",
+  "ex_sr": "Jež ima bodlje.",
+  "ex_ru": "У ежа иголки.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100311
+ },
+ {
+  "id": "al-kaktus",
+  "sr": "kaktus",
+  "ru": "кактус",
+  "ex_sr": "Kaktusu ne treba mnogo vode.",
+  "ex_ru": "Кактусу не нужно много воды.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100312
+ },
+ {
+  "id": "al-leptir",
+  "sr": "leptir",
+  "ru": "бабочка",
+  "ex_sr": "Leptir sleće na cvet.",
+  "ex_ru": "Бабочка садится на цветок.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100313
+ },
+ {
+  "id": "al-ljuljaska",
+  "sr": "ljuljaška",
+  "ru": "качели",
+  "ex_sr": "Dete se ljulja na ljuljašci.",
+  "ex_ru": "Ребёнок качается на качелях.",
+  "note": "ж. р., ед. ч. (в русском только мн.)",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100314
+ },
+ {
+  "id": "al-makaze",
+  "sr": "makaze",
+  "ru": "ножницы",
+  "ex_sr": "Gde su makaze?",
+  "ex_ru": "Где ножницы?",
+  "note": "только мн. ч.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100315
+ },
+ {
+  "id": "al-noz",
+  "sr": "nož",
+  "ru": "нож",
+  "ex_sr": "Ovaj nož je oštar.",
+  "ex_ru": "Этот нож острый.",
+  "note": "м. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100316
+ },
+ {
+  "id": "al-ogledalo",
+  "sr": "ogledalo",
+  "ru": "зеркало",
+  "ex_sr": "Pogledaj se u ogledalo.",
+  "ex_ru": "Посмотри в зеркало.",
+  "note": "ср. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100317
+ },
+ {
+  "id": "al-puz",
+  "sr": "puž",
+  "ru": "улитка",
+  "ex_sr": "Puž nosi svoju kuću.",
+  "ex_ru": "Улитка носит свой домик.",
+  "note": "м. р. (в русском ж.)",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100318
+ },
+ {
+  "id": "al-uho",
+  "sr": "uho",
+  "ru": "ухо",
+  "ex_sr": "Boli me uho.",
+  "ex_ru": "У меня болит ухо.",
+  "note": "ср. р.; мн. — uši",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100319
+ },
+ {
+  "id": "al-viljuska",
+  "sr": "viljuška",
+  "ru": "вилка",
+  "ex_sr": "Treba mi viljuška.",
+  "ex_ru": "Мне нужна вилка.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100320
+ },
+ {
+  "id": "al-zvezda",
+  "sr": "zvezda",
+  "ru": "звезда",
+  "ex_sr": "Noćas se vide zvezde.",
+  "ex_ru": "Сегодня ночью видны звёзды.",
+  "note": "ж. р.",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100321
+ },
+ {
+  "id": "al-zirafa",
+  "sr": "žirafa",
+  "ru": "жираф",
+  "ex_sr": "Žirafa ima dug vrat.",
+  "ex_ru": "У жирафа длинная шея.",
+  "note": "ж. р. (в русском м.)",
+  "lesson": "Урок 1 · Azbuka (латиница)",
+  "added": 1794427100322
+ },
+ {
+  "id": "l02-dobrodosli",
+  "sr": "dobro došli",
+  "ru": "добро пожаловать",
+  "ex_sr": "Dobro došli u Beograd!",
+  "ex_ru": "Добро пожаловать в Белград!",
+  "note": "одному: dobro došao (м.) / dobro došla (ж.)",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200001
+ },
+ {
+  "id": "l02-nazdravlje",
+  "sr": "nazdravlje",
+  "ru": "будь здоров (когда чихают)",
+  "ex_sr": "Apči! — Nazdravlje!",
+  "ex_ru": "Апчхи! — Будь здоров!",
+  "note": "тост пишется раздельно: Na zdravlje!",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200002
+ },
+ {
+  "id": "l02-ziveli",
+  "sr": "živeli",
+  "ru": "ваше здоровье! (тост)",
+  "ex_sr": "Živeli! Za naše prijatelje!",
+  "ex_ru": "Ваше здоровье! За наших друзей!",
+  "note": "говорят, чокаясь",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200003
+ },
+ {
+  "id": "l02-srecanrodjendan",
+  "sr": "srećan rođendan",
+  "ru": "с днём рождения",
+  "ex_sr": "Srećan rođendan, Ana!",
+  "ex_ru": "С днём рождения, Анна!",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200004
+ },
+ {
+  "id": "l02-srecanput",
+  "sr": "srećan put",
+  "ru": "счастливого пути",
+  "ex_sr": "Idem u Crnu Goru na more. — Srećan put!",
+  "ex_ru": "Еду в Черногорию на море. — Счастливого пути!",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200005
+ },
+ {
+  "id": "l02-lakunoc",
+  "sr": "laku noć",
+  "ru": "спокойной ночи",
+  "ex_sr": "Idem da spavam. Laku noć!",
+  "ex_ru": "Я иду спать. Спокойной ночи!",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200006
+ },
+ {
+  "id": "l02-cestitam",
+  "sr": "čestitam",
+  "ru": "поздравляю",
+  "ex_sr": "Završila sam fakultet. — Čestitam!",
+  "ex_ru": "Я окончила университет. — Поздравляю!",
+  "note": "мужчина скажет: završio sam",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200007
+ },
+ {
+  "id": "l02-prijatno",
+  "sr": "prijatno",
+  "ru": "приятного аппетита; всего доброго",
+  "ex_sr": "Jedem pljeskavicu. — Prijatno!",
+  "ex_ru": "Я ем плескавицу. — Приятного аппетита!",
+  "note": "в магазине на прощание тоже говорят «Prijatno!»",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200008
+ },
+ {
+  "id": "l02-dobardan",
+  "sr": "dobar dan",
+  "ru": "добрый день",
+  "ex_sr": "Dobar dan! Kako ste?",
+  "ex_ru": "Добрый день! Как вы?",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200009
+ },
+ {
+  "id": "l02-nemanacemu",
+  "sr": "nema na čemu",
+  "ru": "не за что",
+  "ex_sr": "Hvala na pomoći! — Nema na čemu.",
+  "ex_ru": "Спасибо за помощь! — Не за что.",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200010
+ },
+ {
+  "id": "l02-hvala",
+  "sr": "hvala",
+  "ru": "спасибо",
+  "ex_sr": "Hvala na pomoći!",
+  "ex_ru": "Спасибо за помощь!",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200011
+ },
+ {
+  "id": "l02-idemdaspavam",
+  "sr": "idem da spavam",
+  "ru": "я иду спать",
+  "ex_sr": "Kasno je, idem da spavam.",
+  "ex_ru": "Поздно, я иду спать.",
+  "note": "",
+  "lesson": "Урок 2 · Osnovni izrazi",
+  "added": 1794428200012
+ },
+ {
+  "id": "l03-cao",
+  "sr": "ćao",
+  "ru": "привет; пока",
+  "ex_sr": "Ćao, vidimo se sutra!",
+  "ex_ru": "Пока, увидимся завтра!",
+  "note": "неформально, и при встрече, и при прощании",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300001
+ },
+ {
+  "id": "l03-zdravo",
+  "sr": "zdravo",
+  "ru": "привет; здравствуй",
+  "ex_sr": "Zdravo, kako si?",
+  "ex_ru": "Привет, как ты?",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300002
+ },
+ {
+  "id": "l03-desi",
+  "sr": "de si",
+  "ru": "как ты?, как дела? (разг.)",
+  "ex_sr": "De si, brate!",
+  "ex_ru": "Как ты, брат!",
+  "note": "сокращение от gde si (букв. «где ты?»), так здороваются с друзьями",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300003
+ },
+ {
+  "id": "l03-kakosi",
+  "sr": "kako si",
+  "ru": "как ты?, как дела?",
+  "ex_sr": "Kako si? — Dobro sam, hvala.",
+  "ex_ru": "Как ты? — Хорошо, спасибо.",
+  "note": "на «вы»: Kako ste?",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300004
+ },
+ {
+  "id": "l03-starradis",
+  "sr": "šta radiš",
+  "ru": "что делаешь?",
+  "ex_sr": "Šta radiš večeras?",
+  "ex_ru": "Что делаешь сегодня вечером?",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300005
+ },
+ {
+  "id": "l03-jasam",
+  "sr": "ja sam",
+  "ru": "я (есть)",
+  "ex_sr": "Ja sam programer.",
+  "ex_ru": "Я программист.",
+  "note": "biti: ja sam, ti si, on/ona/ono je, mi smo, vi ste, oni/one/ona su",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300006
+ },
+ {
+  "id": "l03-tisi",
+  "sr": "ti si",
+  "ru": "ты (есть)",
+  "ex_sr": "Ti si dobar učitelj.",
+  "ex_ru": "Ты хороший учитель.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300007
+ },
+ {
+  "id": "l03-onje",
+  "sr": "on je",
+  "ru": "он (есть)",
+  "ex_sr": "On je moj brat.",
+  "ex_ru": "Он мой брат.",
+  "note": "так же: ona je, ono je",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300008
+ },
+ {
+  "id": "l03-mismo",
+  "sr": "mi smo",
+  "ru": "мы (есть)",
+  "ex_sr": "Mi smo u Beogradu.",
+  "ex_ru": "Мы в Белграде.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300009
+ },
+ {
+  "id": "l03-viste",
+  "sr": "vi ste",
+  "ru": "вы (есть)",
+  "ex_sr": "Vi ste odlični sportisti.",
+  "ex_ru": "Вы отличные спортсмены.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300010
+ },
+ {
+  "id": "l03-onisu",
+  "sr": "oni su",
+  "ru": "они (есть)",
+  "ex_sr": "Oni su samo novinari.",
+  "ex_ru": "Они всего лишь журналисты.",
+  "note": "oni — м. или смешанная группа, one — только женщины, ona — ср. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300011
+ },
+ {
+  "id": "l03-dali",
+  "sr": "da li",
+  "ru": "ли (вопрос)",
+  "ex_sr": "Da li je ovo Ana?",
+  "ex_ru": "Это Анна?",
+  "note": "разговорно: Je l… (Je l si optimista?)",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300012
+ },
+ {
+  "id": "l03-covek",
+  "sr": "čovek",
+  "ru": "человек; мужчина",
+  "ex_sr": "On je dobar čovek.",
+  "ex_ru": "Он хороший человек.",
+  "note": "м. р.; мн. — ljudi",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300101
+ },
+ {
+  "id": "l03-zena",
+  "sr": "žena",
+  "ru": "женщина; жена",
+  "ex_sr": "Ona je moja žena.",
+  "ex_ru": "Она моя жена.",
+  "note": "ж. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300102
+ },
+ {
+  "id": "l03-muz",
+  "sr": "muž",
+  "ru": "муж",
+  "ex_sr": "Da li je on tvoj muž?",
+  "ex_ru": "Он твой муж?",
+  "note": "м. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300103
+ },
+ {
+  "id": "l03-brat",
+  "sr": "brat",
+  "ru": "брат",
+  "ex_sr": "Ti si njen brat.",
+  "ex_ru": "Ты её брат.",
+  "note": "м. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300104
+ },
+ {
+  "id": "l03-drug",
+  "sr": "drug",
+  "ru": "друг",
+  "ex_sr": "Oni su moji drugovi.",
+  "ex_ru": "Они мои друзья.",
+  "note": "м. р.; мн. drugovi; подруга — drugarica",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300105
+ },
+ {
+  "id": "l03-ljudi",
+  "sr": "ljudi",
+  "ru": "люди",
+  "ex_sr": "Mi smo dobri ljudi.",
+  "ex_ru": "Мы хорошие люди.",
+  "note": "мн. ч. от čovek",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300106
+ },
+ {
+  "id": "l03-ucitelj",
+  "sr": "učitelj",
+  "ru": "учитель",
+  "ex_sr": "On je učitelj srpskog.",
+  "ex_ru": "Он учитель сербского.",
+  "note": "м. р.; ж. — učiteljica",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300107
+ },
+ {
+  "id": "l03-programer",
+  "sr": "programer",
+  "ru": "программист",
+  "ex_sr": "Mi smo programeri.",
+  "ex_ru": "Мы программисты.",
+  "note": "м. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300108
+ },
+ {
+  "id": "l03-italijan",
+  "sr": "Italijan",
+  "ru": "итальянец",
+  "ex_sr": "Oni su Italijani.",
+  "ex_ru": "Они итальянцы.",
+  "note": "с большой буквы; в задании опечатка «italjani»",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300109
+ },
+ {
+  "id": "l03-sportista",
+  "sr": "sportista",
+  "ru": "спортсмен",
+  "ex_sr": "On je poznat sportista.",
+  "ex_ru": "Он известный спортсмен.",
+  "note": "м. р., хотя на -a; мн. sportisti",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300110
+ },
+ {
+  "id": "l03-pomocnik",
+  "sr": "pomoćnik",
+  "ru": "помощник",
+  "ex_sr": "Vi ste dobri pomoćnici.",
+  "ex_ru": "Вы хорошие помощники.",
+  "note": "м. р.; мн. pomoćnici (k → c)",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300111
+ },
+ {
+  "id": "l03-naucnik",
+  "sr": "naučnik",
+  "ru": "учёный",
+  "ex_sr": "Da li su oni naučnici?",
+  "ex_ru": "Они учёные?",
+  "note": "м. р.; мн. naučnici",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300112
+ },
+ {
+  "id": "l03-novinar",
+  "sr": "novinar",
+  "ru": "журналист",
+  "ex_sr": "On je novinar iz Beograda.",
+  "ex_ru": "Он журналист из Белграда.",
+  "note": "м. р.; от novine — газета, не «новенький»",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300113
+ },
+ {
+  "id": "l03-optimista",
+  "sr": "optimista",
+  "ru": "оптимист",
+  "ex_sr": "Je l si optimista?",
+  "ex_ru": "Ты оптимист?",
+  "note": "одинаково для мужчин и женщин",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300114
+ },
+ {
+  "id": "l03-pesimista",
+  "sr": "pesimista",
+  "ru": "пессимист",
+  "ex_sr": "Ne, ja sam pesimista.",
+  "ex_ru": "Нет, я пессимист.",
+  "note": "одинаково для мужчин и женщин",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300115
+ },
+ {
+  "id": "l03-tu",
+  "sr": "tu",
+  "ru": "здесь, тут",
+  "ex_sr": "Ja sam tu.",
+  "ex_ru": "Я здесь.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300116
+ },
+ {
+  "id": "l03-ovde",
+  "sr": "ovde",
+  "ru": "здесь",
+  "ex_sr": "Oni su novi ovde.",
+  "ex_ru": "Они тут новенькие.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300117
+ },
+ {
+  "id": "l03-tamo",
+  "sr": "tamo",
+  "ru": "там",
+  "ex_sr": "Mi smo tamo.",
+  "ex_ru": "Мы там.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300118
+ },
+ {
+  "id": "l03-uvek",
+  "sr": "uvek",
+  "ru": "всегда",
+  "ex_sr": "Ona je uvek vesela.",
+  "ex_ru": "Она всегда весёлая.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300119
+ },
+ {
+  "id": "l03-mnogo",
+  "sr": "mnogo",
+  "ru": "очень; много",
+  "ex_sr": "Ona je mnogo dobra.",
+  "ex_ru": "Она очень хорошая.",
+  "note": "«очень» в этом значении — разговорное; нейтрально: veoma, vrlo",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300120
+ },
+ {
+  "id": "l03-samo",
+  "sr": "samo",
+  "ru": "только",
+  "ex_sr": "Samo malo, molim.",
+  "ex_ru": "Только немножко, пожалуйста.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300121
+ },
+ {
+  "id": "l03-sanama",
+  "sr": "sa nama",
+  "ru": "с нами",
+  "ex_sr": "Vi ste sa nama.",
+  "ex_ru": "Вы с нами.",
+  "note": "",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300122
+ },
+ {
+  "id": "l03-iz",
+  "sr": "iz",
+  "ru": "из",
+  "ex_sr": "Ja sam iz Moskve.",
+  "ex_ru": "Я из Москвы.",
+  "note": "после iz — родительный падеж, как в русском",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300123
+ },
+ {
+  "id": "l03-moj",
+  "sr": "moj",
+  "ru": "мой",
+  "ex_sr": "Ovo je moja ulica.",
+  "ex_ru": "Это моя улица.",
+  "note": "ж. moja, ср. moje, мн. moji",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300124
+ },
+ {
+  "id": "l03-tvoj",
+  "sr": "tvoj",
+  "ru": "твой",
+  "ex_sr": "Da li je ovo tvoj telefon?",
+  "ex_ru": "Это твой телефон?",
+  "note": "ж. tvoja, ср. tvoje",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300125
+ },
+ {
+  "id": "l03-njen",
+  "sr": "njen",
+  "ru": "её",
+  "ex_sr": "Ovo je njen brat.",
+  "ex_ru": "Это её брат.",
+  "note": "ж. njena, ср. njeno",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300126
+ },
+ {
+  "id": "l03-ulica",
+  "sr": "ulica",
+  "ru": "улица",
+  "ex_sr": "Da li je ovo ulica Vojvode Putnika?",
+  "ex_ru": "Это улица Воеводы Путника?",
+  "note": "ж. р.",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300127
+ },
+ {
+  "id": "l03-usluga",
+  "sr": "usluga",
+  "ru": "услуга; обслуживание",
+  "ex_sr": "Usluga nije kvalitetna.",
+  "ex_ru": "Обслуживание некачественное.",
+  "note": "ж. р.; nije = не есть (ne + je)",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300128
+ },
+ {
+  "id": "l03-dobar",
+  "sr": "dobar",
+  "ru": "хороший, добрый",
+  "ex_sr": "Ovo je dobar hleb.",
+  "ex_ru": "Это хороший хлеб.",
+  "note": "ж. dobra, ср. dobro, мн. dobri",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300129
+ },
+ {
+  "id": "l03-nov",
+  "sr": "nov",
+  "ru": "новый",
+  "ex_sr": "Ovo je nov telefon.",
+  "ex_ru": "Это новый телефон.",
+  "note": "ж. nova, ср. novo, мн. novi",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300130
+ },
+ {
+  "id": "l03-veseo",
+  "sr": "veseo",
+  "ru": "весёлый",
+  "ex_sr": "Dete je veselo.",
+  "ex_ru": "Ребёнок весёлый.",
+  "note": "ж. vesela, ср. veselo, мн. veseli",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300131
+ },
+ {
+  "id": "l03-odgovoran",
+  "sr": "odgovoran",
+  "ru": "ответственный",
+  "ex_sr": "Mi smo odgovorni.",
+  "ex_ru": "Мы ответственные.",
+  "note": "ж. odgovorna, мн. odgovorni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300132
+ },
+ {
+  "id": "l03-odlican",
+  "sr": "odličan",
+  "ru": "отличный",
+  "ex_sr": "Ovo je odlična ideja.",
+  "ex_ru": "Это отличная идея.",
+  "note": "ж. odlična, мн. odlični",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300133
+ },
+ {
+  "id": "l03-optimistican",
+  "sr": "optimističan",
+  "ru": "оптимистичный",
+  "ex_sr": "Ja sam optimistična.",
+  "ex_ru": "Я настроена оптимистично.",
+  "note": "ж. optimistična",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300134
+ },
+ {
+  "id": "l03-zadovoljan",
+  "sr": "zadovoljan",
+  "ru": "довольный",
+  "ex_sr": "Je l ste zadovoljni?",
+  "ex_ru": "Вы довольны?",
+  "note": "ж. zadovoljna, мн. zadovoljni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300135
+ },
+ {
+  "id": "l03-spreman",
+  "sr": "spreman",
+  "ru": "готовый",
+  "ex_sr": "Ona je spremna.",
+  "ex_ru": "Она готова.",
+  "note": "ж. spremna, мн. spremni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300136
+ },
+ {
+  "id": "l03-zainteresovan",
+  "sr": "zainteresovan",
+  "ru": "заинтересованный",
+  "ex_sr": "Mi smo zainteresovani.",
+  "ex_ru": "Нам интересно.",
+  "note": "ж. zainteresovana",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300137
+ },
+ {
+  "id": "l03-siguran",
+  "sr": "siguran",
+  "ru": "уверенный; надёжный",
+  "ex_sr": "Oni su sigurni.",
+  "ex_ru": "Они уверены.",
+  "note": "ж. sigurna, мн. sigurni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300138
+ },
+ {
+  "id": "l03-raspolozen",
+  "sr": "raspoložen",
+  "ru": "в хорошем настроении",
+  "ex_sr": "Danas si raspoložen.",
+  "ex_ru": "Ты сегодня в хорошем настроении.",
+  "note": "ж. raspoložena",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300139
+ },
+ {
+  "id": "l03-dostupan",
+  "sr": "dostupan",
+  "ru": "доступный",
+  "ex_sr": "Ovo je dostupno.",
+  "ex_ru": "Это доступно.",
+  "note": "ж. dostupna, ср. dostupno",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300140
+ },
+ {
+  "id": "l03-vredan",
+  "sr": "vredan",
+  "ru": "трудолюбивый; ценный",
+  "ex_sr": "Oni su vredni.",
+  "ex_ru": "Они трудолюбивые.",
+  "note": "ж. vredna, мн. vredni; не «вредный»!",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300141
+ },
+ {
+  "id": "l03-iskusan",
+  "sr": "iskusan",
+  "ru": "опытный",
+  "ex_sr": "On je iskusan.",
+  "ex_ru": "Он опытный.",
+  "note": "ж. iskusna, мн. iskusni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300142
+ },
+ {
+  "id": "l03-efikasan",
+  "sr": "efikasan",
+  "ru": "эффективный",
+  "ex_sr": "Mi smo efikasni kao tim.",
+  "ex_ru": "Мы эффективны как команда.",
+  "note": "ж. efikasna, мн. efikasni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300143
+ },
+ {
+  "id": "l03-popularan",
+  "sr": "popularan",
+  "ru": "популярный",
+  "ex_sr": "Oni su popularni.",
+  "ex_ru": "Они популярны.",
+  "note": "ж. popularna, мн. popularni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300144
+ },
+ {
+  "id": "l03-pozitivan",
+  "sr": "pozitivan",
+  "ru": "позитивный",
+  "ex_sr": "Ti si pozitivan.",
+  "ex_ru": "Ты позитивный.",
+  "note": "ж. pozitivna, мн. pozitivni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300145
+ },
+ {
+  "id": "l03-kvalitetan",
+  "sr": "kvalitetan",
+  "ru": "качественный",
+  "ex_sr": "Ovo je kvalitetan hleb.",
+  "ex_ru": "Это качественный хлеб.",
+  "note": "ж. kvalitetna, мн. kvalitetni",
+  "lesson": "Урок 3 · Sam/si/je",
+  "added": 1794428300146
+ }
+]
