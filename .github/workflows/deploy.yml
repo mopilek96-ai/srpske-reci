@@ -35,7 +35,7 @@ jobs:
             echo "Новой озвучки нет"
           else
             git commit -m "Озвучка новых слов"
-            git push
+            git pull --rebase -q && git push
           fi
 
       - name: Собрать сайт
