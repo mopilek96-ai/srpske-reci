@@ -106,9 +106,10 @@ document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()
   if(view==="progress") refreshOthers();
   render();
 }));
-$("f-lesson").addEventListener("change", ()=>{ buildQueue(); renderLearn(); });
+$("f-lesson").addEventListener("change", ()=>{ gq=null; buildQueue(); renderLearn(); });
 $("f-dir").addEventListener("change", ()=>{ buildQueue(); renderLearn(); });
-$("f-mode").addEventListener("change", ()=>{ $("f-script").hidden = $("f-mode").value!=="build"; $("f-dir").hidden = $("f-mode").value==="build"; nextCard(); renderLearn(); });
+const mode = () => $("f-mode").value;
+$("f-mode").addEventListener("change", ()=>{ $("f-script").hidden = mode()!=="build"; $("f-dir").hidden = mode()!=="cards"; gq=null; nextCard(); renderLearn(); });
 $("f-script").addEventListener("change", ()=>{ nextCard(); renderLearn(); });
 $("search").addEventListener("input", renderWords);
 
@@ -142,6 +143,8 @@ function nextCard(){
   const d=$("f-dir").value;
   curDir = d==="mix" ? (Math.random()<.5?"sr":"ru") : d;
   build = current ? newBuild(current) : null;
+  wr = {checked:false, input:"", res:null};
+  sp = {phase:"ask", heard:"", res:null};
 }
 
 // ---------- audio ----------
@@ -180,7 +183,15 @@ function wireSpeak(w){
   const s=$("say"); if(s) s.onclick=e=>{ e.stopPropagation(); speak(w.sr, s); };
   const se=$("say-ex"); if(se) se.onclick=e=>{ e.stopPropagation(); speak(w.ex_sr, se); };
 }
-const trLine = w => w.tr ? `<div class="tr" title="Как читать">[${esc(w.tr)}]</div>` : "";
+const GL = {m:"м. р.",f:"ж. р.",n:"ср. р.",pl:"мн. ч.",adj:"прилагательное",adv:"наречие",pron:"местоимение",prep:"предлог",
+  phrase:"фраза",verb:"глагол",interj:"междометие",particle:"частица",name:"имя, м. р."};
+const isNoun = w => ["m","f","n","pl"].includes(w.g);
+const gChip = w => w.g ? `<span class="gchip g-${esc(w.g)}">${GL[w.g]||esc(w.g)}</span>` : "";
+const lbl = t => `<span class="lbl">${t}</span>`;
+const trLine = w => w.tr ? `<div class="tr" title="Как читать">${lbl("как читать")}[${esc(w.tr)}]${w.stress_src==="manual"?'<span class="unver" title="Этого слова нет в словаре, ударение поставлено вручную">ударение не сверено</span>':""}</div>` : "";
+const srBlockOf = w => `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${lbl("кириллица")}${esc(toCyr(w.sr))}</div>${trLine(w)}`;
+const transBlock = w => `<div class="trans-wrap">${lbl("перевод")}<div class="trans">${esc(w.ru)}</div></div>`;
+const metaBlock = w => `<div class="meta">${gChip(w)}${w.note?`<span class="note">${esc(w.note)}</span>`:""}</div>`;
 const exampleBlock = w => w.ex_sr ? `<div class="ex"><span class="ex-sr" lang="sr-Latn">${esc(w.ex_sr)}</span><span class="ex-cyr" lang="sr-Cyrl">${esc(toCyr(w.ex_sr))}</span>${w.ex_ru?`<span class="ex-ru">${esc(w.ex_ru)}</span>`:""}</div>` : "";
 
 // ---------- render: learn ----------
@@ -191,10 +202,11 @@ function renderMeter(){
   $("meter").innerHTML = `<span>В очереди <b>${queue.length}</b></span><span>Сегодня повторено <b>${today}</b></span><span>Выучено <b>${known}</b> из ${words.length}</span>`;
 }
 function renderLearn(){
-  renderMeter();
+  renderMeter(); $("meter").hidden = mode()==="gender";
   const area=$("learn-area");
   if(!loaded){ area.innerHTML='<div class="empty"><span class="hint">Загружаю слова…</span></div>'; return; }
   if(!words.length){ area.innerHTML='<div class="empty"><h2>Слов пока нет</h2></div>'; return; }
+  if(mode()==="gender"){ renderGender(area); return; }
   if(!current){
     const now=Date.now();
     const nextDue=words.map(w=>mine.cards[w.id]).filter(Boolean).map(s=>s.d).filter(d=>d>now).sort((a,b)=>a-b)[0];
@@ -217,13 +229,14 @@ function renderLearn(){
     };
     return;
   }
-  if($("f-mode").value==="build"){ if(!build||build.script!==$("f-script").value) build=newBuild(current); renderBuild(area); return; }
+  if(mode()==="build"){ if(!build||build.script!==$("f-script").value) build=newBuild(current); renderBuild(area); return; }
+  if(mode()==="write"){ renderWrite(area); return; }
+  if(mode()==="speak"){ renderSpeak(area); return; }
   const w=current, st=mine.cards[w.id];
   const srFront = curDir==="sr";
-  const srBlock = `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${esc(toCyr(w.sr))}</div>${trLine(w)}`;
-  const front = srFront ? srBlock : `<div class="trans">${esc(w.ru)}</div>`;
-  const back = `${srFront ? `<div class="trans">${esc(w.ru)}</div>` : srBlock}
-    ${w.note?`<div class="note">${esc(w.note)}</div>`:""}${exampleBlock(w)}`;
+  const srBlock = srBlockOf(w);
+  const front = srFront ? srBlock : transBlock(w);
+  const back = `${srFront ? transBlock(w) : srBlock}${metaBlock(w)}${exampleBlock(w)}`;
   area.innerHTML = `
     <div class="card" id="card" tabindex="0" role="button" aria-label="${flipped?"Карточка":"Показать ответ"}">
       <span class="lesson">${esc(w.lesson||"")}</span>
@@ -276,7 +289,7 @@ function renderBuild(area){
       <span class="dirtag">${!st?"новое":""}</span>
       <div class="trans">${esc(w.ru)}</div>
       <div class="slots" aria-label="Твой ответ">${slots}</div>
-      ${b.done ? other + trLine(w) + (w.note?`<div class="note">${esc(w.note)}</div>`:"") + exampleBlock(w) : `<div class="pool" aria-label="Буквы">${pool}</div>`}
+      ${b.done ? other + trLine(w) + metaBlock(w) + exampleBlock(w) : `<div class="pool" aria-label="Буквы">${pool}</div>`}
       <div class="buildmsg ${b.done&&b.grade===2?"ok":b.wrong.length||(b.done&&b.grade===0)?"bad":""}">${msg}</div>
       ${b.done?speakButtons(w,true):""}
     </div>
@@ -318,7 +331,8 @@ function revealBuild(){
 document.addEventListener("keydown", e=>{
   if(view!=="learn" || !current || $("app").hidden) return;
   if(e.target.matches("input,textarea,select")) return;
-  if($("f-mode").value==="build"){
+  if(mode()==="write"||mode()==="speak"||mode()==="gender") return;
+  if(mode()==="build"){
     if(!build) return;
     if(e.key==="Backspace"){ const last=build.placed.map((x,i)=>x!==undefined?i:-1).filter(i=>i>=0).pop(); if(last!==undefined){ e.preventDefault(); unplace(last); } return; }
     if(e.key==="Enter" && !build.done && build.placed.filter(x=>x!==undefined).length===build.ans.length){ e.preventDefault(); checkBuild(); return; }
@@ -351,6 +365,153 @@ function record(w,g){
   scheduleSave();
 }
 
+
+// ---------- shared answer checking ----------
+const C2L = Object.fromEntries(Object.entries(L2C).map(([l,c])=>[c,l]));
+Object.assign(C2L, {"љ":"lj","њ":"nj","џ":"dž"});
+function toLat(s){ return [...String(s||"")].map(ch=>{ const lc=ch.toLowerCase(); return C2L[lc] ? C2L[lc] : ch; }).join(""); }
+const norm = s => toLat(String(s||"").toLowerCase()).replace(/[^\p{L}\s]/gu," ").replace(/\s+/g," ").trim();
+const fold = s => norm(s).replace(/dž/g,"dz").replace(/đ/g,"dj").replace(/[čć]/g,"c").replace(/š/g,"s").replace(/ž/g,"z");
+function compare(input, answer){
+  const a=norm(input), b=norm(answer);
+  if(!a) return "empty";
+  if(a===b) return "exact";
+  if(fold(a)===fold(b) || fold(a).replace(/dj/g,"d")===fold(b).replace(/dj/g,"d")) return "close";
+  return "wrong";
+}
+function answerReveal(w){
+  return `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${lbl("кириллица")}${esc(toCyr(w.sr))}</div>${trLine(w)}${metaBlock(w)}${exampleBlock(w)}${speakButtons(w,true)}`;
+}
+
+// ---------- mode: write the word ----------
+let wr = {checked:false, input:"", res:null};
+function renderWrite(area){
+  const w=current, st=mine.cards[w.id];
+  const msg = !wr.checked ? "" : wr.res==="exact" ? "Верно!" : wr.res==="close" ? "Почти! Проверь значки над буквами: č ć š ž đ." : "Не то. Вот как правильно:";
+  area.innerHTML = `
+    <div class="card" style="cursor:default">
+      <span class="lesson">${esc(w.lesson||"")}</span><span class="dirtag">${!st?"новое":""}</span>
+      ${transBlock(w)}${gChip(w)}
+      <form id="w-form" class="writebox" autocomplete="off">
+        <label for="w-in" class="lbl">напиши по-сербски, латиницей или кириллицей</label>
+        <input id="w-in" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false" value="${esc(wr.input)}" ${wr.checked?"readonly":""}>
+        ${wr.checked?"":`<div class="row special">${["č","ć","š","ž","đ","dž","lj","nj"].map(c=>`<button type="button" class="tile sm" data-ins="${c}">${c}</button>`).join("")}</div>`}
+      </form>
+      ${wr.checked?`<div class="buildmsg ${wr.res==="exact"?"ok":"bad"}">${msg}</div>${answerReveal(w)}`:""}
+    </div>
+    <div class="row" style="justify-content:center;margin-top:12px">
+      ${wr.checked ? '<button class="btn" id="w-next" type="button">Дальше →</button>'
+        : '<button class="btn ghost" id="w-skip" type="button">Не знаю</button><button class="btn" id="w-check" type="submit" form="w-form">Проверить</button>'}
+    </div>`;
+  const inp=$("w-in");
+  if(!wr.checked){
+    inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length);
+    inp.oninput=()=>{ wr.input=inp.value; };
+    area.querySelectorAll("[data-ins]").forEach(b=>b.onclick=()=>{
+      const s0=inp.selectionStart, s1=inp.selectionEnd, t=b.dataset.ins;
+      inp.value=inp.value.slice(0,s0)+t+inp.value.slice(s1); wr.input=inp.value;
+      inp.focus(); inp.setSelectionRange(s0+t.length, s0+t.length);
+    });
+    $("w-form").onsubmit=e=>{ e.preventDefault(); if(!inp.value.trim()) return; finishWrite(compare(inp.value, w.sr)); };
+    $("w-skip").onclick=()=>finishWrite("wrong");
+  } else {
+    wireSpeak(w);
+    const n=$("w-next"); n.onclick=()=>advance(w, wr.grade); n.focus();
+  }
+}
+function finishWrite(res){
+  wr.checked=true; wr.res=res; wr.grade = res==="exact"?2 : res==="close"?1 : 0;
+  record(current, wr.grade); renderLearn();
+  if(res!=="wrong") speak(current.sr, null);
+}
+
+// ---------- mode: say it aloud ----------
+let sp = {phase:"ask", heard:"", res:null};
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recog=null;
+function renderSpeak(area){
+  const w=current, st=mine.cards[w.id];
+  let body="", buttons="";
+  if(sp.phase==="ask"){
+    body = SR ? '<p class="hint">Нажми «Говорить» и скажи слово по-сербски.</p>' : '<p class="hint">Скажи слово вслух, потом открой ответ и честно оцени себя. Этот браузер не умеет распознавать речь.</p>';
+    buttons = (SR?'<button class="btn" id="s-rec" type="button">● Говорить</button>':'') + '<button class="btn ghost" id="s-show" type="button">Показать ответ</button>';
+  } else if(sp.phase==="listening"){
+    body = '<p class="hint listening">Слушаю…</p>';
+    buttons = '<button class="btn ghost" id="s-stop" type="button">Стоп</button>';
+  } else {
+    const heard = sp.heard ? `<p class="hint">Услышала: «${esc(sp.heard)}»</p>` : "";
+    const verdict = sp.res==="match" ? '<div class="buildmsg ok">Верно!</div>' : sp.res==="nomatch" ? '<div class="buildmsg bad">Не совпало. Распознавание иногда ошибается: послушай и оцени сама.</div>' : "";
+    body = heard + verdict + answerReveal(w);
+    buttons = sp.res==="match" ? '<button class="btn" id="s-next" type="button">Дальше →</button>'
+      : '<button class="btn ghost" id="s-bad" type="button">Ошиблась</button><button class="btn" id="s-good" type="button">Сказала правильно</button>';
+  }
+  area.innerHTML = `
+    <div class="card" style="cursor:default">
+      <span class="lesson">${esc(w.lesson||"")}</span><span class="dirtag">${!st?"новое":""}</span>
+      ${transBlock(w)}${gChip(w)}
+      ${body}
+    </div>
+    <div class="row" style="justify-content:center;margin-top:12px">${buttons}</div>`;
+  const on=(id,f)=>{ const el=$(id); if(el) el.onclick=f; };
+  on("s-rec", startRec);
+  on("s-stop", ()=>{ try{ recog&&recog.stop(); }catch(e){} });
+  on("s-show", ()=>{ sp.phase="done"; sp.res=null; renderLearn(); });
+  on("s-good", ()=>{ record(w, sp.heard?1:2); advance(w, sp.heard?1:2); });
+  on("s-bad", ()=>{ record(w,0); advance(w,0); });
+  on("s-next", ()=>advance(w,2));
+  wireSpeak(w);
+}
+function startRec(){
+  const w=current;
+  try{
+    recog = new SR(); recog.lang="sr-RS"; recog.interimResults=false; recog.maxAlternatives=5;
+    recog.onresult = e=>{
+      const alts=[...e.results[0]].map(a=>a.transcript);
+      const ok = alts.some(a=>{ const r=compare(a, w.sr); return r==="exact"||r==="close"; });
+      sp.heard=alts[0]||""; sp.res= ok?"match":"nomatch"; sp.phase="done";
+      if(ok){ record(w,2); speak(w.sr,null); }
+      renderLearn();
+    };
+    recog.onerror = e=>{ sp.phase="done"; sp.res=null; sp.heard=""; renderLearn();
+      $("learn-area").insertAdjacentHTML("afterbegin", `<p class="hint">Микрофон недоступен (${esc(e.error||"ошибка")}). Оцени себя сама.</p>`); };
+    recog.onend = ()=>{ if(sp.phase==="listening"){ sp.phase="done"; sp.res="nomatch"; renderLearn(); } };
+    sp.phase="listening"; renderLearn(); recog.start();
+  }catch(e){ sp.phase="done"; sp.res=null; renderLearn(); }
+}
+
+// ---------- mode: guess the gender ----------
+let gq=null; // {list, i, picked, right, total}
+function renderGender(area){
+  const lf=$("f-lesson").value;
+  if(!gq){
+    const list=words.filter(w=>isNoun(w) && (!lf||(w.lesson||"Без урока")===lf)).map(w=>w.id).sort(()=>Math.random()-.5);
+    gq={list, i:0, picked:null, right:0, total:0};
+  }
+  if(!gq.list.length){ area.innerHTML='<div class="empty"><span class="hint">В этом уроке нет существительных.</span></div>'; return; }
+  if(gq.i>=gq.list.length){
+    area.innerHTML=`<div class="empty"><h2>Готово: ${gq.right} из ${gq.total}</h2><button class="btn" id="g-again" type="button">Ещё раз</button></div>`;
+    $("g-again").onclick=()=>{ gq=null; renderLearn(); }; return;
+  }
+  const w=words.find(x=>x.id===gq.list[gq.i]);
+  const opts=[["m","м. р."],["f","ж. р."],["n","ср. р."],["pl","мн. ч."]];
+  const answered=gq.picked!==null;
+  area.innerHTML = `
+    <p class="meter"><span>Слово <b>${gq.i+1}</b> из ${gq.list.length}</span><span>Верно <b>${gq.right}</b></span></p>
+    <div class="card" style="cursor:default">
+      <span class="lesson">${esc(w.lesson||"")}</span>
+      ${srBlockOf(w)}
+      ${answered?`<div class="buildmsg ${gq.picked===w.g?"ok":"bad"}">${gq.picked===w.g?"Верно!":"Нет, это "+GL[w.g]}</div>${transBlock(w)}${w.note?`<div class="note">${esc(w.note)}</div>`:""}`:""}
+      ${speakButtons(w,false)}
+    </div>
+    <div class="grades" style="margin-top:12px">
+      ${opts.map(([g,t])=>`<button type="button" data-g="${g}" class="${answered?(g===w.g?"g2":g===gq.picked?"g0":""):""}" ${answered?"disabled":""}>${t}</button>`).join("")}
+    </div>
+    ${answered?'<div class="row" style="justify-content:center;margin-top:12px"><button class="btn" id="g-next" type="button">Дальше →</button></div>':""}`;
+  wireSpeak(w);
+  area.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{ gq.picked=b.dataset.g; gq.total++; if(gq.picked===w.g) gq.right++; renderLearn(); });
+  const n=$("g-next"); if(n){ n.onclick=()=>{ gq.i++; gq.picked=null; renderLearn(); }; n.focus(); }
+}
+
 // ---------- saving ----------
 let saveTimer=null, saving=false, dirty=false;
 function scheduleSave(){ dirty=true; clearTimeout(saveTimer); saveTimer=setTimeout(flush, 1500); }
@@ -381,7 +542,7 @@ function renderWords(){
     const ws=words.filter(w=>(w.lesson||"Без урока")===l && (!q || (w.sr+" "+toCyr(w.sr)+" "+w.ru).toLowerCase().includes(q))).sort((a,b)=>(a.added||0)-(b.added||0));
     if(!ws.length) return "";
     return `<div class="lessonblock"><div class="lessonhead"><b>${esc(l)}</b><span class="hint">${ws.length} сл.</span></div>
-      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}${w.tr?` · [${esc(w.tr)}]`:""}</small></div><div class="ru">${esc(w.ru)}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
+      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}${w.tr?` · [${esc(w.tr)}]`:""}</small></div><div class="ru">${esc(w.ru)} ${gChip(w)}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
   }).join("");
   area.innerHTML = blocks || '<div class="empty"><span class="hint">Ничего не нашлось.</span></div>';
 }

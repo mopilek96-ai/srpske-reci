@@ -5,10 +5,12 @@
   "ru": "слово",
   "ex_sr": "Šta znači ova reč?",
   "ex_ru": "Что значит это слово?",
-  "note": "ж. р. (в русском ср.)",
+  "note": "в русском — ср. р.",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100001,
-  "tr": "реч"
+  "tr": "рэ́тш",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-jazavac",
@@ -16,10 +18,12 @@
   "ru": "барсук",
   "ex_sr": "Jazavac živi u šumi.",
   "ex_ru": "Барсук живёт в лесу.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100002,
-  "tr": "я́завац"
+  "tr": "я́завац",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-kornjaca",
@@ -27,10 +31,12 @@
   "ru": "черепаха",
   "ex_sr": "Kornjača ide polako.",
   "ex_ru": "Черепаха идёт медленно.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100003,
-  "tr": "ко́рняча"
+  "tr": "ко́рнятша",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-ljiljan",
@@ -38,10 +44,12 @@
   "ru": "лилия",
   "ex_sr": "Ljiljan je beo cvet.",
   "ex_ru": "Лилия — белый цветок.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100004,
-  "tr": "ли́лян"
+  "tr": "ли́лян",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-dzak",
@@ -49,10 +57,12 @@
   "ru": "мешок",
   "ex_sr": "Džak krompira je težak.",
   "ex_ru": "Мешок картошки тяжёлый.",
-  "note": "м. р.; џ — твёрдое «дж»",
+  "note": "џ — твёрдое «дж»",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100005,
-  "tr": "джак"
+  "tr": "джа́к",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-djak",
@@ -60,10 +70,12 @@
   "ru": "школьник, ученик",
   "ex_sr": "Đak ide u školu.",
   "ex_ru": "Ученик идёт в школу.",
-  "note": "м. р.; ђ — мягкое «дьж»",
+  "note": "ђ — мягкое «дьж»",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100006,
-  "tr": "дж'ак"
+  "tr": "дьжа́к",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-ljubav",
@@ -71,10 +83,12 @@
   "ru": "любовь",
   "ex_sr": "Ljubav nema granica.",
   "ex_ru": "У любви нет границ.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100007,
-  "tr": "лю́бав"
+  "tr": "лю́бав",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-sumnja",
@@ -82,10 +96,12 @@
   "ru": "сомнение",
   "ex_sr": "Bez sumnje!",
   "ex_ru": "Без сомнения!",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100008,
-  "tr": "су́мня"
+  "tr": "су́мня",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-zelja",
@@ -93,10 +109,12 @@
   "ru": "желание",
   "ex_sr": "Imaš li neku želju?",
   "ex_ru": "У тебя есть какое-нибудь желание?",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100009,
-  "tr": "же́ля"
+  "tr": "жэ́ля",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-cadj",
@@ -104,10 +122,12 @@
   "ru": "сажа, копоть",
   "ex_sr": "Dimnjak je pun čađi.",
   "ex_ru": "Дымоход полон сажи.",
-  "note": "ж. р.; ч — твёрдое, ђ — мягкое",
+  "note": "ч — твёрдое, ђ — мягкое",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100010,
-  "tr": "чадж'"
+  "tr": "тша́дьж",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-dzordz",
@@ -118,7 +138,9 @@
   "note": "иностранное имя, пишется как слышится",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100011,
-  "tr": "джордж"
+  "tr": "джо́рдж",
+  "g": "name",
+  "stress_src": "dict"
  },
  {
   "id": "l01-vece",
@@ -126,10 +148,12 @@
   "ru": "вечер",
   "ex_sr": "Dobro veče!",
   "ex_ru": "Добрый вечер!",
-  "note": "ср. р. (в разговоре бывает и ж.)",
+  "note": "(в разговоре бывает и ж.)",
   "lesson": "Урок 1 · Мой список",
   "added": 1794427100012,
-  "tr": "ве́че"
+  "tr": "вэ́тшэ",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "l01-majka",
@@ -137,10 +161,12 @@
   "ru": "мать, мама",
   "ex_sr": "Moja majka kuva ručak.",
   "ex_ru": "Моя мама готовит обед.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100101,
-  "tr": "ма́йка"
+  "tr": "ма́йка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-otac",
@@ -148,10 +174,12 @@
   "ru": "отец",
   "ex_sr": "Otac radi u gradu.",
   "ex_ru": "Отец работает в городе.",
-  "note": "м. р.; род. п. — oca",
+  "note": "род. п. — oca",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100102,
-  "tr": "о́тац"
+  "tr": "о́тац",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-sin",
@@ -159,10 +187,12 @@
   "ru": "сын",
   "ex_sr": "Imaju jednog sina.",
   "ex_ru": "У них один сын.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100103,
-  "tr": "син"
+  "tr": "си́н",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-avion",
@@ -170,10 +200,12 @@
   "ru": "самолёт",
   "ex_sr": "Avion leti iznad grada.",
   "ex_ru": "Самолёт летит над городом.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100104,
-  "tr": "а́вион"
+  "tr": "ави́он",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-grad",
@@ -181,10 +213,12 @@
   "ru": "город",
   "ex_sr": "Beograd je veliki grad.",
   "ex_ru": "Белград — большой город.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100105,
-  "tr": "град"
+  "tr": "гра́д",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-jagoda",
@@ -192,10 +226,12 @@
   "ru": "клубника",
   "ex_sr": "Jagode su slatke.",
   "ex_ru": "Клубника сладкая.",
-  "note": "ж. р.; ложный друг: не «ягода»",
+  "note": "ложный друг: не «ягода»",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100106,
-  "tr": "я́года"
+  "tr": "я́года",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-zaba",
@@ -203,10 +239,12 @@
   "ru": "лягушка",
   "ex_sr": "Žaba skače u vodu.",
   "ex_ru": "Лягушка прыгает в воду.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100107,
-  "tr": "жа́ба"
+  "tr": "жа́ба",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-telefon",
@@ -214,10 +252,12 @@
   "ru": "телефон",
   "ex_sr": "Zvoni ti telefon.",
   "ex_ru": "У тебя звонит телефон.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100108,
-  "tr": "те́лефон"
+  "tr": "тэлэ́фон",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-selo",
@@ -225,10 +265,12 @@
   "ru": "деревня, село",
   "ex_sr": "Baka živi na selu.",
   "ex_ru": "Бабушка живёт в деревне.",
-  "note": "ср. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100109,
-  "tr": "се́ло"
+  "tr": "сэ́ло",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "l01-laptop",
@@ -236,10 +278,12 @@
   "ru": "ноутбук",
   "ex_sr": "Radim na laptopu.",
   "ex_ru": "Я работаю на ноутбуке.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100110,
-  "tr": "ла́птоп"
+  "tr": "ла́птоп",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "l01-caj",
@@ -247,10 +291,12 @@
   "ru": "чай",
   "ex_sr": "Hoćeš li čaj?",
   "ex_ru": "Хочешь чаю?",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100111,
-  "tr": "чай"
+  "tr": "тша́й",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l01-krava",
@@ -258,10 +304,12 @@
   "ru": "корова",
   "ex_sr": "Krava daje mleko.",
   "ex_ru": "Корова даёт молоко.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100112,
-  "tr": "кра́ва"
+  "tr": "кра́ва",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-svinja",
@@ -269,10 +317,12 @@
   "ru": "свинья",
   "ex_sr": "Svinja je u dvorištu.",
   "ex_ru": "Свинья во дворе.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100113,
-  "tr": "сви́ня"
+  "tr": "сви́ня",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l01-ovca",
@@ -280,10 +330,12 @@
   "ru": "овца",
   "ex_sr": "Ovca daje vunu.",
   "ex_ru": "Овца даёт шерсть.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Собери слово",
   "added": 1794427100114,
-  "tr": "о́вца"
+  "tr": "о́вца",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-buba",
@@ -291,10 +343,12 @@
   "ru": "жук, букашка",
   "ex_sr": "Na listu je mala buba.",
   "ex_ru": "На листе маленький жучок.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100201,
-  "tr": "бу́ба"
+  "tr": "бу́ба",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-voz",
@@ -302,10 +356,12 @@
   "ru": "поезд",
   "ex_sr": "Voz kasni deset minuta.",
   "ex_ru": "Поезд опаздывает на десять минут.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100202,
-  "tr": "воз"
+  "tr": "во́з",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-gitara",
@@ -313,10 +369,12 @@
   "ru": "гитара",
   "ex_sr": "On svira gitaru.",
   "ex_ru": "Он играет на гитаре.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100203,
-  "tr": "ги́тара"
+  "tr": "гита́ра",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-drvo",
@@ -324,10 +382,12 @@
   "ru": "дерево",
   "ex_sr": "Ispred kuće je veliko drvo.",
   "ex_ru": "Перед домом большое дерево.",
-  "note": "ср. р.; слог без гласной: r звучит как гласная",
+  "note": "слог без гласной: r звучит как гласная",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100204,
-  "tr": "дрво"
+  "tr": "др́во",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "az-ekser",
@@ -335,10 +395,12 @@
   "ru": "гвоздь",
   "ex_sr": "Treba mi čekić i ekser.",
   "ex_ru": "Мне нужны молоток и гвоздь.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100205,
-  "tr": "э́ксер"
+  "tr": "э́ксэр",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-zmaj",
@@ -346,10 +408,12 @@
   "ru": "воздушный змей; дракон",
   "ex_sr": "Deca puštaju zmaja.",
   "ex_ru": "Дети запускают воздушного змея.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100206,
-  "tr": "змай"
+  "tr": "зма́й",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-igla",
@@ -357,10 +421,12 @@
   "ru": "иголка",
   "ex_sr": "Treba mi igla i konac.",
   "ex_ru": "Мне нужны иголка и нитка.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100207,
-  "tr": "и́гла"
+  "tr": "и́гла",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-lubenica",
@@ -368,10 +434,12 @@
   "ru": "арбуз",
   "ex_sr": "Leti jedemo lubenicu.",
   "ex_ru": "Летом мы едим арбуз.",
-  "note": "ж. р. (в русском м.)",
+  "note": "в русском — м. р.",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100208,
-  "tr": "лубеница"
+  "tr": "лубэ́ница",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-mis",
@@ -379,10 +447,12 @@
   "ru": "мышь",
   "ex_sr": "Miš jede sir.",
   "ex_ru": "Мышь ест сыр.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100209,
-  "tr": "миш"
+  "tr": "ми́ш",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-naocare",
@@ -390,10 +460,12 @@
   "ru": "очки",
   "ex_sr": "Gde su moje naočare?",
   "ex_ru": "Где мои очки?",
-  "note": "только мн. ч.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100210,
-  "tr": "нао́чаре"
+  "tr": "на́отшарэ",
+  "g": "pl",
+  "stress_src": "dict"
  },
  {
   "id": "az-njuska",
@@ -401,10 +473,12 @@
   "ru": "морда, мордочка",
   "ex_sr": "Pas ima mokru njušku.",
   "ex_ru": "У собаки мокрый нос.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100211,
-  "tr": "ню́шка"
+  "tr": "ню́шка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-olovka",
@@ -412,10 +486,12 @@
   "ru": "карандаш",
   "ex_sr": "Imaš li olovku?",
   "ex_ru": "У тебя есть карандаш?",
-  "note": "ж. р.; ручка — hemijska olovka",
+  "note": "ручка — hemijska olovka",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100212,
-  "tr": "о́ловка"
+  "tr": "о́ловка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-paprika",
@@ -423,10 +499,12 @@
   "ru": "перец (овощ), паприка",
   "ex_sr": "Kupi crvenu papriku.",
   "ex_ru": "Купи красный перец.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100213,
-  "tr": "па́прика"
+  "tr": "па́прика",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-rak",
@@ -434,10 +512,12 @@
   "ru": "рак",
   "ex_sr": "Rak živi u reci.",
   "ex_ru": "Рак живёт в реке.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100214,
-  "tr": "рак"
+  "tr": "ра́к",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-sat",
@@ -445,10 +525,12 @@
   "ru": "часы; час",
   "ex_sr": "Koliko je sati?",
   "ex_ru": "Который час?",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100215,
-  "tr": "сат"
+  "tr": "са́т",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-tobogan",
@@ -456,10 +538,12 @@
   "ru": "горка (детская)",
   "ex_sr": "Deca se spuštaju niz tobogan.",
   "ex_ru": "Дети катаются с горки.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100216,
-  "tr": "то́боган"
+  "tr": "тобо́ган",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "az-curan",
@@ -467,10 +551,12 @@
   "ru": "индюк",
   "ex_sr": "Ćuran je velika ptica.",
   "ex_ru": "Индюк — большая птица.",
-  "note": "м. р.; ћ — мягкое «чь»",
+  "note": "ћ — мягкое «чь»",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100217,
-  "tr": "ч'у́ран"
+  "tr": "чу́ран",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-udica",
@@ -478,10 +564,12 @@
   "ru": "рыболовный крючок",
   "ex_sr": "Riba je na udici.",
   "ex_ru": "Рыба на крючке.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100218,
-  "tr": "у́дица"
+  "tr": "у́дица",
+  "g": "f",
+  "stress_src": "manual"
  },
  {
   "id": "az-foka",
@@ -489,10 +577,12 @@
   "ru": "тюлень",
   "ex_sr": "Foka pliva u moru.",
   "ex_ru": "Тюлень плавает в море.",
-  "note": "ж. р. (в русском м.)",
+  "note": "в русском — м. р.",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100219,
-  "tr": "фо́ка"
+  "tr": "фо́ка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "az-hleb",
@@ -500,10 +590,12 @@
   "ru": "хлеб",
   "ex_sr": "Jedan hleb, molim.",
   "ex_ru": "Один хлеб, пожалуйста.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100220,
-  "tr": "хлеб"
+  "tr": "хлэ́б",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-cipele",
@@ -511,10 +603,12 @@
   "ru": "туфли, обувь",
   "ex_sr": "Ove cipele su mi male.",
   "ex_ru": "Эти туфли мне малы.",
-  "note": "мн. ч.; ед. — cipela",
+  "note": "ед. — cipela",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100221,
-  "tr": "ци́пеле"
+  "tr": "ци́пэлэ",
+  "g": "pl",
+  "stress_src": "dict"
  },
  {
   "id": "az-camac",
@@ -522,10 +616,12 @@
   "ru": "лодка",
   "ex_sr": "Čamac je na obali.",
   "ex_ru": "Лодка на берегу.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100222,
-  "tr": "ча́мац"
+  "tr": "тша́мац",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "az-sesir",
@@ -533,10 +629,12 @@
   "ru": "шляпа",
   "ex_sr": "Nosi crni šešir.",
   "ex_ru": "Он носит чёрную шляпу.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100223,
-  "tr": "ше́шир"
+  "tr": "шэ́шир",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-autobus",
@@ -544,10 +642,12 @@
   "ru": "автобус",
   "ex_sr": "Čekam autobus.",
   "ex_ru": "Я жду автобус.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100301,
-  "tr": "а́утобус"
+  "tr": "ауто́бус",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-bicikl",
@@ -555,10 +655,12 @@
   "ru": "велосипед",
   "ex_sr": "Vozim bicikl.",
   "ex_ru": "Я катаюсь на велосипеде.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100302,
-  "tr": "би́цикл"
+  "tr": "бици́кл",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-cvet",
@@ -566,10 +668,12 @@
   "ru": "цветок",
   "ex_sr": "Ovaj cvet lepo miriše.",
   "ex_ru": "Этот цветок приятно пахнет.",
-  "note": "м. р.; цветы — cveće",
+  "note": "цветы — cveće",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100303,
-  "tr": "цвет"
+  "tr": "цвэ́т",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-cizma",
@@ -577,10 +681,12 @@
   "ru": "сапог",
   "ex_sr": "Kupila sam nove čizme.",
   "ex_ru": "Я купила новые сапоги.",
-  "note": "ж. р. (в русском м.)",
+  "note": "в русском — м. р.",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100304,
-  "tr": "чи́зма"
+  "tr": "тши́зма",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-dzep",
@@ -588,10 +694,12 @@
   "ru": "карман",
   "ex_sr": "Ključ je u džepu.",
   "ex_ru": "Ключ в кармане.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100305,
-  "tr": "джеп"
+  "tr": "джэ́п",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-djevrek",
@@ -599,10 +707,12 @@
   "ru": "бублик с кунжутом",
   "ex_sr": "Za doručak jedem đevrek.",
   "ex_ru": "На завтрак я ем бублик.",
-  "note": "м. р.; продают в каждой пекаре",
+  "note": "продают в каждой пекаре",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100306,
-  "tr": "дж'е́врек"
+  "tr": "дьже́врэк",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-flauta",
@@ -610,10 +720,12 @@
   "ru": "флейта",
   "ex_sr": "Ona svira flautu.",
   "ex_ru": "Она играет на флейте.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100307,
-  "tr": "фла́ута"
+  "tr": "фла́ута",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-grozdje",
@@ -621,10 +733,12 @@
   "ru": "виноград",
   "ex_sr": "Grožđe je zrelo.",
   "ex_ru": "Виноград спелый.",
-  "note": "ср. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100308,
-  "tr": "гро́ждж'е"
+  "tr": "гро́ждьже",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "al-harmonika",
@@ -632,10 +746,12 @@
   "ru": "аккордеон, гармонь",
   "ex_sr": "Deda svira harmoniku.",
   "ex_ru": "Дедушка играет на аккордеоне.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100309,
-  "tr": "хармо́ника"
+  "tr": "хармо́ника",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-indijanac",
@@ -643,10 +759,12 @@
   "ru": "индеец",
   "ex_sr": "Na slici je Indijanac.",
   "ex_ru": "На картинке индеец.",
-  "note": "м. р.; пишется с большой буквы",
+  "note": "пишется с большой буквы",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100310,
-  "tr": "инди́янац"
+  "tr": "индия́нац",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-jez",
@@ -654,10 +772,12 @@
   "ru": "ёж",
   "ex_sr": "Jež ima bodlje.",
   "ex_ru": "У ежа иголки.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100311,
-  "tr": "еж"
+  "tr": "е́ж",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-kaktus",
@@ -665,10 +785,12 @@
   "ru": "кактус",
   "ex_sr": "Kaktusu ne treba mnogo vode.",
   "ex_ru": "Кактусу не нужно много воды.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100312,
-  "tr": "ка́ктус"
+  "tr": "ка́ктус",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "al-leptir",
@@ -676,10 +798,12 @@
   "ru": "бабочка",
   "ex_sr": "Leptir sleće na cvet.",
   "ex_ru": "Бабочка садится на цветок.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100313,
-  "tr": "ле́птир"
+  "tr": "лэ́птир",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-ljuljaska",
@@ -687,10 +811,12 @@
   "ru": "качели",
   "ex_sr": "Dete se ljulja na ljuljašci.",
   "ex_ru": "Ребёнок качается на качелях.",
-  "note": "ж. р., ед. ч. (в русском только мн.)",
+  "note": "в русском — только мн. ч.",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100314,
-  "tr": "лю́ляшка"
+  "tr": "лю́ляшка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-makaze",
@@ -698,10 +824,12 @@
   "ru": "ножницы",
   "ex_sr": "Gde su makaze?",
   "ex_ru": "Где ножницы?",
-  "note": "только мн. ч.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100315,
-  "tr": "ма́казе"
+  "tr": "ма́казэ",
+  "g": "pl",
+  "stress_src": "dict"
  },
  {
   "id": "al-noz",
@@ -709,10 +837,12 @@
   "ru": "нож",
   "ex_sr": "Ovaj nož je oštar.",
   "ex_ru": "Этот нож острый.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100316,
-  "tr": "нож"
+  "tr": "но́ж",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-ogledalo",
@@ -720,10 +850,12 @@
   "ru": "зеркало",
   "ex_sr": "Pogledaj se u ogledalo.",
   "ex_ru": "Посмотри в зеркало.",
-  "note": "ср. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100317,
-  "tr": "огле́дало"
+  "tr": "оглэ́дало",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "al-puz",
@@ -731,10 +863,12 @@
   "ru": "улитка",
   "ex_sr": "Puž nosi svoju kuću.",
   "ex_ru": "Улитка носит свой домик.",
-  "note": "м. р. (в русском ж.)",
+  "note": "в русском — ж. р.",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100318,
-  "tr": "пуж"
+  "tr": "пу́ж",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "al-uho",
@@ -742,10 +876,12 @@
   "ru": "ухо",
   "ex_sr": "Boli me uho.",
   "ex_ru": "У меня болит ухо.",
-  "note": "ср. р.; мн. — uši",
+  "note": "мн. — uši",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100319,
-  "tr": "у́хо"
+  "tr": "у́хо",
+  "g": "n",
+  "stress_src": "dict"
  },
  {
   "id": "al-viljuska",
@@ -753,10 +889,12 @@
   "ru": "вилка",
   "ex_sr": "Treba mi viljuška.",
   "ex_ru": "Мне нужна вилка.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100320,
-  "tr": "ви́люшка"
+  "tr": "ви́люшка",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-zvezda",
@@ -764,10 +902,12 @@
   "ru": "звезда",
   "ex_sr": "Noćas se vide zvezde.",
   "ex_ru": "Сегодня ночью видны звёзды.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100321,
-  "tr": "зве́зда"
+  "tr": "звэ́зда",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "al-zirafa",
@@ -775,10 +915,12 @@
   "ru": "жираф",
   "ex_sr": "Žirafa ima dug vrat.",
   "ex_ru": "У жирафа длинная шея.",
-  "note": "ж. р. (в русском м.)",
+  "note": "в русском — м. р.",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100322,
-  "tr": "жи́рафа"
+  "tr": "жира́фа",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l02-dobrodosli",
@@ -789,7 +931,9 @@
   "note": "одному: dobro došao (м.) / dobro došla (ж.)",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200001,
-  "tr": "до́бро до́шли"
+  "tr": "до́бро до́шли",
+  "g": "phrase",
+  "stress_src": "manual"
  },
  {
   "id": "l02-nazdravlje",
@@ -800,7 +944,9 @@
   "note": "тост пишется раздельно: Na zdravlje!",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200002,
-  "tr": "наздра́вле"
+  "tr": "наздра́вле",
+  "g": "interj",
+  "stress_src": "manual"
  },
  {
   "id": "l02-ziveli",
@@ -811,7 +957,9 @@
   "note": "говорят, чокаясь",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200003,
-  "tr": "жи́вели"
+  "tr": "жи́вэли",
+  "g": "interj",
+  "stress_src": "dict"
  },
  {
   "id": "l02-srecanrodjendan",
@@ -822,7 +970,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200004,
-  "tr": "сре́ч'ан ро́дж'ендан"
+  "tr": "срэ́чан ро́дьжендан",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l02-srecanput",
@@ -833,7 +983,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200005,
-  "tr": "сре́ч'ан пут"
+  "tr": "срэ́чан пу́т",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l02-lakunoc",
@@ -844,7 +996,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200006,
-  "tr": "ла́ку ноч'"
+  "tr": "ла́ку но́ч",
+  "g": "phrase",
+  "stress_src": "manual"
  },
  {
   "id": "l02-cestitam",
@@ -855,7 +1009,9 @@
   "note": "мужчина скажет: završio sam",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200007,
-  "tr": "че́ститам"
+  "tr": "тшэ́ститам",
+  "g": "verb",
+  "stress_src": "manual"
  },
  {
   "id": "l02-prijatno",
@@ -866,7 +1022,9 @@
   "note": "в магазине на прощание тоже говорят «Prijatno!»",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200008,
-  "tr": "при́ятно"
+  "tr": "при́ятно",
+  "g": "interj",
+  "stress_src": "dict"
  },
  {
   "id": "l02-dobardan",
@@ -877,7 +1035,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200009,
-  "tr": "до́бар дан"
+  "tr": "до́бар да́н",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l02-nemanacemu",
@@ -888,7 +1048,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200010,
-  "tr": "не́ма на че́му"
+  "tr": "нэ́ма на тшэ́му",
+  "g": "phrase",
+  "stress_src": "manual"
  },
  {
   "id": "l02-hvala",
@@ -899,7 +1061,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200011,
-  "tr": "хва́ла"
+  "tr": "хва́ла",
+  "g": "interj",
+  "stress_src": "dict"
  },
  {
   "id": "l02-idemdaspavam",
@@ -910,7 +1074,9 @@
   "note": "",
   "lesson": "Урок 2 · Osnovni izrazi",
   "added": 1794428200012,
-  "tr": "и́дем да спа́вам"
+  "tr": "и́дэм да спа́вам",
+  "g": "phrase",
+  "stress_src": "manual"
  },
  {
   "id": "l03-cao",
@@ -921,7 +1087,9 @@
   "note": "неформально, и при встрече, и при прощании",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300001,
-  "tr": "ч'а́о"
+  "tr": "ча́о",
+  "g": "interj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-zdravo",
@@ -932,7 +1100,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300002,
-  "tr": "здра́во"
+  "tr": "здра́во",
+  "g": "interj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-desi",
@@ -943,7 +1113,9 @@
   "note": "сокращение от gde si (букв. «где ты?»), так здороваются с друзьями",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300003,
-  "tr": "де си"
+  "tr": "дэ́ си",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l03-kakosi",
@@ -954,7 +1126,9 @@
   "note": "на «вы»: Kako ste?",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300004,
-  "tr": "ка́ко си"
+  "tr": "ка́ко си",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l03-starradis",
@@ -965,7 +1139,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300005,
-  "tr": "шта ра́диш"
+  "tr": "шта́ ра́диш",
+  "g": "phrase",
+  "stress_src": "manual"
  },
  {
   "id": "l03-jasam",
@@ -976,7 +1152,9 @@
   "note": "biti: ja sam, ti si, on/ona/ono je, mi smo, vi ste, oni/one/ona su",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300006,
-  "tr": "я сам"
+  "tr": "я́ сам",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-tisi",
@@ -987,7 +1165,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300007,
-  "tr": "ти си"
+  "tr": "ти́ си",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-onje",
@@ -998,7 +1178,9 @@
   "note": "так же: ona je, ono je",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300008,
-  "tr": "он е"
+  "tr": "о́н е",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-mismo",
@@ -1009,7 +1191,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300009,
-  "tr": "ми смо"
+  "tr": "ми́ смо",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-viste",
@@ -1020,7 +1204,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300010,
-  "tr": "ви сте"
+  "tr": "ви́ стэ",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-onisu",
@@ -1031,7 +1217,9 @@
   "note": "oni — м. или смешанная группа, one — только женщины, ona — ср. р.",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300011,
-  "tr": "о́ни су"
+  "tr": "о́ни су",
+  "g": "verb",
+  "stress_src": "dict"
  },
  {
   "id": "l03-dali",
@@ -1042,7 +1230,9 @@
   "note": "разговорно: Je l… (Je l si optimista?)",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300012,
-  "tr": "да ли"
+  "tr": "да́ ли",
+  "g": "particle",
+  "stress_src": "dict"
  },
  {
   "id": "l03-covek",
@@ -1050,10 +1240,12 @@
   "ru": "человек; мужчина",
   "ex_sr": "On je dobar čovek.",
   "ex_ru": "Он хороший человек.",
-  "note": "м. р.; мн. — ljudi",
+  "note": "мн. — ljudi",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300101,
-  "tr": "чо́век"
+  "tr": "тшо́вэк",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-zena",
@@ -1061,10 +1253,12 @@
   "ru": "женщина; жена",
   "ex_sr": "Ona je moja žena.",
   "ex_ru": "Она моя жена.",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300102,
-  "tr": "же́на"
+  "tr": "жэ́на",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l03-muz",
@@ -1072,10 +1266,12 @@
   "ru": "муж",
   "ex_sr": "Da li je on tvoj muž?",
   "ex_ru": "Он твой муж?",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300103,
-  "tr": "муж"
+  "tr": "му́ж",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-brat",
@@ -1083,10 +1279,12 @@
   "ru": "брат",
   "ex_sr": "Ti si njen brat.",
   "ex_ru": "Ты её брат.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300104,
-  "tr": "брат"
+  "tr": "бра́т",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-drug",
@@ -1094,10 +1292,12 @@
   "ru": "друг",
   "ex_sr": "Oni su moji drugovi.",
   "ex_ru": "Они мои друзья.",
-  "note": "м. р.; мн. drugovi; подруга — drugarica",
+  "note": "мн. drugovi; подруга — drugarica",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300105,
-  "tr": "друг"
+  "tr": "дру́г",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-ljudi",
@@ -1105,10 +1305,12 @@
   "ru": "люди",
   "ex_sr": "Mi smo dobri ljudi.",
   "ex_ru": "Мы хорошие люди.",
-  "note": "мн. ч. от čovek",
+  "note": "от čovek",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300106,
-  "tr": "лю́ди"
+  "tr": "лю́ди",
+  "g": "pl",
+  "stress_src": "manual"
  },
  {
   "id": "l03-ucitelj",
@@ -1116,10 +1318,12 @@
   "ru": "учитель",
   "ex_sr": "On je učitelj srpskog.",
   "ex_ru": "Он учитель сербского.",
-  "note": "м. р.; ж. — učiteljica",
+  "note": "ж. — učiteljica",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300107,
-  "tr": "у́читель"
+  "tr": "у́тшитэль",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-programer",
@@ -1127,10 +1331,12 @@
   "ru": "программист",
   "ex_sr": "Mi smo programeri.",
   "ex_ru": "Мы программисты.",
-  "note": "м. р.",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300108,
-  "tr": "програмер"
+  "tr": "програ́мэр",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "l03-italijan",
@@ -1141,7 +1347,9 @@
   "note": "с большой буквы; в задании опечатка «italjani»",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300109,
-  "tr": "италиян"
+  "tr": "итали́ян",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-sportista",
@@ -1149,10 +1357,12 @@
   "ru": "спортсмен",
   "ex_sr": "On je poznat sportista.",
   "ex_ru": "Он известный спортсмен.",
-  "note": "м. р., хотя на -a; мн. sportisti",
+  "note": ", хотя на -a; мн. sportisti",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300110,
-  "tr": "спорти́ста"
+  "tr": "спорти́ста",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "l03-pomocnik",
@@ -1160,10 +1370,12 @@
   "ru": "помощник",
   "ex_sr": "Vi ste dobri pomoćnici.",
   "ex_ru": "Вы хорошие помощники.",
-  "note": "м. р.; мн. pomoćnici (k → c)",
+  "note": "мн. pomoćnici (k → c)",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300111,
-  "tr": "по́моч'ник"
+  "tr": "помо́чник",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-naucnik",
@@ -1171,10 +1383,12 @@
   "ru": "учёный",
   "ex_sr": "Da li su oni naučnici?",
   "ex_ru": "Они учёные?",
-  "note": "м. р.; мн. naučnici",
+  "note": "мн. naučnici",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300112,
-  "tr": "на́учник"
+  "tr": "на́утшник",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-novinar",
@@ -1182,10 +1396,12 @@
   "ru": "журналист",
   "ex_sr": "On je novinar iz Beograda.",
   "ex_ru": "Он журналист из Белграда.",
-  "note": "м. р.; от novine — газета, не «новенький»",
+  "note": "от novine — газета, не «новенький»",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300113,
-  "tr": "нови́нар"
+  "tr": "но́винар",
+  "g": "m",
+  "stress_src": "dict"
  },
  {
   "id": "l03-optimista",
@@ -1196,7 +1412,9 @@
   "note": "одинаково для мужчин и женщин",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300114,
-  "tr": "оптими́ста"
+  "tr": "оптими́ста",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "l03-pesimista",
@@ -1207,7 +1425,9 @@
   "note": "одинаково для мужчин и женщин",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300115,
-  "tr": "песими́ста"
+  "tr": "пэсими́ста",
+  "g": "m",
+  "stress_src": "manual"
  },
  {
   "id": "l03-tu",
@@ -1218,7 +1438,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300116,
-  "tr": "ту"
+  "tr": "ту́",
+  "g": "adv",
+  "stress_src": "dict"
  },
  {
   "id": "l03-ovde",
@@ -1229,7 +1451,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300117,
-  "tr": "о́вде"
+  "tr": "о́вдэ",
+  "g": "adv",
+  "stress_src": "dict"
  },
  {
   "id": "l03-tamo",
@@ -1240,7 +1464,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300118,
-  "tr": "та́мо"
+  "tr": "та́мо",
+  "g": "adv",
+  "stress_src": "dict"
  },
  {
   "id": "l03-uvek",
@@ -1251,7 +1477,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300119,
-  "tr": "у́век"
+  "tr": "у́вэк",
+  "g": "adv",
+  "stress_src": "dict"
  },
  {
   "id": "l03-mnogo",
@@ -1262,7 +1490,9 @@
   "note": "«очень» в этом значении — разговорное; нейтрально: veoma, vrlo",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300120,
-  "tr": "мно́го"
+  "tr": "мно́го",
+  "g": "adv",
+  "stress_src": "dict"
  },
  {
   "id": "l03-samo",
@@ -1273,7 +1503,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300121,
-  "tr": "са́мо"
+  "tr": "са́мо",
+  "g": "particle",
+  "stress_src": "dict"
  },
  {
   "id": "l03-sanama",
@@ -1284,7 +1516,9 @@
   "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300122,
-  "tr": "са на́ма"
+  "tr": "са на́ма",
+  "g": "phrase",
+  "stress_src": "dict"
  },
  {
   "id": "l03-iz",
@@ -1295,7 +1529,9 @@
   "note": "после iz — родительный падеж, как в русском",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300123,
-  "tr": "из"
+  "tr": "и́з",
+  "g": "prep",
+  "stress_src": "dict"
  },
  {
   "id": "l03-moj",
@@ -1306,7 +1542,9 @@
   "note": "ж. moja, ср. moje, мн. moji",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300124,
-  "tr": "мой"
+  "tr": "мо́й",
+  "g": "pron",
+  "stress_src": "dict"
  },
  {
   "id": "l03-tvoj",
@@ -1317,7 +1555,9 @@
   "note": "ж. tvoja, ср. tvoje",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300125,
-  "tr": "твой"
+  "tr": "тво́й",
+  "g": "pron",
+  "stress_src": "dict"
  },
  {
   "id": "l03-njen",
@@ -1328,7 +1568,9 @@
   "note": "ж. njena, ср. njeno",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300126,
-  "tr": "нен"
+  "tr": "не́н",
+  "g": "pron",
+  "stress_src": "dict"
  },
  {
   "id": "l03-ulica",
@@ -1336,10 +1578,12 @@
   "ru": "улица",
   "ex_sr": "Da li je ovo ulica Vojvode Putnika?",
   "ex_ru": "Это улица Воеводы Путника?",
-  "note": "ж. р.",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300127,
-  "tr": "у́лица"
+  "tr": "у́лица",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l03-usluga",
@@ -1347,10 +1591,12 @@
   "ru": "услуга; обслуживание",
   "ex_sr": "Usluga nije kvalitetna.",
   "ex_ru": "Обслуживание некачественное.",
-  "note": "ж. р.; nije = не есть (ne + je)",
+  "note": "nije = не есть (ne + je)",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300128,
-  "tr": "у́слуга"
+  "tr": "у́слуга",
+  "g": "f",
+  "stress_src": "dict"
  },
  {
   "id": "l03-dobar",
@@ -1361,7 +1607,9 @@
   "note": "ж. dobra, ср. dobro, мн. dobri",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300129,
-  "tr": "до́бар"
+  "tr": "до́бар",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-nov",
@@ -1372,7 +1620,9 @@
   "note": "ж. nova, ср. novo, мн. novi",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300130,
-  "tr": "нов"
+  "tr": "но́в",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-veseo",
@@ -1383,7 +1633,9 @@
   "note": "ж. vesela, ср. veselo, мн. veseli",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300131,
-  "tr": "ве́сео"
+  "tr": "вэ́сэо",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-odgovoran",
@@ -1394,7 +1646,9 @@
   "note": "ж. odgovorna, мн. odgovorni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300132,
-  "tr": "о́дговоран"
+  "tr": "о́дговоран",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-odlican",
@@ -1405,7 +1659,9 @@
   "note": "ж. odlična, мн. odlični",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300133,
-  "tr": "о́дличан"
+  "tr": "о́длитшан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-optimistican",
@@ -1416,7 +1672,9 @@
   "note": "ж. optimistična",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300134,
-  "tr": "оптими́стичан"
+  "tr": "оптими́ститшан",
+  "g": "adj",
+  "stress_src": "manual"
  },
  {
   "id": "l03-zadovoljan",
@@ -1427,7 +1685,9 @@
   "note": "ж. zadovoljna, мн. zadovoljni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300135,
-  "tr": "за́доволян"
+  "tr": "за́доволян",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-spreman",
@@ -1438,7 +1698,9 @@
   "note": "ж. spremna, мн. spremni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300136,
-  "tr": "спре́ман"
+  "tr": "спрэ́ман",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-zainteresovan",
@@ -1449,7 +1711,9 @@
   "note": "ж. zainteresovana",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300137,
-  "tr": "заинтересован"
+  "tr": "заинтэ́рэсован",
+  "g": "adj",
+  "stress_src": "manual"
  },
  {
   "id": "l03-siguran",
@@ -1460,7 +1724,9 @@
   "note": "ж. sigurna, мн. sigurni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300138,
-  "tr": "си́гуран"
+  "tr": "си́гуран",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-raspolozen",
@@ -1471,7 +1737,9 @@
   "note": "ж. raspoložena",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300139,
-  "tr": "ра́сположен"
+  "tr": "ра́сположэн",
+  "g": "adj",
+  "stress_src": "manual"
  },
  {
   "id": "l03-dostupan",
@@ -1482,7 +1750,9 @@
   "note": "ж. dostupna, ср. dostupno",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300140,
-  "tr": "до́ступан"
+  "tr": "до́ступан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-vredan",
@@ -1493,7 +1763,9 @@
   "note": "ж. vredna, мн. vredni; не «вредный»!",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300141,
-  "tr": "вре́дан"
+  "tr": "врэ́дан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-iskusan",
@@ -1504,7 +1776,9 @@
   "note": "ж. iskusna, мн. iskusni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300142,
-  "tr": "и́скусан"
+  "tr": "и́скусан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-efikasan",
@@ -1515,7 +1789,9 @@
   "note": "ж. efikasna, мн. efikasni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300143,
-  "tr": "э́фикасан"
+  "tr": "э́фикасан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-popularan",
@@ -1526,7 +1802,9 @@
   "note": "ж. popularna, мн. popularni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300144,
-  "tr": "по́пуларан"
+  "tr": "по́пуларан",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-pozitivan",
@@ -1537,7 +1815,9 @@
   "note": "ж. pozitivna, мн. pozitivni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300145,
-  "tr": "по́зитиван"
+  "tr": "по́зитиван",
+  "g": "adj",
+  "stress_src": "dict"
  },
  {
   "id": "l03-kvalitetan",
@@ -1548,6 +1828,8 @@
   "note": "ж. kvalitetna, мн. kvalitetni",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300146,
-  "tr": "ква́литетан"
+  "tr": "ква́литэтан",
+  "g": "adj",
+  "stress_src": "dict"
  }
 ]
