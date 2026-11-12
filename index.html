@@ -128,7 +128,6 @@ select{flex:1;min-width:140px}
 .writebox input{font:500 22px var(--body);text-align:center;padding:10px}
 .special{justify-content:center}
 .tile.sm{min-width:36px;height:34px;font-size:16px}
-.listening{color:var(--accent);font-weight:600}
 .grades button.g0{border-color:var(--bad)} .grades button.g2{border-color:var(--good);background:color-mix(in srgb,var(--good) 12%,var(--surface))}
 [hidden]{display:none!important}
 @media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
@@ -155,10 +154,10 @@ select{flex:1;min-width:140px}
   <section id="view-learn" class="list">
     <div class="row">
       <select id="f-mode" aria-label="Режим">
-        <option value="cards">Карточки</option>
+        <option value="cards-sr">Карточки: сербский → русский</option>
+        <option value="cards-ru">Карточки: русский → сербский</option>
         <option value="build">Собери слово</option>
         <option value="write">Напиши слово</option>
-        <option value="speak">Скажи вслух</option>
         <option value="gender">Угадай род</option>
       </select>
       <select id="f-script" aria-label="Буквы" hidden>
@@ -168,11 +167,6 @@ select{flex:1;min-width:140px}
     </div>
     <div class="row">
       <select id="f-lesson" aria-label="Урок"></select>
-      <select id="f-dir" aria-label="Направление">
-        <option value="sr">Сербский → русский</option>
-        <option value="ru">Русский → сербский</option>
-        <option value="mix">Вперемешку</option>
-      </select>
     </div>
     <div class="meter" id="meter"></div>
     <div id="learn-area"></div>
