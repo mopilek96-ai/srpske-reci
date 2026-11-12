@@ -283,7 +283,7 @@
   "added": 1794427100110,
   "tr": "ла́птоп",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l01-caj",
@@ -541,9 +541,9 @@
   "note": "",
   "lesson": "Урок 1 · Азбука (кириллица)",
   "added": 1794427100216,
-  "tr": "тобо́ган",
+  "tr": "то́боган",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "az-curan",
@@ -569,7 +569,7 @@
   "added": 1794427100218,
   "tr": "у́дица",
   "g": "f",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "az-foka",
@@ -790,7 +790,7 @@
   "added": 1794427100312,
   "tr": "ка́ктус",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "al-leptir",
@@ -933,7 +933,7 @@
   "added": 1794428200001,
   "tr": "до́бро до́шли",
   "g": "phrase",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l02-nazdravlje",
@@ -998,7 +998,7 @@
   "added": 1794428200006,
   "tr": "ла́ку но́ч",
   "g": "phrase",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l02-cestitam",
@@ -1011,7 +1011,7 @@
   "added": 1794428200007,
   "tr": "тшэ́ститам",
   "g": "verb",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l02-prijatno",
@@ -1050,7 +1050,7 @@
   "added": 1794428200010,
   "tr": "нэ́ма на тшэ́му",
   "g": "phrase",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l02-hvala",
@@ -1076,7 +1076,7 @@
   "added": 1794428200012,
   "tr": "и́дэм да спа́вам",
   "g": "phrase",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-cao",
@@ -1141,7 +1141,7 @@
   "added": 1794428300005,
   "tr": "шта́ ра́диш",
   "g": "phrase",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-jasam",
@@ -1310,7 +1310,7 @@
   "added": 1794428300106,
   "tr": "лю́ди",
   "g": "pl",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-ucitelj",
@@ -1336,7 +1336,7 @@
   "added": 1794428300108,
   "tr": "програ́мэр",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-italijan",
@@ -1360,7 +1360,7 @@
   "note": ", хотя на -a; мн. sportisti",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300110,
-  "tr": "спорти́ста",
+  "tr": "спо́ртиста",
   "g": "m",
   "stress_src": "manual"
  },
@@ -1412,9 +1412,9 @@
   "note": "одинаково для мужчин и женщин",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300114,
-  "tr": "оптими́ста",
+  "tr": "опти́миста",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-pesimista",
@@ -1425,9 +1425,9 @@
   "note": "одинаково для мужчин и женщин",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300115,
-  "tr": "пэсими́ста",
+  "tr": "пэси́миста",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-tu",
@@ -1674,7 +1674,7 @@
   "added": 1794428300134,
   "tr": "оптими́ститшан",
   "g": "adj",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-zadovoljan",
@@ -1737,9 +1737,9 @@
   "note": "ж. raspoložena",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300139,
-  "tr": "ра́сположэн",
+  "tr": "распо́ложэн",
   "g": "adj",
-  "stress_src": "manual"
+  "stress_src": "dict"
  },
  {
   "id": "l03-dostupan",

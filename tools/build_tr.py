@@ -18,12 +18,26 @@ VOW = set("aeiou")
 CLITICS = {"je", "sam", "si", "su", "smo", "ste", "li", "se", "me", "na", "u", "sa", "iz", "da"}
 LEMMA = {"cipele": "cipela"}
 
-# 1-based stressed syllable for words the dictionary lacks or gives no accent for
+# Stress confirmed by a second source (reports/dictionary_alt.json): Hrvatski jezični portal or the
+# Wiktionary lemma page (present tense of verbs, Croatian -ist forms whose genitive equals the Serbian -ista).
+STRESS_VERIFIED = {
+    "čestitam": 1,   # HJP: prez. čèstītām
+    "tobogan": 1,    # HJP: tȍbogān
+    "udica": 1,      # HJP: ȕdica
+    "programer": 2,  # HJP: progràmēr
+    "optimista": 2,  # HJP: optìmist, G optìmista
+    "pesimista": 2,  # HJP: pesìmist, G pesìmista
+    "optimističan": 3,  # HJP: optimìstičan
+    "raspoložen": 2,    # HJP: raspòložen
+    "spavam": 1, "idem": 1, "radiš": 1, "došli": 1, "nema": 1, "laku": 1, "čemu": 1, "ljudi": 1,  # HJP/Wiktionary
+    "laptop": 1, "kaktus": 1, "de": 1,  # two syllables: standard never stresses the last one
+}
+# Not confirmed by any dictionary we can reach: flagged on the card.
 STRESS_MANUAL = {
-    "džordž": 1, "kaktus": 1, "laptop": 1, "nazdravlje": 2, "optimista": 3, "optimističan": 3,
-    "pesimista": 3, "programer": 2, "raspoložen": 1, "spavam": 1, "sportista": 2, "tobogan": 2,
-    "zainteresovan": 3, "čestitam": 1, "de": 1, "došli": 1, "idem": 1, "laku": 1, "nema": 1,
-    "radiš": 1, "udica": 1, "ljudi": 1, "cipele": 2,
+    "nazdravlje": 2,     # zdrȃvlje; by the norm the accent may jump onto "na" (nȁ zdrāvlje)
+    "sportista": 1,      # by analogy with spòrtāš
+    "zainteresovan": 3,  # no entry; Croatian uses zainteresiran
+    "džordž": 1,
 }
 
 # part of speech / gender: m f n pl for nouns; otherwise a pos label
@@ -170,8 +184,12 @@ def main():
                 stress = min(ss) if ss else None
             if stress is None:
                 n = len(nuclei(letters(t)))
-                stress = 1 if n == 1 else STRESS_MANUAL.get(t.lower())
-                src = "dict" if n == 1 else "manual"
+                if n == 1:
+                    stress, src = 1, "dict"
+                elif t.lower() in STRESS_VERIFIED:
+                    stress, src = STRESS_VERIFIED[t.lower()], "dict"
+                else:
+                    stress, src = STRESS_MANUAL.get(t.lower()), "manual"
                 if n > 1 and stress is None:
                     issues.append(f"{w['id']}: нет ударения для {t}")
             parts.append(transcribe(t, stress)); srcs.append(src)
