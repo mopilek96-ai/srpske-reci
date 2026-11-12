@@ -43,6 +43,9 @@ jobs:
           mkdir -p _site
           cp index.html app.js config.js words.json _site/
           cp -r audio _site/ 2>/dev/null || mkdir -p _site/audio
+          # свежие версии скриптов после каждой публикации, без старого кэша браузера
+          v="${GITHUB_SHA::8}"
+          sed -i "s|src=\"config.js\"|src=\"config.js?v=$v\"|; s|src=\"app.js\"|src=\"app.js?v=$v\"|" _site/index.html
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
