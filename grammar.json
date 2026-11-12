@@ -3,66 +3,589 @@
   {
    "id": "biti",
    "title": "Глагол biti: sam, si, je…",
-   "forms": ["sam", "si", "je", "smo", "ste", "su"],
+   "forms": [
+    "sam",
+    "si",
+    "je",
+    "smo",
+    "ste",
+    "su"
+   ],
    "rule": [
-    ["ja", "sam", "я"],
-    ["ti", "si", "ты"],
-    ["on / ona / ono", "je", "он / она / оно"],
-    ["mi", "smo", "мы"],
-    ["vi", "ste", "вы"],
-    ["oni / one / ona", "su", "они"]
+    [
+     "ja",
+     "sam",
+     "я"
+    ],
+    [
+     "ti",
+     "si",
+     "ты"
+    ],
+    [
+     "on / ona / ono",
+     "je",
+     "он / она / оно"
+    ],
+    [
+     "mi",
+     "smo",
+     "мы"
+    ],
+    [
+     "vi",
+     "ste",
+     "вы"
+    ],
+    [
+     "oni / one / ona",
+     "su",
+     "они"
+    ]
    ],
    "tips": [
-    "В русском «есть» обычно пропускаем, в сербском глагол нужен всегда: Ja sam programer — «Я программист».",
-    "Местоимение можно опустить: Programer sam. Тогда sam встаёт на второе место в предложении.",
-    "Прилагательное согласуется с подлежащим: on je spreman, ona je spremna, oni su spremni, one su spremne.",
-    "oni — мужчины или смешанная группа, one — только женщины.",
-    "Вопрос: Da li si optimista? или разговорно Je l si optimista?"
+    "В русском «есть» обычно пропускаем, в сербском глагол нужен: Ja sam programer — «Я программист».",
+    "oni — мужчины или смешанная группа, one — только женщины, ona — средний род.",
+    "Вопрос: Da li si optimista? или разговорно: Je l si optimista?"
    ],
    "sentences": [
-    {"id": "b01", "ru": "Я программист.", "t": ["Ja", {"v": "sam"}, "programer"], "end": ".", "alt": ["Programer sam."]},
-    {"id": "b02", "ru": "Я оптимист.", "t": ["Ja", {"v": "sam"}, "optimista"], "end": ".", "alt": ["Optimista sam."]},
-    {"id": "b03", "ru": "Я здесь.", "t": ["Ja", {"v": "sam"}, "tu"], "end": ".", "alt": ["Tu sam.", "Ja sam ovde."]},
-    {"id": "b04", "ru": "Я из Москвы.", "t": ["Ja", {"v": "sam"}, "iz", {"sr": "Moskve", "ru": "Москвы", "lemma": "Moskva"}], "end": ".", "alt": ["Iz Moskve sam."]},
-    {"id": "b05", "ru": "Я довольна.", "t": ["Ja", {"v": "sam"}, "zadovoljna"], "end": ".", "alt": ["Zadovoljna sam."], "hint": "говорит женщина"},
-    {"id": "b06", "ru": "Я готов.", "t": ["Ja", {"v": "sam"}, "spreman"], "end": ".", "alt": ["Spreman sam."], "hint": "говорит мужчина"},
-    {"id": "b07", "ru": "Ты хороший учитель.", "t": ["Ti", {"v": "si"}, "dobar", "učitelj"], "end": ".", "alt": ["Dobar si učitelj."]},
-    {"id": "b08", "ru": "Ты мой друг.", "t": ["Ti", {"v": "si"}, "moj", "drug"], "end": ".", "alt": ["Moj si drug."]},
-    {"id": "b09", "ru": "Ты оптимист?", "t": ["Da", "li", {"v": "si"}, "optimista"], "end": "?", "alt": ["Je l si optimista?", "Da li si ti optimista?"]},
-    {"id": "b10", "ru": "Ты в хорошем настроении.", "t": ["Ti", {"v": "si"}, "raspoložen"], "end": ".", "alt": ["Raspoložen si."], "hint": "говорим мужчине"},
-    {"id": "b11", "ru": "Он мой брат.", "t": ["On", {"v": "je"}, "moj", "brat"], "end": "."},
-    {"id": "b12", "ru": "Он журналист.", "t": ["On", {"v": "je"}, "novinar"], "end": "."},
-    {"id": "b13", "ru": "Он опытный.", "t": ["On", {"v": "je"}, "iskusan"], "end": "."},
-    {"id": "b14", "ru": "Он хороший человек.", "t": ["On", {"v": "je"}, "dobar", "čovek"], "end": "."},
-    {"id": "b15", "ru": "Она моя жена.", "t": ["Ona", {"v": "je"}, "moja", "žena"], "end": "."},
-    {"id": "b16", "ru": "Она всегда весёлая.", "t": ["Ona", {"v": "je"}, "uvek", "vesela"], "end": "."},
-    {"id": "b17", "ru": "Она готова.", "t": ["Ona", {"v": "je"}, "spremna"], "end": "."},
-    {"id": "b18", "ru": "Это мой телефон.", "t": [{"sr": "Ovo", "ru": "это", "lemma": "ovo"}, {"v": "je"}, "moj", "telefon"], "end": "."},
-    {"id": "b19", "ru": "Зеркало новое.", "t": ["Ogledalo", {"v": "je"}, "novo"], "end": "."},
-    {"id": "b20", "ru": "Мама здесь.", "t": ["Majka", {"v": "je"}, "tu"], "end": ".", "alt": ["Majka je ovde."]},
-    {"id": "b21", "ru": "Отец в городе.", "t": ["Otac", {"v": "je"}, "u", "gradu"], "end": "."},
-    {"id": "b22", "ru": "Чай хороший.", "t": ["Čaj", {"v": "je"}, "dobar"], "end": "."},
-    {"id": "b23", "ru": "Хлеб качественный.", "t": ["Hleb", {"v": "je"}, "kvalitetan"], "end": "."},
-    {"id": "b24", "ru": "Обслуживание отличное.", "t": ["Usluga", {"v": "je"}, "odlična"], "end": "."},
-    {"id": "b25", "ru": "Ноутбук новый.", "t": ["Laptop", {"v": "je"}, "nov"], "end": "."},
-    {"id": "b26", "ru": "Сын — школьник.", "t": ["Sin", {"v": "je"}, "đak"], "end": "."},
-    {"id": "b27", "ru": "Мы в Белграде.", "t": ["Mi", {"v": "smo"}, "u", {"sr": "Beogradu", "ru": "Белграде", "lemma": "Beograd"}], "end": ".", "alt": ["U Beogradu smo."]},
-    {"id": "b28", "ru": "Мы хорошие люди.", "t": ["Mi", {"v": "smo"}, "dobri", "ljudi"], "end": ".", "alt": ["Dobri smo ljudi."]},
-    {"id": "b29", "ru": "Мы программисты.", "t": ["Mi", {"v": "smo"}, "programeri"], "end": ".", "alt": ["Programeri smo."]},
-    {"id": "b30", "ru": "Мы ответственные.", "t": ["Mi", {"v": "smo"}, "odgovorni"], "end": ".", "alt": ["Odgovorni smo."]},
-    {"id": "b31", "ru": "Мы там.", "t": ["Mi", {"v": "smo"}, "tamo"], "end": ".", "alt": ["Tamo smo."]},
-    {"id": "b32", "ru": "Вы хорошие помощники.", "t": ["Vi", {"v": "ste"}, "dobri", "pomoćnici"], "end": ".", "alt": ["Dobri ste pomoćnici."]},
-    {"id": "b33", "ru": "Вы с нами.", "t": ["Vi", {"v": "ste"}, "sa", "nama"], "end": ".", "alt": ["Sa nama ste."]},
-    {"id": "b34", "ru": "Вы отличные спортсмены.", "t": ["Vi", {"v": "ste"}, "odlični", "sportisti"], "end": ".", "alt": ["Odlični ste sportisti."]},
-    {"id": "b35", "ru": "Вы довольны?", "t": ["Da", "li", {"v": "ste"}, "zadovoljni"], "end": "?", "alt": ["Je l ste zadovoljni?", "Da li ste vi zadovoljni?"]},
-    {"id": "b36", "ru": "Они мои друзья.", "t": ["Oni", {"v": "su"}, "moji", "drugovi"], "end": "."},
-    {"id": "b37", "ru": "Они итальянцы.", "t": ["Oni", {"v": "su"}, "Italijani"], "end": "."},
-    {"id": "b38", "ru": "Они тут новенькие.", "t": ["Oni", {"v": "su"}, "novi", "ovde"], "end": "."},
-    {"id": "b39", "ru": "Они всего лишь журналисты.", "t": ["Oni", {"v": "su"}, "samo", "novinari"], "end": "."},
-    {"id": "b40", "ru": "Они (женщины) готовы.", "t": ["One", {"v": "su"}, "spremne"], "end": "."},
-    {"id": "b41", "ru": "Они учёные?", "t": ["Da", "li", {"v": "su"}, "oni", "naučnici"], "end": "?", "alt": ["Je l su oni naučnici?", "Da li su naučnici?"]},
-    {"id": "b42", "ru": "Ты из Москвы?", "t": ["Da", "li", {"v": "si"}, "iz", {"sr": "Moskve", "ru": "Москвы", "lemma": "Moskva"}], "end": "?", "alt": ["Je l si iz Moskve?", "Da li si ti iz Moskve?"]}
-   ]
+    {
+     "id": "b01",
+     "ru": "Я программист.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "programer"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b02",
+     "ru": "Я оптимист.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "optimista"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b03",
+     "ru": "Я здесь.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "tu"
+     ],
+     "end": ".",
+     "alt": [
+      "Ja sam ovde."
+     ]
+    },
+    {
+     "id": "b04",
+     "ru": "Я из Москвы.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "iz",
+      "Moskve"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b05",
+     "ru": "Я довольна.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "zadovoljna"
+     ],
+     "end": ".",
+     "hint": "говорит женщина"
+    },
+    {
+     "id": "b06",
+     "ru": "Я готов.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam"
+      },
+      "spreman"
+     ],
+     "end": ".",
+     "hint": "говорит мужчина"
+    },
+    {
+     "id": "b07",
+     "ru": "Ты хороший учитель.",
+     "t": [
+      "Ti",
+      {
+       "v": "si"
+      },
+      "dobar",
+      "učitelj"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b08",
+     "ru": "Ты мой друг.",
+     "t": [
+      "Ti",
+      {
+       "v": "si"
+      },
+      "moj",
+      "drug"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b09",
+     "ru": "Ты оптимист?",
+     "t": [
+      "Da",
+      "li",
+      {
+       "v": "si"
+      },
+      "optimista"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l si optimista?"
+     ]
+    },
+    {
+     "id": "b10",
+     "ru": "Ты в хорошем настроении.",
+     "t": [
+      "Ti",
+      {
+       "v": "si"
+      },
+      "raspoložen"
+     ],
+     "end": ".",
+     "hint": "говорим мужчине"
+    },
+    {
+     "id": "b11",
+     "ru": "Он мой брат.",
+     "t": [
+      "On",
+      {
+       "v": "je"
+      },
+      "moj",
+      "brat"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b12",
+     "ru": "Он журналист.",
+     "t": [
+      "On",
+      {
+       "v": "je"
+      },
+      "novinar"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b13",
+     "ru": "Он опытный.",
+     "t": [
+      "On",
+      {
+       "v": "je"
+      },
+      "iskusan"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b14",
+     "ru": "Он хороший человек.",
+     "t": [
+      "On",
+      {
+       "v": "je"
+      },
+      "dobar",
+      "čovek"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b15",
+     "ru": "Она моя жена.",
+     "t": [
+      "Ona",
+      {
+       "v": "je"
+      },
+      "moja",
+      "žena"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b16",
+     "ru": "Она всегда весёлая.",
+     "t": [
+      "Ona",
+      {
+       "v": "je"
+      },
+      "uvek",
+      "vesela"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b17",
+     "ru": "Она готова.",
+     "t": [
+      "Ona",
+      {
+       "v": "je"
+      },
+      "spremna"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b18",
+     "ru": "Это мой телефон.",
+     "t": [
+      "Ovo",
+      {
+       "v": "je"
+      },
+      "moj",
+      "telefon"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b19",
+     "ru": "Зеркало новое.",
+     "t": [
+      "Ogledalo",
+      {
+       "v": "je"
+      },
+      "novo"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b20",
+     "ru": "Мама здесь.",
+     "t": [
+      "Majka",
+      {
+       "v": "je"
+      },
+      "tu"
+     ],
+     "end": ".",
+     "alt": [
+      "Majka je ovde."
+     ]
+    },
+    {
+     "id": "b22",
+     "ru": "Чай хороший.",
+     "t": [
+      "Čaj",
+      {
+       "v": "je"
+      },
+      "dobar"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b23",
+     "ru": "Хлеб качественный.",
+     "t": [
+      "Hleb",
+      {
+       "v": "je"
+      },
+      "kvalitetan"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b24",
+     "ru": "Обслуживание отличное.",
+     "t": [
+      "Usluga",
+      {
+       "v": "je"
+      },
+      "odlična"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b25",
+     "ru": "Ноутбук новый.",
+     "t": [
+      "Laptop",
+      {
+       "v": "je"
+      },
+      "nov"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b26",
+     "ru": "Сын — школьник.",
+     "t": [
+      "Sin",
+      {
+       "v": "je"
+      },
+      "đak"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b27",
+     "ru": "Мы в Белграде.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo"
+      },
+      "u",
+      "Beogradu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b28",
+     "ru": "Мы хорошие люди.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo"
+      },
+      "dobri",
+      "ljudi"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b29",
+     "ru": "Мы программисты.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo"
+      },
+      "programeri"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b30",
+     "ru": "Мы ответственные.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo"
+      },
+      "odgovorni"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b31",
+     "ru": "Мы там.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo"
+      },
+      "tamo"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b32",
+     "ru": "Вы хорошие помощники.",
+     "t": [
+      "Vi",
+      {
+       "v": "ste"
+      },
+      "dobri",
+      "pomoćnici"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b33",
+     "ru": "Вы с нами.",
+     "t": [
+      "Vi",
+      {
+       "v": "ste"
+      },
+      "sa",
+      "nama"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b34",
+     "ru": "Вы отличные спортсмены.",
+     "t": [
+      "Vi",
+      {
+       "v": "ste"
+      },
+      "odlični",
+      "sportisti"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b35",
+     "ru": "Вы довольны?",
+     "t": [
+      "Da",
+      "li",
+      {
+       "v": "ste"
+      },
+      "zadovoljni"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l ste zadovoljni?"
+     ]
+    },
+    {
+     "id": "b36",
+     "ru": "Они мои друзья.",
+     "t": [
+      "Oni",
+      {
+       "v": "su"
+      },
+      "moji",
+      "drugovi"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b37",
+     "ru": "Они итальянцы.",
+     "t": [
+      "Oni",
+      {
+       "v": "su"
+      },
+      "Italijani"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b38",
+     "ru": "Они тут новенькие.",
+     "t": [
+      "Oni",
+      {
+       "v": "su"
+      },
+      "novi",
+      "ovde"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b39",
+     "ru": "Они всего лишь журналисты.",
+     "t": [
+      "Oni",
+      {
+       "v": "su"
+      },
+      "samo",
+      "novinari"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b40",
+     "ru": "Они (женщины) готовы.",
+     "t": [
+      "One",
+      {
+       "v": "su"
+      },
+      "spremne"
+     ],
+     "end": "."
+    },
+    {
+     "id": "b41",
+     "ru": "Они учёные?",
+     "t": [
+      "Da",
+      "li",
+      {
+       "v": "su"
+      },
+      "oni",
+      "naučnici"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l su oni naučnici?"
+     ]
+    },
+    {
+     "id": "b42",
+     "ru": "Ты из Берлина?",
+     "t": [
+      "Da",
+      "li",
+      {
+       "v": "si"
+      },
+      "iz",
+      "Berlina"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l si iz Berlina?"
+     ]
+    }
+   ],
+   "source": "Урок 3 (SAM/SI/JE): формы biti, вопросы Da li / Je l, фразы iz Moskve, iz Berlina, u Beogradu, sa nama — как готовые выражения из урока"
   }
  ]
 }
