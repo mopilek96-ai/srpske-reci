@@ -8,4 +8,4 @@
 - `supabase/schema.sql`: таблица прогресса. Выполняется один раз.
 
 Секреты репозитория (Settings → Secrets and variables → Actions):
-`AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` (например `westeurope`).
+`AZURE_SPEECH_KEY`. Регион по умолчанию `northeurope` (ресурс srpske-reci-tts-mopilek); секрет `AZURE_SPEECH_REGION` нужен только если ресурс переедет.
