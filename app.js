@@ -180,6 +180,7 @@ function wireSpeak(w){
   const s=$("say"); if(s) s.onclick=e=>{ e.stopPropagation(); speak(w.sr, s); };
   const se=$("say-ex"); if(se) se.onclick=e=>{ e.stopPropagation(); speak(w.ex_sr, se); };
 }
+const trLine = w => w.tr ? `<div class="tr" title="Как читать">[${esc(w.tr)}]</div>` : "";
 const exampleBlock = w => w.ex_sr ? `<div class="ex"><span class="ex-sr" lang="sr-Latn">${esc(w.ex_sr)}</span><span class="ex-cyr" lang="sr-Cyrl">${esc(toCyr(w.ex_sr))}</span>${w.ex_ru?`<span class="ex-ru">${esc(w.ex_ru)}</span>`:""}</div>` : "";
 
 // ---------- render: learn ----------
@@ -219,7 +220,7 @@ function renderLearn(){
   if($("f-mode").value==="build"){ if(!build||build.script!==$("f-script").value) build=newBuild(current); renderBuild(area); return; }
   const w=current, st=mine.cards[w.id];
   const srFront = curDir==="sr";
-  const srBlock = `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${esc(toCyr(w.sr))}</div>`;
+  const srBlock = `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${esc(toCyr(w.sr))}</div>${trLine(w)}`;
   const front = srFront ? srBlock : `<div class="trans">${esc(w.ru)}</div>`;
   const back = `${srFront ? `<div class="trans">${esc(w.ru)}</div>` : srBlock}
     ${w.note?`<div class="note">${esc(w.note)}</div>`:""}${exampleBlock(w)}`;
@@ -275,7 +276,7 @@ function renderBuild(area){
       <span class="dirtag">${!st?"новое":""}</span>
       <div class="trans">${esc(w.ru)}</div>
       <div class="slots" aria-label="Твой ответ">${slots}</div>
-      ${b.done ? other + (w.note?`<div class="note">${esc(w.note)}</div>`:"") + exampleBlock(w) : `<div class="pool" aria-label="Буквы">${pool}</div>`}
+      ${b.done ? other + trLine(w) + (w.note?`<div class="note">${esc(w.note)}</div>`:"") + exampleBlock(w) : `<div class="pool" aria-label="Буквы">${pool}</div>`}
       <div class="buildmsg ${b.done&&b.grade===2?"ok":b.wrong.length||(b.done&&b.grade===0)?"bad":""}">${msg}</div>
       ${b.done?speakButtons(w,true):""}
     </div>
@@ -380,7 +381,7 @@ function renderWords(){
     const ws=words.filter(w=>(w.lesson||"Без урока")===l && (!q || (w.sr+" "+toCyr(w.sr)+" "+w.ru).toLowerCase().includes(q))).sort((a,b)=>(a.added||0)-(b.added||0));
     if(!ws.length) return "";
     return `<div class="lessonblock"><div class="lessonhead"><b>${esc(l)}</b><span class="hint">${ws.length} сл.</span></div>
-      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}</small></div><div class="ru">${esc(w.ru)}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
+      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}${w.tr?` · [${esc(w.tr)}]`:""}</small></div><div class="ru">${esc(w.ru)}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
   }).join("");
   area.innerHTML = blocks || '<div class="empty"><span class="hint">Ничего не нашлось.</span></div>';
 }

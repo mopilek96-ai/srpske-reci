@@ -116,6 +116,8 @@ select{flex:1;min-width:140px}
 .me{font-size:13px;color:var(--muted)}
 .me button{border:0;background:none;color:var(--accent);font:inherit;cursor:pointer;padding:0;text-decoration:underline}
 .btn:disabled{opacity:.4;cursor:default}
+.tr{font-size:16px;color:var(--muted);letter-spacing:.02em}
+.legend-tr{font-size:12px;color:var(--muted)}
 [hidden]{display:none!important}
 @media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:active{transform:scale(.99)}}
@@ -159,6 +161,7 @@ select{flex:1;min-width:140px}
     </div>
     <div class="meter" id="meter"></div>
     <div id="learn-area"></div>
+    <p class="legend-tr">[как читать]: ч — твёрдое (č), ч' — мягкое (ć); дж — твёрдое (dž), дж' — мягкое (đ); е читается твёрже русского, ближе к «э»; ´ — ударение.</p>
   </section>
   <section id="view-words" class="list" hidden>
     <input id="search" type="search" placeholder="Поиск по слову или переводу" aria-label="Поиск">
