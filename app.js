@@ -526,6 +526,27 @@ function render(){
   else renderProgress();
 }
 
+// ---------- install as app ----------
+(function(){
+  if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if(standalone || store.get("srpske.installHidden")) return;
+  const box=$("install"), txt=$("install-text"), btn=$("install-btn");
+  $("install-close").onclick=()=>{ box.hidden=true; store.set("srpske.installHidden", true); };
+  let deferred=null;
+  window.addEventListener("beforeinstallprompt", e=>{
+    e.preventDefault(); deferred=e;
+    txt.textContent="Можно установить карточки на телефон как приложение.";
+    btn.hidden=false; box.hidden=false;
+  });
+  btn.onclick=async()=>{ if(!deferred) return; deferred.prompt(); await deferred.userChoice.catch(()=>{}); deferred=null; box.hidden=true; };
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  if(ios){
+    txt.innerHTML="Установить на iPhone: нажми <b>«Поделиться»</b> (квадрат со стрелкой) → <b>«На экран „Домой“»</b>.";
+    box.hidden=false;
+  }
+})();
+
 // ---------- boot ----------
 (async function boot(){
   if(!me) showWho(); else { $("me-name").textContent=me; }

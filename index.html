@@ -2,7 +2,15 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1d2550">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Srpske reči">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Сербские карточки</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +43,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
-.wrap{max-width:640px;margin:0 auto;padding:20px 16px 48px;display:flex;flex-direction:column;gap:18px}
+.wrap{max-width:640px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) calc(48px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));display:flex;flex-direction:column;gap:18px}
 header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
 h1{font-family:var(--display);font-weight:700;font-size:26px;margin:0;text-wrap:balance}
 h1 small{display:block;font-family:var(--body);font-weight:400;font-size:14px;color:var(--muted);margin-top:2px}
@@ -129,6 +137,8 @@ select{flex:1;min-width:140px}
 .special{justify-content:center}
 .tile.sm{min-width:36px;height:34px;font-size:16px}
 .grades button.g0{border-color:var(--bad)} .grades button.g2{border-color:var(--good);background:color-mix(in srgb,var(--good) 12%,var(--surface))}
+.install{display:flex;gap:10px;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:10px 12px;font-size:14px}
+.install button{flex:none}
 [hidden]{display:none!important}
 @media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:active{transform:scale(.99)}}
@@ -146,6 +156,10 @@ select{flex:1;min-width:140px}
     <h1>Srpske reči · Српске речи<small>Слова с наших уроков сербского</small></h1>
     <div class="status"><span id="status">Загружаю слова…</span><div class="me">Учит: <b id="me-name"></b> · <button id="switch-me" type="button">сменить</button></div><div class="me" id="sync"></div></div>
   </header>
+  <div class="install" id="install" hidden>
+    <span id="install-text"></span>
+    <span class="row" style="flex-wrap:nowrap"><button class="btn" id="install-btn" type="button" hidden>Установить</button><button class="btn ghost" id="install-close" type="button" aria-label="Скрыть">✕</button></span>
+  </div>
   <nav role="tablist">
     <button role="tab" type="button" aria-selected="true" data-view="learn">Учить</button>
     <button role="tab" type="button" aria-selected="false" data-view="words">Все слова</button>
