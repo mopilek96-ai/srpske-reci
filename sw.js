@@ -1,6 +1,6 @@
 // Офлайн-режим: оболочка и слова — «сначала сеть, потом кэш», mp3 и иконки — «сначала кэш».
-const CACHE = "srpske-v2";
-const SHELL = ["./", "index.html", "app.js", "config.js", "words.json", "audio/index.json", "manifest.webmanifest", "icons/icon-192.png"];
+const CACHE = "srpske-v3";
+const SHELL = ["./", "index.html", "app.js", "config.js", "words.json", "grammar.json", "audio/index.json", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(async c => {

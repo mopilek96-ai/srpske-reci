@@ -139,6 +139,19 @@ select{flex:1;min-width:140px}
 .grades button.g0{border-color:var(--bad)} .grades button.g2{border-color:var(--good);background:color-mix(in srgb,var(--good) 12%,var(--surface))}
 .install{display:flex;gap:10px;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:10px 12px;font-size:14px}
 .install button{flex:none}
+.rulebox{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.rulebox summary{cursor:pointer;font-weight:600}
+.rule{border-collapse:collapse;margin:10px 0;font-size:15px}
+.rule td{padding:3px 14px 3px 0}
+.tips{margin:6px 0 2px;padding-left:18px;font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.gsent{font:600 22px var(--body);line-height:1.6;text-align:center}
+.gblank{display:inline-block;min-width:54px;border-bottom:2px solid var(--new);color:var(--new);padding:0 4px}
+.gblank.ok{border-color:var(--good);color:var(--good)} .gblank.bad{border-color:var(--bad);color:var(--bad)}
+.gunk{color:var(--muted);font-weight:500}
+.ganswer{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:18px;text-align:center}
+.gbuild{min-height:48px;width:100%}
+.slots .tile.ok{border-color:var(--good);color:var(--good)} .slots .tile.bad{border-color:var(--bad);color:var(--bad)}
+nav button{font-size:14px}
 [hidden]{display:none!important}
 @media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:active{transform:scale(.99)}}
@@ -162,6 +175,7 @@ select{flex:1;min-width:140px}
   </div>
   <nav role="tablist">
     <button role="tab" type="button" aria-selected="true" data-view="learn">Учить</button>
+    <button role="tab" type="button" aria-selected="false" data-view="grammar">Грамматика</button>
     <button role="tab" type="button" aria-selected="false" data-view="words">Все слова</button>
     <button role="tab" type="button" aria-selected="false" data-view="progress">Прогресс</button>
   </nav>
@@ -185,6 +199,19 @@ select{flex:1;min-width:140px}
     <div class="meter" id="meter"></div>
     <div id="learn-area"></div>
     <p class="legend-tr">Как читать: тш — сербское č (твёрдое), ч — ć (мягкое); дж — dž, дьж — đ; э — сербское e после твёрдого согласного; ´ — ударение по словарю Wiktionary.</p>
+  </section>
+  <section id="view-grammar" class="list" hidden>
+    <div class="row">
+      <select id="g-topic" aria-label="Тема"></select>
+      <select id="g-ex" aria-label="Упражнение">
+        <option value="choose">Выбери глагол</option>
+        <option value="typeverb">Впиши глагол</option>
+        <option value="build">Собери предложение</option>
+        <option value="translate">Переведи на сербский</option>
+      </select>
+    </div>
+    <details id="g-rule" class="rulebox"></details>
+    <div id="grammar-area"></div>
   </section>
   <section id="view-words" class="list" hidden>
     <input id="search" type="search" placeholder="Поиск по слову или переводу" aria-label="Поиск">

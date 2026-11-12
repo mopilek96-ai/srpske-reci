@@ -68,7 +68,7 @@ async function sbSave(row){
 
 // ---------- state ----------
 let me = store.get("srpske.me");
-let words=[], audioMap={};
+let words=[], audioMap={}, grammar={topics:[]};
 let allProgress={};     // name -> row
 let mine={cards:{},days:{},updated:0};
 let view="learn";
@@ -102,7 +102,7 @@ function loadMine(){
 document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>{
   view=b.dataset.view;
   document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected", x===b?"true":"false"));
-  ["learn","words","progress"].forEach(v=>$("view-"+v).hidden = v!==view);
+  ["learn","words","progress","grammar"].forEach(v=>$("view-"+v).hidden = v!==view);
   if(view==="progress") refreshOthers();
   render();
 }));
@@ -325,7 +325,7 @@ function revealBuild(){
 }
 
 document.addEventListener("keydown", e=>{
-  if(view!=="learn" || !current || $("app").hidden) return;
+  if(view!=="learn" || !current || $("app").hidden) return; // grammar has its own buttons
   if(e.target.matches("input,textarea,select")) return;
   if(mode()==="write"||mode()==="gender") return;
   if(mode()==="build"){
@@ -521,10 +521,117 @@ function renderProgress(){
 }
 
 function render(){
-  if(view==="learn") renderLearn();
+  if(view==="grammar") renderGrammar();
+  else if(view==="learn") renderLearn();
   else if(view==="words") renderWords();
   else renderProgress();
 }
+
+// ---------- grammar ----------
+const GEX = [["choose","Выбери глагол"],["typeverb","Впиши глагол"],["build","Собери предложение"],["translate","Переведи на сербский"]];
+let gs = null; // grammar session
+const knownLemmas = () => new Set(words.map(w=>w.sr.toLowerCase()));
+function tokInfo(tok, known){
+  if(typeof tok==="string") return {sr:tok, show:tok, unknown:false};
+  if(tok.v) return {sr:tok.v, show:tok.v, verb:true, unknown:false};
+  const k = known.has(String(tok.lemma||tok.sr).toLowerCase());
+  return {sr:tok.sr, show:k?tok.sr:"["+tok.ru+"]", unknown:!k, ru:tok.ru};
+}
+const capFirst = t => t ? t.charAt(0).toUpperCase()+t.slice(1) : t;
+function grammarTopic(){ return (grammar.topics||[]).find(t=>t.id===($("g-topic")&&$("g-topic").value)) || (grammar.topics||[])[0]; }
+function newGrammarSession(){
+  const t=grammarTopic(); if(!t) return null;
+  const list=[...t.sentences].sort(()=>Math.random()-.5).slice(0,10);
+  return {topic:t.id, ex:$("g-ex").value, list, i:0, right:0, total:0, st:null};
+}
+function sentenceParts(s){
+  const known=knownLemmas();
+  return s.t.map(tok=>tokInfo(tok, known));
+}
+function fullSr(s){ return sentenceParts(s).map(p=>p.sr).join(" ")+(s.end||""); }
+function renderGrammar(){
+  const area=$("grammar-area");
+  if(!loaded){ area.innerHTML='<p class="hint">Загружаю…</p>'; return; }
+  const topics=grammar.topics||[];
+  if(!topics.length){ area.innerHTML='<p class="hint">Упражнения не загрузились. Обнови страницу.</p>'; return; }
+  const tsel=$("g-topic");
+  if(!tsel.options.length) tsel.innerHTML=topics.map(t=>`<option value="${esc(t.id)}">${esc(t.title)}</option>`).join("");
+  const t=grammarTopic();
+  $("g-rule").innerHTML = `<summary>Шпаргалка: ${esc(t.title)}</summary>
+    <table class="rule">${t.rule.map(r=>`<tr><td>${esc(r[0])}</td><td><b>${esc(r[1])}</b></td><td class="hint">${esc(r[2])}</td></tr>`).join("")}</table>
+    <ul class="tips">${t.tips.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
+  if(!gs || gs.topic!==t.id || gs.ex!==$("g-ex").value) gs=newGrammarSession();
+  if(gs.i>=gs.list.length){
+    area.innerHTML=`<div class="empty"><h2>Готово: ${gs.right} из ${gs.total}</h2><button class="btn" id="gr-again" type="button">Ещё 10 предложений</button></div>`;
+    $("gr-again").onclick=()=>{ gs=newGrammarSession(); renderGrammar(); }; return;
+  }
+  const s=gs.list[gs.i];
+  if(!gs.st) gs.st=initGrammarStep(s, gs.ex, t);
+  const st=gs.st, parts=sentenceParts(s);
+  const head=`<p class="meter"><span>Предложение <b>${gs.i+1}</b> из ${gs.list.length}</span><span>Верно <b>${gs.right}</b></span></p>`;
+  const ruLine=`<div class="trans-wrap">${lbl("по-русски")}<div class="trans">${esc(s.ru)}</div>${s.hint?`<div class="hint">(${esc(s.hint)})</div>`:""}</div>`;
+  const blankSentence = () => `<div class="gsent">${parts.map((p,i)=>p.verb ? `<span class="gblank ${st.done?(st.ok?"ok":"bad"):""}">${st.done?esc(p.sr):"___"}</span>` : `<span class="${p.unknown?"gunk":""}">${esc(i===0?capFirst(p.show):p.show)}</span>`).join(" ")}${esc(s.end||"")}</div>`;
+  const answerLine = () => `<div class="ganswer">${lbl("правильно")}<b>${esc(fullSr(s))}</b>${s.alt&&s.alt.length?`<div class="hint">Можно и так: ${s.alt.map(esc).join(" · ")}</div>`:""}</div>`;
+  const verdict = () => st.done ? `<div class="buildmsg ${st.ok?"ok":"bad"}">${st.ok?(st.close?"Почти! Проверь значки над буквами.":"Верно!"):"Не совсем."}</div>` : "";
+  let body="", foot="";
+  if(gs.ex==="choose"){
+    body = blankSentence() + verdict() + (st.done&&!st.ok?`<div class="hint">Ты выбрала: <b>${esc(st.input)}</b></div>`:"") + (st.done?answerLine():"");
+    foot = st.done ? "" : `<div class="grades">${st.options.map(o=>`<button type="button" data-opt="${esc(o)}">${esc(o)}</button>`).join("")}</div>`;
+  } else if(gs.ex==="typeverb"){
+    body = blankSentence() + (st.done?verdict()+(!st.ok?`<div class="hint">Ты написала: <b>${esc(st.input)}</b></div>`:"")+answerLine():`<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">впиши пропущенный глагол</label><input id="gr-in" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false"></form>`);
+    foot = st.done ? "" : '<button class="btn" type="submit" form="gr-form">Проверить</button>';
+  } else if(gs.ex==="build"){
+    const slots = st.placed.map((ti,k)=>`<button type="button" class="tile ${st.done?(st.ok?"ok":"bad"):""}" data-slot="${k}" ${st.done?"disabled":""}>${esc(st.tiles[ti].show)}</button>`).join("") || '<span class="hint">нажимай на слова снизу по порядку</span>';
+    const pool = st.tiles.map((tl,k)=>tl.used?"":`<button type="button" class="tile" data-tile="${k}">${esc(tl.show)}</button>`).join("");
+    body = `<div class="slots gbuild">${slots}</div>` + (st.done?verdict()+answerLine():`<div class="pool">${pool}</div>`);
+    foot = st.done ? "" : `<button class="btn ghost" id="gr-clear" type="button">Сбросить</button><button class="btn" id="gr-check" type="button" ${st.placed.length?"":"disabled"}>Проверить</button>`;
+  } else {
+    const gloss = parts.filter(p=>p.unknown).map(p=>`${esc(p.ru)} → <b>${esc(p.sr)}</b>`).join(", ");
+    body = (gloss?`<p class="hint">Подсказка, этих слов ещё нет в карточках: ${gloss}</p>`:"") +
+      (st.done ? `<div class="hint">Ты написала: ${esc(st.input)}</div>`+verdict()+answerLine()
+               : `<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">напиши предложение по-сербски</label><input id="gr-in" lang="sr" autocapitalize="sentences" autocorrect="off" spellcheck="false"></form>`);
+    foot = st.done ? "" : '<button class="btn ghost" id="gr-skip" type="button">Не знаю</button><button class="btn" type="submit" form="gr-form">Проверить</button>';
+  }
+  if(st.done) foot = '<button class="btn" id="gr-next" type="button">Дальше →</button>';
+  area.innerHTML = head + `<div class="card" style="cursor:default">${ruLine}${body}</div><div class="row" style="justify-content:center;margin-top:12px">${foot}</div>`;
+  area.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>{ st.input=b.dataset.opt; finishGrammar(b.dataset.opt===st.verb); });
+  const f=$("gr-form");
+  if(f){
+    const inp=$("gr-in"); inp.focus();
+    f.onsubmit=e=>{ e.preventDefault(); const v=inp.value.trim(); if(!v) return;
+      if(gs.ex==="typeverb"){ st.input=v; finishGrammar(norm(v)===st.verb); }
+      else { st.input=v; const accepted=[fullSr(s), ...(s.alt||[])]; const exact=accepted.some(a=>norm(a)===norm(v)); const close=!exact && accepted.some(a=>fold(a)===fold(v)); finishGrammar(exact||close, close); }
+    };
+  }
+  const sk=$("gr-skip"); if(sk) sk.onclick=()=>{ st.input="—"; finishGrammar(false); };
+  area.querySelectorAll("[data-tile]").forEach(b=>b.onclick=()=>{ const k=+b.dataset.tile; st.tiles[k].used=true; st.placed.push(k); renderGrammar(); });
+  area.querySelectorAll("[data-slot]").forEach(b=>b.onclick=()=>{ const k=+b.dataset.slot; st.tiles[st.placed[k]].used=false; st.placed.splice(k,1); renderGrammar(); });
+  const cl=$("gr-clear"); if(cl) cl.onclick=()=>{ st.tiles.forEach(x=>x.used=false); st.placed=[]; renderGrammar(); };
+  const ck=$("gr-check"); if(ck) ck.onclick=()=>{ const built=st.placed.map(k=>st.tiles[k].sr).join(" "); const accepted=[fullSr(s), ...(s.alt||[])]; finishGrammar(accepted.some(a=>norm(a)===norm(built))); };
+  const nx=$("gr-next"); if(nx){ nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
+}
+function initGrammarStep(s, ex, t){
+  const parts=sentenceParts(s), verb=parts.find(p=>p.verb).sr;
+  const st={verb, done:false, ok:false, close:false, input:""};
+  if(ex==="choose"){
+    const others=t.forms.filter(f=>f!==verb).sort(()=>Math.random()-.5).slice(0,2);
+    st.options=[verb, ...others].sort(()=>Math.random()-.5);
+  }
+  if(ex==="build"){
+    const proper = new Set(["Italijani","Moskve","Beogradu"]);
+    const tiles = parts.map((p,i)=>({sr:p.sr, show: (i===0 && !proper.has(p.sr) && !p.unknown) ? p.show.toLowerCase() : p.show, used:false}));
+    const extra = t.forms.filter(f=>f!==verb)[Math.floor(Math.random()*(t.forms.length-1))];
+    tiles.push({sr:extra, show:extra, used:false});
+    st.tiles = tiles.sort(()=>Math.random()-.5); st.placed=[];
+  }
+  return st;
+}
+function finishGrammar(ok, close=false){
+  const st=gs.st; st.done=true; st.ok=ok; st.close=close; gs.total++; if(ok) gs.right++;
+  renderGrammar();
+}
+$("g-topic").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
+$("g-ex").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
 
 // ---------- install as app ----------
 (function(){
@@ -554,7 +661,8 @@ function render(){
   try{
     const [wr, ar] = await Promise.all([
       fetch("words.json?v="+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }),
-      fetch("audio/index.json?v="+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}))
+      fetch("audio/index.json?v="+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({})),
+      fetch("grammar.json?v="+Date.now()).then(r=>r.ok?r.json():{topics:[]}).then(g=>{ grammar=g; }).catch(()=>{})
     ]);
     words = wr.filter(w=>w.sr&&w.ru); audioMap = ar||{};
   }catch(e){ $("status").textContent="Не удалось загрузить слова. Обнови страницу."; return; }
