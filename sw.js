@@ -1,5 +1,5 @@
 // Офлайн-режим: оболочка и слова — «сначала сеть, потом кэш», mp3 и иконки — «сначала кэш».
-const CACHE = "srpske-v1";
+const CACHE = "srpske-v2";
 const SHELL = ["./", "index.html", "app.js", "config.js", "words.json", "audio/index.json", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {
@@ -9,7 +9,9 @@ self.addEventListener("install", e => {
     try {
       const map = await (await fetch("audio/index.json")).json();
       const files = [...new Set(Object.values(map))].map(f => "audio/" + f);
-      for (let i = 0; i < files.length; i += 20) await c.addAll(files.slice(i, i + 20)).catch(() => {});
+      for (const f of files) {
+        try { const r = await fetch(f, {cache: "no-cache"}); if (r.ok) await c.put(f, r); } catch (err) {}
+      }
     } catch (err) {}
   }).then(() => self.skipWaiting()));
 });
