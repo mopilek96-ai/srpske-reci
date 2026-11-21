@@ -585,7 +585,13 @@
      ]
     }
    ],
-   "source": "Урок 3 (SAM/SI/JE): формы biti, вопросы Da li / Je l, фразы iz Moskve, iz Berlina, u Beogradu, sa nama — как готовые выражения из урока"
+   "source": "Урок 3 (SAM/SI/JE): формы biti, вопросы Da li / Je l, фразы iz Moskve, iz Berlina, u Beogradu, sa nama — как готовые выражения из урока",
+   "ex": [
+    "choose",
+    "typeverb",
+    "build",
+    "translate"
+   ]
   },
   {
    "id": "nisam",
@@ -988,7 +994,1977 @@
      ],
      "end": "."
     }
+   ],
+   "ex": [
+    "choose",
+    "typeverb",
+    "build",
+    "translate"
    ]
+  },
+  {
+   "id": "poss",
+   "title": "Притяжательные: moj, tvoj, njegov…",
+   "ex": [
+    "choose",
+    "typeverb",
+    "build",
+    "translate"
+   ],
+   "sets": [
+    [
+     "moj",
+     "moja",
+     "moje"
+    ],
+    [
+     "tvoj",
+     "tvoja",
+     "tvoje"
+    ],
+    [
+     "njegov",
+     "njegova",
+     "njegovo"
+    ],
+    [
+     "njen",
+     "njena",
+     "njeno"
+    ],
+    [
+     "naš",
+     "naša",
+     "naše"
+    ],
+    [
+     "vaš",
+     "vaša",
+     "vaše"
+    ],
+    [
+     "njihov",
+     "njihova",
+     "njihovo"
+    ]
+   ],
+   "forms": [
+    "moj",
+    "moja",
+    "moje",
+    "tvoj",
+    "tvoja",
+    "tvoje",
+    "njegov",
+    "njegova",
+    "njegovo",
+    "njen",
+    "njena",
+    "njeno",
+    "naš",
+    "naša",
+    "naše",
+    "vaš",
+    "vaša",
+    "vaše",
+    "njihov",
+    "njihova",
+    "njihovo"
+   ],
+   "rulehead": [
+    "",
+    "м. р. · ж. р. · ср. р.",
+    ""
+   ],
+   "rule": [
+    [
+     "ja → мой",
+     "moj · moja · moje",
+     "moj brat, moja sestra, moje dete"
+    ],
+    [
+     "ti → твой",
+     "tvoj · tvoja · tvoje",
+     "tvoj brat, tvoja sestra, tvoje dete"
+    ],
+    [
+     "on → его",
+     "njegov · njegova · njegovo",
+     "njegov pas, njegova mačka, njegovo polje"
+    ],
+    [
+     "ona → её",
+     "njen · njena · njeno",
+     "njen pas, njena mačka, njeno polje"
+    ],
+    [
+     "mi → наш",
+     "naš · naša · naše",
+     "naš pas, naša mačka, naše polje"
+    ],
+    [
+     "vi → ваш",
+     "vaš · vaša · vaše",
+     "vaš drug, vaša drugarica, vaše društvo"
+    ],
+    [
+     "oni → их",
+     "njihov · njihova · njihovo",
+     "njihov drug, njihova drugarica, njihovo društvo"
+    ]
+   ],
+   "tips": [
+    "Форма зависит от рода предмета, а не от того, кто владеет: moja kafa — «мой кофе», потому что kafa женского рода.",
+    "В русском «его», «её», «их» не меняются, а в сербском меняются: njegov pas, njegova mačka.",
+    "Окончания как у прилагательных: м. р. — без окончания, ж. р. — -a, ср. р. — -o/-e."
+   ],
+   "source": "Урок 4 (Moj/tvoj/njegov): таблица, 12 предложений с пропуском, 20 пар, 11 «собери предложение», 10 предложений на перевод",
+   "sentences": [
+    {
+     "id": "p01",
+     "ru": "Это мой друг.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "moj"
+      },
+      "drug"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je moj drug."
+     ]
+    },
+    {
+     "id": "p02",
+     "ru": "Здесь твоя мама.",
+     "t": [
+      "Ovde",
+      "je",
+      {
+       "v": "tvoja"
+      },
+      "majka"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p03",
+     "ru": "Я его друг.",
+     "t": [
+      "Ja",
+      "sam",
+      {
+       "v": "njegov"
+      },
+      "drug"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p04",
+     "ru": "Она наша дочь.",
+     "t": [
+      "Ona",
+      "je",
+      {
+       "v": "naša"
+      },
+      "ćerka"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p05",
+     "ru": "Ива — моя девушка.",
+     "t": [
+      "Iva",
+      "je",
+      {
+       "v": "moja"
+      },
+      "devojka"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p06",
+     "ru": "Ты её сын.",
+     "t": [
+      "Ti",
+      "si",
+      {
+       "v": "njen"
+      },
+      "sin"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p07",
+     "ru": "Лука — их партнёр.",
+     "t": [
+      "Luka",
+      "je",
+      {
+       "v": "njihov"
+      },
+      "partner"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p08",
+     "ru": "Это их песня.",
+     "t": [
+      "Ovo",
+      "je",
+      {
+       "v": "njihova"
+      },
+      "pesma"
+     ],
+     "end": ".",
+     "alt": [
+      "To je njihova pesma."
+     ]
+    },
+    {
+     "id": "p09",
+     "ru": "Эта чёрная футболка — её.",
+     "t": [
+      "Ova",
+      "crna",
+      "majica",
+      "je",
+      {
+       "v": "njena"
+      }
+     ],
+     "end": "."
+    },
+    {
+     "id": "p10",
+     "ru": "Это ваше предприятие.",
+     "t": [
+      "Ovo",
+      "je",
+      {
+       "v": "vaše"
+      },
+      "preduzeće"
+     ],
+     "end": ".",
+     "alt": [
+      "To je vaše preduzeće."
+     ]
+    },
+    {
+     "id": "p11",
+     "ru": "Это их здание.",
+     "t": [
+      "Ova",
+      "je",
+      {
+       "v": "njihova"
+      },
+      "zgrada"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p12",
+     "ru": "Я твой друг?",
+     "t": [
+      "Da",
+      "li",
+      "sam",
+      "ja",
+      {
+       "v": "tvoj"
+      },
+      "drug"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "p13",
+     "ru": "Он не мой отец.",
+     "t": [
+      "On",
+      "nije",
+      {
+       "v": "moj"
+      },
+      "otac"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p14",
+     "ru": "Марко — их сын.",
+     "t": [
+      "Marko",
+      "je",
+      {
+       "v": "njihov"
+      },
+      "sin"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p15",
+     "ru": "Это не её шоколад.",
+     "t": [
+      "Ovo",
+      "nije",
+      {
+       "v": "njena"
+      },
+      "čokolada"
+     ],
+     "end": ".",
+     "alt": [
+      "To nije njena čokolada."
+     ]
+    },
+    {
+     "id": "p16",
+     "ru": "Это наш автобус?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ovo",
+      {
+       "v": "naš"
+      },
+      "autobus"
+     ],
+     "end": "?",
+     "alt": [
+      "Da li je to naš autobus?",
+      "Je l ovo naš autobus?"
+     ]
+    },
+    {
+     "id": "p17",
+     "ru": "Это не наш район.",
+     "t": [
+      "Ovo",
+      "nije",
+      {
+       "v": "naše"
+      },
+      "naselje"
+     ],
+     "end": ".",
+     "alt": [
+      "To nije naše naselje."
+     ]
+    },
+    {
+     "id": "p18",
+     "ru": "Ты не моя жена.",
+     "t": [
+      "Ti",
+      "nisi",
+      {
+       "v": "moja"
+      },
+      "žena"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p19",
+     "ru": "Ты моя подруга?",
+     "t": [
+      "Da",
+      "li",
+      "si",
+      "ti",
+      {
+       "v": "moja"
+      },
+      "drugarica"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "p20",
+     "ru": "Математика — не моя сильная сторона.",
+     "t": [
+      "Matematika",
+      "nije",
+      {
+       "v": "moja"
+      },
+      "jača",
+      "strana"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p21",
+     "ru": "Это их преподаватель математики?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ovo",
+      {
+       "v": "njihov"
+      },
+      "profesor",
+      "matematike"
+     ],
+     "end": "?",
+     "alt": [
+      "Da li je to njihov profesor matematike?",
+      "Je l ovo njihov profesor matematike?"
+     ]
+    },
+    {
+     "id": "p22",
+     "ru": "Это ваша ручка?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ovo",
+      {
+       "v": "vaša"
+      },
+      "hemijska"
+     ],
+     "end": "?",
+     "alt": [
+      "Da li je to vaša hemijska?",
+      "Je l ovo vaša hemijska?"
+     ]
+    },
+    {
+     "id": "p23",
+     "ru": "Это твой большой дом.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "tvoja"
+      },
+      "velika",
+      "kuća"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je tvoja velika kuća."
+     ]
+    },
+    {
+     "id": "p24",
+     "ru": "Это твой телефон.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "tvoj"
+      },
+      "telefon"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je tvoj telefon."
+     ]
+    },
+    {
+     "id": "p25",
+     "ru": "Это мой кофе.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "moja"
+      },
+      "kafa"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je moja kafa."
+     ]
+    },
+    {
+     "id": "p26",
+     "ru": "Это их учебник.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "njihov"
+      },
+      "udžbenik"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je njihov udžbenik."
+     ]
+    },
+    {
+     "id": "p27",
+     "ru": "Это её кошка.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "njena"
+      },
+      "mačka"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je njena mačka."
+     ]
+    },
+    {
+     "id": "p28",
+     "ru": "Он её сын.",
+     "t": [
+      "On",
+      "je",
+      {
+       "v": "njen"
+      },
+      "sin"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p29",
+     "ru": "Это наш дом.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "naša"
+      },
+      "kuća"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je naša kuća."
+     ]
+    },
+    {
+     "id": "p30",
+     "ru": "Это их квартира.",
+     "t": [
+      "To",
+      "je",
+      {
+       "v": "njihov"
+      },
+      "stan"
+     ],
+     "end": ".",
+     "alt": [
+      "Ovo je njihov stan."
+     ]
+    },
+    {
+     "id": "p31",
+     "ru": "Она его девушка.",
+     "t": [
+      "Ona",
+      "je",
+      {
+       "v": "njegova"
+      },
+      "devojka"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p32",
+     "ru": "Я её сын.",
+     "t": [
+      "Ja",
+      "sam",
+      {
+       "v": "njen"
+      },
+      "sin"
+     ],
+     "end": "."
+    },
+    {
+     "id": "p33",
+     "ru": "Это не моя дочь.",
+     "t": [
+      "Ovo",
+      "nije",
+      {
+       "v": "moja"
+      },
+      "ćerka"
+     ],
+     "end": ".",
+     "alt": [
+      "To nije moja ćerka."
+     ]
+    },
+    {
+     "id": "p34",
+     "ru": "Вы наш менеджер?",
+     "t": [
+      "Da",
+      "li",
+      "ste",
+      "vi",
+      {
+       "v": "naš"
+      },
+      "menadžer"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "p35",
+     "ru": "Она твоя мать?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ona",
+      {
+       "v": "tvoja"
+      },
+      "majka"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l ona tvoja majka?"
+     ]
+    },
+    {
+     "id": "p36",
+     "ru": "Он её сын?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "on",
+      {
+       "v": "njen"
+      },
+      "sin"
+     ],
+     "end": "?",
+     "alt": [
+      "Je l on njen sin?"
+     ]
+    },
+    {
+     "id": "p37",
+     "ru": "Это ваш ребёнок?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ovo",
+      {
+       "v": "vaše"
+      },
+      "dete"
+     ],
+     "end": "?",
+     "alt": [
+      "Da li je to vaše dete?",
+      "Je l ovo vaše dete?"
+     ]
+    },
+    {
+     "id": "p38",
+     "ru": "Это твоя пицца?",
+     "t": [
+      "Da",
+      "li",
+      "je",
+      "ovo",
+      {
+       "v": "tvoja"
+      },
+      "pica"
+     ],
+     "end": "?",
+     "alt": [
+      "Da li je to tvoja pica?",
+      "Je l ovo tvoja pica?"
+     ]
+    },
+    {
+     "id": "p39",
+     "ru": "Ты их ребёнок?",
+     "t": [
+      "Da",
+      "li",
+      "si",
+      "ti",
+      {
+       "v": "njihovo"
+      },
+      "dete"
+     ],
+     "end": "?"
+    }
+   ]
+  },
+  {
+   "id": "prezent",
+   "title": "Настоящее время: volim, voliš, voli…",
+   "ex": [
+    "choose",
+    "typeverb",
+    "table",
+    "build",
+    "translate"
+   ],
+   "verbs": [
+    "voleti",
+    "učiti",
+    "vežbati",
+    "raditi",
+    "organizovati",
+    "putovati",
+    "istraživati",
+    "kuvati",
+    "igrati",
+    "volontirati",
+    "planirati",
+    "pisati",
+    "živeti",
+    "jesti",
+    "prati",
+    "pratiti",
+    "sedeti",
+    "spavati",
+    "svirati",
+    "ići",
+    "videti",
+    "znati",
+    "pevati",
+    "šetati",
+    "želeti",
+    "morati",
+    "trenirati",
+    "studirati",
+    "doručkovati",
+    "večerati",
+    "ustajati",
+    "voziti",
+    "provoditi",
+    "odmarati",
+    "predavati",
+    "upoznavati",
+    "imati",
+    "piti",
+    "kupiti",
+    "nositi",
+    "kupovati"
+   ],
+   "rule": [
+    [
+     "ja",
+     "-m",
+     "volim · igram · jedem"
+    ],
+    [
+     "ti",
+     "-š",
+     "voliš · igraš · jedeš"
+    ],
+    [
+     "on / ona / ono",
+     "—",
+     "voli · igra · jede"
+    ],
+    [
+     "mi",
+     "-mo",
+     "volimo · igramo · jedemo"
+    ],
+    [
+     "vi",
+     "-te",
+     "volite · igrate · jedete"
+    ],
+    [
+     "oni / one / ona",
+     "-e · -ju · -u",
+     "vole · igraju · jedu"
+    ]
+   ],
+   "tips": [
+    "Три группы из урока: -ati → igram, igraju (pevati, spavati, šetati); -iti, -eti → radim, rade (učiti, voleti); jesti → jedem, jedu (на -sti, -ći).",
+    "-eti → -im: voleti → volim, želeti → želim, živeti → živim.",
+    "-vati → -jem: putovati → putujem, predavati → predajem, upoznavati → upoznajem.",
+    "Отрицание — ne перед глаголом: Ja ne volim, Ti ne voliš, On ne voli.",
+    "Вопрос — Da li перед глаголом: Da li voliš? Da li voli? Da li volite?",
+    "Два глагола подряд соединяются через da: Volim da igram fudbal. Tijana voli da spava."
+   ],
+   "source": "Урок 5 (Prezent): тексты «Upoznavanje», 14 предложений с пропуском, «6 форм глагола», распорядок дня Михайло, да + глагол",
+   "sentences": [
+    {
+     "id": "r01",
+     "ru": "Я люблю книги.",
+     "t": [
+      "Ja",
+      {
+       "v": "volim",
+       "inf": "voleti"
+      },
+      "knjige"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r02",
+     "ru": "Ты учишь немецкий язык уже два года.",
+     "t": [
+      "Ti",
+      {
+       "v": "učiš",
+       "inf": "učiti"
+      },
+      "nemački",
+      "jezik",
+      "već",
+      "dve",
+      "godine"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r03",
+     "ru": "Он обычно занимается каждое утро.",
+     "t": [
+      "On",
+      "obično",
+      {
+       "v": "vežba",
+       "inf": "vežbati"
+      },
+      "svako",
+      "jutro"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r04",
+     "ru": "Она работает медсестрой в больнице.",
+     "t": [
+      "Ona",
+      {
+       "v": "radi",
+       "inf": "raditi"
+      },
+      "kao",
+      "medicinska",
+      "sestra",
+      "u",
+      "bolnici"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r05",
+     "ru": "Мы организуем праздник в эти выходные.",
+     "t": [
+      "Mi",
+      {
+       "v": "organizujemo",
+       "inf": "organizovati"
+      },
+      "praznik",
+      "ovog",
+      "vikenda"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r06",
+     "ru": "Вы путешествуете по миру и исследуете.",
+     "t": [
+      "Vi",
+      {
+       "v": "putujete",
+       "inf": "putovati"
+      },
+      "po",
+      "svetu",
+      "i",
+      "istražujete"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r07",
+     "ru": "Они дружат как лучшие друзья ещё со школы.",
+     "t": [
+      "Oni",
+      "se",
+      "{druže|družiti",
+      "se}",
+      "kao",
+      "najbolji",
+      "prijatelji",
+      "još",
+      "iz",
+      "osnovne",
+      "škole"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r08",
+     "ru": "Я часто готовлю вкусную еду.",
+     "t": [
+      "Ja",
+      "često",
+      {
+       "v": "kuvam",
+       "inf": "kuvati"
+      },
+      "ukusnu",
+      "hranu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r09",
+     "ru": "Ты играешь в футбол каждые выходные.",
+     "t": [
+      "Ti",
+      {
+       "v": "igraš",
+       "inf": "igrati"
+      },
+      "fudbal",
+      "svakog",
+      "vikenda"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r10",
+     "ru": "Он часто занимается йогой.",
+     "t": [
+      "On",
+      "često",
+      {
+       "v": "radi",
+       "inf": "raditi"
+      },
+      "jogu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r11",
+     "ru": "Она волонтёр в местном волонтёрском центре.",
+     "t": [
+      "Ona",
+      {
+       "v": "volontira",
+       "inf": "volontirati"
+      },
+      "u",
+      "lokalnom",
+      "volonterskom",
+      "centru"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r12",
+     "ru": "Люди играют в футбол.",
+     "t": [
+      "Ljudi",
+      {
+       "v": "igraju",
+       "inf": "igrati"
+      },
+      "fudbal"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r13",
+     "ru": "Мы планируем путешествие.",
+     "t": [
+      "Mi",
+      {
+       "v": "planiramo",
+       "inf": "planirati"
+      },
+      "putovanje"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r14",
+     "ru": "Вы учите новые языки.",
+     "t": [
+      "Vi",
+      {
+       "v": "učite",
+       "inf": "učiti"
+      },
+      "nove",
+      "jezike"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r15",
+     "ru": "Тияна любит спать.",
+     "t": [
+      "Tijana",
+      "voli",
+      "da",
+      {
+       "v": "spava",
+       "inf": "spavati"
+      }
+     ],
+     "end": "."
+    },
+    {
+     "id": "r16",
+     "ru": "Мы сейчас не можем учиться.",
+     "t": [
+      "Mi",
+      "ne",
+      "možemo",
+      "da",
+      {
+       "v": "učimo",
+       "inf": "učiti"
+      },
+      "trenutno"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r17",
+     "ru": "Вы умеете играть на гитаре?",
+     "t": [
+      "Da",
+      "li",
+      "znate",
+      "da",
+      {
+       "v": "svirate",
+       "inf": "svirati"
+      },
+      "gitaru"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r18",
+     "ru": "Что вы хотите есть?",
+     "t": [
+      "Šta",
+      "hoćete",
+      "da",
+      {
+       "v": "jedete",
+       "inf": "jesti"
+      }
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r19",
+     "ru": "Что они планируют делать с этой проблемой?",
+     "t": [
+      "Šta",
+      "planiraju",
+      "da",
+      {
+       "v": "rade",
+       "inf": "raditi"
+      },
+      "s",
+      "tim",
+      "problemom"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r20",
+     "ru": "Что ты предпочитаешь пить?",
+     "t": [
+      "Šta",
+      "preferiraš",
+      "da",
+      {
+       "v": "piješ",
+       "inf": "piti"
+      }
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r21",
+     "ru": "Очень хочу пойти в зоопарк.",
+     "t": [
+      "Mnogo",
+      "želim",
+      "da",
+      {
+       "v": "idem",
+       "inf": "ići"
+      },
+      "u",
+      "zoo",
+      "vrt"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r22",
+     "ru": "Там я хочу увидеть медведя.",
+     "t": [
+      "Tamo",
+      "želim",
+      "da",
+      {
+       "v": "vidim",
+       "inf": "videti"
+      },
+      "medveda"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r23",
+     "ru": "Я люблю собак.",
+     "t": [
+      "Ja",
+      {
+       "v": "volim",
+       "inf": "voleti"
+      },
+      "pse"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r24",
+     "ru": "Он путешествует по миру.",
+     "t": [
+      "On",
+      {
+       "v": "putuje",
+       "inf": "putovati"
+      },
+      "po",
+      "svetu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r25",
+     "ru": "Мы живём в Сербии.",
+     "t": [
+      "Mi",
+      {
+       "v": "živimo",
+       "inf": "živeti"
+      },
+      "u",
+      "Srbiji"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r26",
+     "ru": "Мои родители знают тебя.",
+     "t": [
+      "Moji",
+      "roditelji",
+      {
+       "v": "znaju",
+       "inf": "znati"
+      },
+      "tebe"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r27",
+     "ru": "Вы любите макароны?",
+     "t": [
+      "Da",
+      "li",
+      "vi",
+      {
+       "v": "volite",
+       "inf": "voleti"
+      },
+      "testeninu"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r28",
+     "ru": "В вашем городе есть ресторан?",
+     "t": [
+      "Da",
+      "li",
+      "vaš",
+      "grad",
+      {
+       "v": "ima",
+       "inf": "imati"
+      },
+      "restoran"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r29",
+     "ru": "Ваши родители проводят время с вами?",
+     "t": [
+      "Da",
+      "li",
+      "vaši",
+      "roditelji",
+      {
+       "v": "provode",
+       "inf": "provoditi"
+      },
+      "vreme",
+      "sa",
+      "vama"
+     ],
+     "end": "?"
+    },
+    {
+     "id": "r30",
+     "ru": "Михайло каждый день встаёт в 9 утра.",
+     "t": [
+      "Mihajlo",
+      "svaki",
+      "dan",
+      {
+       "v": "ustaje",
+       "inf": "ustajati"
+      },
+      "u",
+      "9",
+      "ujutru"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r31",
+     "ru": "Чистит зубы.",
+     "t": [
+      {
+       "v": "Pere",
+       "inf": "prati"
+      },
+      "zube"
+     ],
+     "end": ".",
+     "hint": "это Михайло"
+    },
+    {
+     "id": "r32",
+     "ru": "Идёт в пекарню купить бурек.",
+     "t": [
+      {
+       "v": "Ide",
+       "inf": "ići"
+      },
+      "do",
+      "pekare",
+      "da",
+      "kupi",
+      "burek"
+     ],
+     "end": ".",
+     "hint": "это Михайло"
+    },
+    {
+     "id": "r33",
+     "ru": "В городе встречает своих друзей.",
+     "t": [
+      "U",
+      "gradu",
+      {
+       "v": "sreće",
+       "inf": "sretati"
+      },
+      "svoje",
+      "drugare"
+     ],
+     "end": ".",
+     "hint": "это Михайло"
+    },
+    {
+     "id": "r34",
+     "ru": "Вместе идут в театр.",
+     "t": [
+      "Zajedno",
+      {
+       "v": "idu",
+       "inf": "ići"
+      },
+      "u",
+      "pozorište"
+     ],
+     "end": ".",
+     "hint": "Михайло с друзьями"
+    },
+    {
+     "id": "r35",
+     "ru": "Вечером Михайло должен идти домой.",
+     "t": [
+      "Uveče",
+      "Mihajlo",
+      {
+       "v": "mora",
+       "inf": "morati"
+      },
+      "da",
+      "ide",
+      "kući"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r36",
+     "ru": "Мама везёт его домой.",
+     "t": [
+      "Majka",
+      {
+       "v": "vozi",
+       "inf": "voziti"
+      },
+      "njega",
+      "do",
+      "kuće"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r37",
+     "ru": "Вся семья ужинает.",
+     "t": [
+      "Cela",
+      "porodica",
+      {
+       "v": "večera",
+       "inf": "večerati"
+      }
+     ],
+     "end": "."
+    },
+    {
+     "id": "r38",
+     "ru": "Все идут спать.",
+     "t": [
+      "Svi",
+      {
+       "v": "idu",
+       "inf": "ići"
+      },
+      "da",
+      "spavaju"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r39",
+     "ru": "Меня зовут Никола.",
+     "t": [
+      "{Zovem|zvati",
+      "se}",
+      "se",
+      "Nikola"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r40",
+     "ru": "Живу в Куле, в Сербии.",
+     "t": [
+      {
+       "v": "Živim",
+       "inf": "živeti"
+      },
+      "u",
+      "Kuli,",
+      "Srbiji"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r41",
+     "ru": "Моя семья часто путешествует.",
+     "t": [
+      "Moja",
+      "porodica",
+      "često",
+      {
+       "v": "putuje",
+       "inf": "putovati"
+      }
+     ],
+     "end": "."
+    },
+    {
+     "id": "r42",
+     "ru": "Обычно мы ездим в Грецию.",
+     "t": [
+      "Obično",
+      {
+       "v": "idemo",
+       "inf": "ići"
+      },
+      "u",
+      "Grčku"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r43",
+     "ru": "Он живёт в Суботице и работает юристом.",
+     "t": [
+      "On",
+      {
+       "v": "živi",
+       "inf": "živeti"
+      },
+      "u",
+      "Subotici",
+      "i",
+      "radi",
+      "kao",
+      "pravnik"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r44",
+     "ru": "Любит ездить туда с женой.",
+     "t": [
+      "Voli",
+      "da",
+      {
+       "v": "ide",
+       "inf": "ići"
+      },
+      "tamo",
+      "sa",
+      "ženom"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r45",
+     "ru": "Иногда вместе ходят в театр.",
+     "t": [
+      "Ponekad",
+      {
+       "v": "idu",
+       "inf": "ići"
+      },
+      "u",
+      "pozorište",
+      "zajedno"
+     ],
+     "end": "."
+    },
+    {
+     "id": "r46",
+     "ru": "Живут вместе.",
+     "t": [
+      {
+       "v": "Žive",
+       "inf": "živeti"
+      },
+      "zajedno"
+     ],
+     "end": "."
+    }
+   ]
+  },
+  {
+   "id": "mnozina",
+   "title": "Род и множественное число",
+   "ex": [
+    "gender",
+    "plchoose",
+    "pltype"
+   ],
+   "items": [
+    {
+     "sg": "student",
+     "pl": "studenti",
+     "g": "m"
+    },
+    {
+     "sg": "miš",
+     "pl": "miševi",
+     "g": "m"
+    },
+    {
+     "sg": "automobil",
+     "pl": "automobili",
+     "g": "m"
+    },
+    {
+     "sg": "Beograd",
+     "pl": "",
+     "g": "m"
+    },
+    {
+     "sg": "šećer",
+     "pl": "",
+     "g": "m"
+    },
+    {
+     "sg": "Marko",
+     "pl": "",
+     "g": "m"
+    },
+    {
+     "sg": "deda",
+     "pl": "dede",
+     "g": "m"
+    },
+    {
+     "sg": "sudija",
+     "pl": "sudije",
+     "g": "m"
+    },
+    {
+     "sg": "tata",
+     "pl": "tate",
+     "g": "m"
+    },
+    {
+     "sg": "orao",
+     "pl": "orlovi",
+     "g": "m"
+    },
+    {
+     "sg": "ugao",
+     "pl": "uglovi",
+     "g": "m"
+    },
+    {
+     "sg": "smisao",
+     "pl": "",
+     "g": "m"
+    },
+    {
+     "sg": "posao",
+     "pl": "poslovi",
+     "g": "m"
+    },
+    {
+     "sg": "lav",
+     "pl": "lavovi",
+     "g": "m"
+    },
+    {
+     "sg": "bog",
+     "pl": "bogovi",
+     "g": "m"
+    },
+    {
+     "sg": "kralj",
+     "pl": "kraljevi",
+     "g": "m"
+    },
+    {
+     "sg": "puž",
+     "pl": "puževi",
+     "g": "m"
+    },
+    {
+     "sg": "dan",
+     "pl": "dani",
+     "g": "m"
+    },
+    {
+     "sg": "sat",
+     "pl": "sati",
+     "g": "m"
+    },
+    {
+     "sg": "pas",
+     "pl": "psi",
+     "g": "m"
+    },
+    {
+     "sg": "konj",
+     "pl": "konji",
+     "g": "m"
+    },
+    {
+     "sg": "zub",
+     "pl": "zubi",
+     "g": "m"
+    },
+    {
+     "sg": "čovek",
+     "pl": "ljudi",
+     "g": "m"
+    },
+    {
+     "sg": "muž",
+     "pl": "muževi",
+     "g": "m"
+    },
+    {
+     "sg": "srp",
+     "pl": "srpovi",
+     "g": "m"
+    },
+    {
+     "sg": "krst",
+     "pl": "krstovi",
+     "g": "m"
+    },
+    {
+     "sg": "Srbin",
+     "pl": "Srbi",
+     "g": "m"
+    },
+    {
+     "sg": "leptir",
+     "pl": "leptiri",
+     "g": "m"
+    },
+    {
+     "sg": "sto",
+     "pl": "stolovi",
+     "g": "m"
+    },
+    {
+     "sg": "brat",
+     "pl": "braća",
+     "g": "m"
+    },
+    {
+     "sg": "taksista",
+     "pl": "taksisti",
+     "g": "m"
+    },
+    {
+     "sg": "novac",
+     "pl": "",
+     "g": "m"
+    },
+    {
+     "sg": "most",
+     "pl": "mostovi",
+     "g": "m"
+    },
+    {
+     "sg": "frižider",
+     "pl": "frižideri",
+     "g": "m"
+    },
+    {
+     "sg": "slon",
+     "pl": "slonovi",
+     "g": "m"
+    },
+    {
+     "sg": "soko",
+     "pl": "sokolovi",
+     "g": "m"
+    },
+    {
+     "sg": "fakultet",
+     "pl": "fakulteti",
+     "g": "m"
+    },
+    {
+     "sg": "grad",
+     "pl": "gradovi",
+     "g": "m"
+    },
+    {
+     "sg": "džep",
+     "pl": "džepovi",
+     "g": "m"
+    },
+    {
+     "sg": "računar",
+     "pl": "računari",
+     "g": "m"
+    },
+    {
+     "sg": "žena",
+     "pl": "žene",
+     "g": "f"
+    },
+    {
+     "sg": "zemlja",
+     "pl": "zemlje",
+     "g": "f"
+    },
+    {
+     "sg": "civilizacija",
+     "pl": "civilizacije",
+     "g": "f"
+    },
+    {
+     "sg": "Srbija",
+     "pl": "",
+     "g": "f"
+    },
+    {
+     "sg": "ptica",
+     "pl": "ptice",
+     "g": "f"
+    },
+    {
+     "sg": "policija",
+     "pl": "",
+     "g": "f"
+    },
+    {
+     "sg": "stvar",
+     "pl": "stvari",
+     "g": "f"
+    },
+    {
+     "sg": "noć",
+     "pl": "noći",
+     "g": "f"
+    },
+    {
+     "sg": "reč",
+     "pl": "reči",
+     "g": "f"
+    },
+    {
+     "sg": "ljubav",
+     "pl": "ljubavi",
+     "g": "f"
+    },
+    {
+     "sg": "kost",
+     "pl": "kosti",
+     "g": "f"
+    },
+    {
+     "sg": "opasnost",
+     "pl": "opasnosti",
+     "g": "f"
+    },
+    {
+     "sg": "korist",
+     "pl": "koristi",
+     "g": "f"
+    },
+    {
+     "sg": "vrednost",
+     "pl": "vrednosti",
+     "g": "f"
+    },
+    {
+     "sg": "stolica",
+     "pl": "stolice",
+     "g": "f"
+    },
+    {
+     "sg": "kokoška",
+     "pl": "kokoške",
+     "g": "f"
+    },
+    {
+     "sg": "majka",
+     "pl": "majke",
+     "g": "f"
+    },
+    {
+     "sg": "republika",
+     "pl": "republike",
+     "g": "f"
+    },
+    {
+     "sg": "država",
+     "pl": "države",
+     "g": "f"
+    },
+    {
+     "sg": "lutka",
+     "pl": "lutke",
+     "g": "f"
+    },
+    {
+     "sg": "sestra",
+     "pl": "sestre",
+     "g": "f"
+    },
+    {
+     "sg": "knjiga",
+     "pl": "knjige",
+     "g": "f"
+    },
+    {
+     "sg": "ćerka",
+     "pl": "ćerke",
+     "g": "f"
+    },
+    {
+     "sg": "sveska",
+     "pl": "sveske",
+     "g": "f"
+    },
+    {
+     "sg": "ulica",
+     "pl": "ulice",
+     "g": "f"
+    },
+    {
+     "sg": "selo",
+     "pl": "sela",
+     "g": "n"
+    },
+    {
+     "sg": "dete",
+     "pl": "deca",
+     "g": "n"
+    },
+    {
+     "sg": "sunce",
+     "pl": "sunca",
+     "g": "n"
+    },
+    {
+     "sg": "leto",
+     "pl": "leta",
+     "g": "n"
+    },
+    {
+     "sg": "pero",
+     "pl": "pera",
+     "g": "n"
+    },
+    {
+     "sg": "jezero",
+     "pl": "jezera",
+     "g": "n"
+    },
+    {
+     "sg": "more",
+     "pl": "mora",
+     "g": "n"
+    },
+    {
+     "sg": "doba",
+     "pl": "",
+     "g": "n"
+    },
+    {
+     "sg": "jutro",
+     "pl": "jutra",
+     "g": "n"
+    },
+    {
+     "sg": "polje",
+     "pl": "polja",
+     "g": "n"
+    },
+    {
+     "sg": "brdo",
+     "pl": "brda",
+     "g": "n"
+    },
+    {
+     "sg": "ime",
+     "pl": "imena",
+     "g": "n"
+    },
+    {
+     "sg": "dugme",
+     "pl": "dugmad",
+     "g": "n"
+    },
+    {
+     "sg": "rame",
+     "pl": "ramena",
+     "g": "n"
+    },
+    {
+     "sg": "prase",
+     "pl": "prasad",
+     "g": "n"
+    },
+    {
+     "sg": "seme",
+     "pl": "semena",
+     "g": "n"
+    }
+   ],
+   "rule": [
+    [
+     "м. р. — на согласную",
+     "+i",
+     "student → studenti"
+    ],
+    [
+     "м. р., короткие (1 слог)",
+     "+ovi / +evi",
+     "grad → gradovi, kralj → kraljevi"
+    ],
+    [
+     "м. р. на -ao",
+     "→ -lovi",
+     "orao → orlovi, ugao → uglovi"
+    ],
+    [
+     "ж. р. на -a",
+     "-a → -e",
+     "žena → žene"
+    ],
+    [
+     "ж. р. на согласную",
+     "+i",
+     "reč → reči, vrednost → vrednosti"
+    ],
+    [
+     "ср. р. на -o / -e",
+     "→ -a",
+     "selo → sela, more → mora"
+    ],
+    [
+     "исключения",
+     "",
+     "dani, sati, psi, konji, zubi, ljudi, deca, prasad, dugmad"
+    ]
+   ],
+   "tips": [
+    "Мужской род обычно оканчивается на согласную. Но мужчины на -a — тоже м. р.: tata, deda, sudija, taksista.",
+    "Женский род обычно на -a. Но есть ж. р. на согласную: stvar, noć, reč, ljubav, kost и все слова на -ost.",
+    "Средний род — на -o и -e: selo, more, sunce, dete.",
+    "-evi вместо -ovi — после мягких согласных: kraljevi, puževi, miševi."
+   ],
+   "source": "Урок 6 (Množina): таблица родов и мн. ч., задания «разложи по родам»",
+   "sentences": []
   }
  ]
 }

@@ -68,7 +68,7 @@ async function sbSave(row){
 
 // ---------- state ----------
 let me = store.get("srpske.me");
-let words=[], audioMap={}, grammar={topics:[]};
+let words=[], audioMap={}, grammar={topics:[]}, listening={texts:[]};
 let allProgress={};     // name -> row
 let mine={cards:{},days:{},updated:0};
 let view="learn";
@@ -102,11 +102,13 @@ function loadMine(){
 document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>{
   view=b.dataset.view;
   document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected", x===b?"true":"false"));
-  ["learn","words","progress","grammar"].forEach(v=>$("view-"+v).hidden = v!==view);
+  ["learn","words","progress","grammar","listen"].forEach(v=>$("view-"+v).hidden = v!==view);
   if(view==="progress") refreshOthers();
   render();
 }));
 $("f-lesson").addEventListener("change", ()=>{ gq=null; buildQueue(); renderLearn(); });
+$("f-topic").addEventListener("change", ()=>{ gq=null; buildQueue(); renderLearn(); });
+$("w-group").addEventListener("change", renderWords);
 const mode = () => $("f-mode").value;
 $("f-mode").addEventListener("change", ()=>{ $("f-script").hidden = mode()!=="build"; gq=null; nextCard(); renderLearn(); });
 $("f-script").addEventListener("change", ()=>{ nextCard(); renderLearn(); });
@@ -117,6 +119,18 @@ function lessons(){
   for(const w of words){ const k=w.lesson||"Без урока"; const a=w.added||0; if(!m.has(k)||m.get(k)>a) m.set(k,a); }
   return [...m.entries()].sort((a,b)=>b[1]-a[1]).map(e=>e[0]);
 }
+const TOPIC_ORDER = ["Семья и люди","Профессии","Животные","Еда и напитки","Одежда","Цвета","Погода и времена года","Время и дни",
+  "Дом и вещи","Город и транспорт","Природа","Тело","Учёба","Досуг","Глаголы","Прилагательные","Маленькие слова","Фразы","Понятия"];
+function topics(){
+  const have=new Set(words.map(w=>w.topic||"Без темы"));
+  return [...TOPIC_ORDER.filter(t=>have.has(t)), ...[...have].filter(t=>!TOPIC_ORDER.includes(t)).sort()];
+}
+function fillTopicSelect(){
+  const sel=$("f-topic"), prev=sel.value, ts=topics();
+  sel.innerHTML='<option value="">Все темы</option>'+ts.map(t=>`<option value="${esc(t)}">${esc(t)} · ${words.filter(w=>(w.topic||"Без темы")===t).length}</option>`).join("");
+  if(ts.includes(prev)) sel.value=prev;
+}
+const inFilter = w => { const lf=$("f-lesson").value, tf=$("f-topic").value; return (!lf || (w.lesson||"Без урока")===lf) && (!tf || (w.topic||"Без темы")===tf); };
 function fillLessonSelect(){
   const sel=$("f-lesson"), prev=sel.value;
   const ls=lessons();
@@ -127,8 +141,8 @@ function fillLessonSelect(){
 // ---------- queue ----------
 function newIntroducedToday(){ return (mine.days[todayKey()]||{}).n || 0; }
 function buildQueue(){
-  const now=Date.now(), lf=$("f-lesson").value;
-  const pool=words.filter(w=>!lf || (w.lesson||"Без урока")===lf);
+  const now=Date.now();
+  const pool=words.filter(inFilter);
   const due=pool.filter(w=>mine.cards[w.id] && mine.cards[w.id].d<=now).sort((a,b)=>mine.cards[a.id].d-mine.cards[b.id].d);
   const left=Math.max(0, NEW_PER_DAY-newIntroducedToday());
   const fresh=pool.filter(w=>!mine.cards[w.id]).sort((a,b)=>(a.added||0)-(b.added||0)).slice(0,left);
@@ -188,7 +202,9 @@ const lbl = t => `<span class="lbl">${t}</span>`;
 const trLine = w => w.tr ? `<div class="tr" title="Как читать">${lbl("как читать")}[${esc(w.tr)}]${w.stress_src==="manual"?'<span class="unver" title="Этого слова нет в словаре, ударение поставлено вручную">ударение не сверено</span>':""}</div>` : "";
 const srBlockOf = w => `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${lbl("кириллица")}${esc(toCyr(w.sr))}</div>${trLine(w)}`;
 const transBlock = (w, label="перевод") => `<div class="trans-wrap">${lbl(label)}<div class="trans">${esc(w.ru)}</div></div>`;
-const metaBlock = w => `<div class="meta">${gChip(w)}${w.note?`<span class="note">${esc(w.note)}</span>`:""}</div>`;
+const PRON = ["ja","ti","on","mi","vi","oni"];
+const formsBlock = w => w.forms ? `<div class="forms">${lbl("сейчас: я, ты, он… / мы, вы, они")}<div class="fgrid">${w.forms.map((f,i)=>`<span><i>${PRON[i]}</i> <b>${esc(f)}</b></span>`).join("")}</div></div>` : "";
+const metaBlock = w => `<div class="meta">${gChip(w)}${w.pl?`<span class="plchip">мн. ч.: <b>${esc(w.pl)}</b></span>`:""}${w.note?`<span class="note">${esc(w.note)}</span>`:""}</div>${formsBlock(w)}`;
 const exampleBlock = w => w.ex_sr ? `<div class="ex"><span class="ex-sr" lang="sr-Latn">${esc(w.ex_sr)}</span><span class="ex-cyr" lang="sr-Cyrl">${esc(toCyr(w.ex_sr))}</span>${w.ex_ru?`<span class="ex-ru">${esc(w.ex_ru)}</span>`:""}</div>` : "";
 
 // ---------- render: learn ----------
@@ -207,8 +223,7 @@ function renderLearn(){
   if(!current){
     const now=Date.now();
     const nextDue=words.map(w=>mine.cards[w.id]).filter(Boolean).map(s=>s.d).filter(d=>d>now).sort((a,b)=>a-b)[0];
-    const lf=$("f-lesson").value;
-    const newsLeft=words.filter(w=>!mine.cards[w.id] && (!lf||(w.lesson||"Без урока")===lf)).length;
+    const newsLeft=words.filter(w=>!mine.cards[w.id] && inFilter(w)).length;
     area.innerHTML=`<div class="empty"><h2>Bravo! На сейчас всё</h2>
       <span class="hint">${nextDue?"Следующее повторение: "+new Date(nextDue).toLocaleString("ru-RU",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})+".":""}
       ${newsLeft?" Ещё "+newsLeft+" новых слов ждут, на день лимит "+NEW_PER_DAY+" новых.":""}</span>
@@ -217,11 +232,11 @@ function renderLearn(){
         <button class="btn ghost" id="cram" type="button">Прогнать всё ещё раз</button>
       </div></div>`;
     const mn=$("more-new"); if(mn) mn.onclick=()=>{
-      queue=words.filter(w=>!mine.cards[w.id] && (!lf||(w.lesson||"Без урока")===lf)).sort((a,b)=>(a.added||0)-(b.added||0)).slice(0,10).map(w=>w.id);
+      queue=words.filter(w=>!mine.cards[w.id] && inFilter(w)).sort((a,b)=>(a.added||0)-(b.added||0)).slice(0,10).map(w=>w.id);
       nextCard(); renderLearn();
     };
     $("cram").onclick=()=>{
-      queue=words.filter(w=>mine.cards[w.id] && (!lf||(w.lesson||"Без урока")===lf)).map(w=>w.id).sort(()=>Math.random()-.5);
+      queue=words.filter(w=>mine.cards[w.id] && inFilter(w)).map(w=>w.id).sort(()=>Math.random()-.5);
       nextCard(); cram=true; renderLearn();
     };
     return;
@@ -235,7 +250,7 @@ function renderLearn(){
   const back = `${srFront ? transBlock(w) : srBlock}${metaBlock(w)}${exampleBlock(w)}`;
   area.innerHTML = `
     <div class="card" id="card" tabindex="0" role="button" aria-label="${flipped?"Карточка":"Показать ответ"}">
-      <span class="lesson">${esc(w.lesson||"")}</span>
+      <span class="lesson">${esc(w.lesson||"")}${w.topic?" · "+esc(w.topic):""}</span>
       <span class="dirtag">${!st?"новое":st.l?"было трудно":""}</span>
       ${front}
       ${flipped?back:'<div class="hint" style="margin-top:14px">Нажми, чтобы увидеть ответ</div>'}
@@ -424,12 +439,11 @@ function finishWrite(res){
 // ---------- mode: guess the gender ----------
 let gq=null; // {list, i, picked, right, total}
 function renderGender(area){
-  const lf=$("f-lesson").value;
   if(!gq){
-    const list=words.filter(w=>isNoun(w) && (!lf||(w.lesson||"Без урока")===lf)).map(w=>w.id).sort(()=>Math.random()-.5);
+    const list=words.filter(w=>isNoun(w) && inFilter(w)).map(w=>w.id).sort(()=>Math.random()-.5);
     gq={list, i:0, picked:null, right:0, total:0};
   }
-  if(!gq.list.length){ area.innerHTML='<div class="empty"><span class="hint">В этом уроке нет существительных.</span></div>'; return; }
+  if(!gq.list.length){ area.innerHTML='<div class="empty"><span class="hint">Здесь нет существительных. Выбери другой урок или тему.</span></div>'; return; }
   if(gq.i>=gq.list.length){
     area.innerHTML=`<div class="empty"><h2>Готово: ${gq.right} из ${gq.total}</h2><button class="btn" id="g-again" type="button">Ещё раз</button></div>`;
     $("g-again").onclick=()=>{ gq=null; renderLearn(); }; return;
@@ -442,7 +456,7 @@ function renderGender(area){
     <div class="card" style="cursor:default">
       <span class="lesson">${esc(w.lesson||"")}</span>
       ${srBlockOf(w)}
-      ${answered?`<div class="buildmsg ${gq.picked===w.g?"ok":"bad"}">${gq.picked===w.g?"Верно!":"Нет, это "+GL[w.g]}</div>${transBlock(w)}${w.note?`<div class="note">${esc(w.note)}</div>`:""}`:""}
+      ${answered?`<div class="buildmsg ${gq.picked===w.g?"ok":"bad"}">${gq.picked===w.g?"Верно!":"Нет, это "+GL[w.g]}</div>${transBlock(w)}${w.pl?`<div class="note">мн. ч.: <b>${esc(w.pl)}</b></div>`:""}${w.note?`<div class="note">${esc(w.note)}</div>`:""}`:""}
       ${speakButtons(w,false)}
     </div>
     <div class="grades" style="margin-top:12px">
@@ -480,11 +494,12 @@ function renderWords(){
   if(!loaded){ area.innerHTML='<p class="hint">Загружаю…</p>'; return; }
   const q=$("search").value.trim().toLowerCase(), now=Date.now();
   const chipTxt={new:"новое",learn:"учу",known:"выучено",due:"повторить"};
-  const blocks=lessons().map(l=>{
-    const ws=words.filter(w=>(w.lesson||"Без урока")===l && (!q || (w.sr+" "+toCyr(w.sr)+" "+w.ru).toLowerCase().includes(q))).sort((a,b)=>(a.added||0)-(b.added||0));
+  const byTopic=$("w-group").value==="topic";
+  const blocks=(byTopic?topics():lessons()).map(l=>{
+    const ws=words.filter(w=>(byTopic?(w.topic||"Без темы"):(w.lesson||"Без урока"))===l && (!q || (w.sr+" "+toCyr(w.sr)+" "+w.ru+" "+(w.pl||"")+" "+(w.forms||[]).join(" ")).toLowerCase().includes(q))).sort((a,b)=>(a.added||0)-(b.added||0));
     if(!ws.length) return "";
     return `<div class="lessonblock"><div class="lessonhead"><b>${esc(l)}</b><span class="hint">${ws.length} сл.</span></div>
-      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}${w.tr?` · [${esc(w.tr)}]`:""}</small></div><div class="ru">${esc(w.ru)} ${gChip(w)}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
+      ${ws.map(w=>{ const s=statusOf(mine.cards[w.id],now); return `<div class="wordrow"><div class="sr" lang="sr-Latn">${esc(w.sr)}<small lang="sr-Cyrl">${esc(toCyr(w.sr))}${w.tr?` · [${esc(w.tr)}]`:""}</small></div><div class="ru">${esc(w.ru)} ${gChip(w)}${w.pl?`<small class="hint"> мн. ${esc(w.pl)}</small>`:""}${w.forms?`<small class="hint"> ${esc(w.forms[0])}, ${esc(w.forms[1])}…</small>`:""}</div><span class="chip ${s}">${chipTxt[s]}</span></div>`; }).join("")}</div>`;
   }).join("");
   area.innerHTML = blocks || '<div class="empty"><span class="hint">Ничего не нашлось.</span></div>';
 }
@@ -522,63 +537,92 @@ function renderProgress(){
 
 function render(){
   if(view==="grammar") renderGrammar();
+  else if(view==="listen") renderListen();
   else if(view==="learn") renderLearn();
   else if(view==="words") renderWords();
   else renderProgress();
 }
 
 // ---------- grammar ----------
-const GEX = [["choose","Выбери глагол"],["typeverb","Впиши глагол"],["build","Собери предложение"],["translate","Переведи на сербский"]];
+const GEXL = {choose:"Выбери форму", typeverb:"Впиши форму", build:"Собери предложение", translate:"Переведи на сербский",
+  table:"Спряги глагол: 6 форм", gender:"Определи род", plchoose:"Выбери мн. ч.", pltype:"Впиши мн. ч."};
+const PROPER = new Set(["Italijani","Moskve","Beogradu","Iva","Luka","Marko","Mihajlo","Tijana","Nikola","Srbiji","Kuli","Subotici","Grčku"]);
 let gs = null; // grammar session
+const lc = s => String(s||"").toLowerCase();
+const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
 const knownLemmas = () => new Set(words.map(w=>w.sr.toLowerCase()));
 function tokInfo(tok, known){
   if(typeof tok==="string") return {sr:tok, show:tok, unknown:false};
-  if(tok.v) return {sr:tok.v, show:tok.v, verb:true, unknown:false};
+  if(tok.v) return {sr:tok.v, show:tok.v, verb:true, inf:tok.inf||"", unknown:false};
   const k = known.has(String(tok.lemma||tok.sr).toLowerCase());
   return {sr:tok.sr, show:k?tok.sr:"["+tok.ru+"]", unknown:!k, ru:tok.ru};
 }
 const capFirst = t => t ? t.charAt(0).toUpperCase()+t.slice(1) : t;
 function grammarTopic(){ return (grammar.topics||[]).find(t=>t.id===($("g-topic")&&$("g-topic").value)) || (grammar.topics||[])[0]; }
+const topicEx = t => t.ex || ["choose","typeverb","build","translate"];
+function fillGex(t){
+  const sel=$("g-ex"), prev=sel.value, ex=topicEx(t);
+  sel.innerHTML=ex.map(e=>`<option value="${e}">${GEXL[e]||e}</option>`).join("");
+  sel.value = ex.includes(prev) ? prev : ex[0];
+}
+const verbWord = inf => words.find(w=>w.sr===inf && w.forms);
+// other forms to choose from for a blank: same verb (prezent), same possessive (moj/moja/moje) or the topic's list (biti)
+function blankPool(p, t){
+  if(p.inf){ const w=verbWord(p.inf); return w ? [...new Set(w.forms.map(f=>f.replace(/ se$/,"")))] : []; }
+  if(t.sets){ const set=t.sets.find(x=>x.includes(lc(p.sr))); if(set) return set; }
+  return t.forms||[];
+}
 function newGrammarSession(){
   const t=grammarTopic(); if(!t) return null;
-  const list=[...t.sentences].sort(()=>Math.random()-.5).slice(0,10);
-  return {topic:t.id, ex:$("g-ex").value, list, i:0, right:0, total:0, st:null};
+  const ex=$("g-ex").value;
+  let list;
+  if(ex==="table") list=shuffle((t.verbs||[]).filter(v=>verbWord(v))).slice(0,6).map(v=>({verb:v}));
+  else if(ex==="gender") list=shuffle(t.items||[]).slice(0,10);
+  else if(ex==="plchoose"||ex==="pltype") list=shuffle((t.items||[]).filter(i=>i.pl)).slice(0,10);
+  else list=shuffle(t.sentences||[]).slice(0,10);
+  return {topic:t.id, ex, list, i:0, right:0, total:0, st:null};
 }
 function sentenceParts(s){
   const known=knownLemmas();
   return s.t.map(tok=>tokInfo(tok, known));
 }
-function fullSr(s){ return sentenceParts(s).map(p=>p.sr).join(" ")+(s.end||""); }
+function fullSr(s){ const t=sentenceParts(s).map(p=>p.sr).join(" "); return t+(s.end||""); }
 function renderGrammar(){
   const area=$("grammar-area");
   if(!loaded){ area.innerHTML='<p class="hint">Загружаю…</p>'; return; }
   const topics=grammar.topics||[];
-  if(!topics.length){ area.innerHTML='<p class="hint">Упражнения не загрузились. Обнови страницу.</p>'; return; }
+  if(!topics.length){ area.innerHTML='<p class="hint">Упражнения не загрузились. Нажми «Обновить».</p>'; return; }
   const tsel=$("g-topic");
-  if(!tsel.options.length) tsel.innerHTML=topics.map(t=>`<option value="${esc(t.id)}">${esc(t.title)}</option>`).join("");
+  if(!tsel.options.length){ tsel.innerHTML=topics.map(t=>`<option value="${esc(t.id)}">${esc(t.title)}</option>`).join(""); }
   const t=grammarTopic();
+  if(!$("g-ex").options.length || !topicEx(t).includes($("g-ex").value)) fillGex(t);
   $("g-rule").innerHTML = `<summary>Шпаргалка: ${esc(t.title)}</summary>
     <table class="rule">${t.rule.map(r=>`<tr><td>${esc(r[0])}</td><td><b>${esc(r[1])}</b></td><td class="hint">${esc(r[2])}</td></tr>`).join("")}</table>
     <ul class="tips">${t.tips.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
   if(!gs || gs.topic!==t.id || gs.ex!==$("g-ex").value) gs=newGrammarSession();
+  if(!gs.list.length){ area.innerHTML='<div class="empty"><span class="hint">Для этого упражнения пока нет заданий.</span></div>'; return; }
+  const unit = gs.ex==="table" ? "Глагол" : (gs.ex==="gender"||gs.ex.startsWith("pl")) ? "Слово" : "Предложение";
   if(gs.i>=gs.list.length){
-    area.innerHTML=`<div class="empty"><h2>Готово: ${gs.right} из ${gs.total}</h2><button class="btn" id="gr-again" type="button">Ещё 10 предложений</button></div>`;
+    area.innerHTML=`<div class="empty"><h2>Готово: ${gs.right} из ${gs.total}</h2><button class="btn" id="gr-again" type="button">Ещё раз</button></div>`;
     $("gr-again").onclick=()=>{ gs=newGrammarSession(); renderGrammar(); }; return;
   }
+  const head=`<p class="meter"><span>${unit} <b>${gs.i+1}</b> из ${gs.list.length}</span><span>Верно <b>${gs.right}</b></span></p>`;
+  if(gs.ex==="table") return renderTable(area, head, gs.list[gs.i]);
+  if(gs.ex==="gender") return renderGGender(area, head, gs.list[gs.i]);
+  if(gs.ex==="plchoose"||gs.ex==="pltype") return renderPlural(area, head, gs.list[gs.i]);
   const s=gs.list[gs.i];
   if(!gs.st) gs.st=initGrammarStep(s, gs.ex, t);
   const st=gs.st, parts=sentenceParts(s);
-  const head=`<p class="meter"><span>Предложение <b>${gs.i+1}</b> из ${gs.list.length}</span><span>Верно <b>${gs.right}</b></span></p>`;
   const ruLine=`<div class="trans-wrap">${lbl("по-русски")}<div class="trans">${esc(s.ru)}</div>${s.hint?`<div class="hint">(${esc(s.hint)})</div>`:""}</div>`;
-  const blankSentence = () => `<div class="gsent">${parts.map((p,i)=>p.verb ? `<span class="gblank ${st.done?(st.ok?"ok":"bad"):""}">${st.done?esc(p.sr):"___"}</span>` : `<span class="${p.unknown?"gunk":""}">${esc(i===0?capFirst(p.show):p.show)}</span>`).join(" ")}${esc(s.end||"")}</div>`;
-  const answerLine = () => `<div class="ganswer">${lbl("правильно")}<b>${esc(fullSr(s))}</b>${s.alt&&s.alt.length?`<div class="hint">Можно и так: ${s.alt.map(esc).join(" · ")}</div>`:""}</div>`;
+  const blankSentence = () => `<div class="gsent">${parts.map((p,i)=>p.verb ? `<span class="gblank ${st.done?(st.ok?"ok":"bad"):""}">${st.done?esc(p.sr):"___"}</span>${p.inf&&!st.done?` <span class="ginf">(${esc(p.inf)})</span>`:""}` : `<span class="${p.unknown?"gunk":""}">${esc(i===0?capFirst(p.show):p.show)}</span>`).join(" ")}${esc(s.end||"")}</div>`;
+  const answerLine = () => `<div class="ganswer">${lbl("правильно")}<b>${esc(fullSr(s))}</b>${s.alt&&s.alt.length?`<div class="hint">Можно и так: ${s.alt.map(esc).join(" · ")}</div>`:""}${speakBtnFor(fullSr(s))}</div>`;
   const verdict = () => st.done ? `<div class="buildmsg ${st.ok?"ok":"bad"}">${st.ok?(st.close?"Почти! Проверь значки над буквами.":"Верно!"):"Не совсем."}</div>` : "";
   let body="", foot="";
   if(gs.ex==="choose"){
     body = blankSentence() + verdict() + (st.done&&!st.ok?`<div class="hint">Ты выбрала: <b>${esc(st.input)}</b></div>`:"") + (st.done?answerLine():"");
-    foot = st.done ? "" : `<div class="grades">${st.options.map(o=>`<button type="button" data-opt="${esc(o)}">${esc(o)}</button>`).join("")}</div>`;
+    foot = st.done ? "" : `<div class="grades opts${st.options.length}">${st.options.map(o=>`<button type="button" data-opt="${esc(o)}">${esc(o)}</button>`).join("")}</div>`;
   } else if(gs.ex==="typeverb"){
-    body = blankSentence() + (st.done?verdict()+(!st.ok?`<div class="hint">Ты написала: <b>${esc(st.input)}</b></div>`:"")+answerLine():`<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">впиши пропущенный глагол</label><input id="gr-in" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false"></form>`);
+    body = blankSentence() + (st.done?verdict()+(!st.ok?`<div class="hint">Ты написала: <b>${esc(st.input)}</b></div>`:"")+answerLine():`<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">впиши пропущенное слово</label><input id="gr-in" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false">${specialKeys()}</form>`);
     foot = st.done ? "" : '<button class="btn" type="submit" form="gr-form">Проверить</button>';
   } else if(gs.ex==="build"){
     const slots = st.placed.map((ti,k)=>`<button type="button" class="tile ${st.done?(st.ok?"ok":"bad"):""}" data-slot="${k}" ${st.done?"disabled":""}>${esc(st.tiles[ti].show)}</button>`).join("") || '<span class="hint">нажимай на слова снизу по порядку</span>';
@@ -589,18 +633,19 @@ function renderGrammar(){
     const gloss = parts.filter(p=>p.unknown).map(p=>`${esc(p.ru)} → <b>${esc(p.sr)}</b>`).join(", ");
     body = (gloss?`<p class="hint">Подсказка, этих слов ещё нет в карточках: ${gloss}</p>`:"") +
       (st.done ? `<div class="hint">Ты написала: ${esc(st.input)}</div>`+verdict()+answerLine()
-               : `<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">напиши предложение по-сербски</label><input id="gr-in" lang="sr" autocapitalize="sentences" autocorrect="off" spellcheck="false"></form>`);
+               : `<form id="gr-form" class="writebox" autocomplete="off"><label class="lbl" for="gr-in">напиши предложение по-сербски</label><input id="gr-in" lang="sr" autocapitalize="sentences" autocorrect="off" spellcheck="false">${specialKeys()}</form>`);
     foot = st.done ? "" : '<button class="btn ghost" id="gr-skip" type="button">Не знаю</button><button class="btn" type="submit" form="gr-form">Проверить</button>';
   }
   if(st.done) foot = '<button class="btn" id="gr-next" type="button">Дальше →</button>';
   area.innerHTML = head + `<div class="card" style="cursor:default">${ruLine}${body}</div><div class="row" style="justify-content:center;margin-top:12px">${foot}</div>`;
-  area.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>{ st.input=b.dataset.opt; finishGrammar(b.dataset.opt===st.verb); });
+  area.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>{ st.input=b.dataset.opt; finishGrammar(lc(b.dataset.opt)===lc(st.verb)); });
   const f=$("gr-form");
   if(f){
-    const inp=$("gr-in"); inp.focus();
+    const inp=$("gr-in"); inp.focus(); wireSpecial(f, inp);
     f.onsubmit=e=>{ e.preventDefault(); const v=inp.value.trim(); if(!v) return;
-      if(gs.ex==="typeverb"){ st.input=v; finishGrammar(norm(v)===st.verb); }
-      else { st.input=v; const accepted=[fullSr(s), ...(s.alt||[])]; const exact=accepted.some(a=>norm(a)===norm(v)); const close=!exact && accepted.some(a=>fold(a)===fold(v)); finishGrammar(exact||close, close); }
+      st.input=v;
+      if(gs.ex==="typeverb"){ const r=compare(v, st.verb); finishGrammar(r!=="wrong", r==="close"); }
+      else { const accepted=[fullSr(s), ...(s.alt||[])]; const exact=accepted.some(a=>norm(a)===norm(v)); const close=!exact && accepted.some(a=>fold(a)===fold(v)); finishGrammar(exact||close, close); }
     };
   }
   const sk=$("gr-skip"); if(sk) sk.onclick=()=>{ st.input="—"; finishGrammar(false); };
@@ -608,21 +653,20 @@ function renderGrammar(){
   area.querySelectorAll("[data-slot]").forEach(b=>b.onclick=()=>{ const k=+b.dataset.slot; st.tiles[st.placed[k]].used=false; st.placed.splice(k,1); renderGrammar(); });
   const cl=$("gr-clear"); if(cl) cl.onclick=()=>{ st.tiles.forEach(x=>x.used=false); st.placed=[]; renderGrammar(); };
   const ck=$("gr-check"); if(ck) ck.onclick=()=>{ const built=st.placed.map(k=>st.tiles[k].sr).join(" "); const accepted=[fullSr(s), ...(s.alt||[])]; finishGrammar(accepted.some(a=>norm(a)===norm(built))); };
+  wireSpeakBtns(area);
   const nx=$("gr-next"); if(nx){ nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
 }
 function initGrammarStep(s, ex, t){
-  const parts=sentenceParts(s), verb=parts.find(p=>p.verb).sr;
+  const parts=sentenceParts(s), bp=parts.find(p=>p.verb), verb=bp.sr;
   const st={verb, done:false, ok:false, close:false, input:""};
+  const others = blankPool(bp, t).filter(f=>lc(f)!==lc(verb));
   if(ex==="choose"){
-    const others=t.forms.filter(f=>f!==verb).sort(()=>Math.random()-.5).slice(0,2);
-    st.options=[verb, ...others].sort(()=>Math.random()-.5);
+    st.options = shuffle([lc(verb), ...shuffle(others).slice(0,2)]);
   }
   if(ex==="build"){
-    const proper = new Set(["Italijani","Moskve","Beogradu"]);
-    const tiles = parts.map((p,i)=>({sr:p.sr, show: (i===0 && !proper.has(p.sr) && !p.unknown) ? p.show.toLowerCase() : p.show, used:false}));
-    const extra = t.forms.filter(f=>f!==verb)[Math.floor(Math.random()*(t.forms.length-1))];
-    tiles.push({sr:extra, show:extra, used:false});
-    st.tiles = tiles.sort(()=>Math.random()-.5); st.placed=[];
+    const tiles = parts.map((p,i)=>({sr:p.sr, show: (i===0 && !PROPER.has(p.sr) && !p.unknown) ? p.show.toLowerCase() : p.show, used:false}));
+    if(others.length){ const extra=others[Math.floor(Math.random()*others.length)]; tiles.push({sr:extra, show:extra, used:false}); }
+    st.tiles = shuffle(tiles); st.placed=[];
   }
   return st;
 }
@@ -630,8 +674,252 @@ function finishGrammar(ok, close=false){
   const st=gs.st; st.done=true; st.ok=ok; st.close=close; gs.total++; if(ok) gs.right++;
   renderGrammar();
 }
-$("g-topic").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
+// special letters under text inputs
+const specialKeys = () => `<div class="row special">${["č","ć","š","ž","đ","dž"].map(c=>`<button type="button" class="tile sm" data-ins="${c}">${c}</button>`).join("")}</div>`;
+function wireSpecial(scope, inp){
+  scope.querySelectorAll("[data-ins]").forEach(b=>b.onclick=()=>{
+    const s0=inp.selectionStart, s1=inp.selectionEnd, t=b.dataset.ins;
+    inp.value=inp.value.slice(0,s0)+t+inp.value.slice(s1);
+    inp.focus(); inp.setSelectionRange(s0+t.length, s0+t.length);
+  });
+}
+const speakBtnFor = text => canSpeak(text) ? `<button class="speak" type="button" data-say="${esc(text)}">▶ Послушать</button>` : "";
+function wireSpeakBtns(scope){ scope.querySelectorAll("[data-say]").forEach(b=>b.onclick=e=>{ e.stopPropagation(); speak(b.dataset.say, b); }); }
+
+// prezent: all six forms of one verb
+function renderTable(area, head, item){
+  const w=verbWord(item.verb);
+  if(!gs.st) gs.st={inputs:["","","","","",""], res:null, done:false};
+  const st=gs.st;
+  const rows=PRON.map((p,i)=>{
+    const r=st.res&&st.res[i];
+    return `<label class="trow"><span class="tpron">${p}</span>${st.done
+      ? `<span class="tans ${r==="wrong"?"bad":"ok"}">${r==="wrong"?`<s>${esc(st.inputs[i]||"—")}</s> `:""}<b>${esc(w.forms[i])}</b></span>`
+      : `<input data-i="${i}" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false" value="${esc(st.inputs[i])}">`}</label>`;
+  }).join("");
+  const nOk = st.res ? st.res.filter(r=>r!=="wrong").length : 0;
+  area.innerHTML = head + `<div class="card" style="cursor:default">
+      <div class="trans-wrap">${lbl("глагол")}<div class="word" lang="sr-Latn" style="font-size:30px">${esc(w.sr)}</div><div class="hint">${esc(w.ru)}</div></div>
+      <form id="tb-form" class="ttable" autocomplete="off">${rows}${st.done?"":specialKeys()}</form>
+      ${st.done?`<div class="buildmsg ${nOk===6?"ok":"bad"}">${nOk===6?"Все 6 форм верно!":"Верно "+nOk+" из 6."}</div>${w.note?`<div class="hint">${esc(w.note)}</div>`:""}`:""}
+    </div>
+    <div class="row" style="justify-content:center;margin-top:12px">${st.done?'<button class="btn" id="gr-next" type="button">Дальше →</button>':'<button class="btn" type="submit" form="tb-form">Проверить</button>'}</div>`;
+  const f=$("tb-form");
+  if(!st.done){
+    const ins=[...f.querySelectorAll("input")]; ins[0].focus();
+    let last=ins[0];
+    ins.forEach(inp=>{ inp.onfocus=()=>{ last=inp; }; inp.oninput=()=>{ st.inputs[+inp.dataset.i]=inp.value; }; });
+    f.querySelectorAll("[data-ins]").forEach(b=>{ b.onmousedown=e=>e.preventDefault(); b.onclick=()=>{
+      const inp=last, s0=inp.selectionStart, s1=inp.selectionEnd, t=b.dataset.ins;
+      inp.value=inp.value.slice(0,s0)+t+inp.value.slice(s1); st.inputs[+inp.dataset.i]=inp.value; inp.focus(); inp.setSelectionRange(s0+t.length,s0+t.length); }; });
+    f.onsubmit=e=>{ e.preventDefault();
+      st.res=w.forms.map((form,i)=>{ const r=compare(st.inputs[i], form.replace(/ se$/,"")); const r2=compare(st.inputs[i], form); return r2==="exact"||r==="exact"?"exact":(r2==="close"||r==="close")?"close":"wrong"; });
+      st.done=true; gs.total++; if(st.res.every(r=>r!=="wrong")) gs.right++; renderGrammar();
+    };
+  } else { const nx=$("gr-next"); nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
+}
+
+// mnozina: gender and plural
+const GNAME = {m:"мужской род", f:"женский род", n:"средний род"};
+function genderWhy(it){
+  const s=lc(it.sg);
+  if(it.g==="m") return /[aoe]$/.test(s) ? "Мужской род, хотя оканчивается на гласную. Это слово надо запомнить." : "Оканчивается на согласную — мужской род.";
+  if(it.g==="f") return /a$/.test(s) ? "Оканчивается на -a — женский род." : /ost$/.test(s) ? "Все слова на -ost — женского рода." : "Женский род, хотя на согласную. Это слово надо запомнить.";
+  return /[oe]$/.test(s) ? "Оканчивается на -o или -e — средний род." : "Средний род, хотя на -a. Это слово надо запомнить.";
+}
+const PL_EXC = new Set(["dani","sati","psi","konji","zubi","ljudi","deca","prasad","dugmad","braća","imena","ramena","semena","tate","dede","sudije","taksisti"]);
+function pluralWhy(it){
+  const s=lc(it.sg), p=lc(it.pl);
+  if(["dani","sati","psi","konji","zubi","ljudi","deca","prasad","dugmad","braća"].includes(p)) return "Исключение — запомни.";
+  if(/(ime|rame|seme)$/.test(s)) return "Ср. р. на -me: +na → -mena.";
+  if(it.g==="m" && /a$/.test(s)) return "Мужской род на -a меняется как женский: -a → -e (-ista → -isti).";
+  if(it.g==="m" && /ao$/.test(s)) return "-ao → -lovi.";
+  if(it.g==="m" && /evi$/.test(p)) return "Короткое слово после мягкой согласной: +evi.";
+  if(it.g==="m" && /ovi$/.test(p)) return "Короткое слово (1 слог): +ovi.";
+  if(it.g==="m") return "Мужской род: +i.";
+  if(it.g==="f" && /a$/.test(s)) return "Женский род на -a: -a → -e.";
+  if(it.g==="f") return "Женский род на согласную: +i.";
+  return "Средний род: -o / -e → -a.";
+}
+function plCands(it){
+  const s=it.sg, l=lc(s), c=[];
+  if(it.g==="m"){ if(/a$/.test(l)) c.push(s.slice(0,-1)+"e", s.slice(0,-1)+"i", s+"ovi"); else if(/ao$/.test(l)) c.push(s.slice(0,-1)+"i", s+"ovi", s.slice(0,-2)+"ovi"); else c.push(s+"i", s+"ovi", s+"evi", s+"e"); }
+  else if(it.g==="f"){ if(/a$/.test(l)) c.push(s.slice(0,-1)+"e", s.slice(0,-1)+"i", s+"i"); else c.push(s+"i", s+"e", s+"ovi"); }
+  else { const st=s.slice(0,-1); c.push(st+"a", st+"i", s+"na", st+"ovi"); }
+  return c;
+}
+function renderPlural(area, head, it){
+  if(!gs.st){ const others=shuffle([...new Set(plCands(it))].filter(x=>lc(x)!==lc(it.pl) && lc(x)!==lc(it.sg))).slice(0,2); gs.st={done:false, ok:false, input:"", options:shuffle([it.pl, ...others])}; }
+  const st=gs.st, w=words.find(x=>lc(x.sr)===lc(it.sg));
+  const after = st.done ? `<div class="buildmsg ${st.ok?"ok":"bad"}">${st.ok?(st.close?"Почти! Проверь значки над буквами.":"Верно!"):"Не совсем."}</div>
+      ${!st.ok&&st.input?`<div class="hint">Ты ответила: <b>${esc(st.input)}</b></div>`:""}
+      <div class="ganswer">${lbl("мн. ч.")}<b>${esc(it.pl)}</b><div class="hint">${esc(pluralWhy(it))}</div></div>` : "";
+  let foot="";
+  if(st.done) foot='<button class="btn" id="gr-next" type="button">Дальше →</button>';
+  else if(gs.ex==="plchoose") foot=`<div class="grades opts3">${st.options.map(o=>`<button type="button" data-opt="${esc(o)}">${esc(o)}</button>`).join("")}</div>`;
+  else foot='<button class="btn" type="submit" form="pl-form">Проверить</button>';
+  area.innerHTML = head + `<div class="card" style="cursor:default">
+      <div class="trans-wrap">${lbl("одно")}<div class="word" lang="sr-Latn">${esc(it.sg)}</div><div class="cyr" lang="sr-Cyrl">${esc(toCyr(it.sg))}</div>${w?`<div class="hint">${esc(w.ru)}</div>`:""}<span class="gchip g-${it.g}">${GL[it.g]}</span></div>
+      ${!st.done&&gs.ex==="pltype"?`<form id="pl-form" class="writebox" autocomplete="off"><label class="lbl" for="pl-in">много — напиши мн. ч.</label><input id="pl-in" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false">${specialKeys()}</form>`:""}
+      ${after}
+    </div><div class="row" style="justify-content:center;margin-top:12px">${foot}</div>`;
+  const fin=(ok,close,inp)=>{ st.done=true; st.ok=ok; st.close=close; st.input=inp; gs.total++; if(ok) gs.right++; renderGrammar(); };
+  area.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>fin(b.dataset.opt===it.pl,false,b.dataset.opt));
+  const f=$("pl-form"); if(f){ const inp=$("pl-in"); inp.focus(); wireSpecial(f, inp); f.onsubmit=e=>{ e.preventDefault(); if(!inp.value.trim()) return; const r=compare(inp.value, it.pl); fin(r!=="wrong", r==="close", inp.value.trim()); }; }
+  const nx=$("gr-next"); if(nx){ nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
+}
+function renderGGender(area, head, it){
+  if(!gs.st) gs.st={picked:null};
+  const st=gs.st, w=words.find(x=>lc(x.sr)===lc(it.sg)), done=st.picked!==null;
+  area.innerHTML = head + `<div class="card" style="cursor:default">
+      <div class="word" lang="sr-Latn">${esc(it.sg)}</div><div class="cyr" lang="sr-Cyrl">${esc(toCyr(it.sg))}</div>
+      ${done?`<div class="buildmsg ${st.picked===it.g?"ok":"bad"}">${st.picked===it.g?"Верно!":"Нет, это "+GNAME[it.g]+"."}</div><div class="hint">${esc(genderWhy(it))}</div>${w?`<div class="hint">${esc(w.ru)}${it.pl?" · мн. ч. "+esc(it.pl):""}</div>`:""}`:""}
+    </div>
+    <div class="grades opts3" style="margin-top:12px">${["m","f","n"].map(g=>`<button type="button" data-g="${g}" class="${done?(g===it.g?"g2":g===st.picked?"g0":""):""}" ${done?"disabled":""}>${GL[g]}</button>`).join("")}</div>
+    ${done?'<div class="row" style="justify-content:center;margin-top:12px"><button class="btn" id="gr-next" type="button">Дальше →</button></div>':""}`;
+  area.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{ st.picked=b.dataset.g; gs.total++; if(st.picked===it.g) gs.right++; renderGrammar(); });
+  const nx=$("gr-next"); if(nx){ nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
+}
+$("g-topic").addEventListener("change", ()=>{ fillGex(grammarTopic()); gs=null; renderGrammar(); });
 $("g-ex").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
+
+// ---------- listening ----------
+let ls = null; // {id, mode, showSr, showRu, revealed:Set, rate, q:{answers}, d:{i, input, res, right}}
+let seqToken = 0;
+function speakAsync(text, rate){
+  return new Promise(res=>{
+    const file=audioMap[text];
+    if(file){
+      player.src="audio/"+file; player.playbackRate=rate||1; player.currentTime=0;
+      const done=()=>{ player.removeEventListener("ended",done); player.removeEventListener("error",done); player.removeEventListener("pause",done); res(); };
+      player.addEventListener("ended",done); player.addEventListener("error",done); player.addEventListener("pause",done);
+      player.play().catch(done); return;
+    }
+    try{ speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(text); u.lang="sr-RS"; u.rate=0.85*(rate||1);
+      const v=synthVoice(); if(v){ u.voice=v; u.lang=v.lang; } u.onend=u.onerror=()=>res(); speechSynthesis.speak(u); }catch(e){ res(); }
+  });
+}
+function stopAudio(){ seqToken++; try{ player.pause(); }catch(e){} try{ speechSynthesis.cancel(); }catch(e){} document.querySelectorAll(".lsent.playing").forEach(el=>el.classList.remove("playing")); const pa=$("l-playall"); if(pa) pa.textContent="▶ Весь текст"; }
+async function playSentences(list, from){
+  const my=++seqToken;
+  const pa=$("l-playall"); if(pa) pa.textContent="⏹ Стоп";
+  for(let i=from||0;i<list.length;i++){
+    if(my!==seqToken) return;
+    document.querySelectorAll(".lsent").forEach(el=>el.classList.toggle("playing", +el.dataset.i===i));
+    await speakAsync(list[i].sr, ls.rate);
+    if(my!==seqToken) return;
+    await new Promise(r=>setTimeout(r, 450));
+  }
+  if(my===seqToken) stopAudio();
+}
+const playing = () => { const pa=$("l-playall"); return pa && pa.textContent.startsWith("⏹"); };
+function curText(){ const ts=listening.texts||[]; return ts.find(t=>t.id===$("l-text").value) || ts[0]; }
+function newListen(t){ return {id:t.id, mode:$("l-mode").value, showSr:false, showRu:false, revealed:new Set(), rate:ls?ls.rate:1,
+  q:{answers:{}, order:t.questions.map(q=>shuffle(q.options.map((o,i)=>i)))}, d:{i:0, input:"", res:null, right:0}}; }
+function renderListen(){
+  const area=$("listen-area");
+  if(!loaded){ area.innerHTML='<p class="hint">Загружаю…</p>'; return; }
+  const ts=listening.texts||[];
+  if(!ts.length){ area.innerHTML='<p class="hint">Тексты не загрузились. Нажми «Обновить».</p>'; return; }
+  const sel=$("l-text");
+  if(!sel.options.length){
+    const groups=[...new Set(ts.map(t=>t.lesson))];
+    sel.innerHTML=groups.map(g=>`<optgroup label="${esc(g)}">${ts.filter(t=>t.lesson===g).map(t=>`<option value="${esc(t.id)}">${esc(t.title)}</option>`).join("")}</optgroup>`).join("");
+  }
+  const t=curText();
+  if(!ls || ls.id!==t.id || ls.mode!==$("l-mode").value){ stopAudio(); ls=newListen(t); }
+  const rateBtn = `<button class="speak" id="l-rate" type="button" title="Скорость">${ls.rate===1?"Скорость 1×":"Медленнее 0,75×"}</button>`;
+  if(ls.mode==="listen"){
+    area.innerHTML = `<div class="card listen" style="cursor:default">
+      <span class="lesson">${esc(t.lesson)}</span>
+      <h2>${esc(t.title)}</h2>
+      <div class="row" style="justify-content:center"><button class="btn" id="l-playall" type="button">▶ Весь текст</button>${rateBtn}</div>
+      <div class="row" style="justify-content:center">
+        <label class="tog"><input type="checkbox" id="l-sr" ${ls.showSr?"checked":""}> Текст</label>
+        <label class="tog"><input type="checkbox" id="l-ru" ${ls.showRu?"checked":""}> Перевод</label>
+      </div>
+      <ol class="lsents">${t.sentences.map((s,i)=>{ const vis=ls.showSr||ls.revealed.has(i); return `<li class="lsent" data-i="${i}">
+        <button class="speak sm" type="button" data-play="${i}" aria-label="Послушать предложение ${i+1}">▶</button>
+        <div class="ltext">${vis?`<span lang="sr-Latn">${esc(s.sr)}</span>`:`<button type="button" class="lhide" data-reveal="${i}">показать</button>`}
+        ${ls.showRu?`<span class="hint">${esc(s.ru)}</span>`:""}</div></li>`; }).join("")}</ol>
+      <p class="hint">Сначала послушай без текста. Потом включи текст и перевод и проверь себя. Дальше — «Вопросы» и «Диктант».</p>
+    </div>`;
+    $("l-sr").onchange=e=>{ ls.showSr=e.target.checked; renderListen(); };
+    $("l-ru").onchange=e=>{ ls.showRu=e.target.checked; renderListen(); };
+    area.querySelectorAll("[data-reveal]").forEach(b=>b.onclick=()=>{ ls.revealed.add(+b.dataset.reveal); renderListen(); });
+    area.querySelectorAll("[data-play]").forEach(b=>b.onclick=()=>{ stopAudio(); const i=+b.dataset.play; seqToken++; const my=seqToken;
+      document.querySelectorAll(".lsent").forEach(el=>el.classList.toggle("playing", +el.dataset.i===i));
+      speakAsync(t.sentences[i].sr, ls.rate).then(()=>{ if(my===seqToken) document.querySelectorAll(".lsent").forEach(el=>el.classList.remove("playing")); }); });
+    $("l-playall").onclick=()=>{ if(playing()) stopAudio(); else playSentences(t.sentences, 0); };
+  } else if(ls.mode==="quiz"){
+    const answered=Object.keys(ls.q.answers).length, right=t.questions.filter((q,i)=>ls.q.answers[i]===q.answer).length;
+    const all=answered===t.questions.length;
+    area.innerHTML = `<div class="card listen" style="cursor:default">
+      <span class="lesson">${esc(t.lesson)}</span>
+      <h2>${esc(t.title)}</h2>
+      <div class="row" style="justify-content:center"><button class="btn" id="l-playall" type="button">▶ Весь текст</button>${rateBtn}</div>
+      <p class="hint">Послушай текст (можно несколько раз) и ответь на вопросы.</p>
+      <div class="lqs">${t.questions.map((q,i)=>{ const a=ls.q.answers[i]; return `<div class="lq"><b>${i+1}. ${esc(q.q)}</b>
+        <div class="lopts">${ls.q.order[i].map(oi=>`<button type="button" data-q="${i}" data-o="${oi}" class="${a===undefined?"":oi===q.answer?"ok":oi===a?"bad":""}" ${a===undefined?"":"disabled"}>${esc(q.options[oi])}</button>`).join("")}</div></div>`; }).join("")}</div>
+      ${all?`<div class="buildmsg ${right===t.questions.length?"ok":"bad"}">Верно ${right} из ${t.questions.length}</div>
+        <details class="rulebox" style="width:100%;text-align:left"><summary>Текст и перевод</summary>${t.sentences.map(s=>`<p><span lang="sr-Latn">${esc(s.sr)}</span><br><span class="hint">${esc(s.ru)}</span></p>`).join("")}</details>
+        <button class="btn ghost" id="l-again" type="button">Ещё раз</button>`:""}
+    </div>`;
+    area.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{ ls.q.answers[+b.dataset.q]=+b.dataset.o; renderListen(); });
+    $("l-playall").onclick=()=>{ if(playing()) stopAudio(); else playSentences(t.sentences, 0); };
+    const ag=$("l-again"); if(ag) ag.onclick=()=>{ ls=newListen(t); renderListen(); };
+  } else {
+    const d=ls.d;
+    if(d.i>=t.sentences.length){
+      area.innerHTML=`<div class="empty"><h2>Диктант: ${d.right} из ${t.sentences.length}</h2><button class="btn" id="l-again" type="button">Ещё раз</button></div>`;
+      $("l-again").onclick=()=>{ ls=newListen(t); renderListen(); }; return;
+    }
+    const s=t.sentences[d.i];
+    const msg = !d.res ? "" : d.res==="exact" ? "Верно!" : d.res==="close" ? "Почти! Проверь значки над буквами." : "Не совсем. Сравни:";
+    area.innerHTML = `<p class="meter"><span>Предложение <b>${d.i+1}</b> из ${t.sentences.length}</span><span>Верно <b>${d.right}</b></span></p>
+      <div class="card" style="cursor:default">
+        <span class="lesson">${esc(t.title)}</span>
+        <div class="row" style="justify-content:center"><button class="btn" id="d-play" type="button">▶ Слушать</button><button class="speak" id="d-slow" type="button">🐢 Медленно</button></div>
+        ${d.res ? `<div class="hint">Ты написала: ${esc(d.input)}</div><div class="buildmsg ${d.res==="wrong"?"bad":"ok"}">${msg}</div>
+          <div class="ganswer">${lbl("правильно")}<b lang="sr-Latn">${esc(s.sr)}</b><span class="hint">${esc(s.ru)}</span></div>`
+        : `<form id="d-form" class="writebox wide" autocomplete="off"><label class="lbl" for="d-in">напиши, что услышала (латиницей или кириллицей)</label><input id="d-in" lang="sr" autocapitalize="sentences" autocorrect="off" spellcheck="false">${specialKeys()}</form>`}
+      </div>
+      <div class="row" style="justify-content:center;margin-top:12px">${d.res?'<button class="btn" id="d-next" type="button">Дальше →</button>':'<button class="btn ghost" id="d-skip" type="button">Не знаю</button><button class="btn" type="submit" form="d-form">Проверить</button>'}</div>`;
+    $("d-play").onclick=()=>{ stopAudio(); speakAsync(s.sr, 1); };
+    $("d-slow").onclick=()=>{ stopAudio(); speakAsync(s.sr, 0.75); };
+    const f=$("d-form");
+    if(f){ const inp=$("d-in"); inp.focus(); wireSpecial(f, inp);
+      f.onsubmit=e=>{ e.preventDefault(); if(!inp.value.trim()) return; d.input=inp.value.trim(); d.res=compare(d.input, s.sr); if(d.res!=="wrong") d.right++; renderListen(); };
+      $("d-skip").onclick=()=>{ d.input="—"; d.res="wrong"; renderListen(); };
+      if(d.autoplay!==d.i){ d.autoplay=d.i; speakAsync(s.sr, 1); }
+    }
+    const nx=$("d-next"); if(nx){ nx.onclick=()=>{ d.i++; d.res=null; d.input=""; renderListen(); }; nx.focus(); }
+  }
+  const rb=$("l-rate"); if(rb) rb.onclick=()=>{ ls.rate = ls.rate===1 ? 0.75 : 1; renderListen(); };
+}
+$("l-text").addEventListener("change", ()=>{ ls=null; renderListen(); });
+$("l-mode").addEventListener("change", ()=>{ ls=null; renderListen(); });
+
+// ---------- refresh: new words, exercises and app version ----------
+async function refreshApp(){
+  const b=$("refresh"); b.disabled=true; b.textContent="Обновляю…";
+  try{ if(dirty) await flush(); }catch(e){}
+  try{ const reg=navigator.serviceWorker && await navigator.serviceWorker.getRegistration(); if(reg) await reg.update(); }catch(e){}
+  try{ for(const k of await caches.keys()){ const c=await caches.open(k); for(const req of await c.keys()){ if(!/\/audio\/[^/]+\.mp3$/.test(new URL(req.url).pathname)) await c.delete(req); } } }catch(e){}
+  location.reload();
+}
+$("refresh").onclick=refreshApp;
+async function checkVersion(){
+  const mine=(document.querySelector('meta[name="app-version"]')||{}).content;
+  if(!mine || mine==="dev") return;
+  try{
+    const r=await fetch("version.txt?t="+Date.now(), {cache:"no-store"}); if(!r.ok) return;
+    const v=(await r.text()).trim();
+    $("refresh").classList.toggle("has-update", !!v && v!==mine);
+    $("refresh").title = v && v!==mine ? "Есть новая версия — нажми, чтобы обновить" : "Подтянуть новые слова и упражнения";
+  }catch(e){}
+}
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible") checkVersion(); });
 
 // ---------- install as app ----------
 (function(){
@@ -662,7 +950,8 @@ $("g-ex").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
     const [wr, ar] = await Promise.all([
       fetch("words.json?v="+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }),
       fetch("audio/index.json?v="+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({})),
-      fetch("grammar.json?v="+Date.now()).then(r=>r.ok?r.json():{topics:[]}).then(g=>{ grammar=g; }).catch(()=>{})
+      fetch("grammar.json?v="+Date.now()).then(r=>r.ok?r.json():{topics:[]}).then(g=>{ grammar=g; }).catch(()=>{}),
+      fetch("listening.json?v="+Date.now()).then(r=>r.ok?r.json():{texts:[]}).then(l=>{ listening=l; }).catch(()=>{})
     ]);
     words = wr.filter(w=>w.sr&&w.ru); audioMap = ar||{};
   }catch(e){ $("status").textContent="Не удалось загрузить слова. Обнови страницу."; return; }
@@ -671,6 +960,7 @@ $("g-ex").addEventListener("change", ()=>{ gs=null; renderGrammar(); });
   loaded=true;
   $("status").textContent = words.length+" слов";
   setSync(SB?"":"");
-  fillLessonSelect(); buildQueue(); render();
+  fillLessonSelect(); fillTopicSelect(); buildQueue(); render();
+  checkVersion();
 })();
 })();

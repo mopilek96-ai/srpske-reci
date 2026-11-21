@@ -1,0 +1,613 @@
+{
+ "texts": [
+  {
+   "id": "nikola",
+   "title": "Никола",
+   "lesson": "Урок 5 · Prezent",
+   "sentences": [
+    {
+     "sr": "Ćao! Zovem se Nikola.",
+     "ru": "Привет! Меня зовут Никола."
+    },
+    {
+     "sr": "Živim u Kuli, Srbiji.",
+     "ru": "Я живу в Куле, в Сербии."
+    },
+    {
+     "sr": "Volim da igram fudbal, da pevam.",
+     "ru": "Люблю играть в футбол, петь."
+    },
+    {
+     "sr": "Moja porodica često putuje.",
+     "ru": "Моя семья часто путешествует."
+    },
+    {
+     "sr": "Obično idemo u Grčku.",
+     "ru": "Обычно мы ездим в Грецию."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Где живёт Никола?",
+     "options": [
+      "в Куле",
+      "в Белграде",
+      "в Суботице"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что любит Никола?",
+     "options": [
+      "играть в футбол и петь",
+      "готовить",
+      "гулять в горах"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Куда обычно ездит его семья?",
+     "options": [
+      "в Грецию",
+      "в горы",
+      "в деревню"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "selma",
+   "title": "Сельма",
+   "lesson": "Урок 5 · Prezent",
+   "sentences": [
+    {
+     "sr": "De si! Ja sam Selma, iz Novog Pazara sam.",
+     "ru": "Привет! Я Сельма, я из Нови-Пазара."
+    },
+    {
+     "sr": "Pored mog grada ima mnogo lepih planina.",
+     "ru": "Рядом с моим городом много красивых гор."
+    },
+    {
+     "sr": "Često šetam po njima.",
+     "ru": "Я часто по ним гуляю."
+    },
+    {
+     "sr": "Sa mnom ide i moj pas Soni.",
+     "ru": "Со мной ходит и мой пёс Сони."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Откуда Сельма?",
+     "options": [
+      "из Нови-Пазара",
+      "из Кулы",
+      "из Суботицы"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что рядом с её городом?",
+     "options": [
+      "горы",
+      "море",
+      "озеро"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Кто гуляет вместе с ней?",
+     "options": [
+      "её собака",
+      "её брат",
+      "её подруга"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "istvan",
+   "title": "Иштван",
+   "lesson": "Урок 5 · Prezent",
+   "sentences": [
+    {
+     "sr": "Ovo je Ištvan.",
+     "ru": "Это Иштван."
+    },
+    {
+     "sr": "On živi u Subotici i radi kao pravnik.",
+     "ru": "Он живёт в Суботице и работает юристом."
+    },
+    {
+     "sr": "Ima vikendicu u selu.",
+     "ru": "У него есть дача в деревне."
+    },
+    {
+     "sr": "Voli da ide tamo sa ženom.",
+     "ru": "Он любит ездить туда с женой."
+    },
+    {
+     "sr": "Tamo zajedno provode vreme, odmaraju i šetaju.",
+     "ru": "Там они вместе проводят время, отдыхают и гуляют."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Кем работает Иштван?",
+     "options": [
+      "юристом",
+      "преподавателем",
+      "врачом"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что у него есть в деревне?",
+     "options": [
+      "дача",
+      "ресторан",
+      "пекарня"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "С кем он туда ездит?",
+     "options": [
+      "с женой",
+      "с сыном",
+      "с друзьями"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "bojan",
+   "title": "Боян и Сандра",
+   "lesson": "Урок 5 · Prezent",
+   "sentences": [
+    {
+     "sr": "Ovo su Bojan i Sandra.",
+     "ru": "Это Боян и Сандра."
+    },
+    {
+     "sr": "Oni su profesori.",
+     "ru": "Они преподаватели."
+    },
+    {
+     "sr": "Ponekad idu u pozorište zajedno.",
+     "ru": "Иногда они вместе ходят в театр."
+    },
+    {
+     "sr": "Takođe često idu u parkove ili šetaju kod reke.",
+     "ru": "А ещё часто ходят в парки или гуляют у реки."
+    },
+    {
+     "sr": "Žive zajedno.",
+     "ru": "Они живут вместе."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Кто они?",
+     "options": [
+      "преподаватели",
+      "студенты",
+      "юристы"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Куда они иногда ходят?",
+     "options": [
+      "в театр",
+      "в ресторан",
+      "в зоопарк"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Где они гуляют?",
+     "options": [
+      "у реки",
+      "в горах",
+      "у моря"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "mihajlo",
+   "title": "День Михайло",
+   "lesson": "Урок 5 · Prezent",
+   "sentences": [
+    {
+     "sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
+     "ru": "Михайло каждый день встаёт в 9 утра."
+    },
+    {
+     "sr": "Pere zube.",
+     "ru": "Чистит зубы."
+    },
+    {
+     "sr": "Ide do pekare da kupi burek.",
+     "ru": "Идёт в пекарню купить бурек."
+    },
+    {
+     "sr": "Doručkuje.",
+     "ru": "Завтракает."
+    },
+    {
+     "sr": "Ide do grada.",
+     "ru": "Едет в город."
+    },
+    {
+     "sr": "U gradu sreće svoje drugare.",
+     "ru": "В городе встречает своих друзей."
+    },
+    {
+     "sr": "Zajedno idu u pozorište.",
+     "ru": "Вместе идут в театр."
+    },
+    {
+     "sr": "Posle pozorišta Mihajlo, Đurđa i Veljko idu zajedno na kafu.",
+     "ru": "После театра Михайло, Джурджа и Велько вместе идут на кофе."
+    },
+    {
+     "sr": "Uveče Mihajlo mora da ide kući.",
+     "ru": "Вечером Михайло должен идти домой."
+    },
+    {
+     "sr": "Majka vozi njega do kuće.",
+     "ru": "Мама везёт его домой."
+    },
+    {
+     "sr": "Cela porodica večera.",
+     "ru": "Вся семья ужинает."
+    },
+    {
+     "sr": "Svi idu da spavaju.",
+     "ru": "Все идут спать."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Во сколько встаёт Михайло?",
+     "options": [
+      "в 9 утра",
+      "в 7 утра",
+      "в 8 утра"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что он покупает в пекарне?",
+     "options": [
+      "бурек",
+      "хлеб",
+      "кофе"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Куда он идёт с друзьями?",
+     "options": [
+      "в театр",
+      "в парк",
+      "в зоопарк"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Кто везёт его домой?",
+     "options": [
+      "мама",
+      "папа",
+      "друг"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme1",
+   "title": "Kako je napolju? · 1",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Kada pogledam kroz prozor, sve što vidim su oblaci.",
+     "ru": "Когда я смотрю в окно, я вижу одни облака."
+    },
+    {
+     "sr": "Tmurno je i ja sam baš loše raspoložena.",
+     "ru": "Пасмурно, и у меня совсем плохое настроение."
+    },
+    {
+     "sr": "Možda će uskoro pasti kiša.",
+     "ru": "Может быть, скоро пойдёт дождь."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "облачно, пасмурно",
+      "ясно и тепло",
+      "идёт снег"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Какое у неё настроение?",
+     "options": [
+      "плохое",
+      "отличное",
+      "весёлое"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme2",
+   "title": "Kako je napolju? · 2",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Sunce sija i napolju je vedro.",
+     "ru": "Светит солнце, на улице ясно."
+    },
+    {
+     "sr": "Toplo je i nema nijednog oblaka na nebu.",
+     "ru": "Тепло, и на небе ни одного облака."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "ясно и тепло",
+      "дождь",
+      "туман"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Есть ли на небе облака?",
+     "options": [
+      "ни одного",
+      "очень много",
+      "одно большое"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme3",
+   "title": "Kako je napolju? · 3",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Pljusak je napolju, tmurno je i hladno.",
+     "ru": "На улице ливень, пасмурно и холодно."
+    },
+    {
+     "sr": "Htela sam da idem u šetnju, ali to je nemoguće sad.",
+     "ru": "Я хотела пойти на прогулку, но сейчас это невозможно."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "ливень и холодно",
+      "солнечно",
+      "ветрено"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что она хотела сделать?",
+     "options": [
+      "пойти на прогулку",
+      "поехать на машине",
+      "поспать"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme4",
+   "title": "Kako je napolju? · 4",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Kada sam izašla napolje, videla sam samo veliki beli pokrivač.",
+     "ru": "Когда я вышла на улицу, я увидела только большое белое покрывало."
+    },
+    {
+     "sr": "Pahulje padaju po meni i jako je hladno.",
+     "ru": "На меня падают снежинки, и очень холодно."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "снег",
+      "дождь",
+      "туман"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что на неё падает?",
+     "options": [
+      "снежинки",
+      "листья",
+      "капли дождя"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme5",
+   "title": "Kako je napolju? · 5",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Trenutno toliko duva vetar da se drveće savija i stvari lete po vazduhu.",
+     "ru": "Сейчас так дует ветер, что деревья гнутся, а вещи летают по воздуху."
+    },
+    {
+     "sr": "Vetar je mnogo brz i hladan.",
+     "ru": "Ветер очень быстрый и холодный."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "сильный ветер",
+      "жара",
+      "туман"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Какой ветер?",
+     "options": [
+      "быстрый и холодный",
+      "тёплый и слабый",
+      "ветра нет"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "vreme6",
+   "title": "Kako je napolju? · 6",
+   "lesson": "Урок · Vreme",
+   "sentences": [
+    {
+     "sr": "Ne mogu da vozim auto jer se napolju ništa ne vidi.",
+     "ru": "Я не могу вести машину, потому что на улице ничего не видно."
+    },
+    {
+     "sr": "Vidljivost je samo 5 metara i stvarno se plašim da idem bilo gde po ovom vremenu.",
+     "ru": "Видимость всего 5 метров, и мне правда страшно куда-либо ехать в такую погоду."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Какая погода?",
+     "options": [
+      "туман",
+      "снег",
+      "ясно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Почему она не может ехать на машине?",
+     "options": [
+      "ничего не видно",
+      "машина сломалась",
+      "идёт ливень"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Какая видимость?",
+     "options": [
+      "5 метров",
+      "50 метров",
+      "500 метров"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "odeca",
+   "title": "Летний гардероб",
+   "lesson": "Урок 24 · Odeća",
+   "sentences": [
+    {
+     "sr": "Kada dolazi leto volim da obnavljam svoju garderobu.",
+     "ru": "Когда приходит лето, я люблю обновлять свой гардероб."
+    },
+    {
+     "sr": "Gore više ne nosim debeli duks sa kapuljačom, a dole tople pantalone.",
+     "ru": "Сверху я больше не ношу толстую толстовку с капюшоном, а снизу — тёплые брюки."
+    },
+    {
+     "sr": "Stavim u ormar zimske čizme koje su mi grele noge zimi.",
+     "ru": "Убираю в шкаф зимние сапоги, которые грели мне ноги зимой."
+    },
+    {
+     "sr": "Sada idem u prodavnicu i kupujem lepu majicu sa dinosaurusom.",
+     "ru": "Теперь я иду в магазин и покупаю красивую футболку с динозавром."
+    },
+    {
+     "sr": "Treba mi i nešto novo da nosim dole, zato kupujem i šorts.",
+     "ru": "Мне нужно и что-то новое вниз, поэтому покупаю и шорты."
+    },
+    {
+     "sr": "Za večere u restoranima mi treba i nova košulja.",
+     "ru": "Для ужинов в ресторанах мне нужна и новая рубашка."
+    },
+    {
+     "sr": "Jedva čekam da nosim svu svoju novu odeću.",
+     "ru": "Жду не дождусь, когда надену всю свою новую одежду."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Когда она обновляет гардероб?",
+     "options": [
+      "летом",
+      "зимой",
+      "осенью"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что она убирает в шкаф?",
+     "options": [
+      "зимние сапоги",
+      "шорты",
+      "платье"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Какую футболку она покупает?",
+     "options": [
+      "с динозавром",
+      "чёрную",
+      "с котом"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Зачем ей новая рубашка?",
+     "options": [
+      "для ужинов в ресторанах",
+      "для работы",
+      "для театра"
+     ],
+     "answer": 0
+    }
+   ]
+  }
+ ]
+}

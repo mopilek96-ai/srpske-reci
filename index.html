@@ -13,6 +13,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Сербские карточки</title>
 <meta name="robots" content="noindex">
+<meta name="app-version" content="dev">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap" rel="stylesheet">
@@ -152,6 +153,40 @@ select{flex:1;min-width:140px}
 .gbuild{min-height:48px;width:100%}
 .slots .tile.ok{border-color:var(--good);color:var(--good)} .slots .tile.bad{border-color:var(--bad);color:var(--bad)}
 nav button{font-size:14px}
+@media (max-width:460px){nav button{font-size:13px;padding:9px 2px}}
+.refresh{margin-top:4px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 12px;font:600 13px var(--body);cursor:pointer;position:relative}
+.refresh.has-update{border-color:var(--accent);color:var(--accent)}
+.refresh.has-update::after{content:"";position:absolute;top:-2px;right:-2px;width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.plchip{font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+.forms{width:100%;margin-top:4px}
+.fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 10px;font-size:15px}
+.fgrid i{font-style:normal;color:var(--muted);font-size:12px}
+.ginf{color:var(--muted);font-weight:500;font-size:16px}
+.grades.opts3{grid-template-columns:repeat(3,1fr)} .grades.opts2{grid-template-columns:repeat(2,1fr)}
+.ttable{display:flex;flex-direction:column;gap:6px;width:100%;max-width:340px}
+.trow{display:grid;grid-template-columns:90px 1fr;align-items:center;gap:8px;text-align:left}
+.tpron{color:var(--muted);font-size:14px}
+.trow input{font:500 18px var(--body);padding:6px 10px;min-width:0;width:100%}
+.trow{grid-template-columns:64px minmax(0,1fr)!important}
+.tans{font-size:18px} .tans.ok b{color:var(--good)} .tans.bad b{color:var(--good)} .tans s{color:var(--bad)}
+.card.listen{align-items:stretch;text-align:left;gap:12px}
+.card.listen h2,.card.listen .hint{text-align:center}
+.tog{display:inline-flex;gap:6px;align-items:center;font-size:14px;cursor:pointer}
+.lsents{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.lsent{display:flex;gap:10px;align-items:flex-start;padding:6px 8px;border-radius:10px}
+.lsent.playing{background:var(--accent-soft)}
+.ltext{display:flex;flex-direction:column;gap:2px;font-size:17px;line-height:1.4}
+.speak.sm{padding:4px 10px;flex:none}
+.lhide{border:1px dashed var(--line);background:transparent;color:var(--muted);border-radius:8px;padding:3px 12px;font:inherit;font-size:13px;cursor:pointer}
+.lqs{display:flex;flex-direction:column;gap:14px}
+.lq{display:flex;flex-direction:column;gap:6px}
+.lopts{display:flex;flex-wrap:wrap;gap:6px}
+.lopts button{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:8px 12px;font:500 15px var(--body);cursor:pointer}
+.lopts button.ok{border-color:var(--good);background:color-mix(in srgb,var(--good) 14%,var(--surface))}
+.lopts button.bad{border-color:var(--bad);background:var(--accent-soft)}
+.lopts button:disabled{cursor:default}
+.writebox.wide{max-width:100%}
+.writebox.wide input{font-size:18px;text-align:left}
 [hidden]{display:none!important}
 @media (max-width:420px){.word{font-size:32px}.addform{grid-template-columns:1fr}.wordrow{grid-template-columns:1fr auto}.wordrow .ru{grid-column:1/2}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s ease}.card:active{transform:scale(.99)}}
@@ -167,7 +202,7 @@ nav button{font-size:14px}
 <div class="wrap" id="app">
   <header>
     <h1>Srpske reči · Српске речи<small>Слова с наших уроков сербского</small></h1>
-    <div class="status"><span id="status">Загружаю слова…</span><div class="me">Учит: <b id="me-name"></b> · <button id="switch-me" type="button">сменить</button></div><div class="me" id="sync"></div></div>
+    <div class="status"><span id="status">Загружаю слова…</span><div class="me">Учит: <b id="me-name"></b> · <button id="switch-me" type="button">сменить</button></div><div class="me" id="sync"></div><button class="refresh" id="refresh" type="button" title="Подтянуть новые слова и упражнения">⟳ Обновить</button></div>
   </header>
   <div class="install" id="install" hidden>
     <span id="install-text"></span>
@@ -176,7 +211,8 @@ nav button{font-size:14px}
   <nav role="tablist">
     <button role="tab" type="button" aria-selected="true" data-view="learn">Учить</button>
     <button role="tab" type="button" aria-selected="false" data-view="grammar">Грамматика</button>
-    <button role="tab" type="button" aria-selected="false" data-view="words">Все слова</button>
+    <button role="tab" type="button" aria-selected="false" data-view="listen">Слушать</button>
+    <button role="tab" type="button" aria-selected="false" data-view="words">Слова</button>
     <button role="tab" type="button" aria-selected="false" data-view="progress">Прогресс</button>
   </nav>
   <section id="view-learn" class="list">
@@ -195,6 +231,7 @@ nav button{font-size:14px}
     </div>
     <div class="row">
       <select id="f-lesson" aria-label="Урок"></select>
+      <select id="f-topic" aria-label="Тема"></select>
     </div>
     <div class="meter" id="meter"></div>
     <div id="learn-area"></div>
@@ -203,18 +240,27 @@ nav button{font-size:14px}
   <section id="view-grammar" class="list" hidden>
     <div class="row">
       <select id="g-topic" aria-label="Тема"></select>
-      <select id="g-ex" aria-label="Упражнение">
-        <option value="choose">Выбери глагол</option>
-        <option value="typeverb">Впиши глагол</option>
-        <option value="build">Собери предложение</option>
-        <option value="translate">Переведи на сербский</option>
-      </select>
+      <select id="g-ex" aria-label="Упражнение"></select>
     </div>
     <details id="g-rule" class="rulebox"></details>
     <div id="grammar-area"></div>
   </section>
+  <section id="view-listen" class="list" hidden>
+    <div class="row">
+      <select id="l-text" aria-label="Текст"></select>
+      <select id="l-mode" aria-label="Упражнение">
+        <option value="listen">Слушать текст</option>
+        <option value="quiz">Вопросы по тексту</option>
+        <option value="dict">Диктант</option>
+      </select>
+    </div>
+    <div id="listen-area"></div>
+  </section>
   <section id="view-words" class="list" hidden>
-    <input id="search" type="search" placeholder="Поиск по слову или переводу" aria-label="Поиск">
+    <div class="row">
+      <input id="search" type="search" placeholder="Поиск по слову или переводу" aria-label="Поиск" style="flex:2;min-width:180px">
+      <select id="w-group" aria-label="Группировать"><option value="lesson">По урокам</option><option value="topic">По темам</option></select>
+    </div>
     <div id="words-area" class="list"></div>
   </section>
   <section id="view-progress" class="people" hidden>

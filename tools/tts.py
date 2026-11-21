@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Generate mp3 audio for every Serbian word and example in words.json.
+"""Generate mp3 audio for every Serbian word and example in words.json
+and every sentence of the listening texts in listening.json.
 
 Uses Azure AI Speech (neural voice). Only texts that don't have audio yet are
 sent, so each run costs just the new words. Writes audio/<hash>.mp3 and
@@ -54,6 +55,11 @@ def main():
     for w in words:
         if w.get("sr"): texts[w["sr"]] = True
         if w.get("ex_sr"): texts.setdefault(w["ex_sr"], False)
+    lp = ROOT / "listening.json"
+    if lp.exists():
+        for t in json.loads(lp.read_text(encoding="utf-8")).get("texts", []):
+            for s in t.get("sentences", []):
+                texts.setdefault(s["sr"], False)
 
     index, todo = {}, []
     for t, slow in texts.items():
