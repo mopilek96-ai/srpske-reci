@@ -17,6 +17,13 @@ ALT = {
     "raspoložen": ["raspoložen", "raspoložiti"], "nazdravlje": ["zdravlje", "na zdravlje"], "laptop": ["laptop"],
     "kaktus": ["kaktus"], "spavam": ["spavati"], "idem": ["ići"], "radiš": ["raditi"], "došli": ["doći"],
     "nema": ["nemati", "imati"], "laku": ["lak"], "čemu": ["što", "šta"], "ljudi": ["ljudi"],
+    # lessons 4–6, Odeća, Vreme
+    "preduzeće": ["preduzeće", "poduzeće"], "hemijska": ["hemijski", "kemijski"], "jača": ["jak", "jači"],
+    "volontirati": ["volontirati", "volonter"], "medicinska": ["medicinski"], "najbolji": ["najbolji", "bolji"],
+    "spavaća": ["spavaći", "spavaćica"], "živiš": ["živjeti", "živeti"], "farmerke": ["farmerke", "farmerice"],
+    "helanke": ["helanke", "helanka"], "roze": ["roze"], "braon": ["braon"], "snežno": ["snežan", "snježan"],
+    "kišovito": ["kišovit"], "oblačno": ["oblačan"], "sunčano": ["sunčan"], "vetrovito": ["vetrovit", "vjetrovit"],
+    "tmurno": ["tmuran"], "meteoropata": ["meteoropat", "meteoropatija"],
 }
 
 
@@ -49,7 +56,7 @@ def main():
                 info["conj"] = re.findall(r"\|(pr\.va|p\.va|vn|pr\.1s|pr\.2s|pr\.3s|app\.[a-z]+)=([^|}]+)", sec)
                 res["wiktionary"][a] = info
             time.sleep(0.3)
-        res["hjp"] = hjp(alts[0] if tok not in ("idem", "radiš", "došli", "nema", "laku", "čemu", "spavam") else alts[0])
+        res["hjp"] = hjp(alts[-1] if tok in ("preduzeće", "hemijska", "živiš", "farmerke", "snežno", "vetrovito") else alts[0])
         time.sleep(0.5)
         out[tok] = res
     p = ROOT / "reports" / "dictionary_alt.json"
