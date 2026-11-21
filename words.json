@@ -10,7 +10,9 @@
   "added": 1794427100001,
   "tr": "рэ́тш",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Понятия",
+  "pl": "reči"
  },
  {
   "id": "l01-jazavac",
@@ -23,7 +25,9 @@
   "added": 1794427100002,
   "tr": "я́завац",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "jazavci"
  },
  {
   "id": "l01-kornjaca",
@@ -36,7 +40,9 @@
   "added": 1794427100003,
   "tr": "ко́рнятша",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "kornjače"
  },
  {
   "id": "l01-ljiljan",
@@ -49,7 +55,9 @@
   "added": 1794427100004,
   "tr": "ли́лян",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Природа",
+  "pl": "ljiljani"
  },
  {
   "id": "l01-dzak",
@@ -62,7 +70,9 @@
   "added": 1794427100005,
   "tr": "джа́к",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "džakovi"
  },
  {
   "id": "l01-djak",
@@ -75,7 +85,9 @@
   "added": 1794427100006,
   "tr": "дьжа́к",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Учёба",
+  "pl": "đaci"
  },
  {
   "id": "l01-ljubav",
@@ -88,7 +100,9 @@
   "added": 1794427100007,
   "tr": "лю́бав",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Понятия",
+  "pl": "ljubavi"
  },
  {
   "id": "l01-sumnja",
@@ -101,7 +115,9 @@
   "added": 1794427100008,
   "tr": "су́мня",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Понятия",
+  "pl": "sumnje"
  },
  {
   "id": "l01-zelja",
@@ -114,7 +130,9 @@
   "added": 1794427100009,
   "tr": "жэ́ля",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Понятия",
+  "pl": "želje"
  },
  {
   "id": "l01-cadj",
@@ -127,7 +145,8 @@
   "added": 1794427100010,
   "tr": "тша́дьж",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи"
  },
  {
   "id": "l01-dzordz",
@@ -140,7 +159,8 @@
   "added": 1794427100011,
   "tr": "джо́рдж",
   "g": "name",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди"
  },
  {
   "id": "l01-vece",
@@ -153,7 +173,8 @@
   "added": 1794427100012,
   "tr": "вэ́тшэ",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Время и дни"
  },
  {
   "id": "l01-majka",
@@ -166,7 +187,9 @@
   "added": 1794427100101,
   "tr": "ма́йка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "majke"
  },
  {
   "id": "l01-otac",
@@ -179,7 +202,9 @@
   "added": 1794427100102,
   "tr": "о́тац",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "očevi"
  },
  {
   "id": "l01-sin",
@@ -192,7 +217,9 @@
   "added": 1794427100103,
   "tr": "си́н",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "sinovi"
  },
  {
   "id": "l01-avion",
@@ -205,7 +232,9 @@
   "added": 1794427100104,
   "tr": "ави́он",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "avioni"
  },
  {
   "id": "l01-grad",
@@ -218,7 +247,9 @@
   "added": 1794427100105,
   "tr": "гра́д",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "gradovi"
  },
  {
   "id": "l01-jagoda",
@@ -231,7 +262,9 @@
   "added": 1794427100106,
   "tr": "я́года",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "jagode"
  },
  {
   "id": "l01-zaba",
@@ -244,7 +277,9 @@
   "added": 1794427100107,
   "tr": "жа́ба",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "žabe"
  },
  {
   "id": "l01-telefon",
@@ -257,7 +292,9 @@
   "added": 1794427100108,
   "tr": "тэлэ́фон",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "telefoni"
  },
  {
   "id": "l01-selo",
@@ -270,7 +307,9 @@
   "added": 1794427100109,
   "tr": "сэ́ло",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "sela"
  },
  {
   "id": "l01-laptop",
@@ -283,7 +322,9 @@
   "added": 1794427100110,
   "tr": "ла́птоп",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "laptopovi"
  },
  {
   "id": "l01-caj",
@@ -296,7 +337,9 @@
   "added": 1794427100111,
   "tr": "тша́й",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "čajevi"
  },
  {
   "id": "l01-krava",
@@ -309,7 +352,9 @@
   "added": 1794427100112,
   "tr": "кра́ва",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "krave"
  },
  {
   "id": "l01-svinja",
@@ -322,7 +367,9 @@
   "added": 1794427100113,
   "tr": "сви́ня",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "svinje"
  },
  {
   "id": "l01-ovca",
@@ -335,7 +382,9 @@
   "added": 1794427100114,
   "tr": "о́вца",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "ovce"
  },
  {
   "id": "az-buba",
@@ -348,7 +397,9 @@
   "added": 1794427100201,
   "tr": "бу́ба",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "bube"
  },
  {
   "id": "az-voz",
@@ -361,7 +412,9 @@
   "added": 1794427100202,
   "tr": "во́з",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "vozovi"
  },
  {
   "id": "az-gitara",
@@ -374,7 +427,9 @@
   "added": 1794427100203,
   "tr": "гита́ра",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "gitare"
  },
  {
   "id": "az-drvo",
@@ -387,7 +442,8 @@
   "added": 1794427100204,
   "tr": "др́во",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Природа"
  },
  {
   "id": "az-ekser",
@@ -400,7 +456,9 @@
   "added": 1794427100205,
   "tr": "э́ксэр",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "ekseri"
  },
  {
   "id": "az-zmaj",
@@ -413,7 +471,9 @@
   "added": 1794427100206,
   "tr": "зма́й",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "zmajevi"
  },
  {
   "id": "az-igla",
@@ -426,7 +486,9 @@
   "added": 1794427100207,
   "tr": "и́гла",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "igle"
  },
  {
   "id": "az-lubenica",
@@ -439,7 +501,9 @@
   "added": 1794427100208,
   "tr": "лубэ́ница",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "lubenice"
  },
  {
   "id": "az-mis",
@@ -452,7 +516,9 @@
   "added": 1794427100209,
   "tr": "ми́ш",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "miševi"
  },
  {
   "id": "az-naocare",
@@ -465,7 +531,8 @@
   "added": 1794427100210,
   "tr": "на́отшарэ",
   "g": "pl",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Одежда"
  },
  {
   "id": "az-njuska",
@@ -478,7 +545,9 @@
   "added": 1794427100211,
   "tr": "ню́шка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Тело",
+  "pl": "njuške"
  },
  {
   "id": "az-olovka",
@@ -491,7 +560,9 @@
   "added": 1794427100212,
   "tr": "о́ловка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Учёба",
+  "pl": "olovke"
  },
  {
   "id": "az-paprika",
@@ -504,7 +575,9 @@
   "added": 1794427100213,
   "tr": "па́прика",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "paprike"
  },
  {
   "id": "az-rak",
@@ -517,7 +590,9 @@
   "added": 1794427100214,
   "tr": "ра́к",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "rakovi"
  },
  {
   "id": "az-sat",
@@ -530,7 +605,9 @@
   "added": 1794427100215,
   "tr": "са́т",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "sati"
  },
  {
   "id": "az-tobogan",
@@ -543,7 +620,9 @@
   "added": 1794427100216,
   "tr": "то́боган",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "tobogani"
  },
  {
   "id": "az-curan",
@@ -556,7 +635,9 @@
   "added": 1794427100217,
   "tr": "чу́ран",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "ćurani"
  },
  {
   "id": "az-udica",
@@ -569,7 +650,9 @@
   "added": 1794427100218,
   "tr": "у́дица",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "udice"
  },
  {
   "id": "az-foka",
@@ -582,7 +665,9 @@
   "added": 1794427100219,
   "tr": "фо́ка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "foke"
  },
  {
   "id": "az-hleb",
@@ -595,7 +680,9 @@
   "added": 1794427100220,
   "tr": "хлэ́б",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "hlebovi"
  },
  {
   "id": "az-cipele",
@@ -608,7 +695,8 @@
   "added": 1794427100221,
   "tr": "ци́пэлэ",
   "g": "pl",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Одежда"
  },
  {
   "id": "az-camac",
@@ -621,7 +709,9 @@
   "added": 1794427100222,
   "tr": "тша́мац",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "čamci"
  },
  {
   "id": "az-sesir",
@@ -634,7 +724,9 @@
   "added": 1794427100223,
   "tr": "шэ́шир",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Одежда",
+  "pl": "šeširi"
  },
  {
   "id": "al-autobus",
@@ -647,7 +739,9 @@
   "added": 1794427100301,
   "tr": "ауто́бус",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "autobusi"
  },
  {
   "id": "al-bicikl",
@@ -660,7 +754,9 @@
   "added": 1794427100302,
   "tr": "бици́кл",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "bicikli"
  },
  {
   "id": "al-cvet",
@@ -673,7 +769,9 @@
   "added": 1794427100303,
   "tr": "цвэ́т",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Природа",
+  "pl": "cvetovi"
  },
  {
   "id": "al-cizma",
@@ -686,7 +784,9 @@
   "added": 1794427100304,
   "tr": "тши́зма",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Одежда",
+  "pl": "čizme"
  },
  {
   "id": "al-dzep",
@@ -699,7 +799,9 @@
   "added": 1794427100305,
   "tr": "джэ́п",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Одежда",
+  "pl": "džepovi"
  },
  {
   "id": "al-djevrek",
@@ -712,7 +814,9 @@
   "added": 1794427100306,
   "tr": "дьже́врэк",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки",
+  "pl": "đevreci"
  },
  {
   "id": "al-flauta",
@@ -725,7 +829,9 @@
   "added": 1794427100307,
   "tr": "фла́ута",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "flaute"
  },
  {
   "id": "al-grozdje",
@@ -738,7 +844,8 @@
   "added": 1794427100308,
   "tr": "гро́ждьже",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Еда и напитки"
  },
  {
   "id": "al-harmonika",
@@ -751,7 +858,9 @@
   "added": 1794427100309,
   "tr": "хармо́ника",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "harmonike"
  },
  {
   "id": "al-indijanac",
@@ -764,7 +873,9 @@
   "added": 1794427100310,
   "tr": "индия́нац",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "Indijanci"
  },
  {
   "id": "al-jez",
@@ -777,7 +888,9 @@
   "added": 1794427100311,
   "tr": "е́ж",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "ježevi"
  },
  {
   "id": "al-kaktus",
@@ -790,7 +903,9 @@
   "added": 1794427100312,
   "tr": "ка́ктус",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Природа",
+  "pl": "kaktusi"
  },
  {
   "id": "al-leptir",
@@ -803,7 +918,9 @@
   "added": 1794427100313,
   "tr": "лэ́птир",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "leptiri"
  },
  {
   "id": "al-ljuljaska",
@@ -816,7 +933,9 @@
   "added": 1794427100314,
   "tr": "лю́ляшка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Досуг",
+  "pl": "ljuljaške"
  },
  {
   "id": "al-makaze",
@@ -829,7 +948,8 @@
   "added": 1794427100315,
   "tr": "ма́казэ",
   "g": "pl",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи"
  },
  {
   "id": "al-noz",
@@ -842,7 +962,9 @@
   "added": 1794427100316,
   "tr": "но́ж",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "noževi"
  },
  {
   "id": "al-ogledalo",
@@ -855,7 +977,9 @@
   "added": 1794427100317,
   "tr": "оглэ́дало",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "ogledala"
  },
  {
   "id": "al-puz",
@@ -868,7 +992,9 @@
   "added": 1794427100318,
   "tr": "пу́ж",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "puževi"
  },
  {
   "id": "al-uho",
@@ -876,12 +1002,14 @@
   "ru": "ухо",
   "ex_sr": "Boli me uho.",
   "ex_ru": "У меня болит ухо.",
-  "note": "мн. — uši",
+  "note": "",
   "lesson": "Урок 1 · Azbuka (латиница)",
   "added": 1794427100319,
   "tr": "у́хо",
   "g": "n",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Тело",
+  "pl": "uši"
  },
  {
   "id": "al-viljuska",
@@ -894,7 +1022,9 @@
   "added": 1794427100320,
   "tr": "ви́люшка",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Дом и вещи",
+  "pl": "viljuške"
  },
  {
   "id": "al-zvezda",
@@ -907,7 +1037,9 @@
   "added": 1794427100321,
   "tr": "звэ́зда",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Природа",
+  "pl": "zvezde"
  },
  {
   "id": "al-zirafa",
@@ -920,7 +1052,9 @@
   "added": 1794427100322,
   "tr": "жира́фа",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Животные",
+  "pl": "žirafe"
  },
  {
   "id": "l02-dobrodosli",
@@ -933,7 +1067,8 @@
   "added": 1794428200001,
   "tr": "до́бро до́шли",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-nazdravlje",
@@ -946,7 +1081,8 @@
   "added": 1794428200002,
   "tr": "наздра́вле",
   "g": "interj",
-  "stress_src": "manual"
+  "stress_src": "manual",
+  "topic": "Фразы"
  },
  {
   "id": "l02-ziveli",
@@ -959,7 +1095,8 @@
   "added": 1794428200003,
   "tr": "жи́вэли",
   "g": "interj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-srecanrodjendan",
@@ -972,7 +1109,8 @@
   "added": 1794428200004,
   "tr": "срэ́чан ро́дьжендан",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-srecanput",
@@ -985,7 +1123,8 @@
   "added": 1794428200005,
   "tr": "срэ́чан пу́т",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-lakunoc",
@@ -998,7 +1137,8 @@
   "added": 1794428200006,
   "tr": "ла́ку но́ч",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-cestitam",
@@ -1011,7 +1151,8 @@
   "added": 1794428200007,
   "tr": "тшэ́ститам",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l02-prijatno",
@@ -1024,7 +1165,8 @@
   "added": 1794428200008,
   "tr": "при́ятно",
   "g": "interj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-dobardan",
@@ -1037,7 +1179,8 @@
   "added": 1794428200009,
   "tr": "до́бар да́н",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-nemanacemu",
@@ -1050,7 +1193,8 @@
   "added": 1794428200010,
   "tr": "нэ́ма на тшэ́му",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-hvala",
@@ -1063,7 +1207,8 @@
   "added": 1794428200011,
   "tr": "хва́ла",
   "g": "interj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l02-idemdaspavam",
@@ -1076,7 +1221,8 @@
   "added": 1794428200012,
   "tr": "и́дэм да спа́вам",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-cao",
@@ -1089,7 +1235,8 @@
   "added": 1794428300001,
   "tr": "ча́о",
   "g": "interj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-zdravo",
@@ -1102,7 +1249,8 @@
   "added": 1794428300002,
   "tr": "здра́во",
   "g": "interj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-desi",
@@ -1115,7 +1263,8 @@
   "added": 1794428300003,
   "tr": "дэ́ си",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-kakosi",
@@ -1128,7 +1277,8 @@
   "added": 1794428300004,
   "tr": "ка́ко си",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-starradis",
@@ -1141,7 +1291,8 @@
   "added": 1794428300005,
   "tr": "шта́ ра́диш",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-jasam",
@@ -1154,7 +1305,8 @@
   "added": 1794428300006,
   "tr": "я́ сам",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-tisi",
@@ -1167,7 +1319,8 @@
   "added": 1794428300007,
   "tr": "ти́ си",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-onje",
@@ -1180,7 +1333,8 @@
   "added": 1794428300008,
   "tr": "о́н е",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-mismo",
@@ -1193,7 +1347,8 @@
   "added": 1794428300009,
   "tr": "ми́ смо",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-viste",
@@ -1206,7 +1361,8 @@
   "added": 1794428300010,
   "tr": "ви́ стэ",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-onisu",
@@ -1219,7 +1375,8 @@
   "added": 1794428300011,
   "tr": "о́ни су",
   "g": "verb",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Глаголы"
  },
  {
   "id": "l03-dali",
@@ -1232,7 +1389,8 @@
   "added": 1794428300012,
   "tr": "да́ ли",
   "g": "particle",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-covek",
@@ -1240,12 +1398,14 @@
   "ru": "человек; мужчина",
   "ex_sr": "On je dobar čovek.",
   "ex_ru": "Он хороший человек.",
-  "note": "мн. — ljudi",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300101,
   "tr": "тшо́вэк",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "ljudi"
  },
  {
   "id": "l03-zena",
@@ -1258,7 +1418,9 @@
   "added": 1794428300102,
   "tr": "жэ́на",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "žene"
  },
  {
   "id": "l03-muz",
@@ -1271,7 +1433,9 @@
   "added": 1794428300103,
   "tr": "му́ж",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "muževi"
  },
  {
   "id": "l03-brat",
@@ -1284,7 +1448,9 @@
   "added": 1794428300104,
   "tr": "бра́т",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "braća"
  },
  {
   "id": "l03-drug",
@@ -1292,12 +1458,14 @@
   "ru": "друг",
   "ex_sr": "Oni su moji drugovi.",
   "ex_ru": "Они мои друзья.",
-  "note": "мн. drugovi; подруга — drugarica",
+  "note": "подруга — drugarica",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300105,
   "tr": "дру́г",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "drugovi"
  },
  {
   "id": "l03-ljudi",
@@ -1310,7 +1478,8 @@
   "added": 1794428300106,
   "tr": "лю́ди",
   "g": "pl",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди"
  },
  {
   "id": "l03-ucitelj",
@@ -1323,7 +1492,9 @@
   "added": 1794428300107,
   "tr": "у́тшитэль",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Профессии",
+  "pl": "učitelji"
  },
  {
   "id": "l03-programer",
@@ -1336,7 +1507,9 @@
   "added": 1794428300108,
   "tr": "програ́мэр",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Профессии",
+  "pl": "programeri"
  },
  {
   "id": "l03-italijan",
@@ -1349,7 +1522,9 @@
   "added": 1794428300109,
   "tr": "итали́ян",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "Italijani"
  },
  {
   "id": "l03-sportista",
@@ -1357,12 +1532,14 @@
   "ru": "спортсмен",
   "ex_sr": "On je poznat sportista.",
   "ex_ru": "Он известный спортсмен.",
-  "note": "мужской род, хотя на -a; мн. sportisti",
+  "note": "мужской род, хотя на -a",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300110,
   "tr": "спо́ртиста",
   "g": "m",
-  "stress_src": "manual"
+  "stress_src": "manual",
+  "topic": "Профессии",
+  "pl": "sportisti"
  },
  {
   "id": "l03-pomocnik",
@@ -1370,12 +1547,14 @@
   "ru": "помощник",
   "ex_sr": "Vi ste dobri pomoćnici.",
   "ex_ru": "Вы хорошие помощники.",
-  "note": "мн. pomoćnici (k → c)",
+  "note": "k → c во мн. ч.",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300111,
   "tr": "помо́чник",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Профессии",
+  "pl": "pomoćnici"
  },
  {
   "id": "l03-naucnik",
@@ -1383,12 +1562,14 @@
   "ru": "учёный",
   "ex_sr": "Da li su oni naučnici?",
   "ex_ru": "Они учёные?",
-  "note": "мн. naučnici",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300112,
   "tr": "на́утшник",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Профессии",
+  "pl": "naučnici"
  },
  {
   "id": "l03-novinar",
@@ -1401,7 +1582,9 @@
   "added": 1794428300113,
   "tr": "но́винар",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Профессии",
+  "pl": "novinari"
  },
  {
   "id": "l03-optimista",
@@ -1414,7 +1597,9 @@
   "added": 1794428300114,
   "tr": "опти́миста",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "optimisti"
  },
  {
   "id": "l03-pesimista",
@@ -1427,7 +1612,9 @@
   "added": 1794428300115,
   "tr": "пэси́миста",
   "g": "m",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Семья и люди",
+  "pl": "pesimisti"
  },
  {
   "id": "l03-tu",
@@ -1440,7 +1627,8 @@
   "added": 1794428300116,
   "tr": "ту́",
   "g": "adv",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-ovde",
@@ -1453,7 +1641,8 @@
   "added": 1794428300117,
   "tr": "о́вдэ",
   "g": "adv",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-tamo",
@@ -1466,7 +1655,8 @@
   "added": 1794428300118,
   "tr": "та́мо",
   "g": "adv",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-uvek",
@@ -1479,7 +1669,8 @@
   "added": 1794428300119,
   "tr": "у́вэк",
   "g": "adv",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-mnogo",
@@ -1492,7 +1683,8 @@
   "added": 1794428300120,
   "tr": "мно́го",
   "g": "adv",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-samo",
@@ -1505,7 +1697,8 @@
   "added": 1794428300121,
   "tr": "са́мо",
   "g": "particle",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-sanama",
@@ -1518,7 +1711,8 @@
   "added": 1794428300122,
   "tr": "са на́ма",
   "g": "phrase",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Фразы"
  },
  {
   "id": "l03-iz",
@@ -1531,7 +1725,8 @@
   "added": 1794428300123,
   "tr": "и́з",
   "g": "prep",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-moj",
@@ -1544,7 +1739,8 @@
   "added": 1794428300124,
   "tr": "мо́й",
   "g": "pron",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-tvoj",
@@ -1557,7 +1753,8 @@
   "added": 1794428300125,
   "tr": "тво́й",
   "g": "pron",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-njen",
@@ -1570,7 +1767,8 @@
   "added": 1794428300126,
   "tr": "не́н",
   "g": "pron",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Маленькие слова"
  },
  {
   "id": "l03-ulica",
@@ -1583,7 +1781,9 @@
   "added": 1794428300127,
   "tr": "у́лица",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "ulice"
  },
  {
   "id": "l03-usluga",
@@ -1591,12 +1791,14 @@
   "ru": "услуга; обслуживание",
   "ex_sr": "Usluga nije kvalitetna.",
   "ex_ru": "Обслуживание некачественное.",
-  "note": "мн. usluge",
+  "note": "",
   "lesson": "Урок 3 · Sam/si/je",
   "added": 1794428300128,
   "tr": "у́слуга",
   "g": "f",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Город и транспорт",
+  "pl": "usluge"
  },
  {
   "id": "l03-dobar",
@@ -1609,7 +1811,8 @@
   "added": 1794428300129,
   "tr": "до́бар",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-nov",
@@ -1622,7 +1825,8 @@
   "added": 1794428300130,
   "tr": "но́в",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-veseo",
@@ -1635,7 +1839,8 @@
   "added": 1794428300131,
   "tr": "вэ́сэо",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-odgovoran",
@@ -1648,7 +1853,8 @@
   "added": 1794428300132,
   "tr": "о́дговоран",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-odlican",
@@ -1661,7 +1867,8 @@
   "added": 1794428300133,
   "tr": "о́длитшан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-optimistican",
@@ -1674,7 +1881,8 @@
   "added": 1794428300134,
   "tr": "оптими́ститшан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-zadovoljan",
@@ -1687,7 +1895,8 @@
   "added": 1794428300135,
   "tr": "за́доволян",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-spreman",
@@ -1700,7 +1909,8 @@
   "added": 1794428300136,
   "tr": "спрэ́ман",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-zainteresovan",
@@ -1713,7 +1923,8 @@
   "added": 1794428300137,
   "tr": "заинтэ́рэсован",
   "g": "adj",
-  "stress_src": "manual"
+  "stress_src": "manual",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-siguran",
@@ -1726,7 +1937,8 @@
   "added": 1794428300138,
   "tr": "си́гуран",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-raspolozen",
@@ -1739,7 +1951,8 @@
   "added": 1794428300139,
   "tr": "распо́ложэн",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-dostupan",
@@ -1752,7 +1965,8 @@
   "added": 1794428300140,
   "tr": "до́ступан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-vredan",
@@ -1765,7 +1979,8 @@
   "added": 1794428300141,
   "tr": "врэ́дан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-iskusan",
@@ -1778,7 +1993,8 @@
   "added": 1794428300142,
   "tr": "и́скусан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-efikasan",
@@ -1791,7 +2007,8 @@
   "added": 1794428300143,
   "tr": "э́фикасан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-popularan",
@@ -1804,7 +2021,8 @@
   "added": 1794428300144,
   "tr": "по́пуларан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-pozitivan",
@@ -1817,7 +2035,8 @@
   "added": 1794428300145,
   "tr": "по́зитиван",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
  },
  {
   "id": "l03-kvalitetan",
@@ -1830,6 +2049,3373 @@
   "added": 1794428300146,
   "tr": "ква́литэтан",
   "g": "adj",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "topic": "Прилагательные"
+ },
+ {
+  "id": "l04-njegov",
+  "sr": "njegov",
+  "ru": "его",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "note": "ж. njegova, ср. njegovo",
+  "ex_sr": "Ja sam njegov drug.",
+  "ex_ru": "Я его друг.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000000
+ },
+ {
+  "id": "l04-nas",
+  "sr": "naš",
+  "ru": "наш",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "note": "ж. naša, ср. naše",
+  "ex_sr": "Da li je ovo naš autobus?",
+  "ex_ru": "Это наш автобус?",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000001
+ },
+ {
+  "id": "l04-vas",
+  "sr": "vaš",
+  "ru": "ваш",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "note": "ж. vaša, ср. vaše; и вежливое «Ваш»",
+  "ex_sr": "Ovo je vaše preduzeće.",
+  "ex_ru": "Это ваше предприятие.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000002
+ },
+ {
+  "id": "l04-njihov",
+  "sr": "njihov",
+  "ru": "их",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "note": "ж. njihova, ср. njihovo",
+  "ex_sr": "Luka je njihov partner.",
+  "ex_ru": "Лука — их партнёр.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000003
+ },
+ {
+  "id": "l04-ovo",
+  "sr": "ovo",
+  "ru": "это",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "note": "ova — эта, ovaj — этот",
+  "ex_sr": "Ovo nije naše naselje.",
+  "ex_ru": "Это не наш район.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000004
+ },
+ {
+  "id": "l04-sestra",
+  "sr": "sestra",
+  "ru": "сестра",
+  "g": "f",
+  "topic": "Семья и люди",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000005,
+  "pl": "sestre"
+ },
+ {
+  "id": "l04-dete",
+  "sr": "dete",
+  "ru": "ребёнок",
+  "g": "n",
+  "topic": "Семья и люди",
+  "note": "мн. deca — исключение",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000006,
+  "pl": "deca"
+ },
+ {
+  "id": "l04-pas",
+  "sr": "pas",
+  "ru": "собака, пёс",
+  "g": "m",
+  "topic": "Животные",
+  "note": "мн. psi — исключение; в русском — ж. р.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000007,
+  "pl": "psi"
+ },
+ {
+  "id": "l04-macka",
+  "sr": "mačka",
+  "ru": "кошка",
+  "g": "f",
+  "topic": "Животные",
+  "ex_sr": "To je njena mačka.",
+  "ex_ru": "Это её кошка.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000008,
+  "pl": "mačke"
+ },
+ {
+  "id": "l04-polje",
+  "sr": "polje",
+  "ru": "поле",
+  "g": "n",
+  "topic": "Природа",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000009,
+  "pl": "polja"
+ },
+ {
+  "id": "l04-drugarica",
+  "sr": "drugarica",
+  "ru": "подруга",
+  "g": "f",
+  "topic": "Семья и люди",
+  "note": "друг — drug",
+  "ex_sr": "Da li si ti moja drugarica?",
+  "ex_ru": "Ты моя подруга?",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000010,
+  "pl": "drugarice"
+ },
+ {
+  "id": "l04-drustvo",
+  "sr": "društvo",
+  "ru": "компания (друзей); общество",
+  "g": "n",
+  "topic": "Семья и люди",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000011,
+  "pl": "društva"
+ },
+ {
+  "id": "l04-cerka",
+  "sr": "ćerka",
+  "ru": "дочь",
+  "g": "f",
+  "topic": "Семья и люди",
+  "ex_sr": "Ona je naša ćerka.",
+  "ex_ru": "Она наша дочь.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000012,
+  "pl": "ćerke"
+ },
+ {
+  "id": "l04-devojka",
+  "sr": "devojka",
+  "ru": "девушка",
+  "g": "f",
+  "topic": "Семья и люди",
+  "note": "и «девушка» в смысле подруги жизни",
+  "ex_sr": "Iva je moja devojka.",
+  "ex_ru": "Ива — моя девушка.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000013,
+  "pl": "devojke"
+ },
+ {
+  "id": "l04-partner",
+  "sr": "partner",
+  "ru": "партнёр",
+  "g": "m",
+  "topic": "Семья и люди",
+  "ex_sr": "Luka je njihov partner.",
+  "ex_ru": "Лука — их партнёр.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000014,
+  "pl": "partneri"
+ },
+ {
+  "id": "l04-pesma",
+  "sr": "pesma",
+  "ru": "песня",
+  "g": "f",
+  "topic": "Досуг",
+  "ex_sr": "Ovo je njihova pesma.",
+  "ex_ru": "Это их песня.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000015,
+  "pl": "pesme"
+ },
+ {
+  "id": "l04-preduzece",
+  "sr": "preduzeće",
+  "ru": "предприятие, фирма",
+  "g": "n",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ovo je vaše preduzeće.",
+  "ex_ru": "Это ваше предприятие.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000016,
+  "pl": "preduzeća"
+ },
+ {
+  "id": "l04-zgrada",
+  "sr": "zgrada",
+  "ru": "здание",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ova je njihova zgrada.",
+  "ex_ru": "Это их здание.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000017,
+  "pl": "zgrade"
+ },
+ {
+  "id": "l04-kuca",
+  "sr": "kuća",
+  "ru": "дом",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "note": "в русском — м. р.; kući — домой",
+  "ex_sr": "To je naša kuća.",
+  "ex_ru": "Это наш дом.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000018,
+  "pl": "kuće"
+ },
+ {
+  "id": "l04-stan",
+  "sr": "stan",
+  "ru": "квартира",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "note": "в русском — ж. р.",
+  "ex_sr": "To je njihov stan.",
+  "ex_ru": "Это их квартира.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000019,
+  "pl": "stanovi"
+ },
+ {
+  "id": "l04-kafa",
+  "sr": "kafa",
+  "ru": "кофе",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "в сербском — ж. р.: moja kafa",
+  "ex_sr": "To je moja kafa.",
+  "ex_ru": "Это мой кофе.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000020
+ },
+ {
+  "id": "l04-udzbenik",
+  "sr": "udžbenik",
+  "ru": "учебник",
+  "g": "m",
+  "topic": "Учёба",
+  "note": "мн. udžbenici (k → c)",
+  "ex_sr": "To je njihov udžbenik.",
+  "ex_ru": "Это их учебник.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000021,
+  "pl": "udžbenici"
+ },
+ {
+  "id": "l04-geografija",
+  "sr": "geografija",
+  "ru": "география",
+  "g": "f",
+  "topic": "Учёба",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000022
+ },
+ {
+  "id": "l04-cokolada",
+  "sr": "čokolada",
+  "ru": "шоколад",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "в русском — м. р.",
+  "ex_sr": "Ovo nije njena čokolada.",
+  "ex_ru": "Это не её шоколад.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000023,
+  "pl": "čokolade"
+ },
+ {
+  "id": "l04-naselje",
+  "sr": "naselje",
+  "ru": "район, посёлок",
+  "g": "n",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ovo nije naše naselje.",
+  "ex_ru": "Это не наш район.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000024,
+  "pl": "naselja"
+ },
+ {
+  "id": "l04-matematika",
+  "sr": "matematika",
+  "ru": "математика",
+  "g": "f",
+  "topic": "Учёба",
+  "ex_sr": "Matematika nije moja jača strana.",
+  "ex_ru": "Математика — не моя сильная сторона.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000025
+ },
+ {
+  "id": "l04-profesor",
+  "sr": "profesor",
+  "ru": "преподаватель, профессор",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "учитель в старших классах и в вузе",
+  "ex_sr": "Oni su profesori.",
+  "ex_ru": "Они преподаватели.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000026,
+  "pl": "profesori"
+ },
+ {
+  "id": "l04-hemijska",
+  "sr": "hemijska",
+  "ru": "ручка (шариковая)",
+  "g": "f",
+  "topic": "Учёба",
+  "note": "полностью — hemijska olovka",
+  "ex_sr": "Da li je ovo vaša hemijska?",
+  "ex_ru": "Это ваша ручка?",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000027,
+  "pl": "hemijske"
+ },
+ {
+  "id": "l04-majica",
+  "sr": "majica",
+  "ru": "футболка",
+  "g": "f",
+  "topic": "Одежда",
+  "ex_sr": "Ova crna majica je njena.",
+  "ex_ru": "Эта чёрная футболка — её.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000028,
+  "pl": "majice"
+ },
+ {
+  "id": "l04-velik",
+  "sr": "velik",
+  "ru": "большой",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. velika, ср. veliko",
+  "ex_sr": "To je tvoja velika kuća.",
+  "ex_ru": "Это твой большой дом.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000029
+ },
+ {
+  "id": "l04-lep",
+  "sr": "lep",
+  "ru": "красивый",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. lepa, ср. lepo",
+  "ex_sr": "Slađana ima lepu mačku.",
+  "ex_ru": "У Слађаны красивая кошка.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000030
+ },
+ {
+  "id": "l04-plav",
+  "sr": "plav",
+  "ru": "синий; голубой",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. plava, ср. plavo",
+  "ex_sr": "Ti imaš plav telefon.",
+  "ex_ru": "У тебя синий телефон.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000031
+ },
+ {
+  "id": "l04-crn",
+  "sr": "crn",
+  "ru": "чёрный",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. crna, ср. crno",
+  "ex_sr": "Ova crna majica je njena.",
+  "ex_ru": "Эта чёрная футболка — её.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000032
+ },
+ {
+  "id": "l04-imati",
+  "sr": "imati",
+  "ru": "иметь; у меня есть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "«у меня есть» = ja imam",
+  "ex_sr": "Mi imamo veliku kuću.",
+  "ex_ru": "У нас большой дом.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000033,
+  "forms": [
+   "imam",
+   "imaš",
+   "ima",
+   "imamo",
+   "imate",
+   "imaju"
+  ]
+ },
+ {
+  "id": "l04-piti",
+  "sr": "piti",
+  "ru": "пить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ja pijem kafu.",
+  "ex_ru": "Я пью кофе.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000034,
+  "forms": [
+   "pijem",
+   "piješ",
+   "pije",
+   "pijemo",
+   "pijete",
+   "piju"
+  ]
+ },
+ {
+  "id": "l04-toje",
+  "sr": "to je",
+  "ru": "это (есть)",
+  "g": "phrase",
+  "topic": "Фразы",
+  "ex_sr": "To je moj drug.",
+  "ex_ru": "Это мой друг.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000035
+ },
+ {
+  "id": "l04-jacastrana",
+  "sr": "jača strana",
+  "ru": "сильная сторона",
+  "g": "phrase",
+  "topic": "Фразы",
+  "note": "jak — сильный, jači — сильнее",
+  "ex_sr": "Matematika nije moja jača strana.",
+  "ex_ru": "Математика — не моя сильная сторона.",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000036
+ },
+ {
+  "id": "l04-menadzer",
+  "sr": "menadžer",
+  "ru": "менеджер",
+  "g": "m",
+  "topic": "Профессии",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000037,
+  "pl": "menadžeri"
+ },
+ {
+  "id": "l04-pica",
+  "sr": "pica",
+  "ru": "пицца",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000038,
+  "pl": "pice"
+ },
+ {
+  "id": "l04-doktor",
+  "sr": "doktor",
+  "ru": "врач, доктор",
+  "g": "m",
+  "topic": "Профессии",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000039,
+  "pl": "doktori"
+ },
+ {
+  "id": "l04-srbin",
+  "sr": "Srbin",
+  "ru": "серб",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "с большой буквы; ж. Srpkinja; мн. Srbi — без -in",
+  "lesson": "Урок 4 · Moj/tvoj/njegov",
+  "added": 1795250000040,
+  "pl": "Srbi"
+ },
+ {
+  "id": "l05-voleti",
+  "sr": "voleti",
+  "ru": "любить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-eti → -im",
+  "ex_sr": "Ja volim knjige.",
+  "ex_ru": "Я люблю книги.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000041,
+  "forms": [
+   "volim",
+   "voliš",
+   "voli",
+   "volimo",
+   "volite",
+   "vole"
+  ]
+ },
+ {
+  "id": "l05-uciti",
+  "sr": "učiti",
+  "ru": "учить, учиться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Vi učite nove jezike.",
+  "ex_ru": "Вы учите новые языки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000042,
+  "forms": [
+   "učim",
+   "učiš",
+   "uči",
+   "učimo",
+   "učite",
+   "uče"
+  ]
+ },
+ {
+  "id": "l05-vezbati",
+  "sr": "vežbati",
+  "ru": "упражняться, тренироваться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "On obično vežba svako jutro.",
+  "ex_ru": "Он обычно занимается каждое утро.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000043,
+  "forms": [
+   "vežbam",
+   "vežbaš",
+   "vežba",
+   "vežbamo",
+   "vežbate",
+   "vežbaju"
+  ]
+ },
+ {
+  "id": "l05-raditi",
+  "sr": "raditi",
+  "ru": "работать; делать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "raditi jogu — заниматься йогой",
+  "ex_sr": "Ona radi kao medicinska sestra u bolnici.",
+  "ex_ru": "Она работает медсестрой в больнице.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000044,
+  "forms": [
+   "radim",
+   "radiš",
+   "radi",
+   "radimo",
+   "radite",
+   "rade"
+  ]
+ },
+ {
+  "id": "l05-organizovati",
+  "sr": "organizovati",
+  "ru": "организовывать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ovati → -ujem",
+  "ex_sr": "Mi organizujemo praznik ovog vikenda.",
+  "ex_ru": "Мы организуем праздник в эти выходные.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000045,
+  "forms": [
+   "organizujem",
+   "organizuješ",
+   "organizuje",
+   "organizujemo",
+   "organizujete",
+   "organizuju"
+  ]
+ },
+ {
+  "id": "l05-putovati",
+  "sr": "putovati",
+  "ru": "путешествовать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-vati → -jem",
+  "ex_sr": "Moja porodica često putuje.",
+  "ex_ru": "Моя семья часто путешествует.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000046,
+  "forms": [
+   "putujem",
+   "putuješ",
+   "putuje",
+   "putujemo",
+   "putujete",
+   "putuju"
+  ]
+ },
+ {
+  "id": "l05-istrazivati",
+  "sr": "istraživati",
+  "ru": "исследовать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ivati → -ujem",
+  "ex_sr": "Vi putujete po svetu i istražujete.",
+  "ex_ru": "Вы путешествуете по миру и исследуете.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000047,
+  "forms": [
+   "istražujem",
+   "istražuješ",
+   "istražuje",
+   "istražujemo",
+   "istražujete",
+   "istražuju"
+  ]
+ },
+ {
+  "id": "l05-druzitise",
+  "sr": "družiti se",
+  "ru": "дружить, проводить время вместе",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "se ставится вторым в предложении: Oni se druže",
+  "ex_sr": "Oni se druže kao najbolji prijatelji još iz osnovne škole.",
+  "ex_ru": "Они дружат как лучшие друзья ещё со школы.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000048,
+  "forms": [
+   "družim se",
+   "družiš se",
+   "druži se",
+   "družimo se",
+   "družite se",
+   "druže se"
+  ]
+ },
+ {
+  "id": "l05-kuvati",
+  "sr": "kuvati",
+  "ru": "готовить (еду)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ja često kuvam ukusnu hranu.",
+  "ex_ru": "Я часто готовлю вкусную еду.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000049,
+  "forms": [
+   "kuvam",
+   "kuvaš",
+   "kuva",
+   "kuvamo",
+   "kuvate",
+   "kuvaju"
+  ]
+ },
+ {
+  "id": "l05-igrati",
+  "sr": "igrati",
+  "ru": "играть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "igrati fudbal — играть в футбол, без «в»",
+  "ex_sr": "Ti igraš fudbal svakog vikenda.",
+  "ex_ru": "Ты играешь в футбол каждые выходные.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000050,
+  "forms": [
+   "igram",
+   "igraš",
+   "igra",
+   "igramo",
+   "igrate",
+   "igraju"
+  ]
+ },
+ {
+  "id": "l05-volontirati",
+  "sr": "volontirati",
+  "ru": "быть волонтёром",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ona volontira u lokalnom volonterskom centru.",
+  "ex_ru": "Она волонтёр в местном волонтёрском центре.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000051,
+  "forms": [
+   "volontiram",
+   "volontiraš",
+   "volontira",
+   "volontiramo",
+   "volontirate",
+   "volontiraju"
+  ]
+ },
+ {
+  "id": "l05-planirati",
+  "sr": "planirati",
+  "ru": "планировать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mi planiramo putovanje.",
+  "ex_ru": "Мы планируем путешествие.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000052,
+  "forms": [
+   "planiram",
+   "planiraš",
+   "planira",
+   "planiramo",
+   "planirate",
+   "planiraju"
+  ]
+ },
+ {
+  "id": "l05-pisati",
+  "sr": "pisati",
+  "ru": "писать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "s → š: pišem",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000053,
+  "forms": [
+   "pišem",
+   "pišeš",
+   "piše",
+   "pišemo",
+   "pišete",
+   "pišu"
+  ]
+ },
+ {
+  "id": "l05-ziveti",
+  "sr": "živeti",
+  "ru": "жить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-eti → -im",
+  "ex_sr": "Mi živimo u Srbiji.",
+  "ex_ru": "Мы живём в Сербии.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000054,
+  "forms": [
+   "živim",
+   "živiš",
+   "živi",
+   "živimo",
+   "živite",
+   "žive"
+  ]
+ },
+ {
+  "id": "l05-jesti",
+  "sr": "jesti",
+  "ru": "есть (кушать)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "jedem — 3-я группа, как в уроке",
+  "ex_sr": "Šta hoćete da jedete?",
+  "ex_ru": "Что вы хотите есть?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000055,
+  "forms": [
+   "jedem",
+   "jedeš",
+   "jede",
+   "jedemo",
+   "jedete",
+   "jedu"
+  ]
+ },
+ {
+  "id": "l05-prati",
+  "sr": "prati",
+  "ru": "мыть; стирать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "prati zube — чистить зубы",
+  "ex_sr": "Pere zube.",
+  "ex_ru": "Чистит зубы.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000056,
+  "forms": [
+   "perem",
+   "pereš",
+   "pere",
+   "peremo",
+   "perete",
+   "peru"
+  ]
+ },
+ {
+  "id": "l05-pratiti",
+  "sr": "pratiti",
+  "ru": "следить; сопровождать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "не путать с prati — мыть",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000057,
+  "forms": [
+   "pratim",
+   "pratiš",
+   "prati",
+   "pratimo",
+   "pratite",
+   "prate"
+  ]
+ },
+ {
+  "id": "l05-sedeti",
+  "sr": "sedeti",
+  "ru": "сидеть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-eti → -im",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000058,
+  "forms": [
+   "sedim",
+   "sediš",
+   "sedi",
+   "sedimo",
+   "sedite",
+   "sede"
+  ]
+ },
+ {
+  "id": "l05-spavati",
+  "sr": "spavati",
+  "ru": "спать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Tijana voli da spava.",
+  "ex_ru": "Тияна любит спать.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000059,
+  "forms": [
+   "spavam",
+   "spavaš",
+   "spava",
+   "spavamo",
+   "spavate",
+   "spavaju"
+  ]
+ },
+ {
+  "id": "l05-svirati",
+  "sr": "svirati",
+  "ru": "играть (на инструменте)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "на инструменте — svirati, в игру — igrati",
+  "ex_sr": "Da li znate da svirate gitaru?",
+  "ex_ru": "Вы умеете играть на гитаре?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000060,
+  "forms": [
+   "sviram",
+   "sviraš",
+   "svira",
+   "sviramo",
+   "svirate",
+   "sviraju"
+  ]
+ },
+ {
+  "id": "l05-ici",
+  "sr": "ići",
+  "ru": "идти; ехать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Zajedno idu u pozorište.",
+  "ex_ru": "Вместе идут в театр.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000061,
+  "forms": [
+   "idem",
+   "ideš",
+   "ide",
+   "idemo",
+   "idete",
+   "idu"
+  ]
+ },
+ {
+  "id": "l05-videti",
+  "sr": "videti",
+  "ru": "видеть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-eti → -im",
+  "ex_sr": "Tamo želim da vidim medveda.",
+  "ex_ru": "Там я хочу увидеть медведя.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000062,
+  "forms": [
+   "vidim",
+   "vidiš",
+   "vidi",
+   "vidimo",
+   "vidite",
+   "vide"
+  ]
+ },
+ {
+  "id": "l05-znati",
+  "sr": "znati",
+  "ru": "знать; уметь",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "znati da svira — уметь играть",
+  "ex_sr": "Moji roditelji znaju tebe.",
+  "ex_ru": "Мои родители знают тебя.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000063,
+  "forms": [
+   "znam",
+   "znaš",
+   "zna",
+   "znamo",
+   "znate",
+   "znaju"
+  ]
+ },
+ {
+  "id": "l05-pevati",
+  "sr": "pevati",
+  "ru": "петь",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Volim da igram fudbal, da pevam.",
+  "ex_ru": "Люблю играть в футбол, петь.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000064,
+  "forms": [
+   "pevam",
+   "pevaš",
+   "peva",
+   "pevamo",
+   "pevate",
+   "pevaju"
+  ]
+ },
+ {
+  "id": "l05-setati",
+  "sr": "šetati",
+  "ru": "гулять",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Takođe često idu u parkove ili šetaju kod reke.",
+  "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000065,
+  "forms": [
+   "šetam",
+   "šetaš",
+   "šeta",
+   "šetamo",
+   "šetate",
+   "šetaju"
+  ]
+ },
+ {
+  "id": "l05-zeleti",
+  "sr": "želeti",
+  "ru": "хотеть, желать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-eti → -im",
+  "ex_sr": "Mnogo želim da idem u zoo vrt.",
+  "ex_ru": "Очень хочу пойти в зоопарк.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000066,
+  "forms": [
+   "želim",
+   "želiš",
+   "želi",
+   "želimo",
+   "želite",
+   "žele"
+  ]
+ },
+ {
+  "id": "l05-morati",
+  "sr": "morati",
+  "ru": "быть должным, «надо»",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Uveče Mihajlo mora da ide kući.",
+  "ex_ru": "Вечером Михайло должен идти домой.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000067,
+  "forms": [
+   "moram",
+   "moraš",
+   "mora",
+   "moramo",
+   "morate",
+   "moraju"
+  ]
+ },
+ {
+  "id": "l05-trenirati",
+  "sr": "trenirati",
+  "ru": "тренироваться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000068,
+  "forms": [
+   "treniram",
+   "treniraš",
+   "trenira",
+   "treniramo",
+   "trenirate",
+   "treniraju"
+  ]
+ },
+ {
+  "id": "l05-studirati",
+  "sr": "studirati",
+  "ru": "учиться в вузе",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "в школе — učiti, в университете — studirati",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000069,
+  "forms": [
+   "studiram",
+   "studiraš",
+   "studira",
+   "studiramo",
+   "studirate",
+   "studiraju"
+  ]
+ },
+ {
+  "id": "l05-doruckovati",
+  "sr": "doručkovati",
+  "ru": "завтракать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ovati → -ujem",
+  "ex_sr": "Doručkuje.",
+  "ex_ru": "Завтракает.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000070,
+  "forms": [
+   "doručkujem",
+   "doručkuješ",
+   "doručkuje",
+   "doručkujemo",
+   "doručkujete",
+   "doručkuju"
+  ]
+ },
+ {
+  "id": "l05-vecerati",
+  "sr": "večerati",
+  "ru": "ужинать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Cela porodica večera.",
+  "ex_ru": "Вся семья ужинает.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000071,
+  "forms": [
+   "večeram",
+   "večeraš",
+   "večera",
+   "večeramo",
+   "večerate",
+   "večeraju"
+  ]
+ },
+ {
+  "id": "l05-ustajati",
+  "sr": "ustajati",
+  "ru": "вставать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
+  "ex_ru": "Михайло каждый день встаёт в 9 утра.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000072,
+  "forms": [
+   "ustajem",
+   "ustaješ",
+   "ustaje",
+   "ustajemo",
+   "ustajete",
+   "ustaju"
+  ]
+ },
+ {
+  "id": "l05-voziti",
+  "sr": "voziti",
+  "ru": "везти; водить (машину)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Majka vozi njega do kuće.",
+  "ex_ru": "Мама везёт его домой.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000073,
+  "forms": [
+   "vozim",
+   "voziš",
+   "vozi",
+   "vozimo",
+   "vozite",
+   "voze"
+  ]
+ },
+ {
+  "id": "l05-provoditi",
+  "sr": "provoditi",
+  "ru": "проводить (время)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "provoditi vreme — проводить время",
+  "ex_sr": "Da li vaši roditelji provode vreme sa vama?",
+  "ex_ru": "Ваши родители проводят время с вами?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000074,
+  "forms": [
+   "provodim",
+   "provodiš",
+   "provodi",
+   "provodimo",
+   "provodite",
+   "provode"
+  ]
+ },
+ {
+  "id": "l05-odmarati",
+  "sr": "odmarati",
+  "ru": "отдыхать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Tamo zajedno provode vreme, odmaraju i šetaju.",
+  "ex_ru": "Там они вместе проводят время, отдыхают и гуляют.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000075,
+  "forms": [
+   "odmaram",
+   "odmaraš",
+   "odmara",
+   "odmaramo",
+   "odmarate",
+   "odmaraju"
+  ]
+ },
+ {
+  "id": "l05-predavati",
+  "sr": "predavati",
+  "ru": "преподавать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-vati → -jem: predajem",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000076,
+  "forms": [
+   "predajem",
+   "predaješ",
+   "predaje",
+   "predajemo",
+   "predajete",
+   "predaju"
+  ]
+ },
+ {
+  "id": "l05-upoznavati",
+  "sr": "upoznavati",
+  "ru": "знакомиться; знакомить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-vati → -jem; upoznavanje — знакомство",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000077,
+  "forms": [
+   "upoznajem",
+   "upoznaješ",
+   "upoznaje",
+   "upoznajemo",
+   "upoznajete",
+   "upoznaju"
+  ]
+ },
+ {
+  "id": "l05-zvatise",
+  "sr": "zvati se",
+  "ru": "называться; меня зовут",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "Zovem se… — меня зовут…",
+  "ex_sr": "Zovem se Nikola.",
+  "ex_ru": "Меня зовут Никола.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000078,
+  "forms": [
+   "zovem se",
+   "zoveš se",
+   "zove se",
+   "zovemo se",
+   "zovete se",
+   "zovu se"
+  ]
+ },
+ {
+  "id": "l05-moci",
+  "sr": "moći",
+  "ru": "мочь",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "особые формы: mogu, možeš",
+  "ex_sr": "Mi ne možemo da učimo trenutno.",
+  "ex_ru": "Мы сейчас не можем учиться.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000079,
+  "forms": [
+   "mogu",
+   "možeš",
+   "može",
+   "možemo",
+   "možete",
+   "mogu"
+  ]
+ },
+ {
+  "id": "l05-hteti",
+  "sr": "hteti",
+  "ru": "хотеть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "особые формы: hoću, hoćeš",
+  "ex_sr": "Šta hoćete da jedete?",
+  "ex_ru": "Что вы хотите есть?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000080,
+  "forms": [
+   "hoću",
+   "hoćeš",
+   "hoće",
+   "hoćemo",
+   "hoćete",
+   "hoće"
+  ]
+ },
+ {
+  "id": "l05-kupiti",
+  "sr": "kupiti",
+  "ru": "купить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ide do pekare da kupi burek.",
+  "ex_ru": "Идёт в пекарню купить бурек.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000081,
+  "forms": [
+   "kupim",
+   "kupiš",
+   "kupi",
+   "kupimo",
+   "kupite",
+   "kupe"
+  ]
+ },
+ {
+  "id": "l05-sretati",
+  "sr": "sretati",
+  "ru": "встречать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "t → ć: srećem",
+  "ex_sr": "U gradu sreće svoje drugare.",
+  "ex_ru": "В городе встречает своих друзей.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000082,
+  "forms": [
+   "srećem",
+   "srećeš",
+   "sreće",
+   "srećemo",
+   "srećete",
+   "sreću"
+  ]
+ },
+ {
+  "id": "l05-odlaziti",
+  "sr": "odlaziti",
+  "ru": "уходить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000083,
+  "forms": [
+   "odlazim",
+   "odlaziš",
+   "odlazi",
+   "odlazimo",
+   "odlazite",
+   "odlaze"
+  ]
+ },
+ {
+  "id": "l05-preferirati",
+  "sr": "preferirati",
+  "ru": "предпочитать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Šta preferiraš da piješ?",
+  "ex_ru": "Что ты предпочитаешь пить?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000084,
+  "forms": [
+   "preferiram",
+   "preferiraš",
+   "preferira",
+   "preferiramo",
+   "preferirate",
+   "preferiraju"
+  ]
+ },
+ {
+  "id": "l05-knjiga",
+  "sr": "knjiga",
+  "ru": "книга",
+  "g": "f",
+  "topic": "Учёба",
+  "ex_sr": "Ja volim knjige.",
+  "ex_ru": "Я люблю книги.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000085,
+  "pl": "knjige"
+ },
+ {
+  "id": "l05-jezik",
+  "sr": "jezik",
+  "ru": "язык",
+  "g": "m",
+  "topic": "Учёба",
+  "note": "мн. jezici (k → c)",
+  "ex_sr": "Vi učite nove jezike.",
+  "ex_ru": "Вы учите новые языки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000086,
+  "pl": "jezici"
+ },
+ {
+  "id": "l05-nemacki",
+  "sr": "nemački",
+  "ru": "немецкий",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "nemački jezik — немецкий язык",
+  "ex_sr": "Ti učiš nemački jezik već dve godine.",
+  "ex_ru": "Ты учишь немецкий язык уже два года.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000087
+ },
+ {
+  "id": "l05-godina",
+  "sr": "godina",
+  "ru": "год",
+  "g": "f",
+  "topic": "Время и дни",
+  "note": "в русском — м. р.",
+  "ex_sr": "Ti učiš nemački jezik već dve godine.",
+  "ex_ru": "Ты учишь немецкий язык уже два года.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000088,
+  "pl": "godine"
+ },
+ {
+  "id": "l05-jutro",
+  "sr": "jutro",
+  "ru": "утро",
+  "g": "n",
+  "topic": "Время и дни",
+  "ex_sr": "On obično vežba svako jutro.",
+  "ex_ru": "Он обычно занимается каждое утро.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000089,
+  "pl": "jutra"
+ },
+ {
+  "id": "l05-medsestra",
+  "sr": "medicinska sestra",
+  "ru": "медсестра",
+  "g": "f",
+  "topic": "Профессии",
+  "ex_sr": "Ona radi kao medicinska sestra u bolnici.",
+  "ex_ru": "Она работает медсестрой в больнице.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000090,
+  "pl": "medicinske sestre"
+ },
+ {
+  "id": "l05-bolnica",
+  "sr": "bolnica",
+  "ru": "больница",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ona radi kao medicinska sestra u bolnici.",
+  "ex_ru": "Она работает медсестрой в больнице.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000091,
+  "pl": "bolnice"
+ },
+ {
+  "id": "l05-praznik",
+  "sr": "praznik",
+  "ru": "праздник",
+  "g": "m",
+  "topic": "Досуг",
+  "note": "мн. praznici (k → c)",
+  "ex_sr": "Mi organizujemo praznik ovog vikenda.",
+  "ex_ru": "Мы организуем праздник в эти выходные.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000092,
+  "pl": "praznici"
+ },
+ {
+  "id": "l05-vikend",
+  "sr": "vikend",
+  "ru": "выходные",
+  "g": "m",
+  "topic": "Время и дни",
+  "note": "одно слово на субботу и воскресенье",
+  "ex_sr": "Ti igraš fudbal svakog vikenda.",
+  "ex_ru": "Ты играешь в футбол каждые выходные.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000093,
+  "pl": "vikendi"
+ },
+ {
+  "id": "l05-svet",
+  "sr": "svet",
+  "ru": "мир (Земля, люди)",
+  "g": "m",
+  "topic": "Понятия",
+  "ex_sr": "Vi putujete po svetu i istražujete.",
+  "ex_ru": "Вы путешествуете по миру и исследуете.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000094,
+  "pl": "svetovi"
+ },
+ {
+  "id": "l05-prijatelj",
+  "sr": "prijatelj",
+  "ru": "друг, приятель",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "ж. prijateljica",
+  "ex_sr": "Oni se druže kao najbolji prijatelji još iz osnovne škole.",
+  "ex_ru": "Они дружат как лучшие друзья ещё со школы.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000095,
+  "pl": "prijatelji"
+ },
+ {
+  "id": "l05-najbolji",
+  "sr": "najbolji",
+  "ru": "лучший",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. najbolja",
+  "ex_sr": "Oni se druže kao najbolji prijatelji još iz osnovne škole.",
+  "ex_ru": "Они дружат как лучшие друзья ещё со школы.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000096
+ },
+ {
+  "id": "l05-skola",
+  "sr": "škola",
+  "ru": "школа",
+  "g": "f",
+  "topic": "Учёба",
+  "note": "osnovna škola — школа с 1 по 8 класс",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000097,
+  "pl": "škole"
+ },
+ {
+  "id": "l05-hrana",
+  "sr": "hrana",
+  "ru": "еда",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "ex_sr": "Ja često kuvam ukusnu hranu.",
+  "ex_ru": "Я часто готовлю вкусную еду.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000098
+ },
+ {
+  "id": "l05-ukusan",
+  "sr": "ukusan",
+  "ru": "вкусный",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. ukusna, ср. ukusno",
+  "ex_sr": "Ja često kuvam ukusnu hranu.",
+  "ex_ru": "Я часто готовлю вкусную еду.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000099
+ },
+ {
+  "id": "l05-fudbal",
+  "sr": "fudbal",
+  "ru": "футбол",
+  "g": "m",
+  "topic": "Досуг",
+  "ex_sr": "Ljudi igraju fudbal.",
+  "ex_ru": "Люди играют в футбол.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000100
+ },
+ {
+  "id": "l05-joga",
+  "sr": "joga",
+  "ru": "йога",
+  "g": "f",
+  "topic": "Досуг",
+  "note": "raditi jogu — заниматься йогой",
+  "ex_sr": "On često radi jogu.",
+  "ex_ru": "Он часто занимается йогой.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000101
+ },
+ {
+  "id": "l05-putovanje",
+  "sr": "putovanje",
+  "ru": "путешествие",
+  "g": "n",
+  "topic": "Досуг",
+  "ex_sr": "Mi planiramo putovanje.",
+  "ex_ru": "Мы планируем путешествие.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000102,
+  "pl": "putovanja"
+ },
+ {
+  "id": "l05-zub",
+  "sr": "zub",
+  "ru": "зуб",
+  "g": "m",
+  "topic": "Тело",
+  "note": "мн. zubi — без -ovi",
+  "ex_sr": "Pere zube.",
+  "ex_ru": "Чистит зубы.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000103,
+  "pl": "zubi"
+ },
+ {
+  "id": "l05-pekara",
+  "sr": "pekara",
+  "ru": "пекарня",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ide do pekare da kupi burek.",
+  "ex_ru": "Идёт в пекарню купить бурек.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000104,
+  "pl": "pekare"
+ },
+ {
+  "id": "l05-burek",
+  "sr": "burek",
+  "ru": "бурек (слоёный пирог)",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000105,
+  "pl": "bureci"
+ },
+ {
+  "id": "l05-pozoriste",
+  "sr": "pozorište",
+  "ru": "театр",
+  "g": "n",
+  "topic": "Город и транспорт",
+  "ex_sr": "Zajedno idu u pozorište.",
+  "ex_ru": "Вместе идут в театр.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000106,
+  "pl": "pozorišta"
+ },
+ {
+  "id": "l05-porodica",
+  "sr": "porodica",
+  "ru": "семья",
+  "g": "f",
+  "topic": "Семья и люди",
+  "ex_sr": "Moja porodica često putuje.",
+  "ex_ru": "Моя семья часто путешествует.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000107,
+  "pl": "porodice"
+ },
+ {
+  "id": "l05-problem",
+  "sr": "problem",
+  "ru": "проблема",
+  "g": "m",
+  "topic": "Понятия",
+  "note": "в русском — ж. р.",
+  "ex_sr": "Šta planiraju da rade s tim problemom?",
+  "ex_ru": "Что они планируют делать с этой проблемой?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000108,
+  "pl": "problemi"
+ },
+ {
+  "id": "l05-spavacasoba",
+  "sr": "spavaća soba",
+  "ru": "спальня",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "note": "soba — комната",
+  "ex_sr": "Ako oni hoće da spavaju, oni mogu da odlaze u spavaću sobu.",
+  "ex_ru": "Если они хотят спать, они могут уходить в спальню.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000109,
+  "pl": "spavaće sobe"
+ },
+ {
+  "id": "l05-zoovrt",
+  "sr": "zoo vrt",
+  "ru": "зоопарк",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "ex_sr": "Mnogo želim da idem u zoo vrt.",
+  "ex_ru": "Очень хочу пойти в зоопарк.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000110,
+  "pl": "zoo vrtovi"
+ },
+ {
+  "id": "l05-medved",
+  "sr": "medved",
+  "ru": "медведь",
+  "g": "m",
+  "topic": "Животные",
+  "ex_sr": "Tamo želim da vidim medveda.",
+  "ex_ru": "Там я хочу увидеть медведя.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000111,
+  "pl": "medvedi"
+ },
+ {
+  "id": "l05-roditelji",
+  "sr": "roditelji",
+  "ru": "родители",
+  "g": "pl",
+  "topic": "Семья и люди",
+  "note": "ед. roditelj",
+  "ex_sr": "Moji roditelji znaju tebe.",
+  "ex_ru": "Мои родители знают тебя.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000112
+ },
+ {
+  "id": "l05-testenina",
+  "sr": "testenina",
+  "ru": "макароны, паста",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "ex_sr": "Da li vi volite testeninu?",
+  "ex_ru": "Вы любите макароны?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000113
+ },
+ {
+  "id": "l05-restoran",
+  "sr": "restoran",
+  "ru": "ресторан",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "ex_sr": "Da li vaš grad ima restoran?",
+  "ex_ru": "В вашем городе есть ресторан?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000114,
+  "pl": "restorani"
+ },
+ {
+  "id": "l05-planina",
+  "sr": "planina",
+  "ru": "гора",
+  "g": "f",
+  "topic": "Природа",
+  "ex_sr": "Pored mog grada ima mnogo lepih planina.",
+  "ex_ru": "Рядом с моим городом много красивых гор.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000115,
+  "pl": "planine"
+ },
+ {
+  "id": "l05-pravnik",
+  "sr": "pravnik",
+  "ru": "юрист",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "мн. pravnici (k → c)",
+  "ex_sr": "On živi u Subotici i radi kao pravnik.",
+  "ex_ru": "Он живёт в Суботице и работает юристом.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000116,
+  "pl": "pravnici"
+ },
+ {
+  "id": "l05-vikendica",
+  "sr": "vikendica",
+  "ru": "дача, загородный домик",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "note": "от vikend",
+  "ex_sr": "Ima vikendicu u selu.",
+  "ex_ru": "У него есть дача в деревне.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000117,
+  "pl": "vikendice"
+ },
+ {
+  "id": "l05-reka",
+  "sr": "reka",
+  "ru": "река",
+  "g": "f",
+  "topic": "Природа",
+  "ex_sr": "Takođe često idu u parkove ili šetaju kod reke.",
+  "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000118,
+  "pl": "reke"
+ },
+ {
+  "id": "l05-park",
+  "sr": "park",
+  "ru": "парк",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "ex_sr": "Takođe često idu u parkove ili šetaju kod reke.",
+  "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000119,
+  "pl": "parkovi"
+ },
+ {
+  "id": "l05-centar",
+  "sr": "centar",
+  "ru": "центр",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "note": "мн. centri (a выпадает)",
+  "ex_sr": "Ona volontira u lokalnom volonterskom centru.",
+  "ex_ru": "Она волонтёр в местном волонтёрском центре.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000120,
+  "pl": "centri"
+ },
+ {
+  "id": "l05-drugar",
+  "sr": "drugar",
+  "ru": "приятель, друг",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "разговорное, ж. drugarica",
+  "ex_sr": "U gradu sreće svoje drugare.",
+  "ex_ru": "В городе встречает своих друзей.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000121,
+  "pl": "drugari"
+ },
+ {
+  "id": "l05-obicno",
+  "sr": "obično",
+  "ru": "обычно",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "On obično vežba svako jutro.",
+  "ex_ru": "Он обычно занимается каждое утро.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000122
+ },
+ {
+  "id": "l05-cesto",
+  "sr": "često",
+  "ru": "часто",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Ja često kuvam ukusnu hranu.",
+  "ex_ru": "Я часто готовлю вкусную еду.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000123
+ },
+ {
+  "id": "l05-svakidan",
+  "sr": "svaki dan",
+  "ru": "каждый день",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "ex_sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
+  "ex_ru": "Михайло каждый день встаёт в 9 утра.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000124
+ },
+ {
+  "id": "l05-zajedno",
+  "sr": "zajedno",
+  "ru": "вместе",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Zajedno idu u pozorište.",
+  "ex_ru": "Вместе идут в театр.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000125
+ },
+ {
+  "id": "l05-ponekad",
+  "sr": "ponekad",
+  "ru": "иногда",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Ponekad idu u pozorište zajedno.",
+  "ex_ru": "Иногда вместе ходят в театр.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000126
+ },
+ {
+  "id": "l05-takodje",
+  "sr": "takođe",
+  "ru": "тоже, также",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Takođe često idu u parkove ili šetaju kod reke.",
+  "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000127
+ },
+ {
+  "id": "l05-ujutru",
+  "sr": "ujutru",
+  "ru": "утром",
+  "g": "adv",
+  "topic": "Время и дни",
+  "ex_sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
+  "ex_ru": "Михайло каждый день встаёт в 9 утра.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000128
+ },
+ {
+  "id": "l05-uvece",
+  "sr": "uveče",
+  "ru": "вечером",
+  "g": "adv",
+  "topic": "Время и дни",
+  "ex_sr": "Uveče Mihajlo mora da ide kući.",
+  "ex_ru": "Вечером Михайло должен идти домой.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000129
+ },
+ {
+  "id": "l05-posle",
+  "sr": "posle",
+  "ru": "после; потом",
+  "g": "prep",
+  "topic": "Маленькие слова",
+  "ex_sr": "Posle pozorišta Mihajlo, Đurđa i Veljko idu zajedno na kafu.",
+  "ex_ru": "После театра Михайло, Джурджа и Велько вместе идут на кофе.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000130
+ },
+ {
+  "id": "l05-trenutno",
+  "sr": "trenutno",
+  "ru": "сейчас, в данный момент",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Mi ne možemo da učimo trenutno.",
+  "ex_ru": "Мы сейчас не можем учиться.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000131
+ },
+ {
+  "id": "l05-vec",
+  "sr": "već",
+  "ru": "уже",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Ti učiš nemački jezik već dve godine.",
+  "ex_ru": "Ты учишь немецкий язык уже два года.",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000132
+ },
+ {
+  "id": "l05-kakosezoves",
+  "sr": "kako se zoveš",
+  "ru": "как тебя зовут?",
+  "g": "phrase",
+  "topic": "Фразы",
+  "note": "ответ: Zovem se…",
+  "ex_sr": "Kako se zoveš?",
+  "ex_ru": "Как тебя зовут?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000133
+ },
+ {
+  "id": "l05-gdezivis",
+  "sr": "gde živiš",
+  "ru": "где ты живёшь?",
+  "g": "phrase",
+  "topic": "Фразы",
+  "note": "ответ: Živim u…",
+  "ex_sr": "Gde živiš?",
+  "ex_ru": "Где ты живёшь?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000134
+ },
+ {
+  "id": "l05-odaklesi",
+  "sr": "odakle si",
+  "ru": "откуда ты?",
+  "g": "phrase",
+  "topic": "Фразы",
+  "note": "ответ: Iz Moskve sam.",
+  "ex_sr": "Odakle si?",
+  "ex_ru": "Откуда ты?",
+  "lesson": "Урок 5 · Prezent",
+  "added": 1795250000135
+ },
+ {
+  "id": "l06-korist",
+  "sr": "korist",
+  "ru": "польза",
+  "g": "f",
+  "topic": "Понятия",
+  "note": "ж. р., хотя на согласную",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000136,
+  "pl": "koristi"
+ },
+ {
+  "id": "l06-sunce",
+  "sr": "sunce",
+  "ru": "солнце",
+  "g": "n",
+  "topic": "Погода и времена года",
+  "ex_sr": "Sunce sija i napolju je vedro.",
+  "ex_ru": "Светит солнце, на улице ясно.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000137,
+  "pl": "sunca"
+ },
+ {
+  "id": "l06-stolica",
+  "sr": "stolica",
+  "ru": "стул",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "note": "в русском — м. р.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000138,
+  "pl": "stolice"
+ },
+ {
+  "id": "l06-srp",
+  "sr": "srp",
+  "ru": "серп",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "note": "слог без гласной: r звучит как гласная",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000139,
+  "pl": "srpovi"
+ },
+ {
+  "id": "l06-krst",
+  "sr": "krst",
+  "ru": "крест",
+  "g": "m",
+  "topic": "Понятия",
+  "note": "слог без гласной: r звучит как гласная",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000140,
+  "pl": "krstovi"
+ },
+ {
+  "id": "l06-stvar",
+  "sr": "stvar",
+  "ru": "вещь",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "note": "ж. р., хотя на согласную",
+  "ex_sr": "Stvari lete po vazduhu.",
+  "ex_ru": "Вещи летают по воздуху.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000141,
+  "pl": "stvari"
+ },
+ {
+  "id": "l06-zemlja",
+  "sr": "zemlja",
+  "ru": "земля; страна",
+  "g": "f",
+  "topic": "Природа",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000142,
+  "pl": "zemlje"
+ },
+ {
+  "id": "l06-sto",
+  "sr": "sto",
+  "ru": "стол",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "note": "мн. stolovi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000143,
+  "pl": "stolovi"
+ },
+ {
+  "id": "l06-konj",
+  "sr": "konj",
+  "ru": "лошадь, конь",
+  "g": "m",
+  "topic": "Животные",
+  "note": "мн. konji — без -evi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000144,
+  "pl": "konji"
+ },
+ {
+  "id": "l06-doba",
+  "sr": "doba",
+  "ru": "пора, эпоха",
+  "g": "n",
+  "topic": "Время и дни",
+  "note": "не изменяется; godišnje doba — время года",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000145,
+  "pl": "doba"
+ },
+ {
+  "id": "l06-opasnost",
+  "sr": "opasnost",
+  "ru": "опасность",
+  "g": "f",
+  "topic": "Понятия",
+  "note": "все слова на -ost — ж. р.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000146,
+  "pl": "opasnosti"
+ },
+ {
+  "id": "l06-more",
+  "sr": "more",
+  "ru": "море",
+  "g": "n",
+  "topic": "Природа",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000147,
+  "pl": "mora"
+ },
+ {
+  "id": "l06-taksista",
+  "sr": "taksista",
+  "ru": "таксист",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "м. р., хотя на -a",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000148,
+  "pl": "taksisti"
+ },
+ {
+  "id": "l06-novac",
+  "sr": "novac",
+  "ru": "деньги",
+  "g": "m",
+  "topic": "Понятия",
+  "note": "в сербском ед. ч., м. р.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000149
+ },
+ {
+  "id": "l06-most",
+  "sr": "most",
+  "ru": "мост",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000150,
+  "pl": "mostovi"
+ },
+ {
+  "id": "l06-smisao",
+  "sr": "smisao",
+  "ru": "смысл",
+  "g": "m",
+  "topic": "Понятия",
+  "note": "на -ao, как orao и ugao",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000151
+ },
+ {
+  "id": "l06-kokoska",
+  "sr": "kokoška",
+  "ru": "курица",
+  "g": "f",
+  "topic": "Животные",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000152,
+  "pl": "kokoške"
+ },
+ {
+  "id": "l06-brdo",
+  "sr": "brdo",
+  "ru": "холм, гора",
+  "g": "n",
+  "topic": "Природа",
+  "note": "слог без гласной: r звучит как гласная",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000153,
+  "pl": "brda"
+ },
+ {
+  "id": "l06-jezero",
+  "sr": "jezero",
+  "ru": "озеро",
+  "g": "n",
+  "topic": "Природа",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000154,
+  "pl": "jezera"
+ },
+ {
+  "id": "l06-tata",
+  "sr": "tata",
+  "ru": "папа",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "м. р., хотя на -a",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000155,
+  "pl": "tate"
+ },
+ {
+  "id": "l06-srbija",
+  "sr": "Srbija",
+  "ru": "Сербия",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Mi živimo u Srbiji.",
+  "ex_ru": "Мы живём в Сербии.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000156
+ },
+ {
+  "id": "l06-republika",
+  "sr": "republika",
+  "ru": "республика",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000157,
+  "pl": "republike"
+ },
+ {
+  "id": "l06-frizider",
+  "sr": "frižider",
+  "ru": "холодильник",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000158,
+  "pl": "frižideri"
+ },
+ {
+  "id": "l06-kralj",
+  "sr": "kralj",
+  "ru": "король",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "после мягкой согласной — -evi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000159,
+  "pl": "kraljevi"
+ },
+ {
+  "id": "l06-ime",
+  "sr": "ime",
+  "ru": "имя",
+  "g": "n",
+  "topic": "Понятия",
+  "note": "мн. imena",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000160,
+  "pl": "imena"
+ },
+ {
+  "id": "l06-slon",
+  "sr": "slon",
+  "ru": "слон",
+  "g": "m",
+  "topic": "Животные",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000161,
+  "pl": "slonovi"
+ },
+ {
+  "id": "l06-soko",
+  "sr": "soko",
+  "ru": "сокол",
+  "g": "m",
+  "topic": "Животные",
+  "note": "м. р., хотя на -o",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000162,
+  "pl": "sokolovi"
+ },
+ {
+  "id": "l06-drzava",
+  "sr": "država",
+  "ru": "государство, страна",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000163,
+  "pl": "države"
+ },
+ {
+  "id": "l06-fakultet",
+  "sr": "fakultet",
+  "ru": "факультет; вуз",
+  "g": "m",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000164,
+  "pl": "fakulteti"
+ },
+ {
+  "id": "l06-automobil",
+  "sr": "automobil",
+  "ru": "автомобиль",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000165,
+  "pl": "automobili"
+ },
+ {
+  "id": "l06-lutka",
+  "sr": "lutka",
+  "ru": "кукла",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000166,
+  "pl": "lutke"
+ },
+ {
+  "id": "l06-dugme",
+  "sr": "dugme",
+  "ru": "пуговица; кнопка",
+  "g": "n",
+  "topic": "Одежда",
+  "note": "мн. dugmad — исключение",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000167,
+  "pl": "dugmad"
+ },
+ {
+  "id": "l06-rame",
+  "sr": "rame",
+  "ru": "плечо",
+  "g": "n",
+  "topic": "Тело",
+  "note": "мн. ramena",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000168,
+  "pl": "ramena"
+ },
+ {
+  "id": "l06-prase",
+  "sr": "prase",
+  "ru": "поросёнок",
+  "g": "n",
+  "topic": "Животные",
+  "note": "мн. prasad — исключение",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000169,
+  "pl": "prasad"
+ },
+ {
+  "id": "l06-sveska",
+  "sr": "sveska",
+  "ru": "тетрадь",
+  "g": "f",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000170,
+  "pl": "sveske"
+ },
+ {
+  "id": "l06-vrednost",
+  "sr": "vrednost",
+  "ru": "ценность",
+  "g": "f",
+  "topic": "Понятия",
+  "note": "все слова на -ost — ж. р.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000171,
+  "pl": "vrednosti"
+ },
+ {
+  "id": "l06-orao",
+  "sr": "orao",
+  "ru": "орёл",
+  "g": "m",
+  "topic": "Животные",
+  "note": "мн. orlovi: -ao → -lovi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000172,
+  "pl": "orlovi"
+ },
+ {
+  "id": "l06-seme",
+  "sr": "seme",
+  "ru": "семя, семечко",
+  "g": "n",
+  "topic": "Природа",
+  "note": "мн. semena",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000173,
+  "pl": "semena"
+ },
+ {
+  "id": "l06-racunar",
+  "sr": "računar",
+  "ru": "компьютер",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000174,
+  "pl": "računari"
+ },
+ {
+  "id": "l06-student",
+  "sr": "student",
+  "ru": "студент",
+  "g": "m",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000175,
+  "pl": "studenti"
+ },
+ {
+  "id": "l06-beograd",
+  "sr": "Beograd",
+  "ru": "Белград",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000176
+ },
+ {
+  "id": "l06-secer",
+  "sr": "šećer",
+  "ru": "сахар",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000177
+ },
+ {
+  "id": "l06-deda",
+  "sr": "deda",
+  "ru": "дедушка",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "м. р., хотя на -a",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000178,
+  "pl": "dede"
+ },
+ {
+  "id": "l06-sudija",
+  "sr": "sudija",
+  "ru": "судья",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "м. р., хотя на -a",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000179,
+  "pl": "sudije"
+ },
+ {
+  "id": "l06-ugao",
+  "sr": "ugao",
+  "ru": "угол",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "note": "мн. uglovi: -ao → -lovi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000180,
+  "pl": "uglovi"
+ },
+ {
+  "id": "l06-posao",
+  "sr": "posao",
+  "ru": "работа",
+  "g": "m",
+  "topic": "Понятия",
+  "note": "в русском — ж. р.; мн. poslovi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000181,
+  "pl": "poslovi"
+ },
+ {
+  "id": "l06-civilizacija",
+  "sr": "civilizacija",
+  "ru": "цивилизация",
+  "g": "f",
+  "topic": "Понятия",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000182,
+  "pl": "civilizacije"
+ },
+ {
+  "id": "l06-ptica",
+  "sr": "ptica",
+  "ru": "птица",
+  "g": "f",
+  "topic": "Животные",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000183,
+  "pl": "ptice"
+ },
+ {
+  "id": "l06-policija",
+  "sr": "policija",
+  "ru": "полиция",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000184
+ },
+ {
+  "id": "l06-noc",
+  "sr": "noć",
+  "ru": "ночь",
+  "g": "f",
+  "topic": "Время и дни",
+  "note": "ж. р., хотя на согласную",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000185,
+  "pl": "noći"
+ },
+ {
+  "id": "l06-kost",
+  "sr": "kost",
+  "ru": "кость",
+  "g": "f",
+  "topic": "Тело",
+  "note": "ж. р., хотя на согласную",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000186,
+  "pl": "kosti"
+ },
+ {
+  "id": "l06-leto",
+  "sr": "leto",
+  "ru": "лето",
+  "g": "n",
+  "topic": "Погода и времена года",
+  "ex_sr": "Kada dolazi leto volim da obnavljam svoju garderobu.",
+  "ex_ru": "Когда приходит лето, я люблю обновлять свой гардероб.",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000187,
+  "pl": "leta"
+ },
+ {
+  "id": "l06-pero",
+  "sr": "pero",
+  "ru": "перо",
+  "g": "n",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000188,
+  "pl": "pera"
+ },
+ {
+  "id": "l06-lav",
+  "sr": "lav",
+  "ru": "лев",
+  "g": "m",
+  "topic": "Животные",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000189,
+  "pl": "lavovi"
+ },
+ {
+  "id": "l06-bog",
+  "sr": "bog",
+  "ru": "бог",
+  "g": "m",
+  "topic": "Понятия",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000190,
+  "pl": "bogovi"
+ },
+ {
+  "id": "l06-dan",
+  "sr": "dan",
+  "ru": "день",
+  "g": "m",
+  "topic": "Время и дни",
+  "note": "мн. dani — без -ovi",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000191,
+  "pl": "dani"
+ },
+ {
+  "id": "l06-muskirod",
+  "sr": "muški rod",
+  "ru": "мужской род",
+  "g": "phrase",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000192
+ },
+ {
+  "id": "l06-zenskirod",
+  "sr": "ženski rod",
+  "ru": "женский род",
+  "g": "phrase",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000193
+ },
+ {
+  "id": "l06-srednjirod",
+  "sr": "srednji rod",
+  "ru": "средний род",
+  "g": "phrase",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000194
+ },
+ {
+  "id": "l06-mnozina",
+  "sr": "množina",
+  "ru": "множественное число",
+  "g": "f",
+  "topic": "Учёба",
+  "lesson": "Урок 6 · Množina",
+  "added": 1795250000195
+ },
+ {
+  "id": "l24-odeca",
+  "sr": "odeća",
+  "ru": "одежда",
+  "g": "f",
+  "topic": "Одежда",
+  "ex_sr": "Jedva čekam da nosim svu svoju novu odeću.",
+  "ex_ru": "Жду не дождусь, когда надену всю свою новую одежду.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000196
+ },
+ {
+  "id": "l24-garderoba",
+  "sr": "garderoba",
+  "ru": "гардероб (вся одежда)",
+  "g": "f",
+  "topic": "Одежда",
+  "ex_sr": "Kada dolazi leto volim da obnavljam svoju garderobu.",
+  "ex_ru": "Когда приходит лето, я люблю обновлять свой гардероб.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000197
+ },
+ {
+  "id": "l24-sorts",
+  "sr": "šorts",
+  "ru": "шорты",
+  "g": "m",
+  "topic": "Одежда",
+  "note": "в сербском — ед. ч., м. р.",
+  "ex_sr": "Treba mi i nešto novo da nosim dole, zato kupujem i šorts.",
+  "ex_ru": "Мне нужно и что-то новое вниз, поэтому покупаю и шорты.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000198,
+  "pl": "šortsovi"
+ },
+ {
+  "id": "l24-haljina",
+  "sr": "haljina",
+  "ru": "платье",
+  "g": "f",
+  "topic": "Одежда",
+  "note": "в русском — ср. р.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000199,
+  "pl": "haljine"
+ },
+ {
+  "id": "l24-kapa",
+  "sr": "kapa",
+  "ru": "шапка",
+  "g": "f",
+  "topic": "Одежда",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000200,
+  "pl": "kape"
+ },
+ {
+  "id": "l24-carape",
+  "sr": "čarape",
+  "ru": "носки",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "ед. čarapa",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000201
+ },
+ {
+  "id": "l24-duks",
+  "sr": "duks",
+  "ru": "толстовка, худи",
+  "g": "m",
+  "topic": "Одежда",
+  "ex_sr": "Gore više ne nosim debeli duks sa kapuljačom.",
+  "ex_ru": "Сверху я больше не ношу толстую толстовку с капюшоном.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000202,
+  "pl": "duksovi"
+ },
+ {
+  "id": "l24-dzemper",
+  "sr": "džemper",
+  "ru": "свитер",
+  "g": "m",
+  "topic": "Одежда",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000203,
+  "pl": "džemperi"
+ },
+ {
+  "id": "l24-rukavice",
+  "sr": "rukavice",
+  "ru": "перчатки",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "ед. rukavica",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000204
+ },
+ {
+  "id": "l24-patike",
+  "sr": "patike",
+  "ru": "кроссовки",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "ед. patika",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000205
+ },
+ {
+  "id": "l24-pantalone",
+  "sr": "pantalone",
+  "ru": "брюки",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "только мн. ч., как в русском",
+  "ex_sr": "A dole tople pantalone.",
+  "ex_ru": "А внизу тёплые брюки.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000206
+ },
+ {
+  "id": "l24-farmerke",
+  "sr": "farmerke",
+  "ru": "джинсы",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "только мн. ч.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000207
+ },
+ {
+  "id": "l24-sal",
+  "sr": "šal",
+  "ru": "шарф",
+  "g": "m",
+  "topic": "Одежда",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000208,
+  "pl": "šalovi"
+ },
+ {
+  "id": "l24-helanke",
+  "sr": "helanke",
+  "ru": "леггинсы",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "только мн. ч.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000209
+ },
+ {
+  "id": "l24-suknja",
+  "sr": "suknja",
+  "ru": "юбка",
+  "g": "f",
+  "topic": "Одежда",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000210,
+  "pl": "suknje"
+ },
+ {
+  "id": "l24-donjives",
+  "sr": "donji veš",
+  "ru": "нижнее бельё",
+  "g": "m",
+  "topic": "Одежда",
+  "note": "в уроке рядом: gaćice",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000211
+ },
+ {
+  "id": "l24-stikle",
+  "sr": "štikle",
+  "ru": "туфли на каблуке",
+  "g": "pl",
+  "topic": "Одежда",
+  "note": "ед. štikla",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000212
+ },
+ {
+  "id": "l24-kosulja",
+  "sr": "košulja",
+  "ru": "рубашка",
+  "g": "f",
+  "topic": "Одежда",
+  "ex_sr": "Za večere u restoranima mi treba i nova košulja.",
+  "ex_ru": "Для ужинов в ресторанах мне нужна и новая рубашка.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000213,
+  "pl": "košulje"
+ },
+ {
+  "id": "l24-jakna",
+  "sr": "jakna",
+  "ru": "куртка",
+  "g": "f",
+  "topic": "Одежда",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000214,
+  "pl": "jakne"
+ },
+ {
+  "id": "l24-kacket",
+  "sr": "kačket",
+  "ru": "кепка",
+  "g": "m",
+  "topic": "Одежда",
+  "note": "в русском — ж. р.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000215,
+  "pl": "kačketi"
+ },
+ {
+  "id": "l24-zelen",
+  "sr": "zelen",
+  "ru": "зелёный",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. zelena, мн. zeleni",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000216
+ },
+ {
+  "id": "l24-roze",
+  "sr": "roze",
+  "ru": "розовый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "не изменяется: roze haljina, roze duks",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000217
+ },
+ {
+  "id": "l24-siv",
+  "sr": "siv",
+  "ru": "серый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. siva, мн. sive",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000218
+ },
+ {
+  "id": "l24-ljubicast",
+  "sr": "ljubičast",
+  "ru": "фиолетовый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. ljubičasta, мн. ljubičaste",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000219
+ },
+ {
+  "id": "l24-zut",
+  "sr": "žut",
+  "ru": "жёлтый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. žuta, мн. žute",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000220
+ },
+ {
+  "id": "l24-braon",
+  "sr": "braon",
+  "ru": "коричневый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "не изменяется: braon čizme",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000221
+ },
+ {
+  "id": "l24-crven",
+  "sr": "crven",
+  "ru": "красный",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. crvena, мн. crveni",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000222
+ },
+ {
+  "id": "l24-gore",
+  "sr": "gore",
+  "ru": "наверху, сверху",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Gore više ne nosim debeli duks sa kapuljačom.",
+  "ex_ru": "Сверху я больше не ношу толстую толстовку с капюшоном.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000223
+ },
+ {
+  "id": "l24-dole",
+  "sr": "dole",
+  "ru": "внизу, снизу",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Treba mi i nešto novo da nosim dole, zato kupujem i šorts.",
+  "ex_ru": "Мне нужно и что-то новое вниз, поэтому покупаю и шорты.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000224
+ },
+ {
+  "id": "l24-ormar",
+  "sr": "ormar",
+  "ru": "шкаф",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "ex_sr": "Stavim u ormar zimske čizme.",
+  "ex_ru": "Убираю в шкаф зимние сапоги.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000225,
+  "pl": "ormari"
+ },
+ {
+  "id": "l24-prodavnica",
+  "sr": "prodavnica",
+  "ru": "магазин",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Sada idem u prodavnicu i kupujem lepu majicu sa dinosaurusom.",
+  "ex_ru": "Теперь иду в магазин и покупаю красивую футболку с динозавром.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000226,
+  "pl": "prodavnice"
+ },
+ {
+  "id": "l24-vecera",
+  "sr": "večera",
+  "ru": "ужин",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "ex_sr": "Za večere u restoranima mi treba i nova košulja.",
+  "ex_ru": "Для ужинов в ресторанах мне нужна и новая рубашка.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000227,
+  "pl": "večere"
+ },
+ {
+  "id": "l24-nositi",
+  "sr": "nositi",
+  "ru": "носить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Jedva čekam da nosim svu svoju novu odeću.",
+  "ex_ru": "Жду не дождусь, когда надену всю свою новую одежду.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000228,
+  "forms": [
+   "nosim",
+   "nosiš",
+   "nosi",
+   "nosimo",
+   "nosite",
+   "nose"
+  ]
+ },
+ {
+  "id": "l24-kupovati",
+  "sr": "kupovati",
+  "ru": "покупать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ovati → -ujem",
+  "ex_sr": "Sada idem u prodavnicu i kupujem lepu majicu sa dinosaurusom.",
+  "ex_ru": "Теперь иду в магазин и покупаю красивую футболку с динозавром.",
+  "lesson": "Урок 24 · Odeća",
+  "added": 1795250000229,
+  "forms": [
+   "kupujem",
+   "kupuješ",
+   "kupuje",
+   "kupujemo",
+   "kupujete",
+   "kupuju"
+  ]
+ },
+ {
+  "id": "vr-vreme",
+  "sr": "vreme",
+  "ru": "погода; время",
+  "g": "n",
+  "topic": "Погода и времена года",
+  "note": "Kakvo je vreme? — Какая погода?",
+  "ex_sr": "Vreme je vedro.",
+  "ex_ru": "Погода ясная.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000230,
+  "pl": "vremena"
+ },
+ {
+  "id": "vr-napolju",
+  "sr": "napolju",
+  "ru": "на улице, снаружи",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "ex_sr": "Kako je napolju?",
+  "ex_ru": "Как там на улице?",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000231
+ },
+ {
+  "id": "vr-sneg",
+  "sr": "sneg",
+  "ru": "снег",
+  "g": "m",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000232
+ },
+ {
+  "id": "vr-snezno",
+  "sr": "snežno",
+  "ru": "снежно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000233
+ },
+ {
+  "id": "vr-kisa",
+  "sr": "kiša",
+  "ru": "дождь",
+  "g": "f",
+  "topic": "Погода и времена года",
+  "note": "в русском — м. р.",
+  "ex_sr": "Možda će uskoro pasti kiša.",
+  "ex_ru": "Может быть, скоро пойдёт дождь.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000234,
+  "pl": "kiše"
+ },
+ {
+  "id": "vr-kisovito",
+  "sr": "kišovito",
+  "ru": "дождливо",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000235
+ },
+ {
+  "id": "vr-oblak",
+  "sr": "oblak",
+  "ru": "облако",
+  "g": "m",
+  "topic": "Погода и времена года",
+  "note": "мн. oblaci (k → c)",
+  "ex_sr": "Kada pogledam kroz prozor, sve što vidim su oblaci.",
+  "ex_ru": "Когда я смотрю в окно, я вижу одни облака.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000236,
+  "pl": "oblaci"
+ },
+ {
+  "id": "vr-oblacno",
+  "sr": "oblačno",
+  "ru": "облачно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000237
+ },
+ {
+  "id": "vr-magla",
+  "sr": "magla",
+  "ru": "туман",
+  "g": "f",
+  "topic": "Погода и времена года",
+  "note": "в русском — м. р.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000238,
+  "pl": "magle"
+ },
+ {
+  "id": "vr-maglovito",
+  "sr": "maglovito",
+  "ru": "туманно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000239
+ },
+ {
+  "id": "vr-suncano",
+  "sr": "sunčano",
+  "ru": "солнечно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000240
+ },
+ {
+  "id": "vr-vedro",
+  "sr": "vedro",
+  "ru": "ясно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "ex_sr": "Sunce sija i napolju je vedro.",
+  "ex_ru": "Светит солнце, на улице ясно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000241
+ },
+ {
+  "id": "vr-vetar",
+  "sr": "vetar",
+  "ru": "ветер",
+  "g": "m",
+  "topic": "Погода и времена года",
+  "ex_sr": "Vetar je mnogo brz i hladan.",
+  "ex_ru": "Ветер очень быстрый и холодный.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000242,
+  "pl": "vetrovi"
+ },
+ {
+  "id": "vr-vetrovito",
+  "sr": "vetrovito",
+  "ru": "ветрено",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000243
+ },
+ {
+  "id": "vr-pljusak",
+  "sr": "pljusak",
+  "ru": "ливень",
+  "g": "m",
+  "topic": "Погода и времена года",
+  "ex_sr": "Pljusak je napolju, tmurno je i hladno.",
+  "ex_ru": "На улице ливень, пасмурно и холодно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000244,
+  "pl": "pljuskovi"
+ },
+ {
+  "id": "vr-hladno",
+  "sr": "hladno",
+  "ru": "холодно",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "ex_sr": "Pahulje padaju po meni i jako je hladno.",
+  "ex_ru": "На меня падают снежинки, и очень холодно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000245
+ },
+ {
+  "id": "vr-toplo",
+  "sr": "toplo",
+  "ru": "тепло",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "ex_sr": "Toplo je i nema nijednog oblaka na nebu.",
+  "ex_ru": "Тепло, и на небе ни одного облака.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000246
+ },
+ {
+  "id": "vr-tmurno",
+  "sr": "tmurno",
+  "ru": "пасмурно, хмуро",
+  "g": "adv",
+  "topic": "Погода и времена года",
+  "ex_sr": "Tmurno je i ja sam baš loše raspoložena.",
+  "ex_ru": "Пасмурно, и у меня совсем плохое настроение.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000247
+ },
+ {
+  "id": "vr-jesen",
+  "sr": "jesen",
+  "ru": "осень",
+  "g": "f",
+  "topic": "Погода и времена года",
+  "note": "ж. р., хотя на согласную",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000248,
+  "pl": "jeseni"
+ },
+ {
+  "id": "vr-zima",
+  "sr": "zima",
+  "ru": "зима",
+  "g": "f",
+  "topic": "Погода и времена года",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000249,
+  "pl": "zime"
+ },
+ {
+  "id": "vr-prolece",
+  "sr": "proleće",
+  "ru": "весна",
+  "g": "n",
+  "topic": "Погода и времена года",
+  "note": "в русском — ж. р.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000250,
+  "pl": "proleća"
+ },
+ {
+  "id": "vr-godisnjedoba",
+  "sr": "godišnje doba",
+  "ru": "время года",
+  "g": "n",
+  "topic": "Погода и времена года",
+  "ex_sr": "Koje godišnje doba ti je omiljeno?",
+  "ex_ru": "Какое время года твоё любимое?",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000251,
+  "pl": "godišnja doba"
+ },
+ {
+  "id": "vr-mart",
+  "sr": "mart",
+  "ru": "март",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000252
+ },
+ {
+  "id": "vr-jun",
+  "sr": "jun",
+  "ru": "июнь",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000253
+ },
+ {
+  "id": "vr-avgust",
+  "sr": "avgust",
+  "ru": "август",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000254
+ },
+ {
+  "id": "vr-oktobar",
+  "sr": "oktobar",
+  "ru": "октябрь",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000255
+ },
+ {
+  "id": "vr-novembar",
+  "sr": "novembar",
+  "ru": "ноябрь",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000256
+ },
+ {
+  "id": "vr-decembar",
+  "sr": "decembar",
+  "ru": "декабрь",
+  "g": "m",
+  "topic": "Время и дни",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000257
+ },
+ {
+  "id": "vr-prozor",
+  "sr": "prozor",
+  "ru": "окно",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "note": "в русском — ср. р.",
+  "ex_sr": "Kada pogledam kroz prozor, sve što vidim su oblaci.",
+  "ex_ru": "Когда я смотрю в окно, я вижу одни облака.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000258,
+  "pl": "prozori"
+ },
+ {
+  "id": "vr-pahulja",
+  "sr": "pahulja",
+  "ru": "снежинка",
+  "g": "f",
+  "topic": "Погода и времена года",
+  "ex_sr": "Pahulje padaju po meni i jako je hladno.",
+  "ex_ru": "На меня падают снежинки, и очень холодно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000259,
+  "pl": "pahulje"
+ },
+ {
+  "id": "vr-setnja",
+  "sr": "šetnja",
+  "ru": "прогулка",
+  "g": "f",
+  "topic": "Досуг",
+  "ex_sr": "Htela sam da idem u šetnju, ali to je nemoguće sad.",
+  "ex_ru": "Я хотела пойти на прогулку, но сейчас это невозможно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000260,
+  "pl": "šetnje"
+ },
+ {
+  "id": "vr-nemoguce",
+  "sr": "nemoguće",
+  "ru": "невозможно",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Htela sam da idem u šetnju, ali to je nemoguće sad.",
+  "ex_ru": "Я хотела пойти на прогулку, но сейчас это невозможно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000261
+ },
+ {
+  "id": "vr-nebo",
+  "sr": "nebo",
+  "ru": "небо",
+  "g": "n",
+  "topic": "Природа",
+  "ex_sr": "Toplo je i nema nijednog oblaka na nebu.",
+  "ex_ru": "Тепло, и на небе ни одного облака.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000262
+ },
+ {
+  "id": "vr-brz",
+  "sr": "brz",
+  "ru": "быстрый",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. brza; слог без гласной: r звучит как гласная",
+  "ex_sr": "Vetar je mnogo brz i hladan.",
+  "ex_ru": "Ветер очень быстрый и холодный.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000263
+ },
+ {
+  "id": "vr-hladan",
+  "sr": "hladan",
+  "ru": "холодный",
+  "g": "adj",
+  "topic": "Прилагательные",
+  "note": "ж. hladna, ср. hladno",
+  "ex_sr": "Vetar je mnogo brz i hladan.",
+  "ex_ru": "Ветер очень быстрый и холодный.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000264
+ },
+ {
+  "id": "vr-beo",
+  "sr": "beo",
+  "ru": "белый",
+  "g": "adj",
+  "topic": "Цвета",
+  "note": "ж. bela, ср. belo, мн. beli",
+  "ex_sr": "Videla sam samo veliki beli pokrivač.",
+  "ex_ru": "Я увидела только большое белое покрывало.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000265
+ },
+ {
+  "id": "vr-auto",
+  "sr": "auto",
+  "ru": "машина (автомобиль)",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "note": "разговорное от automobil",
+  "ex_sr": "Ne mogu da vozim auto jer se napolju ništa ne vidi.",
+  "ex_ru": "Не могу вести машину, потому что на улице ничего не видно.",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000266,
+  "pl": "auta"
+ },
+ {
+  "id": "vr-meteoropata",
+  "sr": "meteoropata",
+  "ru": "метеозависимый человек",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "м. р., хотя на -a",
+  "ex_sr": "Da li znaš šta je meteoropata?",
+  "ex_ru": "Ты знаешь, кто такой метеопат?",
+  "lesson": "Урок · Vreme",
+  "added": 1795250000267
  }
 ]

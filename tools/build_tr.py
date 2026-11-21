@@ -16,7 +16,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 ACC = {"̀", "́", "̏", "̑"}
 VOW = set("aeiou")
 CLITICS = {"je", "sam", "si", "su", "smo", "ste", "li", "se", "me", "na", "u", "sa", "iz", "da"}
-LEMMA = {"cipele": "cipela"}
+LEMMA = {"cipele": "cipela", "čarape": "čarapa", "rukavice": "rukavica", "patike": "patika", "štikle": "štikla",
+         "roditelji": "roditelj", "farmerke": "farmerka", "helanke": "helanka", "pantalone": "pantalone"}
 
 # Stress confirmed by a second source (reports/dictionary_alt.json): Hrvatski jezični portal or the
 # Wiktionary lemma page (present tense of verbs, Croatian -ist forms whose genitive equals the Serbian -ista).
@@ -194,14 +195,15 @@ def main():
                     issues.append(f"{w['id']}: нет ударения для {t}")
             parts.append(transcribe(t, stress)); srcs.append(src)
             g_dict = [g for g in entry.get("genders", []) if re.fullmatch(r"[mfn](-[a-z]+)?", g)]
-            if g_dict and G.get(w["id"]) in ("m", "f", "n", "pl") and len(toks) == 1:
+            mine_g = G.get(w["id"], w.get("g"))
+            if g_dict and mine_g in ("m", "f", "n", "pl") and len(toks) == 1:
                 gd = g_dict[0]
-                mine = G[w["id"]]
+                mine = mine_g
                 dg = "pl" if gd.endswith("-p") else gd[0]
                 if mine != dg and not (mine == "pl" and t.lower() in LEMMA):
                     issues.append(f"{w['id']}: род у меня {mine}, в словаре {gd}")
         w["tr"] = " ".join(parts)
-        w["g"] = G[w["id"]]
+        w["g"] = G.get(w["id"], w.get("g"))
         w["stress_src"] = "manual" if "manual" in srcs else "dict"
     (ROOT / "words.json").write_text(json.dumps(words, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print("\n".join(issues) or "no issues")

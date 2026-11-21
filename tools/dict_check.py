@@ -14,7 +14,8 @@ API = "https://en.wiktionary.org/w/api.php?action=parse&prop=wikitext&format=jso
 UA = {"User-Agent": "srpske-reci-flashcards/1.0 (https://github.com/mopilek96-ai/srpske-reci)"}
 
 # words in our list whose dictionary headword differs from how we wrote them
-LEMMA = {"cipele": "cipela", "ljudi": "čovek", "jagode": "jagoda"}
+LEMMA = {"cipele": "cipela", "ljudi": "čovek", "jagode": "jagoda", "čarape": "čarapa", "rukavice": "rukavica",
+         "patike": "patika", "štikle": "štikla", "roditelji": "roditelj", "farmerke": "farmerka", "helanke": "helanka"}
 CLITICS = {"je", "sam", "si", "su", "smo", "ste", "li", "se", "me", "da", "na", "u", "iz", "sa", "i"}
 ACCENTS = {"̀", "́", "̏", "̑"}  # ` ´ double-grave inverted-breve
 
