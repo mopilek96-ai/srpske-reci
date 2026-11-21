@@ -2062,7 +2062,9 @@
   "ex_sr": "Ja sam njegov drug.",
   "ex_ru": "Я его друг.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000000
+  "added": 1795250000000,
+  "tr": "не́гов",
+  "stress_src": "dict"
  },
  {
   "id": "l04-nas",
@@ -2074,7 +2076,9 @@
   "ex_sr": "Da li je ovo naš autobus?",
   "ex_ru": "Это наш автобус?",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000001
+  "added": 1795250000001,
+  "tr": "на́ш",
+  "stress_src": "dict"
  },
  {
   "id": "l04-vas",
@@ -2086,7 +2090,9 @@
   "ex_sr": "Ovo je vaše preduzeće.",
   "ex_ru": "Это ваше предприятие.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000002
+  "added": 1795250000002,
+  "tr": "ва́ш",
+  "stress_src": "dict"
  },
  {
   "id": "l04-njihov",
@@ -2098,7 +2104,9 @@
   "ex_sr": "Luka je njihov partner.",
   "ex_ru": "Лука — их партнёр.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000003
+  "added": 1795250000003,
+  "tr": "ни́хов",
+  "stress_src": "dict"
  },
  {
   "id": "l04-ovo",
@@ -2110,7 +2118,9 @@
   "ex_sr": "Ovo nije naše naselje.",
   "ex_ru": "Это не наш район.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000004
+  "added": 1795250000004,
+  "tr": "о́во",
+  "stress_src": "dict"
  },
  {
   "id": "l04-sestra",
@@ -2120,7 +2130,9 @@
   "topic": "Семья и люди",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000005,
-  "pl": "sestre"
+  "pl": "sestre",
+  "tr": "сэ́стра",
+  "stress_src": "dict"
  },
  {
   "id": "l04-dete",
@@ -2131,7 +2143,9 @@
   "note": "мн. deca — исключение",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000006,
-  "pl": "deca"
+  "pl": "deca",
+  "tr": "дэ́тэ",
+  "stress_src": "dict"
  },
  {
   "id": "l04-pas",
@@ -2142,7 +2156,9 @@
   "note": "мн. psi — исключение; в русском — ж. р.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000007,
-  "pl": "psi"
+  "pl": "psi",
+  "tr": "па́с",
+  "stress_src": "dict"
  },
  {
   "id": "l04-macka",
@@ -2154,7 +2170,9 @@
   "ex_ru": "Это её кошка.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000008,
-  "pl": "mačke"
+  "pl": "mačke",
+  "tr": "ма́тшка",
+  "stress_src": "dict"
  },
  {
   "id": "l04-polje",
@@ -2164,7 +2182,9 @@
   "topic": "Природа",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000009,
-  "pl": "polja"
+  "pl": "polja",
+  "tr": "по́ле",
+  "stress_src": "dict"
  },
  {
   "id": "l04-drugarica",
@@ -2177,7 +2197,9 @@
   "ex_ru": "Ты моя подруга?",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000010,
-  "pl": "drugarice"
+  "pl": "drugarice",
+  "tr": "дру́гарица",
+  "stress_src": "dict"
  },
  {
   "id": "l04-drustvo",
@@ -2187,7 +2209,9 @@
   "topic": "Семья и люди",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000011,
-  "pl": "društva"
+  "pl": "društva",
+  "tr": "дру́штво",
+  "stress_src": "dict"
  },
  {
   "id": "l04-cerka",
@@ -2199,7 +2223,9 @@
   "ex_ru": "Она наша дочь.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000012,
-  "pl": "ćerke"
+  "pl": "ćerke",
+  "tr": "че́рка",
+  "stress_src": "dict"
  },
  {
   "id": "l04-devojka",
@@ -2212,7 +2238,9 @@
   "ex_ru": "Ива — моя девушка.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000013,
-  "pl": "devojke"
+  "pl": "devojke",
+  "tr": "дэ́войка",
+  "stress_src": "dict"
  },
  {
   "id": "l04-partner",
@@ -2224,7 +2252,9 @@
   "ex_ru": "Лука — их партнёр.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000014,
-  "pl": "partneri"
+  "pl": "partneri",
+  "tr": "па́ртнэр",
+  "stress_src": "dict"
  },
  {
   "id": "l04-pesma",
@@ -2236,7 +2266,9 @@
   "ex_ru": "Это их песня.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000015,
-  "pl": "pesme"
+  "pl": "pesme",
+  "tr": "пэ́сма",
+  "stress_src": "dict"
  },
  {
   "id": "l04-preduzece",
@@ -2248,7 +2280,9 @@
   "ex_ru": "Это ваше предприятие.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000016,
-  "pl": "preduzeća"
+  "pl": "preduzeća",
+  "tr": "прэдузэ́че",
+  "stress_src": "dict"
  },
  {
   "id": "l04-zgrada",
@@ -2260,7 +2294,9 @@
   "ex_ru": "Это их здание.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000017,
-  "pl": "zgrade"
+  "pl": "zgrade",
+  "tr": "згра́да",
+  "stress_src": "dict"
  },
  {
   "id": "l04-kuca",
@@ -2273,7 +2309,9 @@
   "ex_ru": "Это наш дом.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000018,
-  "pl": "kuće"
+  "pl": "kuće",
+  "tr": "ку́ча",
+  "stress_src": "dict"
  },
  {
   "id": "l04-stan",
@@ -2286,7 +2324,9 @@
   "ex_ru": "Это их квартира.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000019,
-  "pl": "stanovi"
+  "pl": "stanovi",
+  "tr": "ста́н",
+  "stress_src": "dict"
  },
  {
   "id": "l04-kafa",
@@ -2298,7 +2338,9 @@
   "ex_sr": "To je moja kafa.",
   "ex_ru": "Это мой кофе.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000020
+  "added": 1795250000020,
+  "tr": "ка́фа",
+  "stress_src": "dict"
  },
  {
   "id": "l04-udzbenik",
@@ -2311,7 +2353,9 @@
   "ex_ru": "Это их учебник.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000021,
-  "pl": "udžbenici"
+  "pl": "udžbenici",
+  "tr": "у́джбэник",
+  "stress_src": "dict"
  },
  {
   "id": "l04-geografija",
@@ -2320,7 +2364,9 @@
   "g": "f",
   "topic": "Учёба",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000022
+  "added": 1795250000022,
+  "tr": "гэогра́фия",
+  "stress_src": "dict"
  },
  {
   "id": "l04-cokolada",
@@ -2333,7 +2379,9 @@
   "ex_ru": "Это не её шоколад.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000023,
-  "pl": "čokolade"
+  "pl": "čokolade",
+  "tr": "тшокола́да",
+  "stress_src": "dict"
  },
  {
   "id": "l04-naselje",
@@ -2345,7 +2393,9 @@
   "ex_ru": "Это не наш район.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000024,
-  "pl": "naselja"
+  "pl": "naselja",
+  "tr": "на́сэле",
+  "stress_src": "dict"
  },
  {
   "id": "l04-matematika",
@@ -2356,7 +2406,9 @@
   "ex_sr": "Matematika nije moja jača strana.",
   "ex_ru": "Математика — не моя сильная сторона.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000025
+  "added": 1795250000025,
+  "tr": "матэма́тика",
+  "stress_src": "dict"
  },
  {
   "id": "l04-profesor",
@@ -2369,7 +2421,9 @@
   "ex_ru": "Они преподаватели.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000026,
-  "pl": "profesori"
+  "pl": "profesori",
+  "tr": "про́фэсор",
+  "stress_src": "dict"
  },
  {
   "id": "l04-hemijska",
@@ -2382,7 +2436,9 @@
   "ex_ru": "Это ваша ручка?",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000027,
-  "pl": "hemijske"
+  "pl": "hemijske",
+  "tr": "хэ́мийска",
+  "stress_src": "dict"
  },
  {
   "id": "l04-majica",
@@ -2394,7 +2450,9 @@
   "ex_ru": "Эта чёрная футболка — её.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000028,
-  "pl": "majice"
+  "pl": "majice",
+  "tr": "ма́йица",
+  "stress_src": "dict"
  },
  {
   "id": "l04-velik",
@@ -2406,7 +2464,9 @@
   "ex_sr": "To je tvoja velika kuća.",
   "ex_ru": "Это твой большой дом.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000029
+  "added": 1795250000029,
+  "tr": "вэ́лик",
+  "stress_src": "dict"
  },
  {
   "id": "l04-lep",
@@ -2418,7 +2478,9 @@
   "ex_sr": "Slađana ima lepu mačku.",
   "ex_ru": "У Слађаны красивая кошка.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000030
+  "added": 1795250000030,
+  "tr": "лэ́п",
+  "stress_src": "dict"
  },
  {
   "id": "l04-plav",
@@ -2430,7 +2492,9 @@
   "ex_sr": "Ti imaš plav telefon.",
   "ex_ru": "У тебя синий телефон.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000031
+  "added": 1795250000031,
+  "tr": "пла́в",
+  "stress_src": "dict"
  },
  {
   "id": "l04-crn",
@@ -2442,7 +2506,9 @@
   "ex_sr": "Ova crna majica je njena.",
   "ex_ru": "Эта чёрная футболка — её.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000032
+  "added": 1795250000032,
+  "tr": "цр́н",
+  "stress_src": "dict"
  },
  {
   "id": "l04-imati",
@@ -2462,7 +2528,9 @@
    "imamo",
    "imate",
    "imaju"
-  ]
+  ],
+  "tr": "и́мати",
+  "stress_src": "dict"
  },
  {
   "id": "l04-piti",
@@ -2481,7 +2549,9 @@
    "pijemo",
    "pijete",
    "piju"
-  ]
+  ],
+  "tr": "пи́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l04-toje",
@@ -2492,7 +2562,9 @@
   "ex_sr": "To je moj drug.",
   "ex_ru": "Это мой друг.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000035
+  "added": 1795250000035,
+  "tr": "то́ е",
+  "stress_src": "dict"
  },
  {
   "id": "l04-jacastrana",
@@ -2504,7 +2576,9 @@
   "ex_sr": "Matematika nije moja jača strana.",
   "ex_ru": "Математика — не моя сильная сторона.",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
-  "added": 1795250000036
+  "added": 1795250000036,
+  "tr": "я́тша стра́на",
+  "stress_src": "dict"
  },
  {
   "id": "l04-menadzer",
@@ -2514,7 +2588,9 @@
   "topic": "Профессии",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000037,
-  "pl": "menadžeri"
+  "pl": "menadžeri",
+  "tr": "мэ́наджэр",
+  "stress_src": "dict"
  },
  {
   "id": "l04-pica",
@@ -2524,7 +2600,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000038,
-  "pl": "pice"
+  "pl": "pice",
+  "tr": "пи́ца",
+  "stress_src": "dict"
  },
  {
   "id": "l04-doktor",
@@ -2534,7 +2612,9 @@
   "topic": "Профессии",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000039,
-  "pl": "doktori"
+  "pl": "doktori",
+  "tr": "до́ктор",
+  "stress_src": "dict"
  },
  {
   "id": "l04-srbin",
@@ -2545,7 +2625,9 @@
   "note": "с большой буквы; ж. Srpkinja; мн. Srbi — без -in",
   "lesson": "Урок 4 · Moj/tvoj/njegov",
   "added": 1795250000040,
-  "pl": "Srbi"
+  "pl": "Srbi",
+  "tr": "ср́бин",
+  "stress_src": "dict"
  },
  {
   "id": "l05-voleti",
@@ -2565,7 +2647,9 @@
    "volimo",
    "volite",
    "vole"
-  ]
+  ],
+  "tr": "во́лэти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-uciti",
@@ -2584,7 +2668,9 @@
    "učimo",
    "učite",
    "uče"
-  ]
+  ],
+  "tr": "у́тшити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-vezbati",
@@ -2603,7 +2689,9 @@
    "vežbamo",
    "vežbate",
    "vežbaju"
-  ]
+  ],
+  "tr": "вэ́жбати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-raditi",
@@ -2623,7 +2711,9 @@
    "radimo",
    "radite",
    "rade"
-  ]
+  ],
+  "tr": "ра́дити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-organizovati",
@@ -2643,7 +2733,9 @@
    "organizujemo",
    "organizujete",
    "organizuju"
-  ]
+  ],
+  "tr": "орга́низовати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-putovati",
@@ -2663,7 +2755,9 @@
    "putujemo",
    "putujete",
    "putuju"
-  ]
+  ],
+  "tr": "путо́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-istrazivati",
@@ -2683,7 +2777,9 @@
    "istražujemo",
    "istražujete",
    "istražuju"
-  ]
+  ],
+  "tr": "истражи́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-druzitise",
@@ -2703,7 +2799,9 @@
    "družimo se",
    "družite se",
    "druže se"
-  ]
+  ],
+  "tr": "дру́жити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l05-kuvati",
@@ -2722,7 +2820,9 @@
    "kuvamo",
    "kuvate",
    "kuvaju"
-  ]
+  ],
+  "tr": "ку́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-igrati",
@@ -2742,7 +2842,9 @@
    "igramo",
    "igrate",
    "igraju"
-  ]
+  ],
+  "tr": "и́грати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-volontirati",
@@ -2761,7 +2863,9 @@
    "volontiramo",
    "volontirate",
    "volontiraju"
-  ]
+  ],
+  "tr": "волонти́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-planirati",
@@ -2780,7 +2884,9 @@
    "planiramo",
    "planirate",
    "planiraju"
-  ]
+  ],
+  "tr": "плани́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pisati",
@@ -2798,7 +2904,9 @@
    "pišemo",
    "pišete",
    "pišu"
-  ]
+  ],
+  "tr": "пи́сати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ziveti",
@@ -2818,7 +2926,9 @@
    "živimo",
    "živite",
    "žive"
-  ]
+  ],
+  "tr": "жи́вэти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-jesti",
@@ -2838,7 +2948,9 @@
    "jedemo",
    "jedete",
    "jedu"
-  ]
+  ],
+  "tr": "е́сти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-prati",
@@ -2858,7 +2970,9 @@
    "peremo",
    "perete",
    "peru"
-  ]
+  ],
+  "tr": "пра́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pratiti",
@@ -2876,7 +2990,9 @@
    "pratimo",
    "pratite",
    "prate"
-  ]
+  ],
+  "tr": "пра́тити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-sedeti",
@@ -2894,7 +3010,9 @@
    "sedimo",
    "sedite",
    "sede"
-  ]
+  ],
+  "tr": "сэ́дэти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-spavati",
@@ -2913,7 +3031,9 @@
    "spavamo",
    "spavate",
    "spavaju"
-  ]
+  ],
+  "tr": "спа́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-svirati",
@@ -2933,7 +3053,9 @@
    "sviramo",
    "svirate",
    "sviraju"
-  ]
+  ],
+  "tr": "сви́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ici",
@@ -2952,7 +3074,9 @@
    "idemo",
    "idete",
    "idu"
-  ]
+  ],
+  "tr": "и́чи",
+  "stress_src": "dict"
  },
  {
   "id": "l05-videti",
@@ -2972,7 +3096,9 @@
    "vidimo",
    "vidite",
    "vide"
-  ]
+  ],
+  "tr": "ви́дэти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-znati",
@@ -2992,7 +3118,9 @@
    "znamo",
    "znate",
    "znaju"
-  ]
+  ],
+  "tr": "зна́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pevati",
@@ -3011,7 +3139,9 @@
    "pevamo",
    "pevate",
    "pevaju"
-  ]
+  ],
+  "tr": "пэ́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-setati",
@@ -3030,7 +3160,9 @@
    "šetamo",
    "šetate",
    "šetaju"
-  ]
+  ],
+  "tr": "шэ́тати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-zeleti",
@@ -3050,7 +3182,9 @@
    "želimo",
    "želite",
    "žele"
-  ]
+  ],
+  "tr": "жэ́лэти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-morati",
@@ -3069,7 +3203,9 @@
    "moramo",
    "morate",
    "moraju"
-  ]
+  ],
+  "tr": "мо́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-trenirati",
@@ -3086,7 +3222,9 @@
    "treniramo",
    "trenirate",
    "treniraju"
-  ]
+  ],
+  "tr": "трэни́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-studirati",
@@ -3104,7 +3242,9 @@
    "studiramo",
    "studirate",
    "studiraju"
-  ]
+  ],
+  "tr": "студи́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-doruckovati",
@@ -3124,7 +3264,9 @@
    "doručkujemo",
    "doručkujete",
    "doručkuju"
-  ]
+  ],
+  "tr": "до́рутшковати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-vecerati",
@@ -3143,7 +3285,9 @@
    "večeramo",
    "večerate",
    "večeraju"
-  ]
+  ],
+  "tr": "вэ́тшэрати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ustajati",
@@ -3162,7 +3306,9 @@
    "ustajemo",
    "ustajete",
    "ustaju"
-  ]
+  ],
+  "tr": "у́стаяти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-voziti",
@@ -3181,7 +3327,9 @@
    "vozimo",
    "vozite",
    "voze"
-  ]
+  ],
+  "tr": "во́зити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-provoditi",
@@ -3201,7 +3349,9 @@
    "provodimo",
    "provodite",
    "provode"
-  ]
+  ],
+  "tr": "прово́дити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-odmarati",
@@ -3220,7 +3370,9 @@
    "odmaramo",
    "odmarate",
    "odmaraju"
-  ]
+  ],
+  "tr": "одма́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-predavati",
@@ -3238,7 +3390,9 @@
    "predajemo",
    "predajete",
    "predaju"
-  ]
+  ],
+  "tr": "прэда́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-upoznavati",
@@ -3256,7 +3410,9 @@
    "upoznajemo",
    "upoznajete",
    "upoznaju"
-  ]
+  ],
+  "tr": "упозна́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-zvatise",
@@ -3276,7 +3432,9 @@
    "zovemo se",
    "zovete se",
    "zovu se"
-  ]
+  ],
+  "tr": "зва́ти сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l05-moci",
@@ -3296,7 +3454,9 @@
    "možemo",
    "možete",
    "mogu"
-  ]
+  ],
+  "tr": "мо́чи",
+  "stress_src": "dict"
  },
  {
   "id": "l05-hteti",
@@ -3316,7 +3476,9 @@
    "hoćemo",
    "hoćete",
    "hoće"
-  ]
+  ],
+  "tr": "хтэ́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l05-kupiti",
@@ -3335,7 +3497,9 @@
    "kupimo",
    "kupite",
    "kupe"
-  ]
+  ],
+  "tr": "ку́пити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-sretati",
@@ -3355,7 +3519,9 @@
    "srećemo",
    "srećete",
    "sreću"
-  ]
+  ],
+  "tr": "срэ́тати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-odlaziti",
@@ -3372,7 +3538,9 @@
    "odlazimo",
    "odlazite",
    "odlaze"
-  ]
+  ],
+  "tr": "о́длазити",
+  "stress_src": "dict"
  },
  {
   "id": "l05-preferirati",
@@ -3391,7 +3559,9 @@
    "preferiramo",
    "preferirate",
    "preferiraju"
-  ]
+  ],
+  "tr": "прэфэри́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l05-knjiga",
@@ -3403,7 +3573,9 @@
   "ex_ru": "Я люблю книги.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000085,
-  "pl": "knjige"
+  "pl": "knjige",
+  "tr": "кни́га",
+  "stress_src": "dict"
  },
  {
   "id": "l05-jezik",
@@ -3416,7 +3588,9 @@
   "ex_ru": "Вы учите новые языки.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000086,
-  "pl": "jezici"
+  "pl": "jezici",
+  "tr": "е́зик",
+  "stress_src": "dict"
  },
  {
   "id": "l05-nemacki",
@@ -3428,7 +3602,9 @@
   "ex_sr": "Ti učiš nemački jezik već dve godine.",
   "ex_ru": "Ты учишь немецкий язык уже два года.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000087
+  "added": 1795250000087,
+  "tr": "нэ́матшки",
+  "stress_src": "dict"
  },
  {
   "id": "l05-godina",
@@ -3441,7 +3617,9 @@
   "ex_ru": "Ты учишь немецкий язык уже два года.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000088,
-  "pl": "godine"
+  "pl": "godine",
+  "tr": "го́дина",
+  "stress_src": "dict"
  },
  {
   "id": "l05-jutro",
@@ -3453,7 +3631,9 @@
   "ex_ru": "Он обычно занимается каждое утро.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000089,
-  "pl": "jutra"
+  "pl": "jutra",
+  "tr": "ю́тро",
+  "stress_src": "dict"
  },
  {
   "id": "l05-medsestra",
@@ -3465,7 +3645,9 @@
   "ex_ru": "Она работает медсестрой в больнице.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000090,
-  "pl": "medicinske sestre"
+  "pl": "medicinske sestre",
+  "tr": "мэ́дицинска сэ́стра",
+  "stress_src": "dict"
  },
  {
   "id": "l05-bolnica",
@@ -3477,7 +3659,9 @@
   "ex_ru": "Она работает медсестрой в больнице.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000091,
-  "pl": "bolnice"
+  "pl": "bolnice",
+  "tr": "бо́лница",
+  "stress_src": "dict"
  },
  {
   "id": "l05-praznik",
@@ -3490,7 +3674,9 @@
   "ex_ru": "Мы организуем праздник в эти выходные.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000092,
-  "pl": "praznici"
+  "pl": "praznici",
+  "tr": "пра́зник",
+  "stress_src": "dict"
  },
  {
   "id": "l05-vikend",
@@ -3503,7 +3689,9 @@
   "ex_ru": "Ты играешь в футбол каждые выходные.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000093,
-  "pl": "vikendi"
+  "pl": "vikendi",
+  "tr": "ви́кэнд",
+  "stress_src": "dict"
  },
  {
   "id": "l05-svet",
@@ -3515,7 +3703,9 @@
   "ex_ru": "Вы путешествуете по миру и исследуете.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000094,
-  "pl": "svetovi"
+  "pl": "svetovi",
+  "tr": "свэ́т",
+  "stress_src": "dict"
  },
  {
   "id": "l05-prijatelj",
@@ -3528,7 +3718,9 @@
   "ex_ru": "Они дружат как лучшие друзья ещё со школы.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000095,
-  "pl": "prijatelji"
+  "pl": "prijatelji",
+  "tr": "при́ятэль",
+  "stress_src": "dict"
  },
  {
   "id": "l05-najbolji",
@@ -3540,7 +3732,9 @@
   "ex_sr": "Oni se druže kao najbolji prijatelji još iz osnovne škole.",
   "ex_ru": "Они дружат как лучшие друзья ещё со школы.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000096
+  "added": 1795250000096,
+  "tr": "на́йболи",
+  "stress_src": "manual"
  },
  {
   "id": "l05-skola",
@@ -3551,7 +3745,9 @@
   "note": "osnovna škola — школа с 1 по 8 класс",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000097,
-  "pl": "škole"
+  "pl": "škole",
+  "tr": "шко́ла",
+  "stress_src": "dict"
  },
  {
   "id": "l05-hrana",
@@ -3562,7 +3758,9 @@
   "ex_sr": "Ja često kuvam ukusnu hranu.",
   "ex_ru": "Я часто готовлю вкусную еду.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000098
+  "added": 1795250000098,
+  "tr": "хра́на",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ukusan",
@@ -3574,7 +3772,9 @@
   "ex_sr": "Ja često kuvam ukusnu hranu.",
   "ex_ru": "Я часто готовлю вкусную еду.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000099
+  "added": 1795250000099,
+  "tr": "у́кусан",
+  "stress_src": "dict"
  },
  {
   "id": "l05-fudbal",
@@ -3585,7 +3785,9 @@
   "ex_sr": "Ljudi igraju fudbal.",
   "ex_ru": "Люди играют в футбол.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000100
+  "added": 1795250000100,
+  "tr": "фу́дбал",
+  "stress_src": "dict"
  },
  {
   "id": "l05-joga",
@@ -3597,7 +3799,9 @@
   "ex_sr": "On često radi jogu.",
   "ex_ru": "Он часто занимается йогой.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000101
+  "added": 1795250000101,
+  "tr": "йо́га",
+  "stress_src": "dict"
  },
  {
   "id": "l05-putovanje",
@@ -3609,7 +3813,9 @@
   "ex_ru": "Мы планируем путешествие.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000102,
-  "pl": "putovanja"
+  "pl": "putovanja",
+  "tr": "путова́не",
+  "stress_src": "dict"
  },
  {
   "id": "l05-zub",
@@ -3622,7 +3828,9 @@
   "ex_ru": "Чистит зубы.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000103,
-  "pl": "zubi"
+  "pl": "zubi",
+  "tr": "зу́б",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pekara",
@@ -3634,7 +3842,9 @@
   "ex_ru": "Идёт в пекарню купить бурек.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000104,
-  "pl": "pekare"
+  "pl": "pekare",
+  "tr": "пэ́кара",
+  "stress_src": "dict"
  },
  {
   "id": "l05-burek",
@@ -3644,7 +3854,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000105,
-  "pl": "bureci"
+  "pl": "bureci",
+  "tr": "бу́рэк",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pozoriste",
@@ -3656,7 +3868,9 @@
   "ex_ru": "Вместе идут в театр.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000106,
-  "pl": "pozorišta"
+  "pl": "pozorišta",
+  "tr": "по́зориштэ",
+  "stress_src": "dict"
  },
  {
   "id": "l05-porodica",
@@ -3668,7 +3882,9 @@
   "ex_ru": "Моя семья часто путешествует.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000107,
-  "pl": "porodice"
+  "pl": "porodice",
+  "tr": "по́родица",
+  "stress_src": "dict"
  },
  {
   "id": "l05-problem",
@@ -3681,7 +3897,9 @@
   "ex_ru": "Что они планируют делать с этой проблемой?",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000108,
-  "pl": "problemi"
+  "pl": "problemi",
+  "tr": "про́блэм",
+  "stress_src": "dict"
  },
  {
   "id": "l05-spavacasoba",
@@ -3694,7 +3912,9 @@
   "ex_ru": "Если они хотят спать, они могут уходить в спальню.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000109,
-  "pl": "spavaće sobe"
+  "pl": "spavaće sobe",
+  "tr": "спа́вача со́ба",
+  "stress_src": "dict"
  },
  {
   "id": "l05-zoovrt",
@@ -3706,7 +3926,9 @@
   "ex_ru": "Очень хочу пойти в зоопарк.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000110,
-  "pl": "zoo vrtovi"
+  "pl": "zoo vrtovi",
+  "tr": "зо́о вр́т",
+  "stress_src": "dict"
  },
  {
   "id": "l05-medved",
@@ -3718,7 +3940,9 @@
   "ex_ru": "Там я хочу увидеть медведя.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000111,
-  "pl": "medvedi"
+  "pl": "medvedi",
+  "tr": "мэ́двэд",
+  "stress_src": "dict"
  },
  {
   "id": "l05-roditelji",
@@ -3730,7 +3954,9 @@
   "ex_sr": "Moji roditelji znaju tebe.",
   "ex_ru": "Мои родители знают тебя.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000112
+  "added": 1795250000112,
+  "tr": "ро́дитэли",
+  "stress_src": "dict"
  },
  {
   "id": "l05-testenina",
@@ -3741,7 +3967,9 @@
   "ex_sr": "Da li vi volite testeninu?",
   "ex_ru": "Вы любите макароны?",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000113
+  "added": 1795250000113,
+  "tr": "тэстэни́на",
+  "stress_src": "dict"
  },
  {
   "id": "l05-restoran",
@@ -3753,7 +3981,9 @@
   "ex_ru": "В вашем городе есть ресторан?",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000114,
-  "pl": "restorani"
+  "pl": "restorani",
+  "tr": "рэсто́ран",
+  "stress_src": "dict"
  },
  {
   "id": "l05-planina",
@@ -3765,7 +3995,9 @@
   "ex_ru": "Рядом с моим городом много красивых гор.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000115,
-  "pl": "planine"
+  "pl": "planine",
+  "tr": "плани́на",
+  "stress_src": "dict"
  },
  {
   "id": "l05-pravnik",
@@ -3778,7 +4010,9 @@
   "ex_ru": "Он живёт в Суботице и работает юристом.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000116,
-  "pl": "pravnici"
+  "pl": "pravnici",
+  "tr": "пра́вник",
+  "stress_src": "dict"
  },
  {
   "id": "l05-vikendica",
@@ -3791,7 +4025,9 @@
   "ex_ru": "У него есть дача в деревне.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000117,
-  "pl": "vikendice"
+  "pl": "vikendice",
+  "tr": "ви́кэндица",
+  "stress_src": "dict"
  },
  {
   "id": "l05-reka",
@@ -3803,7 +4039,9 @@
   "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000118,
-  "pl": "reke"
+  "pl": "reke",
+  "tr": "рэ́ка",
+  "stress_src": "dict"
  },
  {
   "id": "l05-park",
@@ -3815,7 +4053,9 @@
   "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000119,
-  "pl": "parkovi"
+  "pl": "parkovi",
+  "tr": "па́рк",
+  "stress_src": "dict"
  },
  {
   "id": "l05-centar",
@@ -3828,7 +4068,9 @@
   "ex_ru": "Она волонтёр в местном волонтёрском центре.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000120,
-  "pl": "centri"
+  "pl": "centri",
+  "tr": "цэ́нтар",
+  "stress_src": "dict"
  },
  {
   "id": "l05-drugar",
@@ -3841,7 +4083,9 @@
   "ex_ru": "В городе встречает своих друзей.",
   "lesson": "Урок 5 · Prezent",
   "added": 1795250000121,
-  "pl": "drugari"
+  "pl": "drugari",
+  "tr": "дру́гар",
+  "stress_src": "dict"
  },
  {
   "id": "l05-obicno",
@@ -3852,7 +4096,9 @@
   "ex_sr": "On obično vežba svako jutro.",
   "ex_ru": "Он обычно занимается каждое утро.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000122
+  "added": 1795250000122,
+  "tr": "о́битшно",
+  "stress_src": "dict"
  },
  {
   "id": "l05-cesto",
@@ -3863,7 +4109,9 @@
   "ex_sr": "Ja često kuvam ukusnu hranu.",
   "ex_ru": "Я часто готовлю вкусную еду.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000123
+  "added": 1795250000123,
+  "tr": "тшэ́сто",
+  "stress_src": "dict"
  },
  {
   "id": "l05-svakidan",
@@ -3874,7 +4122,9 @@
   "ex_sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
   "ex_ru": "Михайло каждый день встаёт в 9 утра.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000124
+  "added": 1795250000124,
+  "tr": "сва́ки да́н",
+  "stress_src": "dict"
  },
  {
   "id": "l05-zajedno",
@@ -3885,7 +4135,9 @@
   "ex_sr": "Zajedno idu u pozorište.",
   "ex_ru": "Вместе идут в театр.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000125
+  "added": 1795250000125,
+  "tr": "за́едно",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ponekad",
@@ -3896,7 +4148,9 @@
   "ex_sr": "Ponekad idu u pozorište zajedno.",
   "ex_ru": "Иногда вместе ходят в театр.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000126
+  "added": 1795250000126,
+  "tr": "по́нэкад",
+  "stress_src": "dict"
  },
  {
   "id": "l05-takodje",
@@ -3907,7 +4161,9 @@
   "ex_sr": "Takođe često idu u parkove ili šetaju kod reke.",
   "ex_ru": "А ещё часто ходят в парки или гуляют у реки.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000127
+  "added": 1795250000127,
+  "tr": "тако́дьже",
+  "stress_src": "dict"
  },
  {
   "id": "l05-ujutru",
@@ -3918,7 +4174,9 @@
   "ex_sr": "Mihajlo svaki dan ustaje u 9 ujutru.",
   "ex_ru": "Михайло каждый день встаёт в 9 утра.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000128
+  "added": 1795250000128,
+  "tr": "у́ютру",
+  "stress_src": "dict"
  },
  {
   "id": "l05-uvece",
@@ -3929,7 +4187,9 @@
   "ex_sr": "Uveče Mihajlo mora da ide kući.",
   "ex_ru": "Вечером Михайло должен идти домой.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000129
+  "added": 1795250000129,
+  "tr": "у́вэтшэ",
+  "stress_src": "dict"
  },
  {
   "id": "l05-posle",
@@ -3940,7 +4200,9 @@
   "ex_sr": "Posle pozorišta Mihajlo, Đurđa i Veljko idu zajedno na kafu.",
   "ex_ru": "После театра Михайло, Джурджа и Велько вместе идут на кофе.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000130
+  "added": 1795250000130,
+  "tr": "по́слэ",
+  "stress_src": "dict"
  },
  {
   "id": "l05-trenutno",
@@ -3951,7 +4213,9 @@
   "ex_sr": "Mi ne možemo da učimo trenutno.",
   "ex_ru": "Мы сейчас не можем учиться.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000131
+  "added": 1795250000131,
+  "tr": "трэ́нутно",
+  "stress_src": "dict"
  },
  {
   "id": "l05-vec",
@@ -3962,7 +4226,9 @@
   "ex_sr": "Ti učiš nemački jezik već dve godine.",
   "ex_ru": "Ты учишь немецкий язык уже два года.",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000132
+  "added": 1795250000132,
+  "tr": "вэ́ч",
+  "stress_src": "dict"
  },
  {
   "id": "l05-kakosezoves",
@@ -3974,7 +4240,9 @@
   "ex_sr": "Kako se zoveš?",
   "ex_ru": "Как тебя зовут?",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000133
+  "added": 1795250000133,
+  "tr": "ка́ко сэ зо́вэш",
+  "stress_src": "dict"
  },
  {
   "id": "l05-gdezivis",
@@ -3986,7 +4254,9 @@
   "ex_sr": "Gde živiš?",
   "ex_ru": "Где ты живёшь?",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000134
+  "added": 1795250000134,
+  "tr": "гдэ́ жи́виш",
+  "stress_src": "dict"
  },
  {
   "id": "l05-odaklesi",
@@ -3998,7 +4268,9 @@
   "ex_sr": "Odakle si?",
   "ex_ru": "Откуда ты?",
   "lesson": "Урок 5 · Prezent",
-  "added": 1795250000135
+  "added": 1795250000135,
+  "tr": "о́даклэ си",
+  "stress_src": "dict"
  },
  {
   "id": "l06-korist",
@@ -4009,7 +4281,9 @@
   "note": "ж. р., хотя на согласную",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000136,
-  "pl": "koristi"
+  "pl": "koristi",
+  "tr": "ко́рист",
+  "stress_src": "dict"
  },
  {
   "id": "l06-sunce",
@@ -4021,7 +4295,9 @@
   "ex_ru": "Светит солнце, на улице ясно.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000137,
-  "pl": "sunca"
+  "pl": "sunca",
+  "tr": "су́нцэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-stolica",
@@ -4032,7 +4308,9 @@
   "note": "в русском — м. р.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000138,
-  "pl": "stolice"
+  "pl": "stolice",
+  "tr": "сто́лица",
+  "stress_src": "dict"
  },
  {
   "id": "l06-srp",
@@ -4043,7 +4321,9 @@
   "note": "слог без гласной: r звучит как гласная",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000139,
-  "pl": "srpovi"
+  "pl": "srpovi",
+  "tr": "ср́п",
+  "stress_src": "dict"
  },
  {
   "id": "l06-krst",
@@ -4054,7 +4334,9 @@
   "note": "слог без гласной: r звучит как гласная",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000140,
-  "pl": "krstovi"
+  "pl": "krstovi",
+  "tr": "кр́ст",
+  "stress_src": "dict"
  },
  {
   "id": "l06-stvar",
@@ -4067,7 +4349,9 @@
   "ex_ru": "Вещи летают по воздуху.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000141,
-  "pl": "stvari"
+  "pl": "stvari",
+  "tr": "ства́р",
+  "stress_src": "dict"
  },
  {
   "id": "l06-zemlja",
@@ -4077,7 +4361,9 @@
   "topic": "Природа",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000142,
-  "pl": "zemlje"
+  "pl": "zemlje",
+  "tr": "зэ́мля",
+  "stress_src": "dict"
  },
  {
   "id": "l06-sto",
@@ -4088,7 +4374,9 @@
   "note": "мн. stolovi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000143,
-  "pl": "stolovi"
+  "pl": "stolovi",
+  "tr": "сто́",
+  "stress_src": "dict"
  },
  {
   "id": "l06-konj",
@@ -4099,7 +4387,9 @@
   "note": "мн. konji — без -evi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000144,
-  "pl": "konji"
+  "pl": "konji",
+  "tr": "ко́нь",
+  "stress_src": "dict"
  },
  {
   "id": "l06-doba",
@@ -4110,7 +4400,9 @@
   "note": "не изменяется; godišnje doba — время года",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000145,
-  "pl": "doba"
+  "pl": "doba",
+  "tr": "до́ба",
+  "stress_src": "dict"
  },
  {
   "id": "l06-opasnost",
@@ -4121,7 +4413,9 @@
   "note": "все слова на -ost — ж. р.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000146,
-  "pl": "opasnosti"
+  "pl": "opasnosti",
+  "tr": "опа́сност",
+  "stress_src": "dict"
  },
  {
   "id": "l06-more",
@@ -4131,7 +4425,9 @@
   "topic": "Природа",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000147,
-  "pl": "mora"
+  "pl": "mora",
+  "tr": "мо́рэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-taksista",
@@ -4142,7 +4438,9 @@
   "note": "м. р., хотя на -a",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000148,
-  "pl": "taksisti"
+  "pl": "taksisti",
+  "tr": "та́ксиста",
+  "stress_src": "dict"
  },
  {
   "id": "l06-novac",
@@ -4152,7 +4450,9 @@
   "topic": "Понятия",
   "note": "в сербском ед. ч., м. р.",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000149
+  "added": 1795250000149,
+  "tr": "но́вац",
+  "stress_src": "dict"
  },
  {
   "id": "l06-most",
@@ -4162,7 +4462,9 @@
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000150,
-  "pl": "mostovi"
+  "pl": "mostovi",
+  "tr": "мо́ст",
+  "stress_src": "dict"
  },
  {
   "id": "l06-smisao",
@@ -4172,7 +4474,9 @@
   "topic": "Понятия",
   "note": "на -ao, как orao и ugao",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000151
+  "added": 1795250000151,
+  "tr": "сми́сао",
+  "stress_src": "dict"
  },
  {
   "id": "l06-kokoska",
@@ -4182,7 +4486,9 @@
   "topic": "Животные",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000152,
-  "pl": "kokoške"
+  "pl": "kokoške",
+  "tr": "ко́кошка",
+  "stress_src": "dict"
  },
  {
   "id": "l06-brdo",
@@ -4193,7 +4499,9 @@
   "note": "слог без гласной: r звучит как гласная",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000153,
-  "pl": "brda"
+  "pl": "brda",
+  "tr": "бр́до",
+  "stress_src": "dict"
  },
  {
   "id": "l06-jezero",
@@ -4203,7 +4511,9 @@
   "topic": "Природа",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000154,
-  "pl": "jezera"
+  "pl": "jezera",
+  "tr": "е́зэро",
+  "stress_src": "dict"
  },
  {
   "id": "l06-tata",
@@ -4214,7 +4524,9 @@
   "note": "м. р., хотя на -a",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000155,
-  "pl": "tate"
+  "pl": "tate",
+  "tr": "та́та",
+  "stress_src": "dict"
  },
  {
   "id": "l06-srbija",
@@ -4225,7 +4537,9 @@
   "ex_sr": "Mi živimo u Srbiji.",
   "ex_ru": "Мы живём в Сербии.",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000156
+  "added": 1795250000156,
+  "tr": "ср́бия",
+  "stress_src": "dict"
  },
  {
   "id": "l06-republika",
@@ -4235,7 +4549,9 @@
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000157,
-  "pl": "republike"
+  "pl": "republike",
+  "tr": "рэпу́блика",
+  "stress_src": "dict"
  },
  {
   "id": "l06-frizider",
@@ -4245,7 +4561,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000158,
-  "pl": "frižideri"
+  "pl": "frižideri",
+  "tr": "фрижи́дэр",
+  "stress_src": "dict"
  },
  {
   "id": "l06-kralj",
@@ -4256,7 +4574,9 @@
   "note": "после мягкой согласной — -evi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000159,
-  "pl": "kraljevi"
+  "pl": "kraljevi",
+  "tr": "кра́ль",
+  "stress_src": "dict"
  },
  {
   "id": "l06-ime",
@@ -4267,7 +4587,9 @@
   "note": "мн. imena",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000160,
-  "pl": "imena"
+  "pl": "imena",
+  "tr": "и́мэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-slon",
@@ -4277,7 +4599,9 @@
   "topic": "Животные",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000161,
-  "pl": "slonovi"
+  "pl": "slonovi",
+  "tr": "сло́н",
+  "stress_src": "dict"
  },
  {
   "id": "l06-soko",
@@ -4288,7 +4612,9 @@
   "note": "м. р., хотя на -o",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000162,
-  "pl": "sokolovi"
+  "pl": "sokolovi",
+  "tr": "со́ко",
+  "stress_src": "dict"
  },
  {
   "id": "l06-drzava",
@@ -4298,7 +4624,9 @@
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000163,
-  "pl": "države"
+  "pl": "države",
+  "tr": "др́жава",
+  "stress_src": "dict"
  },
  {
   "id": "l06-fakultet",
@@ -4308,7 +4636,9 @@
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000164,
-  "pl": "fakulteti"
+  "pl": "fakulteti",
+  "tr": "факу́лтэт",
+  "stress_src": "dict"
  },
  {
   "id": "l06-automobil",
@@ -4318,7 +4648,9 @@
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000165,
-  "pl": "automobili"
+  "pl": "automobili",
+  "tr": "аутомо́бил",
+  "stress_src": "dict"
  },
  {
   "id": "l06-lutka",
@@ -4328,7 +4660,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000166,
-  "pl": "lutke"
+  "pl": "lutke",
+  "tr": "лу́тка",
+  "stress_src": "dict"
  },
  {
   "id": "l06-dugme",
@@ -4339,7 +4673,9 @@
   "note": "мн. dugmad — исключение",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000167,
-  "pl": "dugmad"
+  "pl": "dugmad",
+  "tr": "ду́гмэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-rame",
@@ -4350,7 +4686,9 @@
   "note": "мн. ramena",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000168,
-  "pl": "ramena"
+  "pl": "ramena",
+  "tr": "ра́мэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-prase",
@@ -4361,7 +4699,9 @@
   "note": "мн. prasad — исключение",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000169,
-  "pl": "prasad"
+  "pl": "prasad",
+  "tr": "пра́сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-sveska",
@@ -4371,7 +4711,9 @@
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000170,
-  "pl": "sveske"
+  "pl": "sveske",
+  "tr": "свэ́ска",
+  "stress_src": "dict"
  },
  {
   "id": "l06-vrednost",
@@ -4382,7 +4724,9 @@
   "note": "все слова на -ost — ж. р.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000171,
-  "pl": "vrednosti"
+  "pl": "vrednosti",
+  "tr": "врэ́дност",
+  "stress_src": "dict"
  },
  {
   "id": "l06-orao",
@@ -4393,7 +4737,9 @@
   "note": "мн. orlovi: -ao → -lovi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000172,
-  "pl": "orlovi"
+  "pl": "orlovi",
+  "tr": "о́рао",
+  "stress_src": "dict"
  },
  {
   "id": "l06-seme",
@@ -4404,7 +4750,9 @@
   "note": "мн. semena",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000173,
-  "pl": "semena"
+  "pl": "semena",
+  "tr": "сэ́мэ",
+  "stress_src": "dict"
  },
  {
   "id": "l06-racunar",
@@ -4414,7 +4762,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000174,
-  "pl": "računari"
+  "pl": "računari",
+  "tr": "ратшу́нар",
+  "stress_src": "dict"
  },
  {
   "id": "l06-student",
@@ -4424,7 +4774,9 @@
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000175,
-  "pl": "studenti"
+  "pl": "studenti",
+  "tr": "сту́дэнт",
+  "stress_src": "dict"
  },
  {
   "id": "l06-beograd",
@@ -4433,7 +4785,9 @@
   "g": "m",
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000176
+  "added": 1795250000176,
+  "tr": "бэо́град",
+  "stress_src": "dict"
  },
  {
   "id": "l06-secer",
@@ -4442,7 +4796,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000177
+  "added": 1795250000177,
+  "tr": "шэ́чер",
+  "stress_src": "dict"
  },
  {
   "id": "l06-deda",
@@ -4453,7 +4809,9 @@
   "note": "м. р., хотя на -a",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000178,
-  "pl": "dede"
+  "pl": "dede",
+  "tr": "дэ́да",
+  "stress_src": "dict"
  },
  {
   "id": "l06-sudija",
@@ -4464,7 +4822,9 @@
   "note": "м. р., хотя на -a",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000179,
-  "pl": "sudije"
+  "pl": "sudije",
+  "tr": "су́дия",
+  "stress_src": "dict"
  },
  {
   "id": "l06-ugao",
@@ -4475,7 +4835,9 @@
   "note": "мн. uglovi: -ao → -lovi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000180,
-  "pl": "uglovi"
+  "pl": "uglovi",
+  "tr": "у́гао",
+  "stress_src": "dict"
  },
  {
   "id": "l06-posao",
@@ -4486,7 +4848,9 @@
   "note": "в русском — ж. р.; мн. poslovi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000181,
-  "pl": "poslovi"
+  "pl": "poslovi",
+  "tr": "по́сао",
+  "stress_src": "dict"
  },
  {
   "id": "l06-civilizacija",
@@ -4496,7 +4860,9 @@
   "topic": "Понятия",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000182,
-  "pl": "civilizacije"
+  "pl": "civilizacije",
+  "tr": "цивилиза́ция",
+  "stress_src": "dict"
  },
  {
   "id": "l06-ptica",
@@ -4506,7 +4872,9 @@
   "topic": "Животные",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000183,
-  "pl": "ptice"
+  "pl": "ptice",
+  "tr": "пти́ца",
+  "stress_src": "dict"
  },
  {
   "id": "l06-policija",
@@ -4515,7 +4883,9 @@
   "g": "f",
   "topic": "Город и транспорт",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000184
+  "added": 1795250000184,
+  "tr": "поли́ция",
+  "stress_src": "dict"
  },
  {
   "id": "l06-noc",
@@ -4526,7 +4896,9 @@
   "note": "ж. р., хотя на согласную",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000185,
-  "pl": "noći"
+  "pl": "noći",
+  "tr": "но́ч",
+  "stress_src": "dict"
  },
  {
   "id": "l06-kost",
@@ -4537,7 +4909,9 @@
   "note": "ж. р., хотя на согласную",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000186,
-  "pl": "kosti"
+  "pl": "kosti",
+  "tr": "ко́ст",
+  "stress_src": "dict"
  },
  {
   "id": "l06-leto",
@@ -4549,7 +4923,9 @@
   "ex_ru": "Когда приходит лето, я люблю обновлять свой гардероб.",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000187,
-  "pl": "leta"
+  "pl": "leta",
+  "tr": "лэ́то",
+  "stress_src": "dict"
  },
  {
   "id": "l06-pero",
@@ -4559,7 +4935,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000188,
-  "pl": "pera"
+  "pl": "pera",
+  "tr": "пэ́ро",
+  "stress_src": "dict"
  },
  {
   "id": "l06-lav",
@@ -4569,7 +4947,9 @@
   "topic": "Животные",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000189,
-  "pl": "lavovi"
+  "pl": "lavovi",
+  "tr": "ла́в",
+  "stress_src": "dict"
  },
  {
   "id": "l06-bog",
@@ -4579,7 +4959,9 @@
   "topic": "Понятия",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000190,
-  "pl": "bogovi"
+  "pl": "bogovi",
+  "tr": "бо́г",
+  "stress_src": "dict"
  },
  {
   "id": "l06-dan",
@@ -4590,7 +4972,9 @@
   "note": "мн. dani — без -ovi",
   "lesson": "Урок 6 · Množina",
   "added": 1795250000191,
-  "pl": "dani"
+  "pl": "dani",
+  "tr": "да́н",
+  "stress_src": "dict"
  },
  {
   "id": "l06-muskirod",
@@ -4599,7 +4983,9 @@
   "g": "phrase",
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000192
+  "added": 1795250000192,
+  "tr": "му́шки ро́д",
+  "stress_src": "dict"
  },
  {
   "id": "l06-zenskirod",
@@ -4608,7 +4994,9 @@
   "g": "phrase",
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000193
+  "added": 1795250000193,
+  "tr": "жэ́нски ро́д",
+  "stress_src": "dict"
  },
  {
   "id": "l06-srednjirod",
@@ -4617,7 +5005,9 @@
   "g": "phrase",
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000194
+  "added": 1795250000194,
+  "tr": "срэ́дни ро́д",
+  "stress_src": "dict"
  },
  {
   "id": "l06-mnozina",
@@ -4626,7 +5016,9 @@
   "g": "f",
   "topic": "Учёба",
   "lesson": "Урок 6 · Množina",
-  "added": 1795250000195
+  "added": 1795250000195,
+  "tr": "множи́на",
+  "stress_src": "dict"
  },
  {
   "id": "l24-odeca",
@@ -4637,7 +5029,9 @@
   "ex_sr": "Jedva čekam da nosim svu svoju novu odeću.",
   "ex_ru": "Жду не дождусь, когда надену всю свою новую одежду.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000196
+  "added": 1795250000196,
+  "tr": "о́дэча",
+  "stress_src": "dict"
  },
  {
   "id": "l24-garderoba",
@@ -4648,7 +5042,9 @@
   "ex_sr": "Kada dolazi leto volim da obnavljam svoju garderobu.",
   "ex_ru": "Когда приходит лето, я люблю обновлять свой гардероб.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000197
+  "added": 1795250000197,
+  "tr": "гардэро́ба",
+  "stress_src": "dict"
  },
  {
   "id": "l24-sorts",
@@ -4661,7 +5057,9 @@
   "ex_ru": "Мне нужно и что-то новое вниз, поэтому покупаю и шорты.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000198,
-  "pl": "šortsovi"
+  "pl": "šortsovi",
+  "tr": "шо́ртс",
+  "stress_src": "dict"
  },
  {
   "id": "l24-haljina",
@@ -4672,7 +5070,9 @@
   "note": "в русском — ср. р.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000199,
-  "pl": "haljine"
+  "pl": "haljine",
+  "tr": "ха́лина",
+  "stress_src": "dict"
  },
  {
   "id": "l24-kapa",
@@ -4682,7 +5082,9 @@
   "topic": "Одежда",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000200,
-  "pl": "kape"
+  "pl": "kape",
+  "tr": "ка́па",
+  "stress_src": "dict"
  },
  {
   "id": "l24-carape",
@@ -4692,7 +5094,9 @@
   "topic": "Одежда",
   "note": "ед. čarapa",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000201
+  "added": 1795250000201,
+  "tr": "тша́рапэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-duks",
@@ -4704,7 +5108,9 @@
   "ex_ru": "Сверху я больше не ношу толстую толстовку с капюшоном.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000202,
-  "pl": "duksovi"
+  "pl": "duksovi",
+  "tr": "ду́кс",
+  "stress_src": "dict"
  },
  {
   "id": "l24-dzemper",
@@ -4714,7 +5120,9 @@
   "topic": "Одежда",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000203,
-  "pl": "džemperi"
+  "pl": "džemperi",
+  "tr": "джэ́мпэр",
+  "stress_src": "dict"
  },
  {
   "id": "l24-rukavice",
@@ -4724,7 +5132,9 @@
   "topic": "Одежда",
   "note": "ед. rukavica",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000204
+  "added": 1795250000204,
+  "tr": "рука́вицэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-patike",
@@ -4734,7 +5144,9 @@
   "topic": "Одежда",
   "note": "ед. patika",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000205
+  "added": 1795250000205,
+  "tr": "па́тикэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-pantalone",
@@ -4746,7 +5158,9 @@
   "ex_sr": "A dole tople pantalone.",
   "ex_ru": "А внизу тёплые брюки.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000206
+  "added": 1795250000206,
+  "tr": "пантало́нэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-farmerke",
@@ -4756,7 +5170,9 @@
   "topic": "Одежда",
   "note": "только мн. ч.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000207
+  "added": 1795250000207,
+  "tr": "фа́рмэркэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-sal",
@@ -4766,7 +5182,9 @@
   "topic": "Одежда",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000208,
-  "pl": "šalovi"
+  "pl": "šalovi",
+  "tr": "ша́л",
+  "stress_src": "dict"
  },
  {
   "id": "l24-helanke",
@@ -4776,7 +5194,9 @@
   "topic": "Одежда",
   "note": "только мн. ч.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000209
+  "added": 1795250000209,
+  "tr": "хэ́ланкэ",
+  "stress_src": "manual"
  },
  {
   "id": "l24-suknja",
@@ -4786,7 +5206,9 @@
   "topic": "Одежда",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000210,
-  "pl": "suknje"
+  "pl": "suknje",
+  "tr": "су́кня",
+  "stress_src": "dict"
  },
  {
   "id": "l24-donjives",
@@ -4796,7 +5218,9 @@
   "topic": "Одежда",
   "note": "в уроке рядом: gaćice",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000211
+  "added": 1795250000211,
+  "tr": "до́ни вэ́ш",
+  "stress_src": "dict"
  },
  {
   "id": "l24-stikle",
@@ -4806,7 +5230,9 @@
   "topic": "Одежда",
   "note": "ед. štikla",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000212
+  "added": 1795250000212,
+  "tr": "шти́клэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-kosulja",
@@ -4818,7 +5244,9 @@
   "ex_ru": "Для ужинов в ресторанах мне нужна и новая рубашка.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000213,
-  "pl": "košulje"
+  "pl": "košulje",
+  "tr": "ко́шуля",
+  "stress_src": "dict"
  },
  {
   "id": "l24-jakna",
@@ -4828,7 +5256,9 @@
   "topic": "Одежда",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000214,
-  "pl": "jakne"
+  "pl": "jakne",
+  "tr": "я́кна",
+  "stress_src": "dict"
  },
  {
   "id": "l24-kacket",
@@ -4839,7 +5269,9 @@
   "note": "в русском — ж. р.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000215,
-  "pl": "kačketi"
+  "pl": "kačketi",
+  "tr": "ка́тшкэт",
+  "stress_src": "dict"
  },
  {
   "id": "l24-zelen",
@@ -4849,7 +5281,9 @@
   "topic": "Цвета",
   "note": "ж. zelena, мн. zeleni",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000216
+  "added": 1795250000216,
+  "tr": "зэ́лэн",
+  "stress_src": "dict"
  },
  {
   "id": "l24-roze",
@@ -4859,7 +5293,9 @@
   "topic": "Цвета",
   "note": "не изменяется: roze haljina, roze duks",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000217
+  "added": 1795250000217,
+  "tr": "ро́зэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-siv",
@@ -4869,7 +5305,9 @@
   "topic": "Цвета",
   "note": "ж. siva, мн. sive",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000218
+  "added": 1795250000218,
+  "tr": "си́в",
+  "stress_src": "dict"
  },
  {
   "id": "l24-ljubicast",
@@ -4879,7 +5317,9 @@
   "topic": "Цвета",
   "note": "ж. ljubičasta, мн. ljubičaste",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000219
+  "added": 1795250000219,
+  "tr": "лю́битшаст",
+  "stress_src": "dict"
  },
  {
   "id": "l24-zut",
@@ -4889,7 +5329,9 @@
   "topic": "Цвета",
   "note": "ж. žuta, мн. žute",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000220
+  "added": 1795250000220,
+  "tr": "жу́т",
+  "stress_src": "dict"
  },
  {
   "id": "l24-braon",
@@ -4899,7 +5341,9 @@
   "topic": "Цвета",
   "note": "не изменяется: braon čizme",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000221
+  "added": 1795250000221,
+  "tr": "бра́он",
+  "stress_src": "dict"
  },
  {
   "id": "l24-crven",
@@ -4909,7 +5353,9 @@
   "topic": "Цвета",
   "note": "ж. crvena, мн. crveni",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000222
+  "added": 1795250000222,
+  "tr": "цр́вэн",
+  "stress_src": "dict"
  },
  {
   "id": "l24-gore",
@@ -4920,7 +5366,9 @@
   "ex_sr": "Gore više ne nosim debeli duks sa kapuljačom.",
   "ex_ru": "Сверху я больше не ношу толстую толстовку с капюшоном.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000223
+  "added": 1795250000223,
+  "tr": "го́рэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-dole",
@@ -4931,7 +5379,9 @@
   "ex_sr": "Treba mi i nešto novo da nosim dole, zato kupujem i šorts.",
   "ex_ru": "Мне нужно и что-то новое вниз, поэтому покупаю и шорты.",
   "lesson": "Урок 24 · Odeća",
-  "added": 1795250000224
+  "added": 1795250000224,
+  "tr": "до́лэ",
+  "stress_src": "dict"
  },
  {
   "id": "l24-ormar",
@@ -4943,7 +5393,9 @@
   "ex_ru": "Убираю в шкаф зимние сапоги.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000225,
-  "pl": "ormari"
+  "pl": "ormari",
+  "tr": "о́рмар",
+  "stress_src": "dict"
  },
  {
   "id": "l24-prodavnica",
@@ -4955,7 +5407,9 @@
   "ex_ru": "Теперь иду в магазин и покупаю красивую футболку с динозавром.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000226,
-  "pl": "prodavnice"
+  "pl": "prodavnice",
+  "tr": "про́давница",
+  "stress_src": "dict"
  },
  {
   "id": "l24-vecera",
@@ -4967,7 +5421,9 @@
   "ex_ru": "Для ужинов в ресторанах мне нужна и новая рубашка.",
   "lesson": "Урок 24 · Odeća",
   "added": 1795250000227,
-  "pl": "večere"
+  "pl": "večere",
+  "tr": "вэ́тшэра",
+  "stress_src": "dict"
  },
  {
   "id": "l24-nositi",
@@ -4986,7 +5442,9 @@
    "nosimo",
    "nosite",
    "nose"
-  ]
+  ],
+  "tr": "но́сити",
+  "stress_src": "dict"
  },
  {
   "id": "l24-kupovati",
@@ -5006,7 +5464,9 @@
    "kupujemo",
    "kupujete",
    "kupuju"
-  ]
+  ],
+  "tr": "купо́вати",
+  "stress_src": "dict"
  },
  {
   "id": "vr-vreme",
@@ -5019,7 +5479,9 @@
   "ex_ru": "Погода ясная.",
   "lesson": "Урок · Vreme",
   "added": 1795250000230,
-  "pl": "vremena"
+  "pl": "vremena",
+  "tr": "врэ́мэ",
+  "stress_src": "dict"
  },
  {
   "id": "vr-napolju",
@@ -5030,7 +5492,9 @@
   "ex_sr": "Kako je napolju?",
   "ex_ru": "Как там на улице?",
   "lesson": "Урок · Vreme",
-  "added": 1795250000231
+  "added": 1795250000231,
+  "tr": "на́полю",
+  "stress_src": "dict"
  },
  {
   "id": "vr-sneg",
@@ -5039,7 +5503,9 @@
   "g": "m",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000232
+  "added": 1795250000232,
+  "tr": "снэ́г",
+  "stress_src": "dict"
  },
  {
   "id": "vr-snezno",
@@ -5048,7 +5514,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000233
+  "added": 1795250000233,
+  "tr": "снэ́жно",
+  "stress_src": "dict"
  },
  {
   "id": "vr-kisa",
@@ -5061,7 +5529,9 @@
   "ex_ru": "Может быть, скоро пойдёт дождь.",
   "lesson": "Урок · Vreme",
   "added": 1795250000234,
-  "pl": "kiše"
+  "pl": "kiše",
+  "tr": "ки́ша",
+  "stress_src": "dict"
  },
  {
   "id": "vr-kisovito",
@@ -5070,7 +5540,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000235
+  "added": 1795250000235,
+  "tr": "кишо́вито",
+  "stress_src": "dict"
  },
  {
   "id": "vr-oblak",
@@ -5083,7 +5555,9 @@
   "ex_ru": "Когда я смотрю в окно, я вижу одни облака.",
   "lesson": "Урок · Vreme",
   "added": 1795250000236,
-  "pl": "oblaci"
+  "pl": "oblaci",
+  "tr": "о́блак",
+  "stress_src": "dict"
  },
  {
   "id": "vr-oblacno",
@@ -5092,7 +5566,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000237
+  "added": 1795250000237,
+  "tr": "о́блатшно",
+  "stress_src": "dict"
  },
  {
   "id": "vr-magla",
@@ -5103,7 +5579,9 @@
   "note": "в русском — м. р.",
   "lesson": "Урок · Vreme",
   "added": 1795250000238,
-  "pl": "magle"
+  "pl": "magle",
+  "tr": "ма́гла",
+  "stress_src": "dict"
  },
  {
   "id": "vr-maglovito",
@@ -5112,7 +5590,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000239
+  "added": 1795250000239,
+  "tr": "магло́вито",
+  "stress_src": "dict"
  },
  {
   "id": "vr-suncano",
@@ -5121,7 +5601,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000240
+  "added": 1795250000240,
+  "tr": "су́нтшано",
+  "stress_src": "dict"
  },
  {
   "id": "vr-vedro",
@@ -5132,7 +5614,9 @@
   "ex_sr": "Sunce sija i napolju je vedro.",
   "ex_ru": "Светит солнце, на улице ясно.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000241
+  "added": 1795250000241,
+  "tr": "вэ́дро",
+  "stress_src": "dict"
  },
  {
   "id": "vr-vetar",
@@ -5144,7 +5628,9 @@
   "ex_ru": "Ветер очень быстрый и холодный.",
   "lesson": "Урок · Vreme",
   "added": 1795250000242,
-  "pl": "vetrovi"
+  "pl": "vetrovi",
+  "tr": "вэ́тар",
+  "stress_src": "dict"
  },
  {
   "id": "vr-vetrovito",
@@ -5153,7 +5639,9 @@
   "g": "adv",
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
-  "added": 1795250000243
+  "added": 1795250000243,
+  "tr": "вэтро́вито",
+  "stress_src": "dict"
  },
  {
   "id": "vr-pljusak",
@@ -5165,7 +5653,9 @@
   "ex_ru": "На улице ливень, пасмурно и холодно.",
   "lesson": "Урок · Vreme",
   "added": 1795250000244,
-  "pl": "pljuskovi"
+  "pl": "pljuskovi",
+  "tr": "плю́сак",
+  "stress_src": "dict"
  },
  {
   "id": "vr-hladno",
@@ -5176,7 +5666,9 @@
   "ex_sr": "Pahulje padaju po meni i jako je hladno.",
   "ex_ru": "На меня падают снежинки, и очень холодно.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000245
+  "added": 1795250000245,
+  "tr": "хла́дно",
+  "stress_src": "dict"
  },
  {
   "id": "vr-toplo",
@@ -5187,7 +5679,9 @@
   "ex_sr": "Toplo je i nema nijednog oblaka na nebu.",
   "ex_ru": "Тепло, и на небе ни одного облака.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000246
+  "added": 1795250000246,
+  "tr": "то́пло",
+  "stress_src": "dict"
  },
  {
   "id": "vr-tmurno",
@@ -5198,7 +5692,9 @@
   "ex_sr": "Tmurno je i ja sam baš loše raspoložena.",
   "ex_ru": "Пасмурно, и у меня совсем плохое настроение.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000247
+  "added": 1795250000247,
+  "tr": "тму́рно",
+  "stress_src": "dict"
  },
  {
   "id": "vr-jesen",
@@ -5209,7 +5705,9 @@
   "note": "ж. р., хотя на согласную",
   "lesson": "Урок · Vreme",
   "added": 1795250000248,
-  "pl": "jeseni"
+  "pl": "jeseni",
+  "tr": "е́сэн",
+  "stress_src": "dict"
  },
  {
   "id": "vr-zima",
@@ -5219,7 +5717,9 @@
   "topic": "Погода и времена года",
   "lesson": "Урок · Vreme",
   "added": 1795250000249,
-  "pl": "zime"
+  "pl": "zime",
+  "tr": "зи́ма",
+  "stress_src": "dict"
  },
  {
   "id": "vr-prolece",
@@ -5230,7 +5730,9 @@
   "note": "в русском — ж. р.",
   "lesson": "Урок · Vreme",
   "added": 1795250000250,
-  "pl": "proleća"
+  "pl": "proleća",
+  "tr": "про́лэче",
+  "stress_src": "dict"
  },
  {
   "id": "vr-godisnjedoba",
@@ -5242,7 +5744,9 @@
   "ex_ru": "Какое время года твоё любимое?",
   "lesson": "Урок · Vreme",
   "added": 1795250000251,
-  "pl": "godišnja doba"
+  "pl": "godišnja doba",
+  "tr": "го́дишне до́ба",
+  "stress_src": "dict"
  },
  {
   "id": "vr-mart",
@@ -5251,7 +5755,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000252
+  "added": 1795250000252,
+  "tr": "ма́рт",
+  "stress_src": "dict"
  },
  {
   "id": "vr-jun",
@@ -5260,7 +5766,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000253
+  "added": 1795250000253,
+  "tr": "ю́н",
+  "stress_src": "dict"
  },
  {
   "id": "vr-avgust",
@@ -5269,7 +5777,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000254
+  "added": 1795250000254,
+  "tr": "а́вгуст",
+  "stress_src": "dict"
  },
  {
   "id": "vr-oktobar",
@@ -5278,7 +5788,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000255
+  "added": 1795250000255,
+  "tr": "о́ктобар",
+  "stress_src": "dict"
  },
  {
   "id": "vr-novembar",
@@ -5287,7 +5799,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000256
+  "added": 1795250000256,
+  "tr": "но́вэмбар",
+  "stress_src": "dict"
  },
  {
   "id": "vr-decembar",
@@ -5296,7 +5810,9 @@
   "g": "m",
   "topic": "Время и дни",
   "lesson": "Урок · Vreme",
-  "added": 1795250000257
+  "added": 1795250000257,
+  "tr": "дэ́цэмбар",
+  "stress_src": "dict"
  },
  {
   "id": "vr-prozor",
@@ -5309,7 +5825,9 @@
   "ex_ru": "Когда я смотрю в окно, я вижу одни облака.",
   "lesson": "Урок · Vreme",
   "added": 1795250000258,
-  "pl": "prozori"
+  "pl": "prozori",
+  "tr": "про́зор",
+  "stress_src": "dict"
  },
  {
   "id": "vr-pahulja",
@@ -5321,7 +5839,9 @@
   "ex_ru": "На меня падают снежинки, и очень холодно.",
   "lesson": "Урок · Vreme",
   "added": 1795250000259,
-  "pl": "pahulje"
+  "pl": "pahulje",
+  "tr": "па́хуля",
+  "stress_src": "dict"
  },
  {
   "id": "vr-setnja",
@@ -5333,7 +5853,9 @@
   "ex_ru": "Я хотела пойти на прогулку, но сейчас это невозможно.",
   "lesson": "Урок · Vreme",
   "added": 1795250000260,
-  "pl": "šetnje"
+  "pl": "šetnje",
+  "tr": "шэ́тня",
+  "stress_src": "dict"
  },
  {
   "id": "vr-nemoguce",
@@ -5344,7 +5866,9 @@
   "ex_sr": "Htela sam da idem u šetnju, ali to je nemoguće sad.",
   "ex_ru": "Я хотела пойти на прогулку, но сейчас это невозможно.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000261
+  "added": 1795250000261,
+  "tr": "нэ́могуче",
+  "stress_src": "dict"
  },
  {
   "id": "vr-nebo",
@@ -5355,7 +5879,9 @@
   "ex_sr": "Toplo je i nema nijednog oblaka na nebu.",
   "ex_ru": "Тепло, и на небе ни одного облака.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000262
+  "added": 1795250000262,
+  "tr": "нэ́бо",
+  "stress_src": "dict"
  },
  {
   "id": "vr-brz",
@@ -5367,7 +5893,9 @@
   "ex_sr": "Vetar je mnogo brz i hladan.",
   "ex_ru": "Ветер очень быстрый и холодный.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000263
+  "added": 1795250000263,
+  "tr": "бр́з",
+  "stress_src": "dict"
  },
  {
   "id": "vr-hladan",
@@ -5379,7 +5907,9 @@
   "ex_sr": "Vetar je mnogo brz i hladan.",
   "ex_ru": "Ветер очень быстрый и холодный.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000264
+  "added": 1795250000264,
+  "tr": "хла́дан",
+  "stress_src": "dict"
  },
  {
   "id": "vr-beo",
@@ -5391,7 +5921,9 @@
   "ex_sr": "Videla sam samo veliki beli pokrivač.",
   "ex_ru": "Я увидела только большое белое покрывало.",
   "lesson": "Урок · Vreme",
-  "added": 1795250000265
+  "added": 1795250000265,
+  "tr": "бэ́о",
+  "stress_src": "dict"
  },
  {
   "id": "vr-auto",
@@ -5404,7 +5936,9 @@
   "ex_ru": "Не могу вести машину, потому что на улице ничего не видно.",
   "lesson": "Урок · Vreme",
   "added": 1795250000266,
-  "pl": "auta"
+  "pl": "auta",
+  "tr": "а́уто",
+  "stress_src": "dict"
  },
  {
   "id": "vr-meteoropata",
@@ -5416,6 +5950,8 @@
   "ex_sr": "Da li znaš šta je meteoropata?",
   "ex_ru": "Ты знаешь, кто такой метеопат?",
   "lesson": "Урок · Vreme",
-  "added": 1795250000267
+  "added": 1795250000267,
+  "tr": "мэтэоро́пата",
+  "stress_src": "dict"
  }
 ]

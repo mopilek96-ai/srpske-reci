@@ -32,6 +32,23 @@ STRESS_VERIFIED = {
     "raspoložen": 2,    # HJP: raspòložen
     "spavam": 1, "idem": 1, "radiš": 1, "došli": 1, "nema": 1, "laku": 1, "čemu": 1, "ljudi": 1,  # HJP/Wiktionary
     "laptop": 1, "kaktus": 1, "de": 1,  # two syllables: standard never stresses the last one
+    # lessons 4–6, Odeća, Vreme (reports/dictionary_alt.json)
+    "preduzeće": 3,    # HJP: poduzéće
+    "hemijska": 1,     # Wiktionary: hémījskī
+    "jača": 1,         # Wiktionary: jȁčī
+    "volontirati": 3,  # HJP: volontírati
+    "medicinska": 1,   # Wiktionary: mȅdicīnskī
+    "spavaća": 1,      # Wiktionary: spàvāćī
+    "farmerke": 1,     # HJP: fȁrmerice
+    "braon": 1,        # HJP: brȁon
+    "snežno": 1,       # Wiktionary: snȅžan
+    "kišovito": 2,     # Wiktionary: kišòvit
+    "oblačno": 1,      # Wiktionary: ȍblāčan
+    "sunčano": 1,      # Wiktionary/HJP: sùnčan
+    "vetrovito": 2,    # Wiktionary: vetròvit
+    "tmurno": 1,       # Wiktionary: tmúran
+    "meteoropata": 4,  # HJP: meteoròpāt
+    "živiš": 1, "roze": 1, "zoo": 1,  # two syllables
 }
 # Not confirmed by any dictionary we can reach: flagged on the card.
 STRESS_MANUAL = {
@@ -39,6 +56,8 @@ STRESS_MANUAL = {
     "sportista": 1,      # by analogy with spòrtāš
     "zainteresovan": 3,  # no entry; Croatian uses zainteresiran
     "džordž": 1,
+    "najbolji": 1,     # bȍljī; superlatives usually stress naj-: nȁjbolji
+    "helanke": 1,      # no dictionary entry
 }
 
 # part of speech / gender: m f n pl for nouns; otherwise a pos label
