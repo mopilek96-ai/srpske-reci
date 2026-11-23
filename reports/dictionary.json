@@ -94,6 +94,20 @@
    "sh-IPA:Sȑbin"
   ]
  },
+ "apartman": {
+  "title": "apartman",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "apàrtmān"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": []
+ },
  "auto": {
   "title": "auto",
   "found": true,
@@ -188,6 +202,22 @@
    "/bêo/"
   ]
  },
+ "biber": {
+  "title": "biber",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "bìber"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "/bǐber/"
+  ]
+ },
  "bicikl": {
   "title": "bicikl",
   "found": true,
@@ -202,6 +232,52 @@
   ],
   "ipa": [
    "sh-IPA:bicìkl"
+  ]
+ },
+ "bilo": {
+  "title": "bilo",
+  "found": true,
+  "pos": [
+   "noun",
+   "part form",
+   "pcl"
+  ],
+  "heads": [
+   "bȉlo",
+   "bílo",
+   "bílo"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "sh-IPA:bȉlo",
+   "sh-IPA:bílo"
+  ]
+ },
+ "biste": {
+  "title": "biste",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
+ "biti": {
+  "title": "biti",
+  "found": true,
+  "pos": [
+   "verb",
+   "verb"
+  ],
+  "heads": [
+   "bȉti",
+   "bȉti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:bȉti",
+   "sh-IPA:bȉti"
   ]
  },
  "bog": {
@@ -279,6 +355,24 @@
    "sh-IPA:bȑdo"
   ]
  },
+ "brod": {
+  "title": "brod",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "brȏd",
+   "bròdīć",
+   "bròdskī"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:brȏd"
+  ]
+ },
  "brz": {
   "title": "brz",
   "found": true,
@@ -309,6 +403,20 @@
   ],
   "ipa": [
    "sh-IPA:bȕba"
+  ]
+ },
+ "buditi": {
+  "title": "buditi",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "búditi"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:búditi"
   ]
  },
  "burek": {
@@ -483,6 +591,30 @@
    "/dêda/"
   ]
  },
+ "deka": {
+  "title": "deka",
+  "found": true,
+  "pos": [
+   "noun",
+   "noun",
+   "noun"
+  ],
+  "heads": [
+   "dȅka",
+   "dèka,dȅka",
+   "déka"
+  ],
+  "genders": [
+   "f",
+   "f",
+   "m-an"
+  ],
+  "ipa": [
+   "sh-IPA:dȅka",
+   "sh-IPA:dèka|dȅka",
+   "sh-IPA:déka"
+  ]
+ },
  "dete": {
   "title": "dete",
   "found": true,
@@ -514,6 +646,14 @@
    "sh-IPA:dèvōjka"
   ]
  },
+ "dezert": {
+  "title": "dezert",
+  "found": false
+ },
+ "dnevna": {
+  "title": "dnevna",
+  "found": false
+ },
  "doba": {
   "title": "doba",
   "found": true,
@@ -544,6 +684,24 @@
   "genders": [],
   "ipa": [
    "sh-IPA:dȍbar"
+  ]
+ },
+ "dobijem": {
+  "title": "dobijem",
+  "found": false
+ },
+ "dobiti": {
+  "title": "dobiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "dòbiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "/dǒbiti/"
   ]
  },
  "dobro": {
@@ -602,6 +760,24 @@
   "genders": [],
   "ipa": [
    "/dôle/"
+  ]
+ },
+ "donesete": {
+  "title": "donesete",
+  "found": false
+ },
+ "doneti": {
+  "title": "doneti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "dònēti"
+  ],
+  "genders": [],
+  "ipa": [
+   "/dǒneːti/"
   ]
  },
  "donji": {
@@ -785,6 +961,24 @@
   "title": "duks",
   "found": false
  },
+ "dvoje": {
+  "title": "dvoje",
+  "found": true,
+  "pos": [
+   "num",
+   "noun"
+  ],
+  "heads": [
+   "dvȍje",
+   "dvȍje"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "/dʋôje/"
+  ]
+ },
  "džak": {
   "title": "džak",
   "found": true,
@@ -880,9 +1074,39 @@
    "/fakǔlteːt/"
   ]
  },
+ "fanta": {
+  "title": "fanta",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "fȃnta"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/fâːnta/"
+  ]
+ },
  "farmerka": {
   "title": "farmerka",
   "found": false
+ },
+ "film": {
+  "title": "film",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "fȉlm"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": []
  },
  "flauta": {
   "title": "flauta",
@@ -1010,6 +1234,21 @@
   ],
   "ipa": []
  },
+ "gledati": {
+  "title": "gledati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "glȅdati"
+  ],
+  "genders": [],
+  "ipa": [
+   "/ɡlêdati/",
+   "/ɡlêati/"
+  ]
+ },
  "godina": {
   "title": "godina",
   "found": true,
@@ -1026,6 +1265,14 @@
    "/ɡôdina/",
    "/ɡôina/"
   ]
+ },
+ "godine": {
+  "title": "godine",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
  },
  "godišnje": {
   "title": "godišnje",
@@ -1062,6 +1309,38 @@
    "/ɡôreː/"
   ]
  },
+ "gospodin": {
+  "title": "gospodin",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "gospòdin"
+  ],
+  "genders": [
+   "m-an"
+  ],
+  "ipa": [
+   "/ɡospǒdin/"
+  ]
+ },
+ "gospođa": {
+  "title": "gospođa",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "gȍspođa"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:gȍspođa"
+  ]
+ },
  "grad": {
   "title": "grad",
   "found": true,
@@ -1084,6 +1363,22 @@
    "sh-IPA:grȃd",
    "sh-IPA:grȁd",
    "sh-IPA:grȃd"
+  ]
+ },
+ "granica": {
+  "title": "granica",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "grànica"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:grànica"
   ]
  },
  "grožđe": {
@@ -1190,6 +1485,22 @@
    "/xlêb/"
   ]
  },
+ "hokej": {
+  "title": "hokej",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "hòkēj"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:hòkēj"
+  ]
+ },
  "hrana": {
   "title": "hrana",
   "found": true,
@@ -1205,6 +1516,10 @@
   "ipa": [
    "sh-IPA:hrána"
   ]
+ },
+ "hteli": {
+  "title": "hteli",
+  "found": false
  },
  "hteti": {
   "title": "hteti",
@@ -1276,6 +1591,28 @@
    "sh-IPA:ìgrati"
   ]
  },
+ "ili": {
+  "title": "ili",
+  "found": true,
+  "pos": [
+   "con"
+  ],
+  "heads": [
+   "ȉli"
+  ],
+  "genders": [],
+  "ipa": [
+   "/îli/"
+  ]
+ },
+ "imate": {
+  "title": "imate",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
  "imati": {
   "title": "imati",
   "found": true,
@@ -1306,6 +1643,22 @@
    "/îme/"
   ]
  },
+ "inostranstvo": {
+  "title": "inostranstvo",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "inostránstvo"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "/inostrǎːnstʋo/"
+  ]
+ },
  "iskusan": {
   "title": "iskusan",
   "found": true,
@@ -1319,6 +1672,36 @@
   "genders": [],
   "ipa": [
    "/îskuːsan/"
+  ]
+ },
+ "iskustvo": {
+  "title": "iskustvo",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "iskústvo"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "/iskǔːstʋo/"
+  ]
+ },
+ "ispričati": {
+  "title": "ispričati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "ispríčati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:ispríčati"
   ]
  },
  "istraživati": {
@@ -1349,6 +1732,10 @@
   "ipa": [
    "sh-IPA:ȉz"
   ]
+ },
+ "izvolite": {
+  "title": "izvolite",
+  "found": false
  },
  "ići": {
   "title": "ići",
@@ -1437,6 +1824,64 @@
   "heads": [],
   "genders": [],
   "ipa": []
+ },
+ "jedna": {
+  "title": "jedna",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
+ "jedno": {
+  "title": "jedno",
+  "found": false
+ },
+ "jelo": {
+  "title": "jelo",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "jȅlo"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "sh-IPA:jȅlo"
+  ]
+ },
+ "jelovnik": {
+  "title": "jelovnik",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "jelòvnīk"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:jelòvnīk"
+  ]
+ },
+ "jer": {
+  "title": "jer",
+  "found": true,
+  "pos": [
+   "con"
+  ],
+  "heads": [
+   "jȅr"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:jȅr"
+  ]
  },
  "jesen": {
   "title": "jesen",
@@ -1544,6 +1989,37 @@
    "/jǒːɡa/"
   ]
  },
+ "jogurt": {
+  "title": "jogurt",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "jògurt"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:jògurt",
+   "sh-IPA:jògūrt<aa:original pronunciation>"
+  ]
+ },
+ "još": {
+  "title": "još",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "jȍš"
+  ],
+  "genders": [],
+  "ipa": [
+   "/jôʂ/"
+  ]
+ },
  "jun": {
   "title": "jun",
   "found": true,
@@ -1574,6 +2050,41 @@
    "sh-IPA:jȕtro"
   ]
  },
+ "juče": {
+  "title": "juče",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "jùčē"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:jùčē"
+  ]
+ },
+ "kada": {
+  "title": "kada",
+  "found": true,
+  "pos": [
+   "adv",
+   "con",
+   "noun"
+  ],
+  "heads": [
+   "kàda",
+   "kàda",
+   "káda"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:kàda",
+   "sh-IPA:káda"
+  ]
+ },
  "kafa": {
   "title": "kafa",
   "found": true,
@@ -1590,6 +2101,38 @@
    "/kǎfa/",
    "sh-IPA:káfa<aa:[[Serbia]]>",
    "sh-IPA:kȃfa<aa:[[Montenegro]]>"
+  ]
+ },
+ "kafana": {
+  "title": "kafana",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kafàna"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:kafàna"
+  ]
+ },
+ "kafić": {
+  "title": "kafić",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kàfīć"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:kàfīć"
   ]
  },
  "kako": {
@@ -1629,6 +2172,26 @@
    "/kâpa/"
   ]
  },
+ "kartica": {
+  "title": "kartica",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kàrtica"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:kàrtica"
+  ]
+ },
+ "kartu": {
+  "title": "kartu",
+  "found": false
+ },
  "kačket": {
   "title": "kačket",
   "found": true,
@@ -1643,6 +2206,59 @@
   ],
   "ipa": [
    "sh-IPA:kàčkēt"
+  ]
+ },
+ "kašika": {
+  "title": "kašika",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kàšika",
+   "kàšičica"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/kǎʃika/"
+  ]
+ },
+ "kečap": {
+  "title": "kečap",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kèčap"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:kèčap"
+  ]
+ },
+ "keš": {
+  "title": "keš",
+  "found": true,
+  "pos": [
+   "noun",
+   "noun"
+  ],
+  "heads": [
+   "kȅš",
+   "kȅš"
+  ],
+  "genders": [
+   "m-in",
+   "m-in"
+  ],
+  "ipa": [
+   "/kêʃ/",
+   "/kêʃ/"
   ]
  },
  "kiša": {
@@ -1686,6 +2302,24 @@
    "/kɲîɡa/"
   ]
  },
+ "ko": {
+  "title": "ko",
+  "found": true,
+  "pos": [
+   "pron"
+  ],
+  "heads": [
+   "kȍ"
+  ],
+  "genders": [],
+  "ipa": [
+   "/kô/"
+  ]
+ },
+ "koka": {
+  "title": "koka",
+  "found": false
+ },
  "kokoška": {
   "title": "kokoška",
   "found": true,
@@ -1700,6 +2334,89 @@
   ],
   "ipa": [
    "sh-IPA:kòkōška|kòkoška"
+  ]
+ },
+ "koktel": {
+  "title": "koktel",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kòktel"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": []
+ },
+ "kola": {
+  "title": "kola",
+  "found": true,
+  "pos": [
+   "noun",
+   "noun form",
+   "noun"
+  ],
+  "heads": [
+   "kȍla",
+   "kȍla",
+   "kȏla"
+  ],
+  "genders": [
+   "n-p",
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:kȍla",
+   "sh-IPA:kȏla"
+  ]
+ },
+ "koliko": {
+  "title": "koliko",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "kolìko"
+  ],
+  "genders": [],
+  "ipa": [
+   "/kolǐko/"
+  ]
+ },
+ "kompanija": {
+  "title": "kompanija",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kompànija"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/kompǎnija/"
+  ]
+ },
+ "koncert": {
+  "title": "koncert",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kòncert"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:kòncert",
+   "sh-IPA:kòncērt<aa:original pronunciation>"
   ]
  },
  "konj": {
@@ -1717,6 +2434,22 @@
   ],
   "ipa": [
    "sh-IPA:kȍnj"
+  ]
+ },
+ "konobar": {
+  "title": "konobar",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kȍnobār"
+  ],
+  "genders": [
+   "m-an"
+  ],
+  "ipa": [
+   "sh-IPA:kȍnobār"
   ]
  },
  "korist": {
@@ -1820,6 +2553,21 @@
    "/krâʋa/"
   ]
  },
+ "krenuti": {
+  "title": "krenuti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "krénuti",
+   "krétati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:krénuti"
+  ]
+ },
  "krst": {
   "title": "krst",
   "found": true,
@@ -1834,6 +2582,22 @@
   ],
   "ipa": [
    "sh-IPA:kȑst"
+  ]
+ },
+ "kuhinja": {
+  "title": "kuhinja",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "kȕhinja"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/kûxiɲa/"
   ]
  },
  "kupiti": {
@@ -1943,6 +2707,20 @@
    "/lâʋ/"
   ]
  },
+ "lekar": {
+  "title": "lekar",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "lèkār"
+  ],
+  "genders": [
+   "m-an"
+  ],
+  "ipa": []
+ },
  "lep": {
   "title": "lep",
   "found": true,
@@ -1974,6 +2752,14 @@
   "ipa": [
    "sh-IPA:lȅptīr"
   ]
+ },
+ "leta": {
+  "title": "leta",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
  },
  "leto": {
   "title": "leto",
@@ -2149,6 +2935,10 @@
    "/mâːjka/"
   ]
  },
+ "majonez": {
+  "title": "majonez",
+  "found": false
+ },
  "makaze": {
   "title": "makaze",
   "found": true,
@@ -2249,6 +3039,29 @@
    "sh-IPA:mènadžer"
   ]
  },
+ "meni": {
+  "title": "meni",
+  "found": true,
+  "pos": [
+   "noun",
+   "pron"
+  ],
+  "heads": [
+   "mènī,menȋ",
+   "mȅni"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:mènī|menȋ",
+   "sh-IPA:mȅni"
+  ]
+ },
+ "meseca": {
+  "title": "meseca",
+  "found": false
+ },
  "meteoropata": {
   "title": "meteoropata",
   "found": false
@@ -2283,6 +3096,22 @@
    "/mîʃ/"
   ]
  },
+ "mleko": {
+  "title": "mleko",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "mléko"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "sh-IPA:mléko"
+  ]
+ },
  "mnogo": {
   "title": "mnogo",
   "found": true,
@@ -2313,6 +3142,18 @@
    "/mnoʒǐna/"
   ]
  },
+ "mogu": {
+  "title": "mogu",
+  "found": true,
+  "pos": [
+   "verb form"
+  ],
+  "heads": [
+   "mògu"
+  ],
+  "genders": [],
+  "ipa": []
+ },
  "moj": {
   "title": "moj",
   "found": true,
@@ -2326,6 +3167,14 @@
   "ipa": [
    "/môːj/"
   ]
+ },
+ "molim": {
+  "title": "molim",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
  },
  "morati": {
   "title": "morati",
@@ -2390,6 +3239,46 @@
    "sh-IPA:mȍći"
   ]
  },
+ "možete": {
+  "title": "možete",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
+ "muzej": {
+  "title": "muzej",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "mùzēj"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "/mǔzeːj/"
+  ]
+ },
+ "muzika": {
+  "title": "muzika",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "mùzika"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:mùzika"
+  ]
+ },
  "muški": {
   "title": "muški",
   "found": true,
@@ -2405,6 +3294,22 @@
   "ipa": [
    "sh-IPA:mȕškī<aa:adjective>",
    "sh-IPA:mȕški<aa:adverb>"
+  ]
+ },
+ "mušterija": {
+  "title": "mušterija",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "muštèrija"
+  ],
+  "genders": [
+   "m-an"
+  ],
+  "ipa": [
+   "sh-IPA:muštèrija"
   ]
  },
  "muž": {
@@ -2461,6 +3366,20 @@
    "sh-IPA:nȁočāre"
   ]
  },
+ "napokon": {
+  "title": "napokon",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "nȁpokon"
+  ],
+  "genders": [],
+  "ipa": [
+   "/nâpokon/"
+  ]
+ },
  "napolju": {
   "title": "napolju",
   "found": true,
@@ -2490,6 +3409,20 @@
   "ipa": [
    "/nǎːseːʎe/"
   ]
+ },
+ "nastavnik": {
+  "title": "nastavnik",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "nástāvnīk"
+  ],
+  "genders": [
+   "m-an"
+  ],
+  "ipa": []
  },
  "naučnik": {
   "title": "naučnik",
@@ -2541,6 +3474,10 @@
    "/ˈnêbo/"
   ]
  },
+ "nedelje": {
+  "title": "nedelje",
+  "found": false
+ },
  "nema": {
   "title": "nema",
   "found": true,
@@ -2582,6 +3519,20 @@
   "genders": [],
   "ipa": [
    "sh-IPA:nȅmogūće"
+  ]
+ },
+ "nisam": {
+  "title": "nisam",
+  "found": true,
+  "pos": [
+   "verb form"
+  ],
+  "heads": [
+   "nísam"
+  ],
+  "genders": [],
+  "ipa": [
+   "/nǐːsam/"
   ]
  },
  "njegov": {
@@ -2787,6 +3738,20 @@
   "title": "oblačno",
   "found": false
  },
+ "obožavati": {
+  "title": "obožavati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "obožávati"
+  ],
+  "genders": [],
+  "ipa": [
+   "/oboʒǎːʋati/"
+  ]
+ },
  "odakle": {
   "title": "odakle",
   "found": true,
@@ -2859,6 +3824,24 @@
   "genders": [],
   "ipa": [
    "sh-IPA:ȍdličan"
+  ]
+ },
+ "odlučio": {
+  "title": "odlučio",
+  "found": false
+ },
+ "odlučiti": {
+  "title": "odlučiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "odlúčiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:odlúčiti"
   ]
  },
  "odmarati": {
@@ -2978,6 +3961,20 @@
   "title": "optimističan",
   "found": false
  },
+ "opuštati": {
+  "title": "opuštati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "opúštati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:opúštati"
+  ]
+ },
  "orao": {
   "title": "orao",
   "found": true,
@@ -3041,6 +4038,21 @@
   ],
   "ipa": [
    "sh-IPA:òtac"
+  ]
+ },
+ "otići": {
+  "title": "otići",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "otíći",
+   "òdlaziti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:otíći"
   ]
  },
  "ovca": {
@@ -3193,6 +4205,22 @@
    "/pâːs/"
   ]
  },
+ "pastrmka": {
+  "title": "pastrmka",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "pȁstr̄mka"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/pâstrːmka/"
+  ]
+ },
  "patika": {
   "title": "patika",
   "found": true,
@@ -3328,6 +4356,46 @@
    "sh-IPA:pȉti"
   ]
  },
+ "pivo": {
+  "title": "pivo",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "pȋvo"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "/pîːʋo/"
+  ]
+ },
+ "pića": {
+  "title": "pića",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
+ "piće": {
+  "title": "piće",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "píće"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "sh-IPA:píće"
+  ]
+ },
  "planina": {
   "title": "planina",
   "found": true,
@@ -3359,6 +4427,28 @@
    "/planǐːrati/"
   ]
  },
+ "platim": {
+  "title": "platim",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
+ },
+ "platiti": {
+  "title": "platiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "plátiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:plátiti"
+  ]
+ },
  "plav": {
   "title": "plav",
   "found": true,
@@ -3373,6 +4463,26 @@
   "ipa": [
    "sh-IPA:plȃv"
   ]
+ },
+ "plaža": {
+  "title": "plaža",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "pláža"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:pláʐa"
+  ]
+ },
+ "pljeskavica": {
+  "title": "pljeskavica",
+  "found": false
  },
  "pljusak": {
   "title": "pljusak",
@@ -3418,6 +4528,20 @@
   ],
   "ipa": [
    "sh-IPA:pȍlje"
+  ]
+ },
+ "pomagati": {
+  "title": "pomagati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "pomágati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:pomágati"
   ]
  },
  "pomoćnik": {
@@ -3481,6 +4605,45 @@
    "sh-IPA:pòrodica"
   ]
  },
+ "poruka": {
+  "title": "poruka",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "pȍruka"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:pȍruka"
+  ]
+ },
+ "poručim": {
+  "title": "poručim",
+  "found": false
+ },
+ "poručite": {
+  "title": "poručite",
+  "found": false
+ },
+ "poručiti": {
+  "title": "poručiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "porúčiti",
+   "poručívati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:porúčiti"
+  ]
+ },
  "posao": {
   "title": "posao",
   "found": true,
@@ -3497,6 +4660,34 @@
    "/pǒsao/"
   ]
  },
+ "posetiti": {
+  "title": "posetiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "pòsetiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "/pǒsetiti/"
+  ]
+ },
+ "posećivati": {
+  "title": "posećivati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "posećívati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:posećívati"
+  ]
+ },
  "posle": {
   "title": "posle",
   "found": true,
@@ -3510,6 +4701,20 @@
   ],
   "genders": [],
   "ipa": []
+ },
+ "poslednji": {
+  "title": "poslednji",
+  "found": true,
+  "pos": [
+   "adj"
+  ],
+  "heads": [
+   "pòslednjī"
+  ],
+  "genders": [],
+  "ipa": [
+   "/pǒsledɲiː/"
+  ]
  },
  "pozitivan": {
   "title": "pozitivan",
@@ -3619,6 +4824,22 @@
    "/prâːzniːk/"
   ]
  },
+ "pre": {
+  "title": "pre",
+  "found": true,
+  "pos": [
+   "adv",
+   "prep"
+  ],
+  "heads": [
+   "prȅ",
+   "prȅ"
+  ],
+  "genders": [],
+  "ipa": [
+   "/prê/"
+  ]
+ },
  "predavati": {
   "title": "predavati",
   "found": true,
@@ -3694,6 +4915,20 @@
    "sh-IPA:prȉjātno"
   ]
  },
+ "pričati": {
+  "title": "pričati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "príčati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:príčati"
+  ]
+ },
  "problem": {
   "title": "problem",
   "found": true,
@@ -3708,6 +4943,20 @@
   ],
   "ipa": [
    "/prǒbleːm/"
+  ]
+ },
+ "probuditi": {
+  "title": "probuditi",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "probúditi"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:probúditi"
   ]
  },
  "prodavnica": {
@@ -3762,6 +5011,20 @@
    "sh-IPA:pròleće"
   ]
  },
+ "proslaviti": {
+  "title": "proslaviti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "pròslaviti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:pròslaviti"
+  ]
+ },
  "provoditi": {
   "title": "provoditi",
   "found": true,
@@ -3791,6 +5054,14 @@
   "ipa": [
    "/prǒːzor/"
   ]
+ },
+ "prošle": {
+  "title": "prošle",
+  "found": false
+ },
+ "prošlog": {
+  "title": "prošlog",
+  "found": false
  },
  "ptica": {
   "title": "ptica",
@@ -3919,6 +5190,22 @@
    "sh-IPA:rȁk"
   ]
  },
+ "rakija": {
+  "title": "rakija",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "ràkija"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/rǎkija/"
+  ]
+ },
  "rame": {
   "title": "rame",
   "found": true,
@@ -3937,6 +5224,21 @@
   "title": "raspoložen",
   "found": false
  },
+ "razgovarati": {
+  "title": "razgovarati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "razgovárati",
+   "razgovòriti"
+  ],
+  "genders": [],
+  "ipa": [
+   "/razɡoʋǎːrati/"
+  ]
+ },
  "računar": {
   "title": "računar",
   "found": true,
@@ -3952,6 +5254,20 @@
   "ipa": [
    "sh-IPA:račùnār"
   ]
+ },
+ "redu": {
+  "title": "redu",
+  "found": true,
+  "pos": [
+   "noun form",
+   "noun form"
+  ],
+  "heads": [
+   "rȇdu",
+   "rédu"
+  ],
+  "genders": [],
+  "ipa": []
  },
  "reka": {
   "title": "reka",
@@ -4051,6 +5367,21 @@
    "/rǒditeʎ/"
   ]
  },
+ "roditi": {
+  "title": "roditi",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "ròditi",
+   "ráđati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:ròditi"
+  ]
+ },
  "roze": {
   "title": "roze",
   "found": false
@@ -4085,6 +5416,54 @@
   ],
   "ipa": []
  },
+ "ručak": {
+  "title": "ručak",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "rúčak"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:rúčak"
+  ]
+ },
+ "salata": {
+  "title": "salata",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "saláta"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/salǎːta/"
+  ]
+ },
+ "salveta": {
+  "title": "salveta",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "salvèta"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:salvèta"
+  ]
+ },
  "samo": {
   "title": "samo",
   "found": true,
@@ -4099,6 +5478,20 @@
   "genders": [],
   "ipa": [
    "/sâmo/"
+  ]
+ },
+ "sanjati": {
+  "title": "sanjati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "sánjati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:sánjati"
   ]
  },
  "sat": {
@@ -4173,6 +5566,22 @@
    "sh-IPA:sȅme"
   ]
  },
+ "serija": {
+  "title": "serija",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "sȇrija"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/sêːrija/"
+  ]
+ },
  "sestra": {
   "title": "sestra",
   "found": true,
@@ -4224,6 +5633,20 @@
    "/sîn/"
   ]
  },
+ "sinoć": {
+  "title": "sinoć",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "sȉnōć"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:sȉnōć"
+  ]
+ },
  "siv": {
   "title": "siv",
   "found": true,
@@ -4237,6 +5660,38 @@
   ],
   "genders": [],
   "ipa": []
+ },
+ "slatkiši": {
+  "title": "slatkiši",
+  "found": false
+ },
+ "slaviti": {
+  "title": "slaviti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "slȁviti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:slȁviti"
+  ]
+ },
+ "slobodno": {
+  "title": "slobodno",
+  "found": true,
+  "pos": [
+   "adv"
+  ],
+  "heads": [
+   "slȍbodno"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:slȍbodno"
+  ]
  },
  "slon": {
   "title": "slon",
@@ -4252,6 +5707,20 @@
   ],
   "ipa": [
    "sh-IPA:slȍn"
+  ]
+ },
+ "slušati": {
+  "title": "slušati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "slȕšati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:slȕšati"
   ]
  },
  "smisao": {
@@ -4290,6 +5759,22 @@
   "title": "snežno",
   "found": false
  },
+ "so": {
+  "title": "so",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "sȏ"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/sôː/"
+  ]
+ },
  "soba": {
   "title": "soba",
   "found": true,
@@ -4319,6 +5804,10 @@
   "ipa": [
    "/sôko/"
   ]
+ },
+ "spageti": {
+  "title": "spageti",
+  "found": false
  },
  "spavam": {
   "title": "spavam",
@@ -4437,6 +5926,36 @@
    "sh-IPA:stȃn"
   ]
  },
+ "stanica": {
+  "title": "stanica",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "stànica"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:stànica"
+  ]
+ },
+ "stići": {
+  "title": "stići",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "stȉći"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:stȉći"
+  ]
+ },
  "sto": {
   "title": "sto",
   "found": true,
@@ -4550,6 +6069,10 @@
    "sh-IPA:sùdija"
   ]
  },
+ "sufle": {
+  "title": "sufle",
+  "found": false
+ },
  "suknja": {
   "title": "suknja",
   "found": true,
@@ -4602,6 +6125,38 @@
   "title": "sunčano",
   "found": false
  },
+ "supa": {
+  "title": "supa",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "sȕpa"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:sȕpa"
+  ]
+ },
+ "suši": {
+  "title": "suši",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "sȕši"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:sȕši"
+  ]
+ },
  "svaki": {
   "title": "svaki",
   "found": true,
@@ -4614,6 +6169,24 @@
   "genders": [],
   "ipa": [
    "/sʋâkiː/"
+  ]
+ },
+ "sve": {
+  "title": "sve",
+  "found": true,
+  "pos": [
+   "noun",
+   "adj"
+  ],
+  "heads": [
+   "svȅ",
+   "svȅ"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "/sʋê/"
   ]
  },
  "sveska": {
@@ -4757,6 +6330,54 @@
   ],
   "ipa": [
    "sh-IPA:telèfōn"
+  ]
+ },
+ "televizija": {
+  "title": "televizija",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "televízija"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/teleʋǐːzija/"
+  ]
+ },
+ "terasa": {
+  "title": "terasa",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "teràsa"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/terǎsa/"
+  ]
+ },
+ "teretana": {
+  "title": "teretana",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "teretàna"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/teretǎna/"
   ]
  },
  "testenina": {
@@ -4985,6 +6606,20 @@
    "sh-IPA:ȕlica"
   ]
  },
+ "upoznati": {
+  "title": "upoznati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "upòznati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:upòznati"
+  ]
+ },
  "upoznavati": {
   "title": "upoznavati",
   "found": true,
@@ -5013,6 +6648,22 @@
   ],
   "ipa": [
    "/ûsluɡa/"
+  ]
+ },
+ "uspomena": {
+  "title": "uspomena",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "ȕspomena"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "/ûspomena/"
   ]
  },
  "ustajati": {
@@ -5057,6 +6708,20 @@
    "sh-IPA:ȕvečē"
   ]
  },
+ "učestvovati": {
+  "title": "učestvovati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "ùčestvovati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:ùčestvovati"
+  ]
+ },
  "učitelj": {
   "title": "učitelj",
   "found": true,
@@ -5086,6 +6751,20 @@
   "genders": [],
   "ipa": [
    "sh-IPA:ùčiti"
+  ]
+ },
+ "uživati": {
+  "title": "uživati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "užívati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:užívati"
   ]
  },
  "vaš": {
@@ -5154,6 +6833,59 @@
   "genders": [],
   "ipa": [
    "sh-IPA:vȅseo"
+  ]
+ },
+ "vesti": {
+  "title": "vesti",
+  "found": true,
+  "pos": [
+   "verb",
+   "conj"
+  ],
+  "heads": [
+   "vésti",
+   "vézūći\n",
+   "vézāvši\n",
+   "vézēnje\n",
+   "vézēm\n",
+   "vézēš\n",
+   "vézē\n",
+   "vézēmo\n",
+   "vézēte\n",
+   "vézū\n",
+   "vést\n",
+   "véš\n",
+   "vézoh\n",
+   "vȇze\n",
+   "vȇze\n",
+   "vézosmo\n",
+   "vézoste\n",
+   "vézoše\n",
+   "vézijāh\n",
+   "vézijāše\n",
+   "vézijāše\n",
+   "vézijāsmo\n",
+   "vézijāste\n",
+   "vézijāhu\n",
+   "vézi\n",
+   "vézimo\n",
+   "vézite\n",
+   "vȇzao\n",
+   "vézla\n",
+   "vézlo\n",
+   "vézli\n",
+   "vézle\n",
+   "vézla\n",
+   "vézen\n",
+   "vézena\n",
+   "vézeno\n",
+   "vézeni\n",
+   "vézene\n",
+   "vézena\n"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:vésti"
   ]
  },
  "vetar": {
@@ -5313,6 +7045,10 @@
    "/ʋǐkend/"
   ]
  },
+ "vikenda": {
+  "title": "vikenda",
+  "found": false
+ },
  "vikendica": {
   "title": "vikendica",
   "found": true,
@@ -5342,6 +7078,46 @@
   "ipa": [
    "/ʋǐʎuʃka/"
   ]
+ },
+ "vino": {
+  "title": "vino",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "víno"
+  ],
+  "genders": [
+   "n"
+  ],
+  "ipa": [
+   "sh-IPA:víno"
+  ]
+ },
+ "voda": {
+  "title": "voda",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "vòda"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:vòda"
+  ]
+ },
+ "vode": {
+  "title": "vode",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
  },
  "voleti": {
   "title": "voleti",
@@ -5389,6 +7165,21 @@
   "genders": [],
   "ipa": [
    "sh-IPA:vòziti"
+  ]
+ },
+ "vratiti": {
+  "title": "vratiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "vrátiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:vrátiti",
+   "sh-IPA:vráiti<aa:Zagreb>"
   ]
  },
  "vredan": {
@@ -5455,6 +7246,16 @@
    "sh-IPA:vȑt"
   ]
  },
+ "za": {
+  "title": "za",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": [
+   "/za/"
+  ]
+ },
  "zadovoljan": {
   "title": "zadovoljan",
   "found": true,
@@ -5486,6 +7287,48 @@
   "genders": [],
   "ipa": [
    "sh-IPA:zȁjedno"
+  ]
+ },
+ "zaspati": {
+  "title": "zaspati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "zàspati"
+  ],
+  "genders": [],
+  "ipa": []
+ },
+ "završiti": {
+  "title": "završiti",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "zavŕšiti"
+  ],
+  "genders": [],
+  "ipa": [
+   "/zaʋřːʃiti/"
+  ]
+ },
+ "zašto": {
+  "title": "zašto",
+  "found": true,
+  "pos": [
+   "adv",
+   "con"
+  ],
+  "heads": [
+   "zȁšto",
+   "zȁšto"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:zȁšto"
   ]
  },
  "zdravo": {
@@ -5758,6 +7601,38 @@
    "sh-IPA:čàrapa"
   ]
  },
+ "čas": {
+  "title": "čas",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "čȁs"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "sh-IPA:čȁs"
+  ]
+ },
+ "čačkalica": {
+  "title": "čačkalica",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "čȁčkalica"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:čȁčkalica"
+  ]
+ },
  "čađ": {
   "title": "čađ",
   "found": true,
@@ -5772,6 +7647,36 @@
   ],
   "ipa": [
    "sh-IPA:čȃđ"
+  ]
+ },
+ "čaša": {
+  "title": "čaša",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "čȁša"
+  ],
+  "genders": [
+   "f"
+  ],
+  "ipa": [
+   "sh-IPA:čȁša"
+  ]
+ },
+ "čekati": {
+  "title": "čekati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "čȅkati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:čȅkati"
   ]
  },
  "čemu": {
@@ -5806,6 +7711,25 @@
    "sh-IPA:čȇsto"
   ]
  },
+ "čitati": {
+  "title": "čitati",
+  "found": true,
+  "pos": [
+   "verb"
+  ],
+  "heads": [
+   "čìtati",
+   "pročìtati"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:čìtati"
+  ]
+ },
+ "čizkejk": {
+  "title": "čizkejk",
+  "found": false
+ },
  "čizma": {
   "title": "čizma",
   "found": true,
@@ -5836,6 +7760,20 @@
   ],
   "ipa": [
    "sh-IPA:čokoláda"
+  ]
+ },
+ "čokoladni": {
+  "title": "čokoladni",
+  "found": true,
+  "pos": [
+   "adj"
+  ],
+  "heads": [
+   "čȍkolādnī"
+  ],
+  "genders": [],
+  "ipa": [
+   "sh-IPA:čȍkolādnī"
   ]
  },
  "čovek": {
@@ -5900,6 +7838,22 @@
   ],
   "ipa": [
    "/ʃâl/"
+  ]
+ },
+ "šank": {
+  "title": "šank",
+  "found": true,
+  "pos": [
+   "noun"
+  ],
+  "heads": [
+   "šȁnk"
+  ],
+  "genders": [
+   "m-in"
+  ],
+  "ipa": [
+   "/ʃânk/"
   ]
  },
  "šetati": {
@@ -6048,6 +8002,14 @@
   "ipa": [
    "/ʒěleti/"
   ]
+ },
+ "želite": {
+  "title": "želite",
+  "found": true,
+  "pos": [],
+  "heads": [],
+  "genders": [],
+  "ipa": []
  },
  "želja": {
   "title": "želja",
