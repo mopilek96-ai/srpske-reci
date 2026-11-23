@@ -24,6 +24,13 @@ ALT = {
     "helanke": ["helanke", "helanka"], "roze": ["roze"], "braon": ["braon"], "snežno": ["snežan", "snježan"],
     "kišovito": ["kišovit"], "oblačno": ["oblačan"], "sunčano": ["sunčan"], "vetrovito": ["vetrovit", "vjetrovit"],
     "tmurno": ["tmuran"], "meteoropata": ["meteoropat", "meteoropatija"],
+    # lessons 8–10
+    "dezert": ["dezert", "desert"], "majonez": ["majonez", "majoneza"], "sufle": ["sufle", "suflé"], "spageti": ["špageti", "spageti"],
+    "koka": ["koka", "kola"], "pljeskavica": ["pljeskavica"], "čizkejk": ["čizkejk"], "izvolite": ["izvoleti", "izvoljeti"],
+    "molim": ["moliti"], "želite": ["želeti", "željeti"], "poručite": ["poručiti"], "poručim": ["poručiti"], "hteli": ["hteti", "htjeti"],
+    "kartu": ["karta"], "pića": ["piće"], "možete": ["moći"], "donesete": ["doneti", "donijeti"], "jedno": ["jedan"], "jedna": ["jedan"],
+    "dobijem": ["dobiti"], "odlučio": ["odlučiti"], "imate": ["imati"], "platim": ["platiti"], "vode": ["voda"],
+    "prošle": ["prošli"], "prošlog": ["prošli"], "dnevna": ["dnevni"], "slatkiši": ["slatkiš"],
 }
 
 

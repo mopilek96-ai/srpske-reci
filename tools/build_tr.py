@@ -15,7 +15,7 @@ import json, pathlib, re, sys, unicodedata
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ACC = {"̀", "́", "̏", "̑"}
 VOW = set("aeiou")
-CLITICS = {"je", "sam", "si", "su", "smo", "ste", "li", "se", "me", "na", "u", "sa", "iz", "da"}
+CLITICS = {"je", "sam", "si", "su", "smo", "ste", "li", "se", "me", "na", "u", "sa", "iz", "da", "biste", "za", "ili", "i", "s"}
 LEMMA = {"cipele": "cipela", "čarape": "čarapa", "rukavice": "rukavica", "patike": "patika", "štikle": "štikla",
          "roditelji": "roditelj", "farmerke": "farmerka", "helanke": "helanka", "pantalone": "pantalone"}
 
