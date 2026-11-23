@@ -2965,6 +2965,1550 @@
    ],
    "source": "Урок 6 (Množina): таблица родов и мн. ч., задания «разложи по родам»",
    "sentences": []
+  },
+  {
+   "id": "perfekat",
+   "title": "Прошедшее время: učio sam, učila sam",
+   "ex": [
+    "choose",
+    "typeverb",
+    "ptable",
+    "build",
+    "translate"
+   ],
+   "verbs": [
+    "biti",
+    "gledati",
+    "igrati",
+    "ispričati",
+    "jesti",
+    "kupiti",
+    "kupovati",
+    "kuvati",
+    "obožavati",
+    "otići",
+    "pisati",
+    "piti",
+    "posetiti",
+    "posećivati",
+    "proslaviti",
+    "putovati",
+    "raditi",
+    "razgovarati",
+    "sanjati",
+    "slaviti",
+    "slušati",
+    "spavati",
+    "stići",
+    "trenirati",
+    "upoznati",
+    "učestvovati",
+    "učiti",
+    "uživati",
+    "voziti",
+    "zaspati",
+    "završiti",
+    "čekati",
+    "čitati",
+    "živeti"
+   ],
+   "rulehead": [
+    "",
+    "",
+    ""
+   ],
+   "rule": [
+    [
+     "ja",
+     "sam učio / sam učila",
+     "я учил(а)"
+    ],
+    [
+     "ti",
+     "si učio / si učila",
+     "ты учил(а)"
+    ],
+    [
+     "on / ona / ono",
+     "je učio / je učila / je učilo",
+     "он / она / оно учил(а)"
+    ],
+    [
+     "mi",
+     "smo učili",
+     "мы учили"
+    ],
+    [
+     "vi",
+     "ste učili",
+     "вы учили"
+    ],
+    [
+     "oni / one / ona",
+     "su učili / su učile / su učila",
+     "они учили"
+    ]
+   ],
+   "tips": [
+    "Прошедшее время = sam, si, je, smo, ste, su + глагол с окончанием по роду и числу.",
+    "Окончания: м. р. -o (učio), ж. р. -la (učila), ср. р. -lo (učilo); мн. ч. -li (učili), -le (učile), -la (učila).",
+    "Убираем -ti и добавляем окончание: gledati → gledao, gledala; učiti → učio, učila; voleti → voleo, volela.",
+    "Глаголы на -ći: išao / išla, šli; так же otišao, došao. jesti → jeo, jela.",
+    "Можно и с местоимением, и без: Ja sam učio = Učio sam. Без местоимения sam, si, je… встают после глагола.",
+    "Говорите о себе в своём роде: женщина — sam učila, sam bila; мужчина — sam učio, sam bio."
+   ],
+   "source": "Урок 8 (Prošlo vreme): таблица окончаний, задания «Perfekat», текст «Moje putovanje u Grčku», домашняя работа",
+   "sentences": [
+    {
+     "id": "k01",
+     "ru": "Я спал вчера.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam spavao",
+       "inf": "spavati",
+       "o": [
+        "sam spavao",
+        "si spavao",
+        "smo spavali"
+       ],
+       "va": [
+        "sam spavala"
+       ]
+      },
+      "juče"
+     ],
+     "end": ".",
+     "alt": [
+      "Spavao sam juče.",
+      "Ja sam spavala juče.",
+      "Spavala sam juče."
+     ]
+    },
+    {
+     "id": "k02",
+     "ru": "Мы играли в хоккей.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo igrali",
+       "inf": "igrati",
+       "o": [
+        "smo igrali",
+        "ste igrali",
+        "sam igrao"
+       ]
+      },
+      "hokej"
+     ],
+     "end": ".",
+     "alt": [
+      "Igrali smo hokej."
+     ]
+    },
+    {
+     "id": "k03",
+     "ru": "Она обожала меня.",
+     "t": [
+      "Ona",
+      {
+       "v": "je obožavala",
+       "inf": "obožavati",
+       "o": [
+        "je obožavala",
+        "je obožavao",
+        "su obožavali"
+       ]
+      },
+      "mene"
+     ],
+     "end": ".",
+     "alt": [
+      "Obožavala je mene."
+     ]
+    },
+    {
+     "id": "k04",
+     "ru": "Им снилась страна чудес.",
+     "t": [
+      "Oni",
+      {
+       "v": "su sanjali",
+       "inf": "sanjati",
+       "o": [
+        "su sanjali",
+        "smo sanjali",
+        "je sanjao"
+       ]
+      },
+      "zemlju",
+      "čuda"
+     ],
+     "end": ".",
+     "alt": [
+      "Sanjali su zemlju čuda."
+     ]
+    },
+    {
+     "id": "k05",
+     "ru": "На прошлой неделе мы посетили новый музей в городе.",
+     "t": [
+      "Prošle",
+      "nedelje",
+      "mi",
+      {
+       "v": "smo posetili",
+       "inf": "posetiti",
+       "o": [
+        "smo posetili",
+        "ste posetili",
+        "sam posetio"
+       ]
+      },
+      "novi",
+      "muzej",
+      "u",
+      "gradu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k06",
+     "ru": "Я ел отличную еду в ресторане, который мы открыли во время путешествия.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam jeo",
+       "inf": "jesti",
+       "o": [
+        "sam jeo",
+        "si jeo",
+        "smo jeli"
+       ],
+       "va": [
+        "sam jela"
+       ]
+      },
+      "odličnu",
+      "hranu",
+      "u",
+      "restoranu",
+      "koji",
+      "smo",
+      "otkrili",
+      "tokom",
+      "putovanja"
+     ],
+     "end": ".",
+     "alt": [
+      "Jeo sam odličnu hranu u restoranu koji smo otkrili tokom putovanja.",
+      "Ja sam jela odličnu hranu u restoranu koji smo otkrili tokom putovanja.",
+      "Jela sam odličnu hranu u restoranu koji smo otkrili tokom putovanja."
+     ]
+    },
+    {
+     "id": "k07",
+     "ru": "Ты тренировался каждый день в прошлом месяце, чтобы улучшить форму.",
+     "t": [
+      "Ti",
+      {
+       "v": "si trenirao",
+       "inf": "trenirati",
+       "o": [
+        "si trenirao",
+        "je trenirao",
+        "ste trenirali"
+       ],
+       "va": [
+        "si trenirala"
+       ]
+      },
+      "svaki",
+      "dan",
+      "prošlog",
+      "meseca",
+      "kako",
+      "bi",
+      "poboljšao",
+      "kondiciju"
+     ],
+     "end": ".",
+     "alt": [
+      "Trenirao si svaki dan prošlog meseca kako bi poboljšao kondiciju.",
+      "Ti si trenirala svaki dan prošlog meseca kako bi poboljšao kondiciju.",
+      "Trenirala si svaki dan prošlog meseca kako bi poboljšao kondiciju."
+     ]
+    },
+    {
+     "id": "k08",
+     "ru": "Вчера вечером я смотрел с семьёй потрясающий фильм.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam gledao",
+       "inf": "gledati",
+       "o": [
+        "sam gledao",
+        "si gledao",
+        "smo gledali"
+       ],
+       "va": [
+        "sam gledala"
+       ]
+      },
+      "fascinantan",
+      "film",
+      "sinoć",
+      "sa",
+      "porodicom"
+     ],
+     "end": ".",
+     "alt": [
+      "Gledao sam fascinantan film sinoć sa porodicom.",
+      "Ja sam gledala fascinantan film sinoć sa porodicom.",
+      "Gledala sam fascinantan film sinoć sa porodicom."
+     ]
+    },
+    {
+     "id": "k09",
+     "ru": "В прошлом году я путешествовал по нескольким странам и узнал разные культуры.",
+     "t": [
+      "Prošle",
+      "godine",
+      {
+       "v": "sam putovao",
+       "inf": "putovati",
+       "o": [
+        "sam putovao",
+        "si putovao",
+        "smo putovali"
+       ],
+       "va": [
+        "sam putovala"
+       ]
+      },
+      "u",
+      "nekoliko",
+      "zemalja",
+      "i",
+      "upoznao",
+      "različite",
+      "kulture"
+     ],
+     "end": ".",
+     "alt": [
+      "Prošle godine sam putovala u nekoliko zemalja i upoznao različite kulture."
+     ]
+    },
+    {
+     "id": "k10",
+     "ru": "На прошлых выходных вы навестили друзей и чудесно провели время вместе.",
+     "t": [
+      "Prošlog",
+      "vikenda",
+      {
+       "v": "ste posetili",
+       "inf": "posetiti",
+       "o": [
+        "ste posetili",
+        "su posetili",
+        "si posetio"
+       ]
+      },
+      "prijatelje",
+      "i",
+      "proveli",
+      "divno",
+      "vreme",
+      "zajedno"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k11",
+     "ru": "В прошлом году я закончил курс программирования, чтобы улучшить свои навыки.",
+     "t": [
+      "Prošle",
+      "godine",
+      {
+       "v": "sam završio",
+       "inf": "završiti",
+       "o": [
+        "sam završio",
+        "si završio",
+        "smo završili"
+       ],
+       "va": [
+        "sam završila"
+       ]
+      },
+      "kurs",
+      "programiranja",
+      "kako",
+      "bih",
+      "unapredio",
+      "svoje",
+      "veštine"
+     ],
+     "end": ".",
+     "alt": [
+      "Prošle godine sam završila kurs programiranja kako bih unapredio svoje veštine."
+     ]
+    },
+    {
+     "id": "k12",
+     "ru": "Я познакомился с вдохновляющими людьми во время командировки в прошлом году.",
+     "t": [
+      {
+       "v": "Upoznao sam",
+       "inf": "upoznati",
+       "o": [
+        "upoznao sam",
+        "upoznao si",
+        "upoznali smo"
+       ],
+       "va": [
+        "Upoznala sam"
+       ]
+      },
+      "inspirativne",
+      "ljude",
+      "tokom",
+      "poslovnog",
+      "putovanja",
+      "prošle",
+      "godine"
+     ],
+     "end": ".",
+     "alt": [
+      "Upoznala sam inspirativne ljude tokom poslovnog putovanja prošle godine."
+     ]
+    },
+    {
+     "id": "k13",
+     "ru": "На прошлой неделе мы праздновали день рождения моего друга в популярном клубе.",
+     "t": [
+      "Prošle",
+      "nedelje",
+      {
+       "v": "smo slavili",
+       "inf": "slaviti",
+       "o": [
+        "smo slavili",
+        "ste slavili",
+        "sam slavio"
+       ]
+      },
+      "rođendan",
+      "mog",
+      "prijatelja",
+      "u",
+      "popularnom",
+      "klubu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k14",
+     "ru": "В прошлом году мы отпраздновали десятую годовщину свадьбы на прекрасном острове.",
+     "t": [
+      "Prošle",
+      "godine",
+      {
+       "v": "smo proslavili",
+       "inf": "proslaviti",
+       "o": [
+        "smo proslavili",
+        "ste proslavili",
+        "sam proslavio"
+       ]
+      },
+      "desetu",
+      "godišnjicu",
+      "braka",
+      "na",
+      "prelepom",
+      "ostrvu"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k15",
+     "ru": "Они работали над проектом, который закончили несколько месяцев назад.",
+     "t": [
+      {
+       "v": "Radili su",
+       "inf": "raditi",
+       "o": [
+        "radili su",
+        "radili smo",
+        "radio je"
+       ]
+      },
+      "na",
+      "projektu",
+      "koji",
+      "su",
+      "završili",
+      "pre",
+      "nekoliko",
+      "meseci"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k16",
+     "ru": "Прошлым летом она наслаждалась отдыхом на берегу моря.",
+     "t": [
+      "Prošlog",
+      "leta",
+      {
+       "v": "je uživala",
+       "inf": "uživati",
+       "o": [
+        "je uživala",
+        "je uživao",
+        "su uživali"
+       ]
+      },
+      "u",
+      "odmoru",
+      "na",
+      "obali",
+      "mora"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k17",
+     "ru": "Ты рассказал историю.",
+     "t": [
+      {
+       "v": "Ispričao si",
+       "inf": "ispričati",
+       "o": [
+        "ispričao si",
+        "ispričao je",
+        "ispričali ste"
+       ],
+       "va": [
+        "Ispričala si"
+       ]
+      },
+      "priču"
+     ],
+     "end": ".",
+     "alt": [
+      "Ispričala si priču."
+     ]
+    },
+    {
+     "id": "k18",
+     "ru": "Я купил новую книгу.",
+     "t": [
+      {
+       "v": "Kupio sam",
+       "inf": "kupiti",
+       "o": [
+        "kupio sam",
+        "kupio si",
+        "kupili smo"
+       ],
+       "va": [
+        "Kupila sam"
+       ]
+      },
+      "novu",
+      "knjigu"
+     ],
+     "end": ".",
+     "alt": [
+      "Kupila sam novu knjigu."
+     ]
+    },
+    {
+     "id": "k19",
+     "ru": "В прошлом году она участвовала в спортивных соревнованиях и выиграла медаль.",
+     "t": [
+      "Prošle",
+      "godine",
+      {
+       "v": "je učestvovala",
+       "inf": "učestvovati",
+       "o": [
+        "je učestvovala",
+        "je učestvovao",
+        "su učestvovali"
+       ]
+      },
+      "u",
+      "sportskom",
+      "takmičenju",
+      "i",
+      "osvojila",
+      "medalju"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k20",
+     "ru": "Несколько дней назад вы разговаривали по телефону со старым другом.",
+     "t": [
+      {
+       "v": "Razgovarali ste",
+       "inf": "razgovarati",
+       "o": [
+        "razgovarali ste",
+        "razgovarali su",
+        "razgovarao si"
+       ]
+      },
+      "sa",
+      "starim",
+      "prijateljem",
+      "telefonom",
+      "pre",
+      "nekoliko",
+      "dana"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k21",
+     "ru": "Я был на концерте любимой группы в прошлом году.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam bio",
+       "inf": "biti",
+       "o": [
+        "sam bio",
+        "si bio",
+        "smo bili"
+       ],
+       "va": [
+        "sam bila"
+       ]
+      },
+      "na",
+      "koncertu",
+      "omiljenog",
+      "benda",
+      "prošle",
+      "godine"
+     ],
+     "end": ".",
+     "alt": [
+      "Bio sam na koncertu omiljenog benda prošle godine.",
+      "Ja sam bila na koncertu omiljenog benda prošle godine.",
+      "Bila sam na koncertu omiljenog benda prošle godine."
+     ]
+    },
+    {
+     "id": "k22",
+     "ru": "В прошлом месяце он закончил ремонт.",
+     "t": [
+      "Prošlog",
+      "meseca",
+      {
+       "v": "je završio",
+       "inf": "završiti",
+       "o": [
+        "je završio",
+        "je završila",
+        "su završili"
+       ]
+      },
+      "s",
+      "renoviranjem"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k23",
+     "ru": "На прошлой неделе вы ездили на поезде в соседний город.",
+     "t": [
+      {
+       "v": "Putovali ste",
+       "inf": "putovati",
+       "o": [
+        "putovali ste",
+        "putovali su",
+        "putovao si"
+       ]
+      },
+      "vozom",
+      "do",
+      "susednog",
+      "grada",
+      "prošle",
+      "nedelje"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k24",
+     "ru": "Я учила сербский язык.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam učila",
+       "inf": "učiti",
+       "o": [
+        "sam učila",
+        "si učila",
+        "smo učili"
+       ],
+       "va": [
+        "sam učio"
+       ]
+      },
+      "srpski",
+      "jezik"
+     ],
+     "end": ".",
+     "alt": [
+      "Učila sam srpski jezik.",
+      "Ja sam učio srpski jezik.",
+      "Učio sam srpski jezik."
+     ]
+    },
+    {
+     "id": "k25",
+     "ru": "Она работала в большой компании.",
+     "t": [
+      "Ona",
+      {
+       "v": "je radila",
+       "inf": "raditi",
+       "o": [
+        "je radila",
+        "je radio",
+        "su radili"
+       ]
+      },
+      "u",
+      "velikoj",
+      "kompaniji"
+     ],
+     "end": ".",
+     "alt": [
+      "Radila je u velikoj kompaniji."
+     ]
+    },
+    {
+     "id": "k26",
+     "ru": "Мы жили в маленьком городе.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo živeli",
+       "inf": "živeti",
+       "o": [
+        "smo živeli",
+        "ste živeli",
+        "sam živeo"
+       ]
+      },
+      "u",
+      "malom",
+      "gradu"
+     ],
+     "end": ".",
+     "alt": [
+      "Živeli smo u malom gradu."
+     ]
+    },
+    {
+     "id": "k27",
+     "ru": "Они часто ездили на поезде.",
+     "t": [
+      "Oni",
+      "su",
+      "često",
+      {
+       "v": "putovali",
+       "inf": "putovati",
+       "o": [
+        "putovali",
+        "putovao",
+        "putovala"
+       ]
+      },
+      "vozom"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k28",
+     "ru": "Он читал интересную книгу.",
+     "t": [
+      "On",
+      {
+       "v": "je čitao",
+       "inf": "čitati",
+       "o": [
+        "je čitao",
+        "je čitala",
+        "su čitali"
+       ]
+      },
+      "zanimljivu",
+      "knjigu"
+     ],
+     "end": ".",
+     "alt": [
+      "Čitao je zanimljivu knjigu."
+     ]
+    },
+    {
+     "id": "k29",
+     "ru": "Я пила кофе каждое утро.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam pila",
+       "inf": "piti",
+       "o": [
+        "sam pila",
+        "si pila",
+        "smo pili"
+       ],
+       "va": [
+        "sam pio"
+       ]
+      },
+      "kafu",
+      "svako",
+      "jutro"
+     ],
+     "end": ".",
+     "alt": [
+      "Pila sam kafu svako jutro.",
+      "Ja sam pio kafu svako jutro.",
+      "Pio sam kafu svako jutro."
+     ]
+    },
+    {
+     "id": "k30",
+     "ru": "Она слушала музыку в автобусе.",
+     "t": [
+      "Ona",
+      {
+       "v": "je slušala",
+       "inf": "slušati",
+       "o": [
+        "je slušala",
+        "je slušao",
+        "su slušali"
+       ]
+      },
+      "muziku",
+      "u",
+      "autobusu"
+     ],
+     "end": ".",
+     "alt": [
+      "Slušala je muziku u autobusu."
+     ]
+    },
+    {
+     "id": "k31",
+     "ru": "Мы смотрели фильм вечером.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo gledali",
+       "inf": "gledati",
+       "o": [
+        "smo gledali",
+        "ste gledali",
+        "sam gledao"
+       ]
+      },
+      "film",
+      "uveče"
+     ],
+     "end": ".",
+     "alt": [
+      "Gledali smo film uveče."
+     ]
+    },
+    {
+     "id": "k32",
+     "ru": "Они играли в футбол в парке.",
+     "t": [
+      "Oni",
+      {
+       "v": "su igrali",
+       "inf": "igrati",
+       "o": [
+        "su igrali",
+        "smo igrali",
+        "je igrao"
+       ]
+      },
+      "fudbal",
+      "u",
+      "parku"
+     ],
+     "end": ".",
+     "alt": [
+      "Igrali su fudbal u parku."
+     ]
+    },
+    {
+     "id": "k33",
+     "ru": "Он покупал хлеб в магазине.",
+     "t": [
+      "On",
+      {
+       "v": "je kupovao",
+       "inf": "kupovati",
+       "o": [
+        "je kupovao",
+        "je kupovala",
+        "su kupovali"
+       ]
+      },
+      "hleb",
+      "u",
+      "prodavnici"
+     ],
+     "end": ".",
+     "alt": [
+      "Kupovao je hleb u prodavnici."
+     ]
+    },
+    {
+     "id": "k34",
+     "ru": "Я разговаривала с другом.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam razgovarala",
+       "inf": "razgovarati",
+       "o": [
+        "sam razgovarala",
+        "si razgovarala",
+        "smo razgovarali"
+       ],
+       "va": [
+        "sam razgovarao"
+       ]
+      },
+      "sa",
+      "prijateljem"
+     ],
+     "end": ".",
+     "alt": [
+      "Razgovarala sam sa prijateljem.",
+      "Ja sam razgovarao sa prijateljem.",
+      "Razgovarao sam sa prijateljem."
+     ]
+    },
+    {
+     "id": "k35",
+     "ru": "Она готовила ужин для семьи.",
+     "t": [
+      "Ona",
+      {
+       "v": "je kuvala",
+       "inf": "kuvati",
+       "o": [
+        "je kuvala",
+        "je kuvao",
+        "su kuvali"
+       ]
+      },
+      "večeru",
+      "za",
+      "porodicu"
+     ],
+     "end": ".",
+     "alt": [
+      "Kuvala je večeru za porodicu."
+     ]
+    },
+    {
+     "id": "k36",
+     "ru": "Мы учили новые слова.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo učili",
+       "inf": "učiti",
+       "o": [
+        "smo učili",
+        "ste učili",
+        "sam učio"
+       ]
+      },
+      "nove",
+      "reči"
+     ],
+     "end": ".",
+     "alt": [
+      "Učili smo nove reči."
+     ]
+    },
+    {
+     "id": "k37",
+     "ru": "Они посещали музей в городе.",
+     "t": [
+      "Oni",
+      {
+       "v": "su posećivali",
+       "inf": "posećivati",
+       "o": [
+        "su posećivali",
+        "smo posećivali",
+        "je posećivao"
+       ]
+      },
+      "muzej",
+      "u",
+      "gradu"
+     ],
+     "end": ".",
+     "alt": [
+      "Posećivali su muzej u gradu."
+     ]
+    },
+    {
+     "id": "k38",
+     "ru": "Он ездил на машине на работу.",
+     "t": [
+      "On",
+      {
+       "v": "je vozio",
+       "inf": "voziti",
+       "o": [
+        "je vozio",
+        "je vozila",
+        "su vozili"
+       ]
+      },
+      "auto",
+      "na",
+      "posao"
+     ],
+     "end": ".",
+     "alt": [
+      "Vozio je auto na posao."
+     ]
+    },
+    {
+     "id": "k39",
+     "ru": "Я писала сообщение другу.",
+     "t": [
+      "Ja",
+      {
+       "v": "sam pisala",
+       "inf": "pisati",
+       "o": [
+        "sam pisala",
+        "si pisala",
+        "smo pisali"
+       ],
+       "va": [
+        "sam pisao"
+       ]
+      },
+      "poruku",
+      "prijatelju"
+     ],
+     "end": ".",
+     "alt": [
+      "Pisala sam poruku prijatelju.",
+      "Ja sam pisao poruku prijatelju.",
+      "Pisao sam poruku prijatelju."
+     ]
+    },
+    {
+     "id": "k40",
+     "ru": "Она смотрела сериал по телевизору.",
+     "t": [
+      "Ona",
+      {
+       "v": "je gledala",
+       "inf": "gledati",
+       "o": [
+        "je gledala",
+        "je gledao",
+        "su gledali"
+       ]
+      },
+      "seriju",
+      "na",
+      "televiziji"
+     ],
+     "end": ".",
+     "alt": [
+      "Gledala je seriju na televiziji."
+     ]
+    },
+    {
+     "id": "k41",
+     "ru": "Мы вместе обедали.",
+     "t": [
+      "Mi",
+      {
+       "v": "smo jeli",
+       "inf": "jesti",
+       "o": [
+        "smo jeli",
+        "ste jeli",
+        "sam jeo"
+       ]
+      },
+      "ručak",
+      "zajedno"
+     ],
+     "end": ".",
+     "alt": [
+      "Jeli smo ručak zajedno."
+     ]
+    },
+    {
+     "id": "k42",
+     "ru": "Они ждали автобус на остановке.",
+     "t": [
+      "Oni",
+      {
+       "v": "su čekali",
+       "inf": "čekati",
+       "o": [
+        "su čekali",
+        "smo čekali",
+        "je čekao"
+       ]
+      },
+      "autobus",
+      "na",
+      "stanici"
+     ],
+     "end": ".",
+     "alt": [
+      "Čekali su autobus na stanici."
+     ]
+    },
+    {
+     "id": "k43",
+     "ru": "Он слушал учителя на уроке.",
+     "t": [
+      "On",
+      {
+       "v": "je slušao",
+       "inf": "slušati",
+       "o": [
+        "je slušao",
+        "je slušala",
+        "su slušali"
+       ]
+      },
+      "nastavnika",
+      "na",
+      "času"
+     ],
+     "end": ".",
+     "alt": [
+      "Slušao je nastavnika na času."
+     ]
+    },
+    {
+     "id": "k44",
+     "ru": "Прошлым летом я была в Греции с семьёй.",
+     "t": [
+      "Prošlog",
+      "leta",
+      {
+       "v": "sam bila",
+       "inf": "biti",
+       "o": [
+        "sam bila",
+        "si bila",
+        "smo bili"
+       ],
+       "va": [
+        "sam bio"
+       ]
+      },
+      "u",
+      "Grčkoj",
+      "sa",
+      "porodicom"
+     ],
+     "end": ".",
+     "alt": [
+      "Prošlog leta sam bio u Grčkoj sa porodicom."
+     ]
+    },
+    {
+     "id": "k45",
+     "ru": "Когда мы проехали сербскую границу, я заснула.",
+     "t": [
+      "Kada",
+      "smo",
+      "prošli",
+      "srpsku",
+      "granicu,",
+      "ja",
+      {
+       "v": "sam zaspala",
+       "inf": "zaspati",
+       "o": [
+        "sam zaspala",
+        "si zaspala",
+        "smo zaspali"
+       ],
+       "va": [
+        "sam zaspao"
+       ]
+      }
+     ],
+     "end": ".",
+     "alt": [
+      "Kada smo prošli srpsku granicu, ja sam zaspao."
+     ]
+    },
+    {
+     "id": "k46",
+     "ru": "Наконец мы приехали в Паралию.",
+     "t": [
+      "Napokon,",
+      {
+       "v": "stigli smo",
+       "inf": "stići",
+       "o": [
+        "stigli smo",
+        "stigli ste",
+        "stigao sam"
+       ]
+      },
+      "u",
+      "Paraliju"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k47",
+     "ru": "Мой дедушка пошёл поискать нам апартаменты.",
+     "t": [
+      "Moj",
+      "deka",
+      {
+       "v": "je otišao",
+       "inf": "otići",
+       "o": [
+        "je otišao",
+        "je otišla",
+        "su otišli"
+       ]
+      },
+      "da",
+      "nam",
+      "potraži",
+      "apartman"
+     ],
+     "end": "."
+    },
+    {
+     "id": "k48",
+     "ru": "Я ела сладости и слушала музыку.",
+     "t": [
+      {
+       "v": "Jela sam",
+       "inf": "jesti",
+       "o": [
+        "jela sam",
+        "jela si",
+        "jeli smo"
+       ],
+       "va": [
+        "Jeo sam"
+       ]
+      },
+      "slatkiše",
+      "i",
+      "slušala",
+      "muziku"
+     ],
+     "end": ".",
+     "alt": [
+      "Jeo sam slatkiše i slušala muziku."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pitanja",
+   "title": "Вопросы: ko, šta, gde, kada…",
+   "ex": [
+    "choose",
+    "typeverb",
+    "build"
+   ],
+   "forms": [
+    "ko",
+    "šta",
+    "gde",
+    "kada",
+    "zašto",
+    "odakle",
+    "kako",
+    "koliko"
+   ],
+   "rule": [
+    [
+     "ko?",
+     "кто?",
+     "Ko je to?"
+    ],
+    [
+     "šta?",
+     "что?",
+     "Šta želite da poručite?"
+    ],
+    [
+     "gde?",
+     "где?",
+     "Gde živiš?"
+    ],
+    [
+     "kada?",
+     "когда?",
+     "Kada ste bili u inostranstvu?"
+    ],
+    [
+     "zašto?",
+     "почему?",
+     "Zašto volite svoj posao? — Jer…"
+    ],
+    [
+     "odakle?",
+     "откуда?",
+     "Odakle si?"
+    ],
+    [
+     "kako?",
+     "как?",
+     "Kako se zoveš?"
+    ],
+    [
+     "koliko?",
+     "сколько?",
+     "Koliko živite u Srbiji?"
+    ]
+   ],
+   "tips": [
+    "Вопросительное слово ставится в начало вопроса: Gde ste se rodili?",
+    "На zašto? отвечают со словом jer — «потому что».",
+    "Подсказка в задании — ответ на вопрос: по нему понятно, о чём спрашивают."
+   ],
+   "source": "Урок 9 (Pitanja): картинка с вопросительными словами и 8 вопросов к ответам; плюс вопросы из уроков 5 и 10",
+   "sentences": [
+    {
+     "id": "q01",
+     "ru": "Где вы родились?",
+     "t": [
+      {
+       "v": "Gde"
+      },
+      "ste",
+      "se",
+      "rodili"
+     ],
+     "end": "?",
+     "hint": "ответ: Ja sam se rodio u Beogradu, u Srbiji."
+    },
+    {
+     "id": "q02",
+     "ru": "Когда вы последний раз были за границей?",
+     "t": [
+      {
+       "v": "Kada"
+      },
+      "ste",
+      "poslednji",
+      "put",
+      "bili",
+      "u",
+      "inostranstvu"
+     ],
+     "end": "?",
+     "hint": "ответ: Ja sam poslednji put bio u inostranstvu pre dva meseca."
+    },
+    {
+     "id": "q03",
+     "ru": "Откуда ваши родители?",
+     "t": [
+      {
+       "v": "Odakle"
+      },
+      "su",
+      "vaši",
+      "roditelji"
+     ],
+     "end": "?",
+     "hint": "ответ: Moji roditelji su iz Bijeljine."
+    },
+    {
+     "id": "q04",
+     "ru": "Почему вы любите свою работу?",
+     "t": [
+      {
+       "v": "Zašto"
+      },
+      "vi",
+      "volite",
+      "svoj",
+      "posao"
+     ],
+     "end": "?",
+     "hint": "ответ: Ja sam lekar, volim svoj posao jer pomažem drugim ljudima."
+    },
+    {
+     "id": "q05",
+     "ru": "Где вы проводите свободное время?",
+     "t": [
+      {
+       "v": "Gde"
+      },
+      "vi",
+      "provodite",
+      "slobodno",
+      "vreme"
+     ],
+     "end": "?",
+     "hint": "ответ: Slobodno vreme provodim u restoranima i parkovima."
+    },
+    {
+     "id": "q06",
+     "ru": "Как вы расслабляетесь?",
+     "t": [
+      {
+       "v": "Kako"
+      },
+      "se",
+      "vi",
+      "opuštate"
+     ],
+     "end": "?",
+     "hint": "ответ: Ja se opuštam tako što pričam sa svojim drugarima i šetam sam."
+    },
+    {
+     "id": "q07",
+     "ru": "Сколько вы уже живёте в Сербии?",
+     "t": [
+      {
+       "v": "Koliko"
+      },
+      "vi",
+      "već",
+      "živite",
+      "u",
+      "Srbiji"
+     ],
+     "end": "?",
+     "hint": "ответ: Živim u Srbiji već 25 godina."
+    },
+    {
+     "id": "q08",
+     "ru": "Когда вы обычно просыпаетесь?",
+     "t": [
+      {
+       "v": "Kada"
+      },
+      "se",
+      "vi",
+      "obično",
+      "budite"
+     ],
+     "end": "?",
+     "hint": "ответ: Obično se budim oko 7 ujutru."
+    },
+    {
+     "id": "q09",
+     "ru": "Как тебя зовут?",
+     "t": [
+      {
+       "v": "Kako"
+      },
+      "se",
+      "zoveš"
+     ],
+     "end": "?",
+     "hint": "ответ: Zovem se Nikola."
+    },
+    {
+     "id": "q10",
+     "ru": "Где ты живёшь?",
+     "t": [
+      {
+       "v": "Gde"
+      },
+      "živiš"
+     ],
+     "end": "?",
+     "hint": "ответ: Živim u Kuli, Srbiji."
+    },
+    {
+     "id": "q11",
+     "ru": "Откуда ты?",
+     "t": [
+      {
+       "v": "Odakle"
+      },
+      "si"
+     ],
+     "end": "?",
+     "hint": "ответ: Iz Novog Pazara sam."
+    },
+    {
+     "id": "q12",
+     "ru": "Что желаете заказать?",
+     "t": [
+      {
+       "v": "Šta"
+      },
+      "želite",
+      "da",
+      "poručite"
+     ],
+     "end": "?",
+     "hint": "ответ: Jedna čaša vode, molim."
+    },
+    {
+     "id": "q13",
+     "ru": "Что ты предпочитаешь пить?",
+     "t": [
+      {
+       "v": "Šta"
+      },
+      "preferiraš",
+      "da",
+      "piješ"
+     ],
+     "end": "?",
+     "hint": "ответ: Ja pijem kafu."
+    },
+    {
+     "id": "q14",
+     "ru": "Что бы вы хотели на десерт?",
+     "t": [
+      {
+       "v": "Šta"
+      },
+      "biste",
+      "hteli",
+      "za",
+      "dezert"
+     ],
+     "end": "?",
+     "hint": "ответ: Čokoladni sufle."
+    }
+   ]
   }
  ]
 }

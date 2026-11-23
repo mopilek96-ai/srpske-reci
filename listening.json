@@ -608,6 +608,253 @@
      "answer": 0
     }
    ]
+  },
+  {
+   "id": "grcka",
+   "title": "Moje putovanje u Grčku",
+   "lesson": "Урок 8 · Prošlo vreme",
+   "sentences": [
+    {
+     "sr": "Prošlog leta sam bila u Grčkoj sa porodicom.",
+     "ru": "Прошлым летом я была в Греции с семьёй."
+    },
+    {
+     "sr": "Spakovali smo se u auto i krenuli iz Kragujevca u 5 ujutru.",
+     "ru": "Мы собрались в машину и выехали из Крагуевца в 5 утра."
+    },
+    {
+     "sr": "Bilo je jako hladno.",
+     "ru": "Было очень холодно."
+    },
+    {
+     "sr": "Ja sam sedela sa svojim bratom na zadnjem sedištu.",
+     "ru": "Я сидела с братом на заднем сиденье."
+    },
+    {
+     "sr": "Pričali smo o raznim stvarima i gledali smo kroz prozore.",
+     "ru": "Мы говорили о разных вещах и смотрели в окна."
+    },
+    {
+     "sr": "Kada smo prošli srpsku granicu, ja sam zaspala.",
+     "ru": "Когда мы проехали сербскую границу, я заснула."
+    },
+    {
+     "sr": "Probudila sam se tek kada smo bili na sat vremena od naše destinacije.",
+     "ru": "Проснулась я, только когда до места оставался час."
+    },
+    {
+     "sr": "Jela sam slatkiše i slušala muziku.",
+     "ru": "Я ела сладости и слушала музыку."
+    },
+    {
+     "sr": "Napokon, stigli smo u Paraliju.",
+     "ru": "Наконец мы приехали в Паралию."
+    },
+    {
+     "sr": "Kada smo izašli iz auta, osetili smo svež, morski miris — bili smo spremni da se bućnemo u more.",
+     "ru": "Когда мы вышли из машины, почувствовали свежий морской запах — мы были готовы плюхнуться в море."
+    },
+    {
+     "sr": "Pre toga, naravno, bilo je potrebno da nađemo gde ćemo živeti 12 dana.",
+     "ru": "Но сначала, конечно, нужно было найти, где мы будем жить 12 дней."
+    },
+    {
+     "sr": "Moj deka je otišao da nam potraži apartman, a moj brat i ja smo sedeli i gledali u more.",
+     "ru": "Мой дедушка пошёл поискать нам апартаменты, а мы с братом сидели и смотрели на море."
+    },
+    {
+     "sr": "Bilo je jako plavo i čisto i u njemu je bilo puno ljudi.",
+     "ru": "Оно было очень голубое и чистое, и в нём было много людей."
+    },
+    {
+     "sr": "Jedva smo čekali da to budemo mi.",
+     "ru": "Мы еле дождались, когда это будем мы."
+    },
+    {
+     "sr": "Deka se vratio i rekao nam je da je pronašao mesto.",
+     "ru": "Дедушка вернулся и сказал, что нашёл место."
+    },
+    {
+     "sr": "To je bila kuća jednog čoveka koji ju je izdavao.",
+     "ru": "Это был дом одного человека, который его сдавал."
+    },
+    {
+     "sr": "Imali smo kuhinju, dnevnu sobu i dve spavaće sobe kao i terasu.",
+     "ru": "У нас были кухня, гостиная, две спальни и терраса."
+    },
+    {
+     "sr": "Svi smo se raspakovali, presvukli i krenuli na plažu.",
+     "ru": "Мы все распаковались, переоделись и пошли на пляж."
+    },
+    {
+     "sr": "Prvi dan na plaži je bio savršen, vratili smo se kada je sunce zašlo i uveče smo prošetali gradićem da vidimo šta sve ima.",
+     "ru": "Первый день на пляже был идеальным: мы вернулись, когда село солнце, а вечером прогулялись по городку посмотреть, что там есть."
+    },
+    {
+     "sr": "Drugog dana smo se vozili brodićem i to je jedna od mojih omiljenih uspomena.",
+     "ru": "На второй день мы катались на кораблике, и это одно из моих любимых воспоминаний."
+    },
+    {
+     "sr": "Dok smo bili na moru, takođe smo se vozili biciklom za četiri osobe, vozili se vozićem do okolnih mesta, gledali izlazak Sunca, vozila sam se električnim trotinetom po Paraliji i neke žene iz Sudana su mi isplele kikice.",
+     "ru": "Пока мы были на море, ещё катались на велосипеде на четверых, ездили на паровозике по окрестностям, смотрели восход солнца, я каталась на электросамокате по Паралии, а женщины из Судана заплели мне косички."
+    },
+    {
+     "sr": "Sve u svemu bilo je to sve jedno jako lepo iskustvo.",
+     "ru": "В общем, это был очень хороший опыт."
+    },
+    {
+     "sr": "Bila sam malo tužna kada je bilo vreme da idemo nazad kući, ali znala sam da je taj dan morao da dođe.",
+     "ru": "Мне было немного грустно, когда пришло время ехать домой, но я знала, что этот день должен был наступить."
+    },
+    {
+     "sr": "Jedva čekam da vidim kako će mi leto proći ove godine.",
+     "ru": "Жду не дождусь, как пройдёт моё лето в этом году."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Devojčica je krenula iz Kragujevca kasno. — Девочка выехала из Крагуевца поздно.",
+     "options": [
+      "Неверно",
+      "Верно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Kada je došla na more, odmah je htela da se kupa. — Приехав на море, она сразу хотела купаться.",
+     "options": [
+      "Верно",
+      "Неверно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Rezervisali su smeštaj unapred. — Они забронировали жильё заранее.",
+     "options": [
+      "Неверно",
+      "Верно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Deda je morao da traži smeštaj. — Дедушке пришлось искать жильё.",
+     "options": [
+      "Верно",
+      "Неверно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Bila je srećna da ide kući. — Она была рада ехать домой.",
+     "options": [
+      "Неверно",
+      "Верно"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Сколько дней они жили в Паралии?",
+     "options": [
+      "12",
+      "5",
+      "4"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "restoran",
+   "title": "U restoranu (диалог из фраз урока)",
+   "lesson": "Урок 10 · Restoran",
+   "sentences": [
+    {
+     "sr": "Da li imate sto za dvoje?",
+     "ru": "Клиент: У вас есть столик на двоих?"
+    },
+    {
+     "sr": "Izvolite, gospodine.",
+     "ru": "Официант: Пожалуйста, господин."
+    },
+    {
+     "sr": "Mogu li da dobijem jelovnik?",
+     "ru": "Клиент: Можно мне меню?"
+    },
+    {
+     "sr": "Šta želite da poručite?",
+     "ru": "Официант: Что желаете заказать?"
+    },
+    {
+     "sr": "Još uvek se nisam odlučio.",
+     "ru": "Клиент: Я ещё не определился."
+    },
+    {
+     "sr": "Jedna čaša vode, molim.",
+     "ru": "Клиент: Один стакан воды, пожалуйста."
+    },
+    {
+     "sr": "Želite li kartu pića?",
+     "ru": "Официант: Хотите меню напитков?"
+    },
+    {
+     "sr": "Da li možete da donesete još jedno pivo?",
+     "ru": "Клиент: Можете принести ещё одно пиво?"
+    },
+    {
+     "sr": "Šta biste hteli za dezert?",
+     "ru": "Официант: Что бы вы хотели на десерт?"
+    },
+    {
+     "sr": "Da li je sve bilo u redu?",
+     "ru": "Официант: Всё было хорошо?"
+    },
+    {
+     "sr": "Mogu li da platim?",
+     "ru": "Клиент: Можно расплатиться?"
+    },
+    {
+     "sr": "Keš ili kartica?",
+     "ru": "Официант: Наличными или картой?"
+    }
+   ],
+   "questions": [
+    {
+     "q": "На сколько человек нужен столик?",
+     "options": [
+      "на двоих",
+      "на одного",
+      "на четверых"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что клиент просит в начале?",
+     "options": [
+      "меню",
+      "счёт",
+      "воду"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "Что ещё клиент просит принести?",
+     "options": [
+      "ещё одно пиво",
+      "кофе",
+      "десерт"
+     ],
+     "answer": 0
+    },
+    {
+     "q": "О чём официант спрашивает в конце?",
+     "options": [
+      "наличными или картой",
+      "всё ли было хорошо",
+      "хотите ли десерт"
+     ],
+     "answer": 0
+    }
+   ]
   }
  ]
 }

@@ -120,7 +120,7 @@ function lessons(){
   return [...m.entries()].sort((a,b)=>b[1]-a[1]).map(e=>e[0]);
 }
 const TOPIC_ORDER = ["Семья и люди","Профессии","Животные","Еда и напитки","Одежда","Цвета","Погода и времена года","Время и дни",
-  "Дом и вещи","Город и транспорт","Природа","Тело","Учёба","Досуг","Глаголы","Прилагательные","Маленькие слова","Фразы","Понятия"];
+  "Дом и вещи","В ресторане","Город и транспорт","Природа","Тело","Учёба","Досуг","Глаголы","Прилагательные","Маленькие слова","Фразы","Понятия"];
 function topics(){
   const have=new Set(words.map(w=>w.topic||"Без темы"));
   return [...TOPIC_ORDER.filter(t=>have.has(t)), ...[...have].filter(t=>!TOPIC_ORDER.includes(t)).sort()];
@@ -203,7 +203,7 @@ const trLine = w => w.tr ? `<div class="tr" title="Как читать">${lbl("�
 const srBlockOf = w => `<div class="word" lang="sr-Latn">${esc(w.sr)}</div><div class="cyr" lang="sr-Cyrl">${lbl("кириллица")}${esc(toCyr(w.sr))}</div>${trLine(w)}`;
 const transBlock = (w, label="перевод") => `<div class="trans-wrap">${lbl(label)}<div class="trans">${esc(w.ru)}</div></div>`;
 const PRON = ["ja","ti","on","mi","vi","oni"];
-const formsBlock = w => w.forms ? `<div class="forms">${lbl("сейчас: я, ты, он… / мы, вы, они")}<div class="fgrid">${w.forms.map((f,i)=>`<span><i>${PRON[i]}</i> <b>${esc(f)}</b></span>`).join("")}</div></div>` : "";
+const formsBlock = w => w.forms ? `<div class="forms">${lbl("сейчас: я, ты, он… / мы, вы, они")}<div class="fgrid">${w.forms.map((f,i)=>`<span><i>${PRON[i]}</i> <b>${esc(f)}</b></span>`).join("")}</div>${w.past?`<div class="pastline">${lbl("было")}<b>${esc(w.past[0])}</b> / <b>${esc(w.past[1])}</b> <span class="hint">(ja sam ${esc(w.past[0])}, ja sam ${esc(w.past[1])})</span></div>`:""}</div>` : "";
 const metaBlock = w => `<div class="meta">${gChip(w)}${w.pl?`<span class="plchip">мн. ч.: <b>${esc(w.pl)}</b></span>`:""}${w.note?`<span class="note">${esc(w.note)}</span>`:""}</div>${formsBlock(w)}`;
 const exampleBlock = w => w.ex_sr ? `<div class="ex"><span class="ex-sr" lang="sr-Latn">${esc(w.ex_sr)}</span><span class="ex-cyr" lang="sr-Cyrl">${esc(toCyr(w.ex_sr))}</span>${w.ex_ru?`<span class="ex-ru">${esc(w.ex_ru)}</span>`:""}</div>` : "";
 
@@ -545,7 +545,7 @@ function render(){
 
 // ---------- grammar ----------
 const GEXL = {choose:"Выбери форму", typeverb:"Впиши форму", build:"Собери предложение", translate:"Переведи на сербский",
-  table:"Спряги глагол: 6 форм", gender:"Определи род", plchoose:"Выбери мн. ч.", pltype:"Впиши мн. ч."};
+  table:"Спряги глагол: 6 форм", ptable:"Прошедшее время: 6 форм", gender:"Определи род", plchoose:"Выбери мн. ч.", pltype:"Впиши мн. ч."};
 const PROPER = new Set(["Italijani","Moskve","Beogradu","Iva","Luka","Marko","Mihajlo","Tijana","Nikola","Srbiji","Kuli","Subotici","Grčku"]);
 let gs = null; // grammar session
 const lc = s => String(s||"").toLowerCase();
@@ -553,7 +553,7 @@ const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){ const j=Math.flo
 const knownLemmas = () => new Set(words.map(w=>w.sr.toLowerCase()));
 function tokInfo(tok, known){
   if(typeof tok==="string") return {sr:tok, show:tok, unknown:false};
-  if(tok.v) return {sr:tok.v, show:tok.v, verb:true, inf:tok.inf||"", unknown:false};
+  if(tok.v) return {sr:tok.v, show:tok.v, verb:true, inf:tok.inf||"", o:tok.o||null, va:tok.va||[], unknown:false};
   const k = known.has(String(tok.lemma||tok.sr).toLowerCase());
   return {sr:tok.sr, show:k?tok.sr:"["+tok.ru+"]", unknown:!k, ru:tok.ru};
 }
@@ -568,6 +568,7 @@ function fillGex(t){
 const verbWord = inf => words.find(w=>w.sr===inf && w.forms);
 // other forms to choose from for a blank: same verb (prezent), same possessive (moj/moja/moje) or the topic's list (biti)
 function blankPool(p, t){
+  if(p.o) return p.o;
   if(p.inf){ const w=verbWord(p.inf); return w ? [...new Set(w.forms.map(f=>f.replace(/ se$/,"")))] : []; }
   if(t.sets){ const set=t.sets.find(x=>x.includes(lc(p.sr))); if(set) return set; }
   return t.forms||[];
@@ -577,6 +578,8 @@ function newGrammarSession(){
   const ex=$("g-ex").value;
   let list;
   if(ex==="table") list=shuffle((t.verbs||[]).filter(v=>verbWord(v))).slice(0,6).map(v=>({verb:v}));
+  else if(ex==="ptable") list=shuffle((t.verbs||[]).filter(v=>{ const w=verbWord(v); return w&&w.past&&!/ se$/.test(v); })).slice(0,6).map(v=>({verb:v}));
+  else if(ex==="translate") list=shuffle((t.sentences||[]).filter(s=>s.t.length<=8)).slice(0,10);
   else if(ex==="gender") list=shuffle(t.items||[]).slice(0,10);
   else if(ex==="plchoose"||ex==="pltype") list=shuffle((t.items||[]).filter(i=>i.pl)).slice(0,10);
   else list=shuffle(t.sentences||[]).slice(0,10);
@@ -608,6 +611,7 @@ function renderGrammar(){
   }
   const head=`<p class="meter"><span>${unit} <b>${gs.i+1}</b> из ${gs.list.length}</span><span>Верно <b>${gs.right}</b></span></p>`;
   if(gs.ex==="table") return renderTable(area, head, gs.list[gs.i]);
+  if(gs.ex==="ptable") return renderTable(area, head, gs.list[gs.i], true);
   if(gs.ex==="gender") return renderGGender(area, head, gs.list[gs.i]);
   if(gs.ex==="plchoose"||gs.ex==="pltype") return renderPlural(area, head, gs.list[gs.i]);
   const s=gs.list[gs.i];
@@ -644,7 +648,7 @@ function renderGrammar(){
     const inp=$("gr-in"); inp.focus(); wireSpecial(f, inp);
     f.onsubmit=e=>{ e.preventDefault(); const v=inp.value.trim(); if(!v) return;
       st.input=v;
-      if(gs.ex==="typeverb"){ const r=compare(v, st.verb); finishGrammar(r!=="wrong", r==="close"); }
+      if(gs.ex==="typeverb"){ const rs=[st.verb, ...st.va].map(a=>compare(v, a)); const ok=rs.find(r=>r==="exact")||rs.find(r=>r==="close"); finishGrammar(!!ok, ok==="close"); }
       else { const accepted=[fullSr(s), ...(s.alt||[])]; const exact=accepted.some(a=>norm(a)===norm(v)); const close=!exact && accepted.some(a=>fold(a)===fold(v)); finishGrammar(exact||close, close); }
     };
   }
@@ -658,10 +662,10 @@ function renderGrammar(){
 }
 function initGrammarStep(s, ex, t){
   const parts=sentenceParts(s), bp=parts.find(p=>p.verb), verb=bp.sr;
-  const st={verb, done:false, ok:false, close:false, input:""};
+  const st={verb, va:bp.va||[], done:false, ok:false, close:false, input:""};
   const others = blankPool(bp, t).filter(f=>lc(f)!==lc(verb));
   if(ex==="choose"){
-    st.options = shuffle([lc(verb), ...shuffle(others).slice(0,2)]);
+    st.options = bp.o ? shuffle(bp.o) : shuffle([lc(verb), ...shuffle(others).slice(0,2)]);
   }
   if(ex==="build"){
     const tiles = parts.map((p,i)=>({sr:p.sr, show: (i===0 && !PROPER.has(p.sr) && !p.unknown) ? p.show.toLowerCase() : p.show, used:false}));
@@ -687,19 +691,26 @@ const speakBtnFor = text => canSpeak(text) ? `<button class="speak" type="button
 function wireSpeakBtns(scope){ scope.querySelectorAll("[data-say]").forEach(b=>b.onclick=e=>{ e.stopPropagation(); speak(b.dataset.say, b); }); }
 
 // prezent: all six forms of one verb
-function renderTable(area, head, item){
+// accepted answers per person for the past-tense table: «sam učio» or «učio sam», masculine or feminine for ja/ti
+function pastRows(w){
+  const [m,f]=w.past, st=f.slice(0,-2), pl=st+"li";
+  const both=(a,ps)=>ps.flatMap(x=>[a+" "+x, x+" "+a]);
+  return [["sam",[m,f]],["si",[m,f]],["je",[m]],["smo",[pl]],["ste",[pl]],["su",[pl]]].map(([a,ps])=>({show:a+" "+ps.join(" / "), ok:both(a,ps)}));
+}
+function renderTable(area, head, item, past){
   const w=verbWord(item.verb);
+  const rowsAns = past ? pastRows(w) : w.forms.map(f=>({show:f, ok:[f, f.replace(/ se$/,"")]}));
   if(!gs.st) gs.st={inputs:["","","","","",""], res:null, done:false};
   const st=gs.st;
   const rows=PRON.map((p,i)=>{
     const r=st.res&&st.res[i];
     return `<label class="trow"><span class="tpron">${p}</span>${st.done
-      ? `<span class="tans ${r==="wrong"?"bad":"ok"}">${r==="wrong"?`<s>${esc(st.inputs[i]||"—")}</s> `:""}<b>${esc(w.forms[i])}</b></span>`
+      ? `<span class="tans ${r==="wrong"?"bad":"ok"}">${r==="wrong"?`<s>${esc(st.inputs[i]||"—")}</s> `:""}<b>${esc(rowsAns[i].show)}</b></span>`
       : `<input data-i="${i}" lang="sr" autocapitalize="off" autocorrect="off" spellcheck="false" value="${esc(st.inputs[i])}">`}</label>`;
   }).join("");
   const nOk = st.res ? st.res.filter(r=>r!=="wrong").length : 0;
   area.innerHTML = head + `<div class="card" style="cursor:default">
-      <div class="trans-wrap">${lbl("глагол")}<div class="word" lang="sr-Latn" style="font-size:30px">${esc(w.sr)}</div><div class="hint">${esc(w.ru)}</div></div>
+      <div class="trans-wrap">${lbl(past?"прошедшее время: ja sam …, ti si …":"глагол")}<div class="word" lang="sr-Latn" style="font-size:30px">${esc(w.sr)}</div><div class="hint">${esc(w.ru)}</div></div>
       <form id="tb-form" class="ttable" autocomplete="off">${rows}${st.done?"":specialKeys()}</form>
       ${st.done?`<div class="buildmsg ${nOk===6?"ok":"bad"}">${nOk===6?"Все 6 форм верно!":"Верно "+nOk+" из 6."}</div>${w.note?`<div class="hint">${esc(w.note)}</div>`:""}`:""}
     </div>
@@ -713,7 +724,7 @@ function renderTable(area, head, item){
       const inp=last, s0=inp.selectionStart, s1=inp.selectionEnd, t=b.dataset.ins;
       inp.value=inp.value.slice(0,s0)+t+inp.value.slice(s1); st.inputs[+inp.dataset.i]=inp.value; inp.focus(); inp.setSelectionRange(s0+t.length,s0+t.length); }; });
     f.onsubmit=e=>{ e.preventDefault();
-      st.res=w.forms.map((form,i)=>{ const r=compare(st.inputs[i], form.replace(/ se$/,"")); const r2=compare(st.inputs[i], form); return r2==="exact"||r==="exact"?"exact":(r2==="close"||r==="close")?"close":"wrong"; });
+      st.res=rowsAns.map((row,i)=>{ const rs=row.ok.map(a=>compare(st.inputs[i], a)); return rs.includes("exact")?"exact":rs.includes("close")?"close":"wrong"; });
       st.done=true; gs.total++; if(st.res.every(r=>r!=="wrong")) gs.right++; renderGrammar();
     };
   } else { const nx=$("gr-next"); nx.onclick=()=>{ gs.i++; gs.st=null; renderGrammar(); }; nx.focus(); }
