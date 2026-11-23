@@ -2530,7 +2530,11 @@
    "imaju"
   ],
   "tr": "и́мати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "imao",
+   "imala"
+  ]
  },
  {
   "id": "l04-piti",
@@ -2551,7 +2555,11 @@
    "piju"
   ],
   "tr": "пи́ти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "pio",
+   "pila"
+  ]
  },
  {
   "id": "l04-toje",
@@ -2649,7 +2657,11 @@
    "vole"
   ],
   "tr": "во́лэти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "voleo",
+   "volela"
+  ]
  },
  {
   "id": "l05-uciti",
@@ -2670,7 +2682,11 @@
    "uče"
   ],
   "tr": "у́тшити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "učio",
+   "učila"
+  ]
  },
  {
   "id": "l05-vezbati",
@@ -2691,7 +2707,11 @@
    "vežbaju"
   ],
   "tr": "вэ́жбати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "vežbao",
+   "vežbala"
+  ]
  },
  {
   "id": "l05-raditi",
@@ -2713,7 +2733,11 @@
    "rade"
   ],
   "tr": "ра́дити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "radio",
+   "radila"
+  ]
  },
  {
   "id": "l05-organizovati",
@@ -2735,7 +2759,11 @@
    "organizuju"
   ],
   "tr": "орга́низовати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "organizovao",
+   "organizovala"
+  ]
  },
  {
   "id": "l05-putovati",
@@ -2757,7 +2785,11 @@
    "putuju"
   ],
   "tr": "путо́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "putovao",
+   "putovala"
+  ]
  },
  {
   "id": "l05-istrazivati",
@@ -2779,7 +2811,11 @@
    "istražuju"
   ],
   "tr": "истражи́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "istraživao",
+   "istraživala"
+  ]
  },
  {
   "id": "l05-druzitise",
@@ -2801,7 +2837,11 @@
    "druže se"
   ],
   "tr": "дру́жити сэ",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "družio se",
+   "družila se"
+  ]
  },
  {
   "id": "l05-kuvati",
@@ -2822,7 +2862,11 @@
    "kuvaju"
   ],
   "tr": "ку́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "kuvao",
+   "kuvala"
+  ]
  },
  {
   "id": "l05-igrati",
@@ -2844,7 +2888,11 @@
    "igraju"
   ],
   "tr": "и́грати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "igrao",
+   "igrala"
+  ]
  },
  {
   "id": "l05-volontirati",
@@ -2865,7 +2913,11 @@
    "volontiraju"
   ],
   "tr": "волонти́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "volontirao",
+   "volontirala"
+  ]
  },
  {
   "id": "l05-planirati",
@@ -2886,7 +2938,11 @@
    "planiraju"
   ],
   "tr": "плани́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "planirao",
+   "planirala"
+  ]
  },
  {
   "id": "l05-pisati",
@@ -2906,7 +2962,11 @@
    "pišu"
   ],
   "tr": "пи́сати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "pisao",
+   "pisala"
+  ]
  },
  {
   "id": "l05-ziveti",
@@ -2928,7 +2988,11 @@
    "žive"
   ],
   "tr": "жи́вэти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "živeo",
+   "živela"
+  ]
  },
  {
   "id": "l05-jesti",
@@ -2950,7 +3014,11 @@
    "jedu"
   ],
   "tr": "е́сти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "jeo",
+   "jela"
+  ]
  },
  {
   "id": "l05-prati",
@@ -2972,7 +3040,11 @@
    "peru"
   ],
   "tr": "пра́ти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "prao",
+   "prala"
+  ]
  },
  {
   "id": "l05-pratiti",
@@ -2992,7 +3064,11 @@
    "prate"
   ],
   "tr": "пра́тити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "pratio",
+   "pratila"
+  ]
  },
  {
   "id": "l05-sedeti",
@@ -3012,7 +3088,11 @@
    "sede"
   ],
   "tr": "сэ́дэти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "sedeo",
+   "sedela"
+  ]
  },
  {
   "id": "l05-spavati",
@@ -3033,7 +3113,11 @@
    "spavaju"
   ],
   "tr": "спа́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "spavao",
+   "spavala"
+  ]
  },
  {
   "id": "l05-svirati",
@@ -3055,7 +3139,11 @@
    "sviraju"
   ],
   "tr": "сви́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "svirao",
+   "svirala"
+  ]
  },
  {
   "id": "l05-ici",
@@ -3076,7 +3164,11 @@
    "idu"
   ],
   "tr": "и́чи",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "išao",
+   "išla"
+  ]
  },
  {
   "id": "l05-videti",
@@ -3098,7 +3190,11 @@
    "vide"
   ],
   "tr": "ви́дэти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "video",
+   "videla"
+  ]
  },
  {
   "id": "l05-znati",
@@ -3120,7 +3216,11 @@
    "znaju"
   ],
   "tr": "зна́ти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "znao",
+   "znala"
+  ]
  },
  {
   "id": "l05-pevati",
@@ -3141,7 +3241,11 @@
    "pevaju"
   ],
   "tr": "пэ́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "pevao",
+   "pevala"
+  ]
  },
  {
   "id": "l05-setati",
@@ -3162,7 +3266,11 @@
    "šetaju"
   ],
   "tr": "шэ́тати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "šetao",
+   "šetala"
+  ]
  },
  {
   "id": "l05-zeleti",
@@ -3184,7 +3292,11 @@
    "žele"
   ],
   "tr": "жэ́лэти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "želeo",
+   "želela"
+  ]
  },
  {
   "id": "l05-morati",
@@ -3205,7 +3317,11 @@
    "moraju"
   ],
   "tr": "мо́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "morao",
+   "morala"
+  ]
  },
  {
   "id": "l05-trenirati",
@@ -3224,7 +3340,11 @@
    "treniraju"
   ],
   "tr": "трэни́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "trenirao",
+   "trenirala"
+  ]
  },
  {
   "id": "l05-studirati",
@@ -3244,7 +3364,11 @@
    "studiraju"
   ],
   "tr": "студи́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "studirao",
+   "studirala"
+  ]
  },
  {
   "id": "l05-doruckovati",
@@ -3266,7 +3390,11 @@
    "doručkuju"
   ],
   "tr": "до́рутшковати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "doručkovao",
+   "doručkovala"
+  ]
  },
  {
   "id": "l05-vecerati",
@@ -3287,7 +3415,11 @@
    "večeraju"
   ],
   "tr": "вэ́тшэрати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "večerao",
+   "večerala"
+  ]
  },
  {
   "id": "l05-ustajati",
@@ -3308,7 +3440,11 @@
    "ustaju"
   ],
   "tr": "у́стаяти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "ustajao",
+   "ustajala"
+  ]
  },
  {
   "id": "l05-voziti",
@@ -3329,7 +3465,11 @@
    "voze"
   ],
   "tr": "во́зити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "vozio",
+   "vozila"
+  ]
  },
  {
   "id": "l05-provoditi",
@@ -3351,7 +3491,11 @@
    "provode"
   ],
   "tr": "прово́дити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "provodio",
+   "provodila"
+  ]
  },
  {
   "id": "l05-odmarati",
@@ -3372,7 +3516,11 @@
    "odmaraju"
   ],
   "tr": "одма́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "odmarao",
+   "odmarala"
+  ]
  },
  {
   "id": "l05-predavati",
@@ -3392,7 +3540,11 @@
    "predaju"
   ],
   "tr": "прэда́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "predavao",
+   "predavala"
+  ]
  },
  {
   "id": "l05-upoznavati",
@@ -3412,7 +3564,11 @@
    "upoznaju"
   ],
   "tr": "упозна́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "upoznavao",
+   "upoznavala"
+  ]
  },
  {
   "id": "l05-zvatise",
@@ -3434,7 +3590,11 @@
    "zovu se"
   ],
   "tr": "зва́ти сэ",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "zvao se",
+   "zvala se"
+  ]
  },
  {
   "id": "l05-moci",
@@ -3456,7 +3616,11 @@
    "mogu"
   ],
   "tr": "мо́чи",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "mogao",
+   "mogla"
+  ]
  },
  {
   "id": "l05-hteti",
@@ -3478,7 +3642,11 @@
    "hoće"
   ],
   "tr": "хтэ́ти",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "hteo",
+   "htela"
+  ]
  },
  {
   "id": "l05-kupiti",
@@ -3499,7 +3667,11 @@
    "kupe"
   ],
   "tr": "ку́пити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "kupio",
+   "kupila"
+  ]
  },
  {
   "id": "l05-sretati",
@@ -3521,7 +3693,11 @@
    "sreću"
   ],
   "tr": "срэ́тати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "sretao",
+   "sretala"
+  ]
  },
  {
   "id": "l05-odlaziti",
@@ -3540,7 +3716,11 @@
    "odlaze"
   ],
   "tr": "о́длазити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "odlazio",
+   "odlazila"
+  ]
  },
  {
   "id": "l05-preferirati",
@@ -3561,7 +3741,11 @@
    "preferiraju"
   ],
   "tr": "прэфэри́рати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "preferirao",
+   "preferirala"
+  ]
  },
  {
   "id": "l05-knjiga",
@@ -5444,7 +5628,11 @@
    "nose"
   ],
   "tr": "но́сити",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "nosio",
+   "nosila"
+  ]
  },
  {
   "id": "l24-kupovati",
@@ -5466,7 +5654,11 @@
    "kupuju"
   ],
   "tr": "купо́вати",
-  "stress_src": "dict"
+  "stress_src": "dict",
+  "past": [
+   "kupovao",
+   "kupovala"
+  ]
  },
  {
   "id": "vr-vreme",
@@ -5953,5 +6145,1858 @@
   "added": 1795250000267,
   "tr": "мэтэоро́пата",
   "stress_src": "dict"
+ },
+ {
+  "id": "l08-biti",
+  "sr": "biti",
+  "ru": "быть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "отрицание: nisam, nisi…",
+  "ex_sr": "Ja sam bio na koncertu omiljenog benda prošle godine.",
+  "ex_ru": "Я был на концерте любимой группы в прошлом году.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000000,
+  "forms": [
+   "sam",
+   "si",
+   "je",
+   "smo",
+   "ste",
+   "su"
+  ],
+  "past": [
+   "bio",
+   "bila"
+  ]
+ },
+ {
+  "id": "l08-gledati",
+  "sr": "gledati",
+  "ru": "смотреть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mi smo gledali film uveče.",
+  "ex_ru": "Мы смотрели фильм вечером.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000001,
+  "forms": [
+   "gledam",
+   "gledaš",
+   "gleda",
+   "gledamo",
+   "gledate",
+   "gledaju"
+  ],
+  "past": [
+   "gledao",
+   "gledala"
+  ]
+ },
+ {
+  "id": "l08-citati",
+  "sr": "čitati",
+  "ru": "читать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "On je čitao zanimljivu knjigu.",
+  "ex_ru": "Он читал интересную книгу.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000002,
+  "forms": [
+   "čitam",
+   "čitaš",
+   "čita",
+   "čitamo",
+   "čitate",
+   "čitaju"
+  ],
+  "past": [
+   "čitao",
+   "čitala"
+  ]
+ },
+ {
+  "id": "l08-slusati",
+  "sr": "slušati",
+  "ru": "слушать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ona je slušala muziku u autobusu.",
+  "ex_ru": "Она слушала музыку в автобусе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000003,
+  "forms": [
+   "slušam",
+   "slušaš",
+   "sluša",
+   "slušamo",
+   "slušate",
+   "slušaju"
+  ],
+  "past": [
+   "slušao",
+   "slušala"
+  ]
+ },
+ {
+  "id": "l08-razgovarati",
+  "sr": "razgovarati",
+  "ru": "разговаривать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ja sam razgovarala sa prijateljem.",
+  "ex_ru": "Я разговаривала с другом.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000004,
+  "forms": [
+   "razgovaram",
+   "razgovaraš",
+   "razgovara",
+   "razgovaramo",
+   "razgovarate",
+   "razgovaraju"
+  ],
+  "past": [
+   "razgovarao",
+   "razgovarala"
+  ]
+ },
+ {
+  "id": "l08-cekati",
+  "sr": "čekati",
+  "ru": "ждать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Oni su čekali autobus na stanici.",
+  "ex_ru": "Они ждали автобус на остановке.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000005,
+  "forms": [
+   "čekam",
+   "čekaš",
+   "čeka",
+   "čekamo",
+   "čekate",
+   "čekaju"
+  ],
+  "past": [
+   "čekao",
+   "čekala"
+  ]
+ },
+ {
+  "id": "l08-pricati",
+  "sr": "pričati",
+  "ru": "рассказывать, говорить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Pričali smo o raznim stvarima.",
+  "ex_ru": "Мы говорили о разных вещах.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000006,
+  "forms": [
+   "pričam",
+   "pričaš",
+   "priča",
+   "pričamo",
+   "pričate",
+   "pričaju"
+  ],
+  "past": [
+   "pričao",
+   "pričala"
+  ]
+ },
+ {
+  "id": "l08-obozavati",
+  "sr": "obožavati",
+  "ru": "обожать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ona je obožavala mene.",
+  "ex_ru": "Она обожала меня.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000007,
+  "forms": [
+   "obožavam",
+   "obožavaš",
+   "obožava",
+   "obožavamo",
+   "obožavate",
+   "obožavaju"
+  ],
+  "past": [
+   "obožavao",
+   "obožavala"
+  ]
+ },
+ {
+  "id": "l08-sanjati",
+  "sr": "sanjati",
+  "ru": "видеть во сне; мечтать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Oni su sanjali zemlju čuda.",
+  "ex_ru": "Им снилась страна чудес.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000008,
+  "forms": [
+   "sanjam",
+   "sanjaš",
+   "sanja",
+   "sanjamo",
+   "sanjate",
+   "sanjaju"
+  ],
+  "past": [
+   "sanjao",
+   "sanjala"
+  ]
+ },
+ {
+  "id": "l08-posetiti",
+  "sr": "posetiti",
+  "ru": "посетить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Prošle nedelje mi smo posetili novi muzej u gradu.",
+  "ex_ru": "На прошлой неделе мы посетили новый музей в городе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000009,
+  "forms": [
+   "posetim",
+   "posetiš",
+   "poseti",
+   "posetimo",
+   "posetite",
+   "posete"
+  ],
+  "past": [
+   "posetio",
+   "posetila"
+  ]
+ },
+ {
+  "id": "l08-posecivati",
+  "sr": "posećivati",
+  "ru": "посещать (часто)",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ivati → -ujem",
+  "ex_sr": "Oni su posećivali muzej u gradu.",
+  "ex_ru": "Они посещали музей в городе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000010,
+  "forms": [
+   "posećujem",
+   "posećuješ",
+   "posećuje",
+   "posećujemo",
+   "posećujete",
+   "posećuju"
+  ],
+  "past": [
+   "posećivao",
+   "posećivala"
+  ]
+ },
+ {
+  "id": "l08-zavrsiti",
+  "sr": "završiti",
+  "ru": "закончить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Prošlog meseca je završio s renoviranjem.",
+  "ex_ru": "В прошлом месяце он закончил ремонт.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000011,
+  "forms": [
+   "završim",
+   "završiš",
+   "završi",
+   "završimo",
+   "završite",
+   "završe"
+  ],
+  "past": [
+   "završio",
+   "završila"
+  ]
+ },
+ {
+  "id": "l08-upoznati",
+  "sr": "upoznati",
+  "ru": "познакомиться; узнать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000012,
+  "forms": [
+   "upoznam",
+   "upoznaš",
+   "upozna",
+   "upoznamo",
+   "upoznate",
+   "upoznaju"
+  ],
+  "past": [
+   "upoznao",
+   "upoznala"
+  ]
+ },
+ {
+  "id": "l08-slaviti",
+  "sr": "slaviti",
+  "ru": "праздновать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000013,
+  "forms": [
+   "slavim",
+   "slaviš",
+   "slavi",
+   "slavimo",
+   "slavite",
+   "slave"
+  ],
+  "past": [
+   "slavio",
+   "slavila"
+  ]
+ },
+ {
+  "id": "l08-proslaviti",
+  "sr": "proslaviti",
+  "ru": "отпраздновать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000014,
+  "forms": [
+   "proslavim",
+   "proslaviš",
+   "proslavi",
+   "proslavimo",
+   "proslavite",
+   "proslave"
+  ],
+  "past": [
+   "proslavio",
+   "proslavila"
+  ]
+ },
+ {
+  "id": "l08-uzivati",
+  "sr": "uživati",
+  "ru": "наслаждаться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Prošlog leta je uživala u odmoru na obali mora.",
+  "ex_ru": "Прошлым летом она наслаждалась отдыхом на берегу моря.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000015,
+  "forms": [
+   "uživam",
+   "uživaš",
+   "uživa",
+   "uživamo",
+   "uživate",
+   "uživaju"
+  ],
+  "past": [
+   "uživao",
+   "uživala"
+  ]
+ },
+ {
+  "id": "l08-ispricati",
+  "sr": "ispričati",
+  "ru": "рассказать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000016,
+  "forms": [
+   "ispričam",
+   "ispričaš",
+   "ispriča",
+   "ispričamo",
+   "ispričate",
+   "ispričaju"
+  ],
+  "past": [
+   "ispričao",
+   "ispričala"
+  ]
+ },
+ {
+  "id": "l08-ucestvovati",
+  "sr": "učestvovati",
+  "ru": "участвовать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "-ovati → -ujem",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000017,
+  "forms": [
+   "učestvujem",
+   "učestvuješ",
+   "učestvuje",
+   "učestvujemo",
+   "učestvujete",
+   "učestvuju"
+  ],
+  "past": [
+   "učestvovao",
+   "učestvovala"
+  ]
+ },
+ {
+  "id": "l08-krenuti",
+  "sr": "krenuti",
+  "ru": "отправиться, тронуться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Spakovali smo se u auto i krenuli iz Kragujevca u 5 ujutru.",
+  "ex_ru": "Мы собрались в машину и выехали из Крагуевца в 5 утра.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000018,
+  "forms": [
+   "krenem",
+   "kreneš",
+   "krene",
+   "krenemo",
+   "krenete",
+   "krenu"
+  ],
+  "past": [
+   "krenuo",
+   "krenula"
+  ]
+ },
+ {
+  "id": "l08-zaspati",
+  "sr": "zaspati",
+  "ru": "заснуть",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Kada smo prošli srpsku granicu, ja sam zaspala.",
+  "ex_ru": "Когда мы проехали сербскую границу, я заснула.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000019,
+  "forms": [
+   "zaspim",
+   "zaspiš",
+   "zaspi",
+   "zaspimo",
+   "zaspite",
+   "zaspe"
+  ],
+  "past": [
+   "zaspao",
+   "zaspala"
+  ]
+ },
+ {
+  "id": "l08-probuditise",
+  "sr": "probuditi se",
+  "ru": "проснуться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000020,
+  "forms": [
+   "probudim se",
+   "probudiš se",
+   "probudi se",
+   "probudimo se",
+   "probudite se",
+   "probude se"
+  ],
+  "past": [
+   "probudio se",
+   "probudila se"
+  ]
+ },
+ {
+  "id": "l08-stici",
+  "sr": "stići",
+  "ru": "прибыть, доехать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Napokon, stigli smo u Paraliju.",
+  "ex_ru": "Наконец мы приехали в Паралию.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000021,
+  "forms": [
+   "stignem",
+   "stigneš",
+   "stigne",
+   "stignemo",
+   "stignete",
+   "stignu"
+  ],
+  "past": [
+   "stigao",
+   "stigla"
+  ]
+ },
+ {
+  "id": "l08-otici",
+  "sr": "otići",
+  "ru": "уйти, уехать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Moj deka je otišao da nam potraži apartman.",
+  "ex_ru": "Мой дедушка пошёл поискать нам апартаменты.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000022,
+  "forms": [
+   "odem",
+   "odeš",
+   "ode",
+   "odemo",
+   "odete",
+   "odu"
+  ],
+  "past": [
+   "otišao",
+   "otišla"
+  ]
+ },
+ {
+  "id": "l08-vratitise",
+  "sr": "vratiti se",
+  "ru": "вернуться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Deka se vratio i rekao nam je da je pronašao mesto.",
+  "ex_ru": "Дедушка вернулся и сказал нам, что нашёл место.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000023,
+  "forms": [
+   "vratim se",
+   "vratiš se",
+   "vrati se",
+   "vratimo se",
+   "vratite se",
+   "vrate se"
+  ],
+  "past": [
+   "vratio se",
+   "vratila se"
+  ]
+ },
+ {
+  "id": "l08-juce",
+  "sr": "juče",
+  "ru": "вчера",
+  "g": "adv",
+  "topic": "Время и дни",
+  "ex_sr": "Ja sam spavao juče.",
+  "ex_ru": "Я спал вчера.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000024
+ },
+ {
+  "id": "l08-sinoc",
+  "sr": "sinoć",
+  "ru": "вчера вечером",
+  "g": "adv",
+  "topic": "Время и дни",
+  "ex_sr": "Ja sam gledao fascinantan film sinoć sa porodicom.",
+  "ex_ru": "Вчера вечером я смотрел с семьёй потрясающий фильм.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000025
+ },
+ {
+  "id": "l08-proslenedelje",
+  "sr": "prošle nedelje",
+  "ru": "на прошлой неделе",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "note": "nedelja — неделя; и воскресенье",
+  "ex_sr": "Prošle nedelje mi smo posetili novi muzej u gradu.",
+  "ex_ru": "На прошлой неделе мы посетили новый музей в городе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000026
+ },
+ {
+  "id": "l08-proslegodine",
+  "sr": "prošle godine",
+  "ru": "в прошлом году",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "ex_sr": "Ja sam bio na koncertu omiljenog benda prošle godine.",
+  "ex_ru": "Я был на концерте любимой группы в прошлом году.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000027
+ },
+ {
+  "id": "l08-proslogvikenda",
+  "sr": "prošlog vikenda",
+  "ru": "на прошлых выходных",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000028
+ },
+ {
+  "id": "l08-proslogmeseca",
+  "sr": "prošlog meseca",
+  "ru": "в прошлом месяце",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "ex_sr": "Prošlog meseca je završio s renoviranjem.",
+  "ex_ru": "В прошлом месяце он закончил ремонт.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000029
+ },
+ {
+  "id": "l08-proslogleta",
+  "sr": "prošlog leta",
+  "ru": "прошлым летом",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "ex_sr": "Prošlog leta sam bila u Grčkoj sa porodicom.",
+  "ex_ru": "Прошлым летом я была в Греции с семьёй.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000030
+ },
+ {
+  "id": "l08-pre",
+  "sr": "pre",
+  "ru": "назад (о времени); до",
+  "g": "prep",
+  "topic": "Маленькие слова",
+  "note": "pre dva meseca — два месяца назад",
+  "ex_sr": "Ja sam poslednji put bio u inostranstvu pre dva meseca.",
+  "ex_ru": "Последний раз я был за границей два месяца назад.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000031
+ },
+ {
+  "id": "l08-napokon",
+  "sr": "napokon",
+  "ru": "наконец",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Napokon, stigli smo u Paraliju.",
+  "ex_ru": "Наконец мы приехали в Паралию.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000032
+ },
+ {
+  "id": "l08-muzej",
+  "sr": "muzej",
+  "ru": "музей",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "ex_sr": "Oni su posećivali muzej u gradu.",
+  "ex_ru": "Они посещали музей в городе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000033,
+  "pl": "muzeji"
+ },
+ {
+  "id": "l08-hokej",
+  "sr": "hokej",
+  "ru": "хоккей",
+  "g": "m",
+  "topic": "Досуг",
+  "ex_sr": "Mi smo igrali hokej.",
+  "ex_ru": "Мы играли в хоккей.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000034
+ },
+ {
+  "id": "l08-film",
+  "sr": "film",
+  "ru": "фильм",
+  "g": "m",
+  "topic": "Досуг",
+  "ex_sr": "Mi smo gledali film uveče.",
+  "ex_ru": "Мы смотрели фильм вечером.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000035,
+  "pl": "filmovi"
+ },
+ {
+  "id": "l08-serija",
+  "sr": "serija",
+  "ru": "сериал",
+  "g": "f",
+  "topic": "Досуг",
+  "ex_sr": "Ona je gledala seriju na televiziji.",
+  "ex_ru": "Она смотрела сериал по телевизору.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000036,
+  "pl": "serije"
+ },
+ {
+  "id": "l08-muzika",
+  "sr": "muzika",
+  "ru": "музыка",
+  "g": "f",
+  "topic": "Досуг",
+  "ex_sr": "Ona je slušala muziku u autobusu.",
+  "ex_ru": "Она слушала музыку в автобусе.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000037
+ },
+ {
+  "id": "l08-televizija",
+  "sr": "televizija",
+  "ru": "телевидение, телевизор",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000038
+ },
+ {
+  "id": "l08-kompanija",
+  "sr": "kompanija",
+  "ru": "компания",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Ona je radila u velikoj kompaniji.",
+  "ex_ru": "Она работала в большой компании.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000039,
+  "pl": "kompanije"
+ },
+ {
+  "id": "l08-rucak",
+  "sr": "ručak",
+  "ru": "обед",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "ex_sr": "Mi smo jeli ručak zajedno.",
+  "ex_ru": "Мы вместе обедали.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000040,
+  "pl": "ručkovi"
+ },
+ {
+  "id": "l08-vesti",
+  "sr": "vesti",
+  "ru": "новости",
+  "g": "pl",
+  "topic": "Понятия",
+  "note": "ед. vest",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000041
+ },
+ {
+  "id": "l08-teretana",
+  "sr": "teretana",
+  "ru": "спортзал",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000042,
+  "pl": "teretane"
+ },
+ {
+  "id": "l08-poruka",
+  "sr": "poruka",
+  "ru": "сообщение",
+  "g": "f",
+  "topic": "Понятия",
+  "ex_sr": "Ja sam pisala poruku prijatelju.",
+  "ex_ru": "Я писала сообщение другу.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000043,
+  "pl": "poruke"
+ },
+ {
+  "id": "l08-stanica",
+  "sr": "stanica",
+  "ru": "остановка; станция",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Oni su čekali autobus na stanici.",
+  "ex_ru": "Они ждали автобус на остановке.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000044,
+  "pl": "stanice"
+ },
+ {
+  "id": "l08-cas",
+  "sr": "čas",
+  "ru": "урок; час",
+  "g": "m",
+  "topic": "Учёба",
+  "ex_sr": "On je slušao nastavnika na času.",
+  "ex_ru": "Он слушал учителя на уроке.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000045,
+  "pl": "časovi"
+ },
+ {
+  "id": "l08-nastavnik",
+  "sr": "nastavnik",
+  "ru": "учитель",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "ж. nastavnica",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000046,
+  "pl": "nastavnici"
+ },
+ {
+  "id": "l08-koncert",
+  "sr": "koncert",
+  "ru": "концерт",
+  "g": "m",
+  "topic": "Досуг",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000047,
+  "pl": "koncerti"
+ },
+ {
+  "id": "l08-rodjendan",
+  "sr": "rođendan",
+  "ru": "день рождения",
+  "g": "m",
+  "topic": "Досуг",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000048,
+  "pl": "rođendani"
+ },
+ {
+  "id": "l08-plaza",
+  "sr": "plaža",
+  "ru": "пляж",
+  "g": "f",
+  "topic": "Природа",
+  "ex_sr": "Svi smo se raspakovali, presvukli i krenuli na plažu.",
+  "ex_ru": "Мы все распаковались, переоделись и пошли на пляж.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000049,
+  "pl": "plaže"
+ },
+ {
+  "id": "l08-granica",
+  "sr": "granica",
+  "ru": "граница",
+  "g": "f",
+  "topic": "Город и транспорт",
+  "ex_sr": "Kada smo prošli srpsku granicu, ja sam zaspala.",
+  "ex_ru": "Когда мы проехали сербскую границу, я заснула.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000050,
+  "pl": "granice"
+ },
+ {
+  "id": "l08-apartman",
+  "sr": "apartman",
+  "ru": "апартаменты, квартира для отдыха",
+  "g": "m",
+  "topic": "Дом и вещи",
+  "ex_sr": "Moj deka je otišao da nam potraži apartman.",
+  "ex_ru": "Мой дедушка пошёл поискать нам апартаменты.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000051,
+  "pl": "apartmani"
+ },
+ {
+  "id": "l08-kuhinja",
+  "sr": "kuhinja",
+  "ru": "кухня",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "ex_sr": "Imali smo kuhinju, dnevnu sobu i dve spavaće sobe.",
+  "ex_ru": "У нас были кухня, гостиная и две спальни.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000052,
+  "pl": "kuhinje"
+ },
+ {
+  "id": "l08-dnevnasoba",
+  "sr": "dnevna soba",
+  "ru": "гостиная",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000053,
+  "pl": "dnevne sobe"
+ },
+ {
+  "id": "l08-terasa",
+  "sr": "terasa",
+  "ru": "терраса",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000054,
+  "pl": "terase"
+ },
+ {
+  "id": "l08-uspomena",
+  "sr": "uspomena",
+  "ru": "воспоминание",
+  "g": "f",
+  "topic": "Понятия",
+  "ex_sr": "Drugog dana smo se vozili brodićem i to je jedna od mojih omiljenih uspomena.",
+  "ex_ru": "На второй день мы катались на кораблике, и это одно из моих любимых воспоминаний.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000055,
+  "pl": "uspomene"
+ },
+ {
+  "id": "l08-iskustvo",
+  "sr": "iskustvo",
+  "ru": "опыт",
+  "g": "n",
+  "topic": "Понятия",
+  "ex_sr": "Sve u svemu bilo je to jako lepo iskustvo.",
+  "ex_ru": "В общем, это был очень хороший опыт.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000056,
+  "pl": "iskustva"
+ },
+ {
+  "id": "l08-brod",
+  "sr": "brod",
+  "ru": "корабль",
+  "g": "m",
+  "topic": "Город и транспорт",
+  "note": "brodić — кораблик",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000057,
+  "pl": "brodovi"
+ },
+ {
+  "id": "l08-slatkisi",
+  "sr": "slatkiši",
+  "ru": "сладости",
+  "g": "pl",
+  "topic": "Еда и напитки",
+  "note": "ед. slatkiš",
+  "ex_sr": "Jela sam slatkiše i slušala muziku.",
+  "ex_ru": "Я ела сладости и слушала музыку.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000058
+ },
+ {
+  "id": "l08-deka",
+  "sr": "deka",
+  "ru": "дедушка (ласково)",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "м. р., хотя на -a; то же, что deda",
+  "ex_sr": "Moj deka je otišao da nam potraži apartman.",
+  "ex_ru": "Мой дедушка пошёл поискать нам апартаменты.",
+  "lesson": "Урок 8 · Prošlo vreme",
+  "added": 1795460000059,
+  "pl": "deke"
+ },
+ {
+  "id": "l09-ko",
+  "sr": "ko",
+  "ru": "кто?",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000060
+ },
+ {
+  "id": "l09-sta",
+  "sr": "šta",
+  "ru": "что?",
+  "g": "pron",
+  "topic": "Маленькие слова",
+  "ex_sr": "Šta želite da poručite?",
+  "ex_ru": "Что желаете заказать?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000061
+ },
+ {
+  "id": "l09-gde",
+  "sr": "gde",
+  "ru": "где?",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Gde ste se rodili?",
+  "ex_ru": "Где вы родились?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000062
+ },
+ {
+  "id": "l09-kada",
+  "sr": "kada",
+  "ru": "когда?; когда",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "note": "коротко: kad",
+  "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
+  "ex_ru": "Когда вы последний раз были за границей?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000063
+ },
+ {
+  "id": "l09-zasto",
+  "sr": "zašto",
+  "ru": "почему?",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "note": "ответ: jer… — потому что…",
+  "ex_sr": "Zašto vi volite svoj posao?",
+  "ex_ru": "Почему вы любите свою работу?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000064
+ },
+ {
+  "id": "l09-odakle",
+  "sr": "odakle",
+  "ru": "откуда?",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Odakle su vaši roditelji?",
+  "ex_ru": "Откуда ваши родители?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000065
+ },
+ {
+  "id": "l09-kako",
+  "sr": "kako",
+  "ru": "как?",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Kako se vi opuštate?",
+  "ex_ru": "Как вы расслабляетесь?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000066
+ },
+ {
+  "id": "l09-koliko",
+  "sr": "koliko",
+  "ru": "сколько?",
+  "g": "adv",
+  "topic": "Маленькие слова",
+  "ex_sr": "Koliko vi već živite u Srbiji?",
+  "ex_ru": "Сколько вы уже живёте в Сербии?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000067
+ },
+ {
+  "id": "l09-jer",
+  "sr": "jer",
+  "ru": "потому что",
+  "g": "particle",
+  "topic": "Маленькие слова",
+  "note": "zato što — то же самое",
+  "ex_sr": "Volim svoj posao jer pomažem drugim ljudima.",
+  "ex_ru": "Люблю свою работу, потому что помогаю другим людям.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000068
+ },
+ {
+  "id": "l09-roditise",
+  "sr": "roditi se",
+  "ru": "родиться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Ja sam se rodio u Beogradu, u Srbiji.",
+  "ex_ru": "Я родился в Белграде, в Сербии.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000069,
+  "forms": [
+   "rodim se",
+   "rodiš se",
+   "rodi se",
+   "rodimo se",
+   "rodite se",
+   "rode se"
+  ],
+  "past": [
+   "rodio se",
+   "rodila se"
+  ]
+ },
+ {
+  "id": "l09-opustatise",
+  "sr": "opuštati se",
+  "ru": "расслабляться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Kako se vi opuštate?",
+  "ex_ru": "Как вы расслабляетесь?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000070,
+  "forms": [
+   "opuštam se",
+   "opuštaš se",
+   "opušta se",
+   "opuštamo se",
+   "opuštate se",
+   "opuštaju se"
+  ],
+  "past": [
+   "opuštao se",
+   "opuštala se"
+  ]
+ },
+ {
+  "id": "l09-buditise",
+  "sr": "buditi se",
+  "ru": "просыпаться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Obično se budim oko 7 ujutru.",
+  "ex_ru": "Обычно я просыпаюсь около 7 утра.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000071,
+  "forms": [
+   "budim se",
+   "budiš se",
+   "budi se",
+   "budimo se",
+   "budite se",
+   "bude se"
+  ],
+  "past": [
+   "budio se",
+   "budila se"
+  ]
+ },
+ {
+  "id": "l09-pomagati",
+  "sr": "pomagati",
+  "ru": "помогать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "note": "g → ž: pomažem",
+  "ex_sr": "Volim svoj posao jer pomažem drugim ljudima.",
+  "ex_ru": "Люблю свою работу, потому что помогаю другим людям.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000072,
+  "forms": [
+   "pomažem",
+   "pomažeš",
+   "pomaže",
+   "pomažemo",
+   "pomažete",
+   "pomažu"
+  ],
+  "past": [
+   "pomagao",
+   "pomagala"
+  ]
+ },
+ {
+  "id": "l09-inostranstvo",
+  "sr": "inostranstvo",
+  "ru": "заграница",
+  "g": "n",
+  "topic": "Город и транспорт",
+  "note": "u inostranstvu — за границей",
+  "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
+  "ex_ru": "Когда вы последний раз были за границей?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000073
+ },
+ {
+  "id": "l09-lekar",
+  "sr": "lekar",
+  "ru": "врач",
+  "g": "m",
+  "topic": "Профессии",
+  "note": "то же, что doktor",
+  "ex_sr": "Ja sam lekar, volim svoj posao.",
+  "ex_ru": "Я врач, люблю свою работу.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000074,
+  "pl": "lekari"
+ },
+ {
+  "id": "l09-slobodnovreme",
+  "sr": "slobodno vreme",
+  "ru": "свободное время",
+  "g": "phrase",
+  "topic": "Досуг",
+  "ex_sr": "Slobodno vreme provodim u restoranima i parkovima.",
+  "ex_ru": "Свободное время провожу в ресторанах и парках.",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000075
+ },
+ {
+  "id": "l09-poslednjiput",
+  "sr": "poslednji put",
+  "ru": "последний раз",
+  "g": "phrase",
+  "topic": "Время и дни",
+  "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
+  "ex_ru": "Когда вы последний раз были за границей?",
+  "lesson": "Урок 9 · Pitanja",
+  "added": 1795460000076
+ },
+ {
+  "id": "l10-konobar",
+  "sr": "konobar",
+  "ru": "официант",
+  "g": "m",
+  "topic": "В ресторане",
+  "note": "ж. konobarica",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000077,
+  "pl": "konobari"
+ },
+ {
+  "id": "l10-musterija",
+  "sr": "mušterija",
+  "ru": "клиент, посетитель",
+  "g": "f",
+  "topic": "В ресторане",
+  "note": "ж. р. и для мужчин",
+  "ex_sr": "Konobar i mušterija.",
+  "ex_ru": "Официант и клиент.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000078,
+  "pl": "mušterije"
+ },
+ {
+  "id": "l10-jelovnik",
+  "sr": "jelovnik",
+  "ru": "меню",
+  "g": "m",
+  "topic": "В ресторане",
+  "note": "то же, что meni",
+  "ex_sr": "Mogu li da dobijem jelovnik?",
+  "ex_ru": "Можно мне меню?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000079,
+  "pl": "jelovnici"
+ },
+ {
+  "id": "l10-meni",
+  "sr": "meni",
+  "ru": "меню",
+  "g": "m",
+  "topic": "В ресторане",
+  "note": "то же, что jelovnik",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000080,
+  "pl": "meniji"
+ },
+ {
+  "id": "l10-jelo",
+  "sr": "jelo",
+  "ru": "блюдо",
+  "g": "n",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000081,
+  "pl": "jela"
+ },
+ {
+  "id": "l10-pice",
+  "sr": "piće",
+  "ru": "напиток",
+  "g": "n",
+  "topic": "В ресторане",
+  "note": "karta pića — меню напитков",
+  "ex_sr": "Želite li kartu pića?",
+  "ex_ru": "Хотите меню напитков?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000082,
+  "pl": "pića"
+ },
+ {
+  "id": "l10-kafic",
+  "sr": "kafić",
+  "ru": "кафе",
+  "g": "m",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000083,
+  "pl": "kafići"
+ },
+ {
+  "id": "l10-kafana",
+  "sr": "kafana",
+  "ru": "кафана (сербский ресторанчик)",
+  "g": "f",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000084,
+  "pl": "kafane"
+ },
+ {
+  "id": "l10-sank",
+  "sr": "šank",
+  "ru": "барная стойка",
+  "g": "m",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000085,
+  "pl": "šankovi"
+ },
+ {
+  "id": "l10-casa",
+  "sr": "čaša",
+  "ru": "стакан, бокал",
+  "g": "f",
+  "topic": "В ресторане",
+  "note": "в русском — м. р.",
+  "ex_sr": "Jedna čaša vode, molim.",
+  "ex_ru": "Один стакан воды, пожалуйста.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000086,
+  "pl": "čaše"
+ },
+ {
+  "id": "l10-voda",
+  "sr": "voda",
+  "ru": "вода",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "čaša vode — стакан воды",
+  "ex_sr": "Jedna čaša vode, molim.",
+  "ex_ru": "Один стакан воды, пожалуйста.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000087
+ },
+ {
+  "id": "l10-dezert",
+  "sr": "dezert",
+  "ru": "десерт",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "ex_sr": "Šta biste hteli za dezert?",
+  "ex_ru": "Что бы вы хотели на десерт?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000088,
+  "pl": "dezerti"
+ },
+ {
+  "id": "l10-kes",
+  "sr": "keš",
+  "ru": "наличные",
+  "g": "m",
+  "topic": "В ресторане",
+  "note": "разговорное",
+  "ex_sr": "Keš ili kartica?",
+  "ex_ru": "Наличными или картой?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000089
+ },
+ {
+  "id": "l10-kartica",
+  "sr": "kartica",
+  "ru": "карта (банковская)",
+  "g": "f",
+  "topic": "В ресторане",
+  "ex_sr": "Keš ili kartica?",
+  "ex_ru": "Наличными или картой?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000090,
+  "pl": "kartice"
+ },
+ {
+  "id": "l10-gospodin",
+  "sr": "gospodin",
+  "ru": "господин",
+  "g": "m",
+  "topic": "Семья и люди",
+  "note": "обращение: gospodine!",
+  "ex_sr": "Izvolite, gospodine.",
+  "ex_ru": "Пожалуйста, господин.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000091,
+  "pl": "gospoda"
+ },
+ {
+  "id": "l10-gospodja",
+  "sr": "gospođa",
+  "ru": "госпожа",
+  "g": "f",
+  "topic": "Семья и люди",
+  "note": "обращение: gospođo!",
+  "ex_sr": "Izvolite, gospođo.",
+  "ex_ru": "Пожалуйста, госпожа.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000092,
+  "pl": "gospođe"
+ },
+ {
+  "id": "l10-cackalica",
+  "sr": "čačkalica",
+  "ru": "зубочистка",
+  "g": "f",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000093,
+  "pl": "čačkalice"
+ },
+ {
+  "id": "l10-majonez",
+  "sr": "majonez",
+  "ru": "майонез",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000094
+ },
+ {
+  "id": "l10-kecap",
+  "sr": "kečap",
+  "ru": "кетчуп",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000095
+ },
+ {
+  "id": "l10-sufle",
+  "sr": "čokoladni sufle",
+  "ru": "шоколадный суфле (фондан)",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000096
+ },
+ {
+  "id": "l10-mleko",
+  "sr": "mleko",
+  "ru": "молоко",
+  "g": "n",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000097
+ },
+ {
+  "id": "l10-spageti",
+  "sr": "spageti",
+  "ru": "спагетти",
+  "g": "pl",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000098
+ },
+ {
+  "id": "l10-kokakola",
+  "sr": "koka kola",
+  "ru": "кока-кола",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000099
+ },
+ {
+  "id": "l10-jogurt",
+  "sr": "jogurt",
+  "ru": "йогурт; кефир",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "note": "в Сербии jogurt — питьевой, похож на кефир",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000100
+ },
+ {
+  "id": "l10-salata",
+  "sr": "salata",
+  "ru": "салат",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "в русском — м. р.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000101,
+  "pl": "salate"
+ },
+ {
+  "id": "l10-pastrmka",
+  "sr": "pastrmka",
+  "ru": "форель",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "слог без гласной: r звучит как гласная",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000102,
+  "pl": "pastrmke"
+ },
+ {
+  "id": "l10-susi",
+  "sr": "suši",
+  "ru": "суши",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "note": "не изменяется",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000103
+ },
+ {
+  "id": "l10-pljeskavica",
+  "sr": "pljeskavica",
+  "ru": "плескавица (сербская котлета)",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000104,
+  "pl": "pljeskavice"
+ },
+ {
+  "id": "l10-so",
+  "sr": "so",
+  "ru": "соль",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "ж. р., хотя на -o",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000105
+ },
+ {
+  "id": "l10-kasika",
+  "sr": "kašika",
+  "ru": "ложка",
+  "g": "f",
+  "topic": "Дом и вещи",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000106,
+  "pl": "kašike"
+ },
+ {
+  "id": "l10-fanta",
+  "sr": "fanta",
+  "ru": "фанта",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000107
+ },
+ {
+  "id": "l10-vino",
+  "sr": "vino",
+  "ru": "вино",
+  "g": "n",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000108,
+  "pl": "vina"
+ },
+ {
+  "id": "l10-salveta",
+  "sr": "salveta",
+  "ru": "салфетка",
+  "g": "f",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000109,
+  "pl": "salvete"
+ },
+ {
+  "id": "l10-biber",
+  "sr": "biber",
+  "ru": "перец (молотый)",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000110
+ },
+ {
+  "id": "l10-koktel",
+  "sr": "koktel",
+  "ru": "коктейль",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000111,
+  "pl": "kokteli"
+ },
+ {
+  "id": "l10-pivo",
+  "sr": "pivo",
+  "ru": "пиво",
+  "g": "n",
+  "topic": "Еда и напитки",
+  "ex_sr": "Da li možete da donesete još jedno pivo?",
+  "ex_ru": "Можете принести ещё одно пиво?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000112,
+  "pl": "piva"
+ },
+ {
+  "id": "l10-cizkejk",
+  "sr": "čizkejk",
+  "ru": "чизкейк",
+  "g": "m",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000113
+ },
+ {
+  "id": "l10-rakija",
+  "sr": "rakija",
+  "ru": "ракия",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000114,
+  "pl": "rakije"
+ },
+ {
+  "id": "l10-supa",
+  "sr": "supa",
+  "ru": "суп",
+  "g": "f",
+  "topic": "Еда и напитки",
+  "note": "в русском — м. р.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000115,
+  "pl": "supe"
+ },
+ {
+  "id": "l10-poruciti",
+  "sr": "poručiti",
+  "ru": "заказать",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mogu li da poručim?",
+  "ex_ru": "Можно сделать заказ?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000116,
+  "forms": [
+   "poručim",
+   "poručiš",
+   "poruči",
+   "poručimo",
+   "poručite",
+   "poruče"
+  ],
+  "past": [
+   "poručio",
+   "poručila"
+  ]
+ },
+ {
+  "id": "l10-platiti",
+  "sr": "platiti",
+  "ru": "заплатить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mogu li da platim?",
+  "ex_ru": "Можно расплатиться?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000117,
+  "forms": [
+   "platim",
+   "platiš",
+   "plati",
+   "platimo",
+   "platite",
+   "plate"
+  ],
+  "past": [
+   "platio",
+   "platila"
+  ]
+ },
+ {
+  "id": "l10-dobiti",
+  "sr": "dobiti",
+  "ru": "получить",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Mogu li da dobijem jelovnik?",
+  "ex_ru": "Можно мне меню?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000118,
+  "forms": [
+   "dobijem",
+   "dobiješ",
+   "dobije",
+   "dobijemo",
+   "dobijete",
+   "dobiju"
+  ],
+  "past": [
+   "dobio",
+   "dobila"
+  ]
+ },
+ {
+  "id": "l10-doneti",
+  "sr": "doneti",
+  "ru": "принести",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Da li možete da donesete još jedno pivo?",
+  "ex_ru": "Можете принести ещё одно пиво?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000119,
+  "forms": [
+   "donesem",
+   "doneseš",
+   "donese",
+   "donesemo",
+   "donesete",
+   "donesu"
+  ],
+  "past": [
+   "doneo",
+   "donela"
+  ]
+ },
+ {
+  "id": "l10-odlucitise",
+  "sr": "odlučiti se",
+  "ru": "решиться, определиться",
+  "g": "verb",
+  "topic": "Глаголы",
+  "ex_sr": "Još uvek se nisam odlučio.",
+  "ex_ru": "Я ещё не определился.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000120,
+  "forms": [
+   "odlučim se",
+   "odlučiš se",
+   "odluči se",
+   "odlučimo se",
+   "odlučite se",
+   "odluče se"
+  ],
+  "past": [
+   "odlučio se",
+   "odlučila se"
+  ]
+ },
+ {
+  "id": "l10-izvolite",
+  "sr": "izvolite",
+  "ru": "пожалуйста (вот, прошу)",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "note": "так говорят, когда что-то подают или приглашают",
+  "ex_sr": "Izvolite, gospodine.",
+  "ex_ru": "Пожалуйста, господин.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000121
+ },
+ {
+  "id": "l10-molim",
+  "sr": "molim",
+  "ru": "пожалуйста (в просьбе)",
+  "g": "phrase",
+  "topic": "Фразы",
+  "note": "и «простите?», если не расслышали",
+  "ex_sr": "Jedna čaša vode, molim.",
+  "ex_ru": "Один стакан воды, пожалуйста.",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000122
+ },
+ {
+  "id": "l10-stazelite",
+  "sr": "šta želite da poručite",
+  "ru": "что желаете заказать?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000123
+ },
+ {
+  "id": "l10-dezertpitanje",
+  "sr": "šta biste hteli za dezert",
+  "ru": "что бы вы хотели на десерт?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000124
+ },
+ {
+  "id": "l10-kesilikartica",
+  "sr": "keš ili kartica",
+  "ru": "наличными или картой?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000125
+ },
+ {
+  "id": "l10-kartapica",
+  "sr": "želite li kartu pića",
+  "ru": "хотите меню напитков?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000126
+ },
+ {
+  "id": "l10-svebilo",
+  "sr": "da li je sve bilo u redu",
+  "ru": "всё было хорошо?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "note": "u redu — в порядке",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000127
+ },
+ {
+  "id": "l10-mogulidaporucim",
+  "sr": "mogu li da poručim",
+  "ru": "можно сделать заказ?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "note": "Mogu li da…? — можно мне…?",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000128
+ },
+ {
+  "id": "l10-jednopivo",
+  "sr": "da li možete da donesete još jedno pivo",
+  "ru": "можете принести ещё одно пиво?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "note": "još jedno — ещё одно",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000129
+ },
+ {
+  "id": "l10-jelovnikmolim",
+  "sr": "mogu li da dobijem jelovnik",
+  "ru": "можно мне меню?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000130
+ },
+ {
+  "id": "l10-nisamodlucio",
+  "sr": "još uvek se nisam odlučio",
+  "ru": "я ещё не определился",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "note": "женщина говорит: odlučila",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000131
+ },
+ {
+  "id": "l10-stozadvoje",
+  "sr": "da li imate sto za dvoje",
+  "ru": "у вас есть столик на двоих?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000132
+ },
+ {
+  "id": "l10-mogulidaplatim",
+  "sr": "mogu li da platim",
+  "ru": "можно расплатиться?",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000133
+ },
+ {
+  "id": "l10-casavode",
+  "sr": "jedna čaša vode, molim",
+  "ru": "один стакан воды, пожалуйста",
+  "g": "phrase",
+  "topic": "В ресторане",
+  "lesson": "Урок 10 · Restoran",
+  "added": 1795460000134
  }
 ]
