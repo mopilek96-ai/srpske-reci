@@ -6168,7 +6168,9 @@
   "past": [
    "bio",
    "bila"
-  ]
+  ],
+  "tr": "би́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l08-gledati",
@@ -6191,7 +6193,9 @@
   "past": [
    "gledao",
    "gledala"
-  ]
+  ],
+  "tr": "глэ́дати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-citati",
@@ -6214,7 +6218,9 @@
   "past": [
    "čitao",
    "čitala"
-  ]
+  ],
+  "tr": "тши́тати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-slusati",
@@ -6237,7 +6243,9 @@
   "past": [
    "slušao",
    "slušala"
-  ]
+  ],
+  "tr": "слу́шати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-razgovarati",
@@ -6260,7 +6268,9 @@
   "past": [
    "razgovarao",
    "razgovarala"
-  ]
+  ],
+  "tr": "разгова́рати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-cekati",
@@ -6283,7 +6293,9 @@
   "past": [
    "čekao",
    "čekala"
-  ]
+  ],
+  "tr": "тшэ́кати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-pricati",
@@ -6306,7 +6318,9 @@
   "past": [
    "pričao",
    "pričala"
-  ]
+  ],
+  "tr": "при́тшати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-obozavati",
@@ -6329,7 +6343,9 @@
   "past": [
    "obožavao",
    "obožavala"
-  ]
+  ],
+  "tr": "обожа́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-sanjati",
@@ -6352,7 +6368,9 @@
   "past": [
    "sanjao",
    "sanjala"
-  ]
+  ],
+  "tr": "са́няти",
+  "stress_src": "dict"
  },
  {
   "id": "l08-posetiti",
@@ -6375,7 +6393,9 @@
   "past": [
    "posetio",
    "posetila"
-  ]
+  ],
+  "tr": "по́сэтити",
+  "stress_src": "dict"
  },
  {
   "id": "l08-posecivati",
@@ -6399,7 +6419,9 @@
   "past": [
    "posećivao",
    "posećivala"
-  ]
+  ],
+  "tr": "посэчи́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-zavrsiti",
@@ -6422,7 +6444,9 @@
   "past": [
    "završio",
    "završila"
-  ]
+  ],
+  "tr": "завр́шити",
+  "stress_src": "dict"
  },
  {
   "id": "l08-upoznati",
@@ -6443,7 +6467,9 @@
   "past": [
    "upoznao",
    "upoznala"
-  ]
+  ],
+  "tr": "упо́знати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-slaviti",
@@ -6464,7 +6490,9 @@
   "past": [
    "slavio",
    "slavila"
-  ]
+  ],
+  "tr": "сла́вити",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslaviti",
@@ -6485,7 +6513,9 @@
   "past": [
    "proslavio",
    "proslavila"
-  ]
+  ],
+  "tr": "про́славити",
+  "stress_src": "dict"
  },
  {
   "id": "l08-uzivati",
@@ -6508,7 +6538,9 @@
   "past": [
    "uživao",
    "uživala"
-  ]
+  ],
+  "tr": "ужи́вати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-ispricati",
@@ -6529,7 +6561,9 @@
   "past": [
    "ispričao",
    "ispričala"
-  ]
+  ],
+  "tr": "испри́тшати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-ucestvovati",
@@ -6551,7 +6585,9 @@
   "past": [
    "učestvovao",
    "učestvovala"
-  ]
+  ],
+  "tr": "у́тшэствовати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-krenuti",
@@ -6574,7 +6610,9 @@
   "past": [
    "krenuo",
    "krenula"
-  ]
+  ],
+  "tr": "крэ́нути",
+  "stress_src": "dict"
  },
  {
   "id": "l08-zaspati",
@@ -6597,7 +6635,9 @@
   "past": [
    "zaspao",
    "zaspala"
-  ]
+  ],
+  "tr": "за́спати",
+  "stress_src": "dict"
  },
  {
   "id": "l08-probuditise",
@@ -6618,7 +6658,9 @@
   "past": [
    "probudio se",
    "probudila se"
-  ]
+  ],
+  "tr": "пробу́дити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l08-stici",
@@ -6641,7 +6683,9 @@
   "past": [
    "stigao",
    "stigla"
-  ]
+  ],
+  "tr": "сти́чи",
+  "stress_src": "dict"
  },
  {
   "id": "l08-otici",
@@ -6664,7 +6708,9 @@
   "past": [
    "otišao",
    "otišla"
-  ]
+  ],
+  "tr": "оти́чи",
+  "stress_src": "dict"
  },
  {
   "id": "l08-vratitise",
@@ -6687,7 +6733,9 @@
   "past": [
    "vratio se",
    "vratila se"
-  ]
+  ],
+  "tr": "вра́тити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l08-juce",
@@ -6698,7 +6746,9 @@
   "ex_sr": "Ja sam spavao juče.",
   "ex_ru": "Я спал вчера.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000024
+  "added": 1795460000024,
+  "tr": "ю́тшэ",
+  "stress_src": "dict"
  },
  {
   "id": "l08-sinoc",
@@ -6709,7 +6759,9 @@
   "ex_sr": "Ja sam gledao fascinantan film sinoć sa porodicom.",
   "ex_ru": "Вчера вечером я смотрел с семьёй потрясающий фильм.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000025
+  "added": 1795460000025,
+  "tr": "си́ноч",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslenedelje",
@@ -6721,7 +6773,9 @@
   "ex_sr": "Prošle nedelje mi smo posetili novi muzej u gradu.",
   "ex_ru": "На прошлой неделе мы посетили новый музей в городе.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000026
+  "added": 1795460000026,
+  "tr": "про́шлэ нэ́дэле",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslegodine",
@@ -6732,7 +6786,9 @@
   "ex_sr": "Ja sam bio na koncertu omiljenog benda prošle godine.",
   "ex_ru": "Я был на концерте любимой группы в прошлом году.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000027
+  "added": 1795460000027,
+  "tr": "про́шлэ го́динэ",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslogvikenda",
@@ -6741,7 +6797,9 @@
   "g": "phrase",
   "topic": "Время и дни",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000028
+  "added": 1795460000028,
+  "tr": "про́шлог ви́кэнда",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslogmeseca",
@@ -6752,7 +6810,9 @@
   "ex_sr": "Prošlog meseca je završio s renoviranjem.",
   "ex_ru": "В прошлом месяце он закончил ремонт.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000029
+  "added": 1795460000029,
+  "tr": "про́шлог мэ́сэца",
+  "stress_src": "dict"
  },
  {
   "id": "l08-proslogleta",
@@ -6763,7 +6823,9 @@
   "ex_sr": "Prošlog leta sam bila u Grčkoj sa porodicom.",
   "ex_ru": "Прошлым летом я была в Греции с семьёй.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000030
+  "added": 1795460000030,
+  "tr": "про́шлог лэ́та",
+  "stress_src": "dict"
  },
  {
   "id": "l08-pre",
@@ -6775,7 +6837,9 @@
   "ex_sr": "Ja sam poslednji put bio u inostranstvu pre dva meseca.",
   "ex_ru": "Последний раз я был за границей два месяца назад.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000031
+  "added": 1795460000031,
+  "tr": "прэ́",
+  "stress_src": "dict"
  },
  {
   "id": "l08-napokon",
@@ -6786,7 +6850,9 @@
   "ex_sr": "Napokon, stigli smo u Paraliju.",
   "ex_ru": "Наконец мы приехали в Паралию.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000032
+  "added": 1795460000032,
+  "tr": "на́покон",
+  "stress_src": "dict"
  },
  {
   "id": "l08-muzej",
@@ -6798,7 +6864,9 @@
   "ex_ru": "Они посещали музей в городе.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000033,
-  "pl": "muzeji"
+  "pl": "muzeji",
+  "tr": "му́зэй",
+  "stress_src": "dict"
  },
  {
   "id": "l08-hokej",
@@ -6809,7 +6877,9 @@
   "ex_sr": "Mi smo igrali hokej.",
   "ex_ru": "Мы играли в хоккей.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000034
+  "added": 1795460000034,
+  "tr": "хо́кэй",
+  "stress_src": "dict"
  },
  {
   "id": "l08-film",
@@ -6821,7 +6891,9 @@
   "ex_ru": "Мы смотрели фильм вечером.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000035,
-  "pl": "filmovi"
+  "pl": "filmovi",
+  "tr": "фи́лм",
+  "stress_src": "dict"
  },
  {
   "id": "l08-serija",
@@ -6833,7 +6905,9 @@
   "ex_ru": "Она смотрела сериал по телевизору.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000036,
-  "pl": "serije"
+  "pl": "serije",
+  "tr": "сэ́рия",
+  "stress_src": "dict"
  },
  {
   "id": "l08-muzika",
@@ -6844,7 +6918,9 @@
   "ex_sr": "Ona je slušala muziku u autobusu.",
   "ex_ru": "Она слушала музыку в автобусе.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000037
+  "added": 1795460000037,
+  "tr": "му́зика",
+  "stress_src": "dict"
  },
  {
   "id": "l08-televizija",
@@ -6853,7 +6929,9 @@
   "g": "f",
   "topic": "Дом и вещи",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000038
+  "added": 1795460000038,
+  "tr": "тэлэви́зия",
+  "stress_src": "dict"
  },
  {
   "id": "l08-kompanija",
@@ -6865,7 +6943,9 @@
   "ex_ru": "Она работала в большой компании.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000039,
-  "pl": "kompanije"
+  "pl": "kompanije",
+  "tr": "компа́ния",
+  "stress_src": "dict"
  },
  {
   "id": "l08-rucak",
@@ -6877,7 +6957,9 @@
   "ex_ru": "Мы вместе обедали.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000040,
-  "pl": "ručkovi"
+  "pl": "ručkovi",
+  "tr": "ру́тшак",
+  "stress_src": "dict"
  },
  {
   "id": "l08-vesti",
@@ -6887,7 +6969,9 @@
   "topic": "Понятия",
   "note": "ед. vest",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000041
+  "added": 1795460000041,
+  "tr": "вэ́сти",
+  "stress_src": "dict"
  },
  {
   "id": "l08-teretana",
@@ -6897,7 +6981,9 @@
   "topic": "Город и транспорт",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000042,
-  "pl": "teretane"
+  "pl": "teretane",
+  "tr": "тэрэта́на",
+  "stress_src": "dict"
  },
  {
   "id": "l08-poruka",
@@ -6909,7 +6995,9 @@
   "ex_ru": "Я писала сообщение другу.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000043,
-  "pl": "poruke"
+  "pl": "poruke",
+  "tr": "по́рука",
+  "stress_src": "dict"
  },
  {
   "id": "l08-stanica",
@@ -6921,7 +7009,9 @@
   "ex_ru": "Они ждали автобус на остановке.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000044,
-  "pl": "stanice"
+  "pl": "stanice",
+  "tr": "ста́ница",
+  "stress_src": "dict"
  },
  {
   "id": "l08-cas",
@@ -6933,7 +7023,9 @@
   "ex_ru": "Он слушал учителя на уроке.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000045,
-  "pl": "časovi"
+  "pl": "časovi",
+  "tr": "тша́с",
+  "stress_src": "dict"
  },
  {
   "id": "l08-nastavnik",
@@ -6944,7 +7036,9 @@
   "note": "ж. nastavnica",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000046,
-  "pl": "nastavnici"
+  "pl": "nastavnici",
+  "tr": "на́ставник",
+  "stress_src": "dict"
  },
  {
   "id": "l08-koncert",
@@ -6954,7 +7048,9 @@
   "topic": "Досуг",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000047,
-  "pl": "koncerti"
+  "pl": "koncerti",
+  "tr": "ко́нцэрт",
+  "stress_src": "dict"
  },
  {
   "id": "l08-rodjendan",
@@ -6964,7 +7060,9 @@
   "topic": "Досуг",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000048,
-  "pl": "rođendani"
+  "pl": "rođendani",
+  "tr": "ро́дьжендан",
+  "stress_src": "dict"
  },
  {
   "id": "l08-plaza",
@@ -6976,7 +7074,9 @@
   "ex_ru": "Мы все распаковались, переоделись и пошли на пляж.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000049,
-  "pl": "plaže"
+  "pl": "plaže",
+  "tr": "пла́жа",
+  "stress_src": "dict"
  },
  {
   "id": "l08-granica",
@@ -6988,7 +7088,9 @@
   "ex_ru": "Когда мы проехали сербскую границу, я заснула.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000050,
-  "pl": "granice"
+  "pl": "granice",
+  "tr": "гра́ница",
+  "stress_src": "dict"
  },
  {
   "id": "l08-apartman",
@@ -7000,7 +7102,9 @@
   "ex_ru": "Мой дедушка пошёл поискать нам апартаменты.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000051,
-  "pl": "apartmani"
+  "pl": "apartmani",
+  "tr": "апа́ртман",
+  "stress_src": "dict"
  },
  {
   "id": "l08-kuhinja",
@@ -7012,7 +7116,9 @@
   "ex_ru": "У нас были кухня, гостиная и две спальни.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000052,
-  "pl": "kuhinje"
+  "pl": "kuhinje",
+  "tr": "ку́хиня",
+  "stress_src": "dict"
  },
  {
   "id": "l08-dnevnasoba",
@@ -7022,7 +7128,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000053,
-  "pl": "dnevne sobe"
+  "pl": "dnevne sobe",
+  "tr": "днэ́вна со́ба",
+  "stress_src": "dict"
  },
  {
   "id": "l08-terasa",
@@ -7032,7 +7140,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000054,
-  "pl": "terase"
+  "pl": "terase",
+  "tr": "тэра́са",
+  "stress_src": "dict"
  },
  {
   "id": "l08-uspomena",
@@ -7044,7 +7154,9 @@
   "ex_ru": "На второй день мы катались на кораблике, и это одно из моих любимых воспоминаний.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000055,
-  "pl": "uspomene"
+  "pl": "uspomene",
+  "tr": "у́спомэна",
+  "stress_src": "dict"
  },
  {
   "id": "l08-iskustvo",
@@ -7056,7 +7168,9 @@
   "ex_ru": "В общем, это был очень хороший опыт.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000056,
-  "pl": "iskustva"
+  "pl": "iskustva",
+  "tr": "иску́ство",
+  "stress_src": "dict"
  },
  {
   "id": "l08-brod",
@@ -7067,7 +7181,9 @@
   "note": "brodić — кораблик",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000057,
-  "pl": "brodovi"
+  "pl": "brodovi",
+  "tr": "бро́д",
+  "stress_src": "dict"
  },
  {
   "id": "l08-slatkisi",
@@ -7079,7 +7195,9 @@
   "ex_sr": "Jela sam slatkiše i slušala muziku.",
   "ex_ru": "Я ела сладости и слушала музыку.",
   "lesson": "Урок 8 · Prošlo vreme",
-  "added": 1795460000058
+  "added": 1795460000058,
+  "tr": "сла́ткиши",
+  "stress_src": "dict"
  },
  {
   "id": "l08-deka",
@@ -7092,7 +7210,9 @@
   "ex_ru": "Мой дедушка пошёл поискать нам апартаменты.",
   "lesson": "Урок 8 · Prošlo vreme",
   "added": 1795460000059,
-  "pl": "deke"
+  "pl": "deke",
+  "tr": "дэ́ка",
+  "stress_src": "dict"
  },
  {
   "id": "l09-ko",
@@ -7101,7 +7221,9 @@
   "g": "pron",
   "topic": "Маленькие слова",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000060
+  "added": 1795460000060,
+  "tr": "ко́",
+  "stress_src": "dict"
  },
  {
   "id": "l09-sta",
@@ -7112,7 +7234,9 @@
   "ex_sr": "Šta želite da poručite?",
   "ex_ru": "Что желаете заказать?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000061
+  "added": 1795460000061,
+  "tr": "шта́",
+  "stress_src": "dict"
  },
  {
   "id": "l09-gde",
@@ -7123,7 +7247,9 @@
   "ex_sr": "Gde ste se rodili?",
   "ex_ru": "Где вы родились?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000062
+  "added": 1795460000062,
+  "tr": "гдэ́",
+  "stress_src": "dict"
  },
  {
   "id": "l09-kada",
@@ -7135,7 +7261,9 @@
   "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
   "ex_ru": "Когда вы последний раз были за границей?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000063
+  "added": 1795460000063,
+  "tr": "ка́да",
+  "stress_src": "dict"
  },
  {
   "id": "l09-zasto",
@@ -7147,7 +7275,9 @@
   "ex_sr": "Zašto vi volite svoj posao?",
   "ex_ru": "Почему вы любите свою работу?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000064
+  "added": 1795460000064,
+  "tr": "за́што",
+  "stress_src": "dict"
  },
  {
   "id": "l09-odakle",
@@ -7158,7 +7288,9 @@
   "ex_sr": "Odakle su vaši roditelji?",
   "ex_ru": "Откуда ваши родители?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000065
+  "added": 1795460000065,
+  "tr": "о́даклэ",
+  "stress_src": "dict"
  },
  {
   "id": "l09-kako",
@@ -7169,7 +7301,9 @@
   "ex_sr": "Kako se vi opuštate?",
   "ex_ru": "Как вы расслабляетесь?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000066
+  "added": 1795460000066,
+  "tr": "ка́ко",
+  "stress_src": "dict"
  },
  {
   "id": "l09-koliko",
@@ -7180,7 +7314,9 @@
   "ex_sr": "Koliko vi već živite u Srbiji?",
   "ex_ru": "Сколько вы уже живёте в Сербии?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000067
+  "added": 1795460000067,
+  "tr": "коли́ко",
+  "stress_src": "dict"
  },
  {
   "id": "l09-jer",
@@ -7192,7 +7328,9 @@
   "ex_sr": "Volim svoj posao jer pomažem drugim ljudima.",
   "ex_ru": "Люблю свою работу, потому что помогаю другим людям.",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000068
+  "added": 1795460000068,
+  "tr": "е́р",
+  "stress_src": "dict"
  },
  {
   "id": "l09-roditise",
@@ -7215,7 +7353,9 @@
   "past": [
    "rodio se",
    "rodila se"
-  ]
+  ],
+  "tr": "ро́дити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l09-opustatise",
@@ -7238,7 +7378,9 @@
   "past": [
    "opuštao se",
    "opuštala se"
-  ]
+  ],
+  "tr": "опу́штати сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l09-buditise",
@@ -7261,7 +7403,9 @@
   "past": [
    "budio se",
    "budila se"
-  ]
+  ],
+  "tr": "бу́дити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l09-pomagati",
@@ -7285,7 +7429,9 @@
   "past": [
    "pomagao",
    "pomagala"
-  ]
+  ],
+  "tr": "пома́гати",
+  "stress_src": "dict"
  },
  {
   "id": "l09-inostranstvo",
@@ -7297,7 +7443,9 @@
   "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
   "ex_ru": "Когда вы последний раз были за границей?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000073
+  "added": 1795460000073,
+  "tr": "иностра́нство",
+  "stress_src": "dict"
  },
  {
   "id": "l09-lekar",
@@ -7310,7 +7458,9 @@
   "ex_ru": "Я врач, люблю свою работу.",
   "lesson": "Урок 9 · Pitanja",
   "added": 1795460000074,
-  "pl": "lekari"
+  "pl": "lekari",
+  "tr": "лэ́кар",
+  "stress_src": "dict"
  },
  {
   "id": "l09-slobodnovreme",
@@ -7321,7 +7471,9 @@
   "ex_sr": "Slobodno vreme provodim u restoranima i parkovima.",
   "ex_ru": "Свободное время провожу в ресторанах и парках.",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000075
+  "added": 1795460000075,
+  "tr": "сло́бодно врэ́мэ",
+  "stress_src": "dict"
  },
  {
   "id": "l09-poslednjiput",
@@ -7332,7 +7484,9 @@
   "ex_sr": "Kada ste poslednji put bili u inostranstvu?",
   "ex_ru": "Когда вы последний раз были за границей?",
   "lesson": "Урок 9 · Pitanja",
-  "added": 1795460000076
+  "added": 1795460000076,
+  "tr": "по́слэдни пу́т",
+  "stress_src": "dict"
  },
  {
   "id": "l10-konobar",
@@ -7343,7 +7497,9 @@
   "note": "ж. konobarica",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000077,
-  "pl": "konobari"
+  "pl": "konobari",
+  "tr": "ко́нобар",
+  "stress_src": "dict"
  },
  {
   "id": "l10-musterija",
@@ -7356,7 +7512,9 @@
   "ex_ru": "Официант и клиент.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000078,
-  "pl": "mušterije"
+  "pl": "mušterije",
+  "tr": "муштэ́рия",
+  "stress_src": "dict"
  },
  {
   "id": "l10-jelovnik",
@@ -7369,7 +7527,9 @@
   "ex_ru": "Можно мне меню?",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000079,
-  "pl": "jelovnici"
+  "pl": "jelovnici",
+  "tr": "ело́вник",
+  "stress_src": "dict"
  },
  {
   "id": "l10-meni",
@@ -7380,7 +7540,9 @@
   "note": "то же, что jelovnik",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000080,
-  "pl": "meniji"
+  "pl": "meniji",
+  "tr": "мэ́ни",
+  "stress_src": "dict"
  },
  {
   "id": "l10-jelo",
@@ -7390,7 +7552,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000081,
-  "pl": "jela"
+  "pl": "jela",
+  "tr": "е́ло",
+  "stress_src": "dict"
  },
  {
   "id": "l10-pice",
@@ -7403,7 +7567,9 @@
   "ex_ru": "Хотите меню напитков?",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000082,
-  "pl": "pića"
+  "pl": "pića",
+  "tr": "пи́че",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kafic",
@@ -7413,7 +7579,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000083,
-  "pl": "kafići"
+  "pl": "kafići",
+  "tr": "ка́фич",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kafana",
@@ -7423,7 +7591,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000084,
-  "pl": "kafane"
+  "pl": "kafane",
+  "tr": "кафа́на",
+  "stress_src": "dict"
  },
  {
   "id": "l10-sank",
@@ -7433,7 +7603,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000085,
-  "pl": "šankovi"
+  "pl": "šankovi",
+  "tr": "ша́нк",
+  "stress_src": "dict"
  },
  {
   "id": "l10-casa",
@@ -7446,7 +7618,9 @@
   "ex_ru": "Один стакан воды, пожалуйста.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000086,
-  "pl": "čaše"
+  "pl": "čaše",
+  "tr": "тша́ша",
+  "stress_src": "dict"
  },
  {
   "id": "l10-voda",
@@ -7458,7 +7632,9 @@
   "ex_sr": "Jedna čaša vode, molim.",
   "ex_ru": "Один стакан воды, пожалуйста.",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000087
+  "added": 1795460000087,
+  "tr": "во́да",
+  "stress_src": "dict"
  },
  {
   "id": "l10-dezert",
@@ -7470,7 +7646,9 @@
   "ex_ru": "Что бы вы хотели на десерт?",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000088,
-  "pl": "dezerti"
+  "pl": "dezerti",
+  "tr": "дэ́зэрт",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kes",
@@ -7482,7 +7660,9 @@
   "ex_sr": "Keš ili kartica?",
   "ex_ru": "Наличными или картой?",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000089
+  "added": 1795460000089,
+  "tr": "кэ́ш",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kartica",
@@ -7494,7 +7674,9 @@
   "ex_ru": "Наличными или картой?",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000090,
-  "pl": "kartice"
+  "pl": "kartice",
+  "tr": "ка́ртица",
+  "stress_src": "dict"
  },
  {
   "id": "l10-gospodin",
@@ -7507,7 +7689,9 @@
   "ex_ru": "Пожалуйста, господин.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000091,
-  "pl": "gospoda"
+  "pl": "gospoda",
+  "tr": "госпо́дин",
+  "stress_src": "dict"
  },
  {
   "id": "l10-gospodja",
@@ -7520,7 +7704,9 @@
   "ex_ru": "Пожалуйста, госпожа.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000092,
-  "pl": "gospođe"
+  "pl": "gospođe",
+  "tr": "го́сподьжа",
+  "stress_src": "dict"
  },
  {
   "id": "l10-cackalica",
@@ -7530,7 +7716,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000093,
-  "pl": "čačkalice"
+  "pl": "čačkalice",
+  "tr": "тша́тшкалица",
+  "stress_src": "dict"
  },
  {
   "id": "l10-majonez",
@@ -7539,7 +7727,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000094
+  "added": 1795460000094,
+  "tr": "майонэ́з",
+  "stress_src": "manual"
  },
  {
   "id": "l10-kecap",
@@ -7548,7 +7738,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000095
+  "added": 1795460000095,
+  "tr": "кэ́тшап",
+  "stress_src": "dict"
  },
  {
   "id": "l10-sufle",
@@ -7557,7 +7749,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000096
+  "added": 1795460000096,
+  "tr": "тшо́коладни су́флэ",
+  "stress_src": "dict"
  },
  {
   "id": "l10-mleko",
@@ -7566,7 +7760,9 @@
   "g": "n",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000097
+  "added": 1795460000097,
+  "tr": "млэ́ко",
+  "stress_src": "dict"
  },
  {
   "id": "l10-spageti",
@@ -7575,7 +7771,9 @@
   "g": "pl",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000098
+  "added": 1795460000098,
+  "tr": "спагэ́ти",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kokakola",
@@ -7584,7 +7782,9 @@
   "g": "f",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000099
+  "added": 1795460000099,
+  "tr": "ко́ка ко́ла",
+  "stress_src": "dict"
  },
  {
   "id": "l10-jogurt",
@@ -7594,7 +7794,9 @@
   "topic": "Еда и напитки",
   "note": "в Сербии jogurt — питьевой, похож на кефир",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000100
+  "added": 1795460000100,
+  "tr": "йо́гурт",
+  "stress_src": "dict"
  },
  {
   "id": "l10-salata",
@@ -7605,7 +7807,9 @@
   "note": "в русском — м. р.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000101,
-  "pl": "salate"
+  "pl": "salate",
+  "tr": "сала́та",
+  "stress_src": "dict"
  },
  {
   "id": "l10-pastrmka",
@@ -7616,7 +7820,9 @@
   "note": "слог без гласной: r звучит как гласная",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000102,
-  "pl": "pastrmke"
+  "pl": "pastrmke",
+  "tr": "па́стрмка",
+  "stress_src": "dict"
  },
  {
   "id": "l10-susi",
@@ -7626,7 +7832,9 @@
   "topic": "Еда и напитки",
   "note": "не изменяется",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000103
+  "added": 1795460000103,
+  "tr": "су́ши",
+  "stress_src": "dict"
  },
  {
   "id": "l10-pljeskavica",
@@ -7636,7 +7844,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000104,
-  "pl": "pljeskavice"
+  "pl": "pljeskavice",
+  "tr": "пле́скавица",
+  "stress_src": "dict"
  },
  {
   "id": "l10-so",
@@ -7646,7 +7856,9 @@
   "topic": "Еда и напитки",
   "note": "ж. р., хотя на -o",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000105
+  "added": 1795460000105,
+  "tr": "со́",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kasika",
@@ -7656,7 +7868,9 @@
   "topic": "Дом и вещи",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000106,
-  "pl": "kašike"
+  "pl": "kašike",
+  "tr": "ка́шика",
+  "stress_src": "dict"
  },
  {
   "id": "l10-fanta",
@@ -7665,7 +7879,9 @@
   "g": "f",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000107
+  "added": 1795460000107,
+  "tr": "фа́нта",
+  "stress_src": "dict"
  },
  {
   "id": "l10-vino",
@@ -7675,7 +7891,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000108,
-  "pl": "vina"
+  "pl": "vina",
+  "tr": "ви́но",
+  "stress_src": "dict"
  },
  {
   "id": "l10-salveta",
@@ -7685,7 +7903,9 @@
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000109,
-  "pl": "salvete"
+  "pl": "salvete",
+  "tr": "салвэ́та",
+  "stress_src": "dict"
  },
  {
   "id": "l10-biber",
@@ -7694,7 +7914,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000110
+  "added": 1795460000110,
+  "tr": "би́бэр",
+  "stress_src": "dict"
  },
  {
   "id": "l10-koktel",
@@ -7704,7 +7926,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000111,
-  "pl": "kokteli"
+  "pl": "kokteli",
+  "tr": "ко́ктэл",
+  "stress_src": "dict"
  },
  {
   "id": "l10-pivo",
@@ -7716,7 +7940,9 @@
   "ex_ru": "Можете принести ещё одно пиво?",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000112,
-  "pl": "piva"
+  "pl": "piva",
+  "tr": "пи́во",
+  "stress_src": "dict"
  },
  {
   "id": "l10-cizkejk",
@@ -7725,7 +7951,9 @@
   "g": "m",
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000113
+  "added": 1795460000113,
+  "tr": "тши́зкэйк",
+  "stress_src": "manual"
  },
  {
   "id": "l10-rakija",
@@ -7735,7 +7963,9 @@
   "topic": "Еда и напитки",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000114,
-  "pl": "rakije"
+  "pl": "rakije",
+  "tr": "ра́кия",
+  "stress_src": "dict"
  },
  {
   "id": "l10-supa",
@@ -7746,7 +7976,9 @@
   "note": "в русском — м. р.",
   "lesson": "Урок 10 · Restoran",
   "added": 1795460000115,
-  "pl": "supe"
+  "pl": "supe",
+  "tr": "су́па",
+  "stress_src": "dict"
  },
  {
   "id": "l10-poruciti",
@@ -7769,7 +8001,9 @@
   "past": [
    "poručio",
    "poručila"
-  ]
+  ],
+  "tr": "пору́тшити",
+  "stress_src": "dict"
  },
  {
   "id": "l10-platiti",
@@ -7792,7 +8026,9 @@
   "past": [
    "platio",
    "platila"
-  ]
+  ],
+  "tr": "пла́тити",
+  "stress_src": "dict"
  },
  {
   "id": "l10-dobiti",
@@ -7815,7 +8051,9 @@
   "past": [
    "dobio",
    "dobila"
-  ]
+  ],
+  "tr": "до́бити",
+  "stress_src": "dict"
  },
  {
   "id": "l10-doneti",
@@ -7838,7 +8076,9 @@
   "past": [
    "doneo",
    "donela"
-  ]
+  ],
+  "tr": "до́нэти",
+  "stress_src": "dict"
  },
  {
   "id": "l10-odlucitise",
@@ -7861,7 +8101,9 @@
   "past": [
    "odlučio se",
    "odlučila se"
-  ]
+  ],
+  "tr": "одлу́тшити сэ",
+  "stress_src": "dict"
  },
  {
   "id": "l10-izvolite",
@@ -7873,7 +8115,9 @@
   "ex_sr": "Izvolite, gospodine.",
   "ex_ru": "Пожалуйста, господин.",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000121
+  "added": 1795460000121,
+  "tr": "изво́литэ",
+  "stress_src": "manual"
  },
  {
   "id": "l10-molim",
@@ -7885,7 +8129,9 @@
   "ex_sr": "Jedna čaša vode, molim.",
   "ex_ru": "Один стакан воды, пожалуйста.",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000122
+  "added": 1795460000122,
+  "tr": "мо́лим",
+  "stress_src": "dict"
  },
  {
   "id": "l10-stazelite",
@@ -7894,7 +8140,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000123
+  "added": 1795460000123,
+  "tr": "шта́ жэ́литэ да по́рутшитэ",
+  "stress_src": "dict"
  },
  {
   "id": "l10-dezertpitanje",
@@ -7903,7 +8151,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000124
+  "added": 1795460000124,
+  "tr": "шта́ бистэ хтэ́ли за дэ́зэрт",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kesilikartica",
@@ -7912,7 +8162,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000125
+  "added": 1795460000125,
+  "tr": "кэ́ш или ка́ртица",
+  "stress_src": "dict"
  },
  {
   "id": "l10-kartapica",
@@ -7921,7 +8173,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000126
+  "added": 1795460000126,
+  "tr": "жэ́литэ ли ка́рту пи́ча",
+  "stress_src": "dict"
  },
  {
   "id": "l10-svebilo",
@@ -7931,7 +8185,9 @@
   "topic": "В ресторане",
   "note": "u redu — в порядке",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000127
+  "added": 1795460000127,
+  "tr": "да ли е свэ́ би́ло у рэ́ду",
+  "stress_src": "dict"
  },
  {
   "id": "l10-mogulidaporucim",
@@ -7941,7 +8197,9 @@
   "topic": "В ресторане",
   "note": "Mogu li da…? — можно мне…?",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000128
+  "added": 1795460000128,
+  "tr": "мо́гу ли да по́рутшим",
+  "stress_src": "dict"
  },
  {
   "id": "l10-jednopivo",
@@ -7951,7 +8209,9 @@
   "topic": "В ресторане",
   "note": "još jedno — ещё одно",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000129
+  "added": 1795460000129,
+  "tr": "да ли мо́жэтэ да до́нэсэтэ йо́ш е́дно пи́во",
+  "stress_src": "manual"
  },
  {
   "id": "l10-jelovnikmolim",
@@ -7960,7 +8220,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000130
+  "added": 1795460000130,
+  "tr": "мо́гу ли да до́бием ело́вник",
+  "stress_src": "dict"
  },
  {
   "id": "l10-nisamodlucio",
@@ -7970,7 +8232,9 @@
   "topic": "В ресторане",
   "note": "женщина говорит: odlučila",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000131
+  "added": 1795460000131,
+  "tr": "йо́ш у́вэк сэ ни́сам одлу́тшио",
+  "stress_src": "dict"
  },
  {
   "id": "l10-stozadvoje",
@@ -7979,7 +8243,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000132
+  "added": 1795460000132,
+  "tr": "да ли и́матэ сто́ за дво́е",
+  "stress_src": "dict"
  },
  {
   "id": "l10-mogulidaplatim",
@@ -7988,7 +8254,9 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000133
+  "added": 1795460000133,
+  "tr": "мо́гу ли да пла́тим",
+  "stress_src": "dict"
  },
  {
   "id": "l10-casavode",
@@ -7997,6 +8265,8 @@
   "g": "phrase",
   "topic": "В ресторане",
   "lesson": "Урок 10 · Restoran",
-  "added": 1795460000134
+  "added": 1795460000134,
+  "tr": "е́дна тша́ша во́дэ мо́лим",
+  "stress_src": "dict"
  }
 ]

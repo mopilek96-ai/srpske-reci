@@ -49,6 +49,29 @@ STRESS_VERIFIED = {
     "tmurno": 1,       # Wiktionary: tmúran
     "meteoropata": 4,  # HJP: meteoròpāt
     "živiš": 1, "roze": 1, "zoo": 1,  # two syllables
+    # lessons 8–10 (reports/dictionary_alt.json)
+    "dezert": 1,       # HJP: dèzert
+    "sufle": 1,        # HJP: sùflē
+    "spageti": 2,      # HJP: špagèti
+    "koka": 1,         # HJP: kȍka
+    "pljeskavica": 1,  # HJP: pljȅskavica
+    "molim": 1,        # HJP: mȍlīm
+    "želite": 1,       # Wiktionary: žèleti, prez. žȅlīm
+    "poručite": 1, "poručim": 1,  # HJP: prez. pòrūčīm
+    "hteli": 1,        # Wiktionary: htȅti
+    "kartu": 1,        # Wiktionary: kȃrta
+    "pića": 1,         # Wiktionary/HJP: píće
+    "možete": 1,       # HJP: prez. mȍžeš
+    "jedno": 1, "jedna": 1,  # Wiktionary: jèdan
+    "dobijem": 1,      # HJP: prez. dȍbijēm
+    "odlučio": 2,      # HJP: odlúčiti
+    "imate": 1,        # Wiktionary: ìmati
+    "platim": 1,       # HJP: prez. plȃtīm
+    "vode": 1,         # HJP: vȍde
+    "prošle": 1, "prošlog": 1,  # Wiktionary: prȍšlī
+    "dnevna": 1,       # Wiktionary: dnȇvnī
+    "slatkiši": 1,     # Wiktionary: slàtkīš
+    "nedelje": 1, "godine": 1, "vikenda": 1, "meseca": 1, "leta": 1,  # same syllable as nèdelja, gòdina, vikend, mȅsec, lȅto
 }
 # Not confirmed by any dictionary we can reach: flagged on the card.
 STRESS_MANUAL = {
@@ -58,6 +81,10 @@ STRESS_MANUAL = {
     "džordž": 1,
     "najbolji": 1,     # bȍljī; superlatives usually stress naj-: nȁjbolji
     "helanke": 1,      # no dictionary entry
+    "majonez": 3,      # only Croatian majonéza
+    "čizkejk": 1,      # no dictionary entry
+    "izvolite": 2,     # no dictionary entry
+    "donesete": 1,     # dònēti; present form not in the dictionaries
 }
 
 # part of speech / gender: m f n pl for nouns; otherwise a pos label
